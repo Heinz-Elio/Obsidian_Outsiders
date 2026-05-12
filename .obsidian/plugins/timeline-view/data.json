@@ -1,0 +1,15 @@
+{
+  "openWith": {
+    "property": "start_date",
+    "secondaryProperty": {
+      "name": "end_date",
+      "inUse": false,
+      "useAs": "end"
+    },
+    "filter": {
+      "query": ""
+    },
+    "groups": [],
+    "previousState": true
+  }
+}

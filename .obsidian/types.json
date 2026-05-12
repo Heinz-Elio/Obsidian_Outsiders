@@ -3,6 +3,11 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "relation": "multitext"
+    "relation": "multitext",
+    "end_date": "date",
+    "character_involved": "multitext",
+    "start_date": "date",
+    "date": "date",
+    "timeline": "multitext"
   }
 }
