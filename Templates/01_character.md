@@ -19,6 +19,7 @@ data.entity_type = await tp.system.suggester(
   ["outsider", "blueprint", "normal"]
 );
 
+data.isAlive = await tp.system.suggester(["alive","dead"],[true,false]);
 data.isRanger = await tp.system.suggester(["ranger","no"],[true,false]);
 data.isMilitary = await tp.system.suggester(["military","no"],[true,false]);
 data.isCombat_eq = await tp.system.suggester(["combat_eq","no"],[true,false]);
@@ -31,6 +32,7 @@ id: <% data.id %>
 importance: <% data.importance %>
 name_en: <% data.name_en %>
 entity_type: <% data.entity_type %>
+alive: <% data.isAlive %>
 ranger: <% data.isRanger %>
 military: <% data.isMilitary %>
 have_combat_eq: <% data.isCombat_eq %>
@@ -40,18 +42,17 @@ process_srune: <% data.isSrune %>
 # 
  | <% data.name_en %>
 ## 無
-
 ---
-## 簡介
-
-<%* if (data.importance === "main" || data.importance === "important") { -%>
-
----
+## 基本資訊
 種族: 
+國籍: 
+<%* if (data.importance !== "normal") { -%>
 身高: 公分
 體重: 公斤
-出生日: 年月日 | 
-國籍:
+出生: 年月日 | 
+<%* if (!data.isAlive) { -%>
+逝世: 年月日 | 
+<%* } -%>
 <%* } -%>
 <%* if (data.entity_type === "outsider") { -%>
 
@@ -92,9 +93,15 @@ process_srune: <% data.isSrune %>
 單位: 
 職務: 
 <%* } -%>
-<%* if (data.importance === "main") { -%>
 
 ---
+## 關係
+- [[]] #
+---
+<%* if (data.importance !== "main") { -%>
+## 簡介
+
+<%* } else { -%>
 ## 外貌
 
 ## 性格
@@ -145,7 +152,5 @@ process_srune: <% data.isSrune %>
 <%* } -%>
 
 ---
-## 關係
-- [[ ]]
 ## 事件
 - [[ ]]
