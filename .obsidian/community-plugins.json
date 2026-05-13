@@ -1,12 +1,8 @@
 [
-  "smart-connections",
-  "smart-context",
-  "smart-lookup",
-  "smart-chatgpt",
-  "templater-obsidian",
   "dataview",
   "obsidian-excalidraw-plugin",
-  "drawio-obsidian",
-  "timeline-view",
-  "markwhen"
+  "markwhen",
+  "smart-connections",
+  "templater-obsidian",
+  "breadcrumbs"
 ]

@@ -20,15 +20,15 @@ subtype: <% data.subtype %>
 <% data.name_en %>
 
 ---
-<%* if (data.subtype === "kingdom") { -%>
-領導人: 
-<%* } -%>
 上級單位: [[]]
 下級單位: [[]]
+領導人: [[]]
 <%* if (data.subtype === "kingdom") { -%>
-大長老: 
+大長老: [[]]
 代表色:
 <%* } -%>
+成員: 
+- [[]]
 
 ---
 ## 簡介

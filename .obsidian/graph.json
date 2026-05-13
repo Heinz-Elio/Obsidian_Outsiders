@@ -1,22 +1,30 @@
 {
-  "collapse-filter": true,
-  "search": "path:Setting/IU7/01_character  ",
+  "collapse-filter": false,
+  "search": "[TYPE: CH",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "[\"ranger\": true]",
+      "color": {
+        "a": 1,
+        "rgb": 594500
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": false,
-  "centerStrength": 0.704444444444444,
-  "repelStrength": 10.9481481481482,
+  "lineSizeMultiplier": 2.68066666666667,
+  "collapse-forces": true,
+  "centerStrength": 1,
+  "repelStrength": 15.3925925925926,
   "linkStrength": 1,
-  "linkDistance": 200,
-  "scale": 0.7514342322277564,
-  "close": false
+  "linkDistance": 30,
+  "scale": 0.7514342322277551,
+  "close": true
 }

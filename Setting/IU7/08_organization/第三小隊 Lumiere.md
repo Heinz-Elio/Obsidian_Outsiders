@@ -9,8 +9,8 @@ subtype: military
 Lumiere
 
 ---
-隊長: Marionnettiste
 上級單位: [[龍騎兵]]
+隊長: Marionnettiste
 
 ---
 ## 簡介
