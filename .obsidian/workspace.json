@@ -8,35 +8,48 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b56ea3e41838f2bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Setting/IU7/07_item/基質能-能量轉換器.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "基質能-能量轉換器"
-            }
-          },
-          {
             "id": "8db05a01705ca1df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setting/IU7/09_event/葉家毒藥外流.md",
+                "file": "Setting/IU7/09_event/南極考察造假案.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "葉家毒藥外流"
+              "title": "南極考察造假案"
+            }
+          },
+          {
+            "id": "c062a6c8b38a339d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Setting/IU7/01_character/弗拉基米爾．萊文斯基.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "弗拉基米爾．萊文斯基"
+            }
+          },
+          {
+            "id": "a7a00678d94363e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Setting/IU7/01_character/天城博敏.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "天城博敏"
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -69,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "克洛",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Setting/IU7/09_event/葉家毒藥外流.md",
+                "file": "Setting/IU7/09_event/南極考察造假案.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "葉家毒藥外流 的反向連結"
+              "title": "南極考察造假案 的反向連結"
             }
           },
           {
@@ -129,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Setting/IU7/09_event/葉家毒藥外流.md",
+                "file": "Setting/IU7/09_event/南極考察造假案.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "葉家毒藥外流 的對外連結"
+              "title": "南極考察造假案 的對外連結"
             }
           },
           {
@@ -259,35 +272,34 @@
   },
   "active": "8db05a01705ca1df",
   "lastOpenFiles": [
+    "Setting/IU7/01_character/弗拉基米爾．萊文斯基.md",
+    "Setting/IU7/01_character/天城博敏.md",
+    "Setting/IU7/09_event/南極考察造假案.md",
+    "Setting/IU7/09_event/IU7.mw.mw",
+    "Setting/IU7/09_event/南極化石再現事件.md",
+    "Setting/IU7/09_event/南太平洋王國滅國.md",
+    "Setting/IU7/09_event/埃爾確解封.md",
+    "Setting/IU7/01_character/康士坦絲.md",
+    "Setting/IU7/01_character/克洛德.md",
+    "Setting/IU7/01_character/烏蘇拉.md",
+    "Setting/IU7/09_event/印度洋王國滅國.md",
+    "Setting/IU7/09_event/太平洋郵輪沉沒事件.md",
+    "Templates/09_event.md",
+    "奧利維．雷丁遭到保守派綁架.md",
+    "Markwhen/Ancient.mw.mw",
+    "Setting/IU7/01_character/希寶卡波斯.md",
+    "Setting/IU7/01_character/沙羅.md",
+    "Setting/IU7/01_character/柯蘭尼.md",
+    "Setting/IU7/08_organization/北太平洋王國.md",
+    "Setting/IU7/09_event/人魚公主綁架事件.md",
+    "Setting/IU7/11_faction/人魚王國.md",
+    "Setting/IU7/09_event/葉家毒藥外流.md",
     "Setting/IU7/09_event/雷丁家族綁架事件.md",
     "Setting/IU7/09_event/曙光社盜竊縱火案.md",
     "Setting/IU7/09_event/鳥人種族保存計劃.md",
     "Setting/IU7/09_event/張睿被殺案.md",
-    "Setting/IU7/09_event/印度洋遊輪沉沒事件.md",
-    "Setting/IU7/09_event/印度洋王國滅國.md",
-    "Setting/IU7/09_event/人魚公主綁架事件.md",
     "Setting/IU7/09_event/第一次綁架行動.md",
-    "Setting/IU7/09_event/海都事件.md",
-    "Setting/IU7/09_event/南極考察造假案.md",
-    "Setting/IU7/09_event/南極化石再現事件.md",
-    "Setting/IU7/09_event/南太平洋王國滅國.md",
-    "Setting/IU7/09_event/解封埃爾確.md",
-    "Setting/IU7/08_organization/北太平洋王國.md",
-    "Setting/IU7/08_organization/北太平洋王國研究院.md",
-    "Setting/IU7/08_organization/北太平洋王國衛隊.md",
-    "Setting/IU7/08_organization/北冰洋王國.md",
-    "Setting/IU7/11_faction/南部集團.md",
-    "Setting/IU7/11_faction/北部集團.md",
-    "Setting/IU7/08_organization/南冰洋王國特務部隊.md",
-    "Setting/IU7/08_organization/南冰洋王國.md",
-    "Setting/IU7/08_organization/南太平洋王國.md",
-    "Setting/IU7/08_organization/南大西洋王國.md",
-    "Setting/IU7/08_organization/印度洋王國.md",
-    "Setting/IU7/11_faction/保守派.md",
-    "Setting/IU7/08_organization/北大西洋王國.md",
-    "Markwhen/IU7.mw.mw",
-    "Markwhen/Operation.mw",
-    "Markwhen/Ancient.mw.mw",
+    "Setting/IU7/09_event/Operation.mw",
     "Markwhen",
     "Excalidraw/Scripts/Downloaded/Mindmap Builder.svg",
     "Excalidraw/Scripts/Downloaded/Uniform size.svg",

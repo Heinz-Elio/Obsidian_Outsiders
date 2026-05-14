@@ -46,6 +46,7 @@
     "belongs ": "multitext",
     "controlled": "multitext",
     "relations": "multitext",
-    "alive": "checkbox"
+    "alive": "checkbox",
+    "location": "multitext"
   }
 }
