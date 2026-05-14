@@ -8,45 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8db05a01705ca1df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Setting/IU7/09_event/南極考察造假案.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "南極考察造假案"
-            }
-          },
-          {
-            "id": "c062a6c8b38a339d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Setting/IU7/01_character/弗拉基米爾．萊文斯基.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "弗拉基米爾．萊文斯基"
-            }
-          },
-          {
             "id": "a7a00678d94363e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setting/IU7/01_character/天城博敏.md",
+                "file": "merged/root_2026-05-15_00-37-34.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "天城博敏"
+              "title": "root_2026-05-15_00-37-34"
             }
           }
         ],
@@ -243,14 +215,23 @@
               "icon": "smart-lookup",
               "title": "Lookup"
             }
+          },
+          {
+            "id": "9c3e8c8d35896c8f",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
-    "width": 210.5,
-    "collapsed": true
+    "width": 279.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -267,41 +248,48 @@
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Toggle Footer Connections": false,
       "smart-connections:Smart Connections: Open random connection": false,
-      "smart-connections:Smart Lookup: Open lookup view": false
+      "smart-connections:Smart Lookup: Open lookup view": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "8db05a01705ca1df",
+  "active": "a7a00678d94363e0",
   "lastOpenFiles": [
-    "草稿/03-06.md",
-    "Setting/IU7/09_event/南極考察造假案.md",
-    "Setting/IU7/01_character/弗拉基米爾．萊文斯基.md",
+    "merged/IU7_latest.md",
+    "merged/root_2026-05-15_00-37-34.md",
+    "merged/root_latest.md",
+    "merged/01_character_2026-05-15_00-32-23.md",
+    "merged/01_character_latest.md",
     "Setting/IU7/01_character/天城博敏.md",
-    "Setting/IU7/09_event/IU7.mw.mw",
-    "Setting/IU7/09_event/南極化石再現事件.md",
-    "Setting/IU7/09_event/南太平洋王國滅國.md",
-    "Setting/IU7/09_event/埃爾確解封.md",
-    "Setting/IU7/01_character/康士坦絲.md",
-    "Setting/IU7/01_character/克洛德.md",
-    "Setting/IU7/01_character/烏蘇拉.md",
-    "Setting/IU7/09_event/印度洋王國滅國.md",
-    "Setting/IU7/09_event/太平洋郵輪沉沒事件.md",
-    "Templates/09_event.md",
-    "奧利維．雷丁遭到保守派綁架.md",
-    "Markwhen/Ancient.mw.mw",
-    "Setting/IU7/01_character/希寶卡波斯.md",
-    "Setting/IU7/01_character/沙羅.md",
-    "Setting/IU7/01_character/柯蘭尼.md",
-    "Setting/IU7/08_organization/北太平洋王國.md",
-    "Setting/IU7/09_event/人魚公主綁架事件.md",
-    "Setting/IU7/11_faction/人魚王國.md",
-    "Setting/IU7/09_event/葉家毒藥外流.md",
-    "Setting/IU7/09_event/雷丁家族綁架事件.md",
-    "Setting/IU7/09_event/曙光社盜竊縱火案.md",
-    "Setting/IU7/09_event/鳥人種族保存計劃.md",
-    "Setting/IU7/09_event/張睿被殺案.md",
-    "Setting/IU7/09_event/第一次綁架行動.md",
-    "Setting/IU7/09_event/Operation.mw",
-    "Markwhen",
+    "merged/IU7_11_faction_latest.md",
+    "merged/IU7_11_faction_2026-05-15_00-37-34.md",
+    "merged/IU7_10_legend_latest.md",
+    "merged/IU7_10_legend_2026-05-15_00-37-34.md",
+    "merged/IU7_09_event_latest.md",
+    "merged/IU7_09_event_2026-05-15_00-37-34.md",
+    "merged/IU7_08_organization_latest.md",
+    "merged/IU7_08_organization_2026-05-15_00-37-34.md",
+    "merged/IU7_07_item_latest.md",
+    "merged/IU7_07_item_2026-05-15_00-37-34.md",
+    "merged/IU7_05_srune_latest.md",
+    "merged/IU7_05_srune_2026-05-15_00-37-34.md",
+    "merged/IU7_04_language_latest.md",
+    "merged/IU7_04_language_2026-05-15_00-37-34.md",
+    "merged/IU7_03_species_latest.md",
+    "merged/IU7_03_species_2026-05-15_00-37-34.md",
+    "merged/IU7_02_location_latest.md",
+    "merged/IU7_02_location_2026-05-15_00-37-34.md",
+    "merged/IU7_01_character_latest.md",
+    "merged/IU7_01_character_2026-05-15_00-37-34.md",
+    "merge_notes.py~",
+    "merged/IU7/11_faction",
+    "merged/IU7/10_legend",
+    "merged/IU7/09_event",
+    "merged/IU7/08_organization",
+    "merged/IU7/07_item",
+    "merged/IU7/05_srune",
+    "merged/IU7/04_language",
+    "merged/IU7/03_species",
+    "merged/IU7/02_location",
     "Excalidraw/Scripts/Downloaded/Mindmap Builder.svg",
     "Excalidraw/Scripts/Downloaded/Uniform size.svg",
     "Excalidraw/Scripts/Downloaded/Text to Path.svg",
@@ -312,12 +300,6 @@
     "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.svg",
     "Excalidraw/Scripts/Downloaded/ExcaliAI.svg",
     "Excalidraw/Scripts/Downloaded/Fixed vertical distance between centers.svg",
-    "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
-    "勢力關係",
-    "Excalidraw",
-    "Templates",
-    "Setting/IU7/11_faction",
     "未命名.canvas",
     "Templates/未命名.canvas"
   ]
