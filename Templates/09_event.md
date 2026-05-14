@@ -20,10 +20,17 @@ id: <% data.id %>
 sub_type: <% data.subtype %>
 timeline: <% data.timeline %>
 era: <% data.era %>
-org_involved:
+involved:
 - 
 start_date: 
 end_date: 
+location: 
+- 
+prev:
+- 
+next:
+- 
+
 ---
 # <% data.title %>
 ---
