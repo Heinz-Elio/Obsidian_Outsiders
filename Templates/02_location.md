@@ -7,8 +7,8 @@ let id = await tp.system.prompt("id") || "001";
 data.id = `loc_${prefix}_${id}`
 
 data.subtype = await tp.system.suggester(
-  ["city", "building"],
-  ["city", "building"]
+  ["city", "building, natural"],
+  ["city", "building, natural"]
 );
 
 data.isUnderwater = await tp.system.suggester(["underwater","no"],[true,false]);

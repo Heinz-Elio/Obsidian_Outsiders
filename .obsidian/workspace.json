@@ -8,17 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a7a00678d94363e0",
+            "id": "bbc3df3be3f711db",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "merged/root_2026-05-15_00-37-34.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/線索.md"
               },
-              "icon": "lucide-file",
-              "title": "root_2026-05-15_00-37-34"
+              "icon": "excalidraw-icon",
+              "title": "線索"
             }
           }
         ],
@@ -54,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "克洛",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "05585873e0521ed6",
@@ -225,9 +224,19 @@
               "icon": "message-square",
               "title": "Copilot"
             }
+          },
+          {
+            "id": "a991d24c901ae2c6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw-sidepanel",
+              "state": {},
+              "icon": "excalidraw-icon",
+              "title": "Excalidraw Sidepanel"
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "horizontal",
@@ -252,44 +261,44 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "a7a00678d94363e0",
+  "active": "bbc3df3be3f711db",
   "lastOpenFiles": [
-    "merged/IU7_latest.md",
-    "merged/root_2026-05-15_00-37-34.md",
-    "merged/root_latest.md",
-    "merged/01_character_2026-05-15_00-32-23.md",
-    "merged/01_character_latest.md",
+    "Excalidraw/線索.md",
+    "線索-Clues and Investigation.drawio.svg",
+    "Setting/IU7/01_character/海因茨．萊文斯基-阿斯哈.md",
+    "Setting/IU7/00_總覽/overview.md",
+    "Setting/IU7/09_event/海都事件.md",
+    "copilot/copilot-conversations/檢查庫中事件矛盾@20260516_180537.md",
+    "copilot/copilot-conversations",
+    "copilot/copilot-conversations/天城博敏事件調查筆記@20260514_223532.md",
+    "Setting/IU7/09_event/曙光社盜竊縱火案.md",
+    "Setting/IU7/09_event/雷丁家族綁架事件.md",
+    "Setting/IU7/09_event/葉家毒藥外流.md",
+    "Setting/IU7/09_event/最後的戰爭.md",
+    "Setting/IU7/09_event/鳥人種族保存計劃.md",
+    "Setting/IU7/09_event/張睿被殺案.md",
+    "Setting/IU7/09_event/埃爾確解封.md",
+    "Setting/IU7/09_event/南極考察造假案.md",
+    "Setting/IU7/09_event/南極化石再現事件.md",
+    "Setting/IU7/09_event/南太平洋王國滅國.md",
+    "Setting/IU7/09_event/印度洋王國滅國.md",
+    "Setting/IU7/09_event/太平洋郵輪沉沒事件.md",
+    "Setting/IU7/09_event/人魚公主綁架事件.md",
+    "Setting/IU7/09_event/IU7.mw.mw",
     "Setting/IU7/01_character/天城博敏.md",
-    "merged/IU7_11_faction_latest.md",
-    "merged/IU7_11_faction_2026-05-15_00-37-34.md",
-    "merged/IU7_10_legend_latest.md",
-    "merged/IU7_10_legend_2026-05-15_00-37-34.md",
-    "merged/IU7_09_event_latest.md",
-    "merged/IU7_09_event_2026-05-15_00-37-34.md",
-    "merged/IU7_08_organization_latest.md",
-    "merged/IU7_08_organization_2026-05-15_00-37-34.md",
-    "merged/IU7_07_item_latest.md",
-    "merged/IU7_07_item_2026-05-15_00-37-34.md",
-    "merged/IU7_05_srune_latest.md",
-    "merged/IU7_05_srune_2026-05-15_00-37-34.md",
-    "merged/IU7_04_language_latest.md",
-    "merged/IU7_04_language_2026-05-15_00-37-34.md",
-    "merged/IU7_03_species_latest.md",
-    "merged/IU7_03_species_2026-05-15_00-37-34.md",
-    "merged/IU7_02_location_latest.md",
-    "merged/IU7_02_location_2026-05-15_00-37-34.md",
-    "merged/IU7_01_character_latest.md",
-    "merged/IU7_01_character_2026-05-15_00-37-34.md",
+    "Setting/IU7/06_technology/去特徵化.md",
+    "1992-01-01.md",
+    "Templates/09_event.md",
+    "Setting/IU7/09_event/Operation.mw",
+    "Setting/IU7/11_faction/北部集團.md",
+    "Setting/IU7/11_faction/保守派.md",
+    "cedict_ts.u8",
     "merge_notes.py~",
     "merged/IU7/11_faction",
     "merged/IU7/10_legend",
     "merged/IU7/09_event",
     "merged/IU7/08_organization",
     "merged/IU7/07_item",
-    "merged/IU7/05_srune",
-    "merged/IU7/04_language",
-    "merged/IU7/03_species",
-    "merged/IU7/02_location",
     "Excalidraw/Scripts/Downloaded/Mindmap Builder.svg",
     "Excalidraw/Scripts/Downloaded/Uniform size.svg",
     "Excalidraw/Scripts/Downloaded/Text to Path.svg",
@@ -299,7 +308,6 @@
     "Excalidraw/Scripts/Downloaded/Reverse arrows.svg",
     "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.svg",
     "Excalidraw/Scripts/Downloaded/ExcaliAI.svg",
-    "Excalidraw/Scripts/Downloaded/Fixed vertical distance between centers.svg",
     "未命名.canvas",
     "Templates/未命名.canvas"
   ]

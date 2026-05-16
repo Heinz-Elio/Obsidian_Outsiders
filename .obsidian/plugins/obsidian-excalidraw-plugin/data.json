@@ -178,7 +178,7 @@
         ]
       },
       "Preferred Zoom Level": {
-        "value": "High",
+        "value": "Low",
         "hidden": false
       },
       "Is Undocked": {
@@ -186,11 +186,27 @@
         "hidden": false
       },
       "Group Branches": {
-        "value": false,
+        "value": true,
         "hidden": false
       },
       "Box Children": {
         "value": true,
+        "hidden": false
+      },
+      "Custom Palette": {
+        "value": {
+          "enabled": false,
+          "random": false,
+          "colors": []
+        },
+        "hidden": true
+      },
+      "Branch Scale Style": {
+        "value": "Uniform",
+        "hidden": false
+      },
+      "Base Stroke Width": {
+        "value": 6,
         "hidden": false
       }
     },
@@ -201,6 +217,12 @@
         "description": "Fixed horizontal distance between centers"
       },
       "Remember last distance?": false
+    },
+    "Downloaded/Normalize Selected Arrows": {
+      "Gap": {
+        "value": 8,
+        "description": "The value of the gap between the connection line and the element, which must be greater than 0. If you want the connector to be next to the element, set it to 1."
+      }
     }
   },
   "previousRelease": "2.22.3",
@@ -213,7 +235,9 @@
   "taskboneEnabled": false,
   "taskboneAPIkey": "",
   "pinnedScripts": [],
-  "sidepanelTabs": [],
+  "sidepanelTabs": [
+    "{\"script\":\"Downloaded/Mindmap Builder\",\"title\":\"Mind Map Builder\"}"
+  ],
   "customPens": [
     {
       "type": "default",
