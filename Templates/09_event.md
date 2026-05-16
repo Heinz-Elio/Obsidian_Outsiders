@@ -19,7 +19,6 @@ type: event
 id: <% data.id %>
 sub_type: <% data.subtype %>
 timeline: <% data.timeline %>
-era: <% data.era %>
 involved:
 - 
 start_date: 
