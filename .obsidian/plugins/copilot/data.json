@@ -48,7 +48,6 @@
   "chatNoteContextTags": [],
   "enableIndexSync": true,
   "debug": false,
-  "enableEncryption": false,
   "maxSourceChunks": 40,
   "enableInlineCitations": true,
   "groqApiKey": "",
@@ -482,5 +481,6 @@
   "userSystemPromptsFolder": "copilot/system-prompts",
   "defaultSystemPromptTitle": "",
   "autoCompactThreshold": 128000,
-  "convertedDocOutputFolder": ""
+  "convertedDocOutputFolder": "",
+  "_keychainVaultId": "884e1437"
 }

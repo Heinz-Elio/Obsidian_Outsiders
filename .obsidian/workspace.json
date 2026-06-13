@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setting/IU7/01_character/弗拉基米爾．萊文斯基.md",
+                "file": "Setting/IU7/01_character/米迦勒.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "弗拉基米爾．萊文斯基"
+              "title": "米迦勒"
             }
           }
         ],
@@ -227,13 +227,13 @@
             }
           },
           {
-            "id": "a991d24c901ae2c6",
+            "id": "c408c164d571a870",
             "type": "leaf",
             "state": {
               "type": "excalidraw-sidepanel",
               "state": {},
               "icon": "excalidraw-icon",
-              "title": "Excalidraw Sidepanel"
+              "title": "Excalidraw 側邊面板"
             }
           }
         ],
@@ -253,47 +253,46 @@
       "templates:插入模板": false,
       "command-palette:開啟命令面板": false,
       "bases:建立新的 base": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
       "markwhen:Create new Markwhen file": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Toggle Footer Connections": false,
       "smart-connections:Smart Connections: Open random connection": false,
       "smart-connections:Smart Lookup: Open lookup view": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "obsidian-excalidraw-plugin:新建繪圖檔案": false
     }
   },
   "active": "bbc3df3be3f711db",
   "lastOpenFiles": [
-    "Setting/IU7/09_event/太平洋郵輪沉沒事件.md",
-    "Setting/IU7/01_character/弗拉基米爾．萊文斯基.md",
-    "Setting/IU7/01_character/信使.md",
-    "Setting/IU7/01_character/諾愛爾．戈蒂埃.md",
-    "Setting/IU7/01_character/可伶．戈蒂埃.md",
-    "Setting/IU7/01_character/守墓人.md",
-    "Setting/IU7/01_character/尤莉亞.md",
-    "Setting/IU7/01_character/天城博敏.md",
-    "Setting/IU7/01_character/天城美嘉留.md",
-    "Setting/IU7/01_character/七海露芝亞.md",
-    "Setting/IU7/01_character/七海尼歌娜.md",
-    "Setting/IU7/01_character/117.md",
-    "Setting/IU0/01_character/弗雷德里希．萊文斯基.md",
-    "線索-Clues and Investigation.drawio.svg",
-    "Setting/先天性法力系統過激.md",
-    "Setting/IU7/01_character/崔斯坦．海森堡.md",
-    "Setting/IU7/09_event/Operation.mw",
-    "Setting/IU7/07_item/美人魚占卜卡牌.md",
-    "Setting/IU7/09_event/南極考察造假案.md",
     "Setting/IU7/09_event/IU7.mw.mw.mw",
-    "Setting/IU7/09_event/IU7.mw.mw.md",
-    "Setting/IU7/01_character/李察．蘇利文.md",
+    "Setting/IU7/09_event/Operation.mw",
     "Setting/IU7/09_event/Operation.md",
-    "Setting/IU7/09_event/Ancient.mw.md",
+    "Setting/IU7/09_event/IU7.mw.mw.md",
+    "Setting/IU7/IU7法術.md",
+    "Setting/IU7/01_character/沙羅.md",
+    "Excalidraw/線索.md",
+    "線索-Clues and Investigation.drawio.svg",
+    "Setting/IU7/07_item/PSML-5 「逐火」單兵法力導彈發射器.md",
+    "Setting/IU7/07_item/M5A1法力狙擊步槍.md",
+    "Setting/IU7/07_item/M5法力步槍.md",
+    "Setting/IU7/07_item/M4A 60毫米壓縮法力砲.md",
+    "Setting/IU7/07_item/M3狙擊用法力弩.md",
+    "Setting/IU7/07_item/M2法力弩.md",
+    "Setting/IU7/07_item/M1晶核軍刀.md",
+    "Setting/IU7/07_item/LCSA-4 「劍魚」三聯裝壓縮法力砲.md",
+    "Setting/IU7/07_item/KS SSG69E 複合狙擊步槍.md",
+    "Setting/IU7/07_item/KS SSG69 複合狙擊步槍.md",
+    "Setting/IU7/07_item/KS SSG04.md",
+    "Setting/IU7/07_item/KS SA72 狙擊弩.md",
+    "Setting/IU7/07_item/KS A82 超輕法術弩.md",
+    "Setting/IU7/07_item/KS A68 複合弩.md",
+    "Setting/IU7/07_item/HCSA-1 「守護神」超高壓縮法力砲.md",
+    "Setting/IU7/07_item/CT-1 SMC工程船.md",
+    "Setting/IU7/07_item/CSMG-2 六聯裝壓縮法力機砲.md",
+    "Setting/IU7/07_item/BM-3 5.56毫米壓縮法力彈.md",
+    "Setting/IU7/07_item/BM-2 7.62毫米水中用法力助推彈.md",
+    "Setting/IU7/07_item/BM-1 5.56毫米水中用子彈.md",
     "mw_converter.py",
-    "Setting/IU7/01_character/克洛德.md",
-    "Setting/IU7/01_character/堂本薰.md",
-    "Setting/IU7/01_character/堂本海斗.md",
-    "Setting/IU7/07_item/四軸偵察無人機.md",
-    "Setting/IU7/07_item/可現場編程法力邏輯陣列.md",
     "copilot/copilot-conversations",
     "cedict_ts.u8",
     "merge_notes.py~",
