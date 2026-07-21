@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2e9028f7462715f0",
+        "id": "27fa7c74436e6811",
         "type": "tabs",
         "children": [
           {
-            "id": "bbc3df3be3f711db",
+            "id": "662b276f7bc84273",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setting/IU7/01_character/米迦勒.md",
+                "file": "Setting/IU7/01_character/海因茨．萊文斯基-阿斯哈.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "米迦勒"
+              "title": "海因茨．萊文斯基-阿斯哈"
             }
           }
         ],
@@ -212,8 +212,8 @@
             "state": {
               "type": "smart-lookup-view-connections",
               "state": {},
-              "icon": "smart-lookup",
-              "title": "Lookup"
+              "icon": "lucide-ghost",
+              "title": "smart-lookup-view-connections"
             }
           },
           {
@@ -222,18 +222,18 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-ghost",
+              "title": "copilot-chat-view"
             }
           },
           {
             "id": "c408c164d571a870",
             "type": "leaf",
             "state": {
-              "type": "excalidraw-sidepanel",
+              "type": "empty",
               "state": {},
-              "icon": "excalidraw-icon",
-              "title": "Excalidraw 側邊面板"
+              "icon": "lucide-file",
+              "title": "新分頁"
             }
           }
         ],
@@ -245,7 +245,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
       "switcher:開啟快速切換": false,
       "graph:查看關聯圖": false,
       "canvas:建立新畫布": false,
@@ -253,26 +252,32 @@
       "templates:插入模板": false,
       "command-palette:開啟命令面板": false,
       "bases:建立新的 base": false,
+      "obsidian-excalidraw-plugin:新建繪圖檔案": false,
       "markwhen:Create new Markwhen file": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Toggle Footer Connections": false,
       "smart-connections:Smart Connections: Open random connection": false,
       "smart-connections:Smart Lookup: Open lookup view": false,
-      "copilot:Open Copilot Chat": false,
-      "obsidian-excalidraw-plugin:新建繪圖檔案": false
+      "templater-obsidian:Templater": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "bbc3df3be3f711db",
+  "active": "662b276f7bc84273",
   "lastOpenFiles": [
+    "Setting/世界觀.md",
+    "Setting/IU7/01_character/李察．蘇利文.md",
+    "Setting/IU7/07_item/HCSA-1 「守護神」超高壓縮法力砲.md",
+    "Setting/IU7/07_item/PSML-5 「逐火」單兵法力導彈發射器.md",
+    "Setting/IU7/07_item/KS A82 超輕法術弩.md",
+    "Setting/IU7/01_character/沙羅.md",
+    "Setting/IU7/01_character/米迦勒.md",
     "Setting/IU7/09_event/IU7.mw.mw.mw",
     "Setting/IU7/09_event/Operation.mw",
     "Setting/IU7/09_event/Operation.md",
     "Setting/IU7/09_event/IU7.mw.mw.md",
     "Setting/IU7/IU7法術.md",
-    "Setting/IU7/01_character/沙羅.md",
     "Excalidraw/線索.md",
     "線索-Clues and Investigation.drawio.svg",
-    "Setting/IU7/07_item/PSML-5 「逐火」單兵法力導彈發射器.md",
     "Setting/IU7/07_item/M5A1法力狙擊步槍.md",
     "Setting/IU7/07_item/M5法力步槍.md",
     "Setting/IU7/07_item/M4A 60毫米壓縮法力砲.md",
@@ -284,14 +289,10 @@
     "Setting/IU7/07_item/KS SSG69 複合狙擊步槍.md",
     "Setting/IU7/07_item/KS SSG04.md",
     "Setting/IU7/07_item/KS SA72 狙擊弩.md",
-    "Setting/IU7/07_item/KS A82 超輕法術弩.md",
     "Setting/IU7/07_item/KS A68 複合弩.md",
-    "Setting/IU7/07_item/HCSA-1 「守護神」超高壓縮法力砲.md",
     "Setting/IU7/07_item/CT-1 SMC工程船.md",
     "Setting/IU7/07_item/CSMG-2 六聯裝壓縮法力機砲.md",
     "Setting/IU7/07_item/BM-3 5.56毫米壓縮法力彈.md",
-    "Setting/IU7/07_item/BM-2 7.62毫米水中用法力助推彈.md",
-    "Setting/IU7/07_item/BM-1 5.56毫米水中用子彈.md",
     "mw_converter.py",
     "copilot/copilot-conversations",
     "cedict_ts.u8",
