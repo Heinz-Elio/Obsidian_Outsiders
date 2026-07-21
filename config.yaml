@@ -1,0 +1,20 @@
+vault_path: "C:\Users\GIGABYTE\Documents\GitHub\Obsidian_Outsiders"
+
+embedding:
+  provider: ollama
+  model: nomic-embed-text
+
+chunking:
+  max_tokens: 500
+  overlap: 75
+
+database:
+  host: localhost
+  port: 6333
+  collection: obsidian
+
+retrieval:
+  top_k: 8
+
+watcher:
+  recursive: true
