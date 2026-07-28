@@ -12,3 +12,15 @@ class Document:
     links: list[str]
     headings: list[str]
     modified: float
+
+
+@dataclass
+class Chunk:
+    id: str
+    source_path: str
+    title: str
+    heading: str
+    text: str
+    chunk_index: int
+    tags: list[str]
+    modified: float
