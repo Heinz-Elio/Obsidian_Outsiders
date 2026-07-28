@@ -1,0 +1,4 @@
+mcp
+ollama
+qdrant-client
+PyYAML

@@ -1,4 +1,5 @@
-vault_path: "C:\Users\GIGABYTE\Documents\GitHub\Obsidian_Outsiders"
+vault:
+  path: "Setting"
 
 embedding:
   provider: ollama

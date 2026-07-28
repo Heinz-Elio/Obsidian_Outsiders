@@ -1,3 +1,11 @@
 /.idea
 /.smart-env/event_logs
 /.obsidian
+/.smart-env
+/.cursor-usage
+.env
+.env.*
+.venv/
+rendered/
+__pycache__/
+*.py[cod]
