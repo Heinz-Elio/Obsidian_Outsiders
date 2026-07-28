@@ -1,0 +1,15 @@
+# IU7\04_language
+
+- Generated: 2026-05-16T23:40:54
+- Source count: 1
+
+---
+
+# Source: IU7\04_language\阿奎斯托語.md
+```text
+IU7\04_language\阿奎斯托語.md
+```
+
+與拉丁語有一定聯繫，因此部分詞彙（尤其是與海洋相關的）與拉丁語近似，較易轉寫為拉丁語。
+
+---

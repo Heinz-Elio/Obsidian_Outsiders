@@ -1,0 +1,7 @@
+/.idea
+/.smart-env/event_logs
+/.obsidian
+/.smart-env
+/.cursor-usage
+.env
+.env.*
