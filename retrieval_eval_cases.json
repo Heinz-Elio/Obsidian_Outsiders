@@ -1,0 +1,41 @@
+[
+  {
+    "name": "karine_cross_source_context",
+    "query": "比較可伶．戈蒂埃、人魚、原初大法術．星降神臨與水妖的戰鬥設定",
+    "entity": "可伶．戈蒂埃",
+    "expected_sources": [
+      "IU7/01_character/可伶．戈蒂埃.md",
+      "IU7/03_species/人魚.md",
+      "IU7/05_srune/原初大法術．星降神臨.md",
+      "IU7/03_species/水妖.md"
+    ],
+    "minimum_recall": 1.0
+  },
+  {
+    "name": "event_sequence",
+    "query": "海都事件與埃爾確解封的前後因果",
+    "expected_sources": [
+      "IU7/09_event/海都事件.md",
+      "IU7/09_event/埃爾確解封.md"
+    ],
+    "minimum_recall": 1.0
+  },
+  {
+    "name": "organization_relation",
+    "query": "北太平洋王國與北太平洋王國衛隊的組織關係",
+    "expected_sources": [
+      "IU7/08_organization/北太平洋王國.md",
+      "IU7/08_organization/北太平洋王國衛隊.md"
+    ],
+    "minimum_recall": 1.0
+  },
+  {
+    "name": "root_world_notes",
+    "query": "世界觀與先天性法力系統過激的關係",
+    "expected_sources": [
+      "世界觀.md",
+      "先天性法力系統過激.md"
+    ],
+    "minimum_recall": 1.0
+  }
+]

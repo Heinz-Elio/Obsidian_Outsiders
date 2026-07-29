@@ -1,0 +1,21 @@
+vault:
+  path: "Setting"
+
+embedding:
+  provider: fake
+  model: fake-768
+
+chunking:
+  max_tokens: 500
+  overlap: 75
+
+database:
+  host: localhost
+  port: 6333
+  collection: obsidian_test
+
+retrieval:
+  top_k: 5
+
+watcher:
+  recursive: true
