@@ -4,6 +4,9 @@ vault:
 embedding:
   provider: ollama
   model: nomic-embed-text
+  # Force CPU on machines where Ollama CUDA crashes (e.g. old GPU drivers).
+  # Remove or set null to allow GPU offload.
+  num_gpu: 0
 
 chunking:
   max_tokens: 500

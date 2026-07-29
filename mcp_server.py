@@ -6,14 +6,18 @@ from pathlib import Path
 from mcp.server.fastmcp import FastMCP
 
 from app.config import load_config
-from app.embedder import OllamaEmbedder
+from app.embedder import get_embedder
 from app.loader import load_documents
 from app.store import VectorStore, read_source
 
 
-CONFIG_PATH = Path("config.yaml")
+CONFIG_PATH = Path(__file__).resolve().parent / "config.yaml"
 config = load_config(CONFIG_PATH)
-embedder = OllamaEmbedder(config.embedding.model)
+embedder = get_embedder(
+    config.embedding.provider,
+    config.embedding.model,
+    config.embedding.num_gpu,
+)
 store = VectorStore(
     config.database.host,
     config.database.port,

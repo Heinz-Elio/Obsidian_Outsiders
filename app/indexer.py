@@ -5,14 +5,20 @@ from pathlib import Path
 
 from app.chunker import chunk_document
 from app.config import load_config
-from app.embedder import OllamaEmbedder
+from app.embedder import get_embedder
 from app.loader import load_documents
 from app.store import VectorStore
 
 
-def build_index(config_path: str = "config.yaml") -> tuple[int, int]:
+def build_index(
+    config_path: str | None = None,
+    *,
+    limit_documents: int | None = None,
+) -> tuple[int, int]:
     config = load_config(config_path)
     documents = list(load_documents(config.vault.path))
+    if limit_documents is not None:
+        documents = documents[: max(0, limit_documents)]
     chunks = []
     for document in documents:
         chunks.extend(
@@ -23,7 +29,11 @@ def build_index(config_path: str = "config.yaml") -> tuple[int, int]:
             )
         )
 
-    embedder = OllamaEmbedder(config.embedding.model)
+    embedder = get_embedder(
+        config.embedding.provider,
+        config.embedding.model,
+        config.embedding.num_gpu,
+    )
     store = VectorStore(
         config.database.host,
         config.database.port,
@@ -39,9 +49,18 @@ def build_index(config_path: str = "config.yaml") -> tuple[int, int]:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Index the Obsidian vault into Qdrant.")
-    parser.add_argument("--config", default="config.yaml")
+    parser.add_argument("--config", default=None)
+    parser.add_argument(
+        "--limit-documents",
+        type=int,
+        default=None,
+        help="Index only the first N documents (useful for smoke tests).",
+    )
     args = parser.parse_args()
-    documents, chunks = build_index(args.config)
+    documents, chunks = build_index(
+        args.config,
+        limit_documents=args.limit_documents,
+    )
     print(f"indexed {documents} documents and {chunks} chunks")
 
 
