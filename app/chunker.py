@@ -39,7 +39,7 @@ def chunk_document(document: Document, max_tokens: int, overlap: int) -> list[Ch
         prefix = f"{document.title}\n{heading}\n".strip()
         for part in _chunk_text(section_text, size, overlap_size):
             index = len(chunks)
-            identity = f"{document.path.as_posix()}:{index}:{part}"
+            identity = f"{document.path.as_posix()}:{heading}:{part}"
             chunk_id = hashlib.sha1(identity.encode("utf-8")).hexdigest()
             chunks.append(
                 Chunk(
@@ -51,6 +51,12 @@ def chunk_document(document: Document, max_tokens: int, overlap: int) -> list[Ch
                     chunk_index=index,
                     tags=document.tags,
                     modified=document.modified,
+                    category=document.category,
+                    metadata=document.metadata,
+                    source_id=document.source_id,
+                    aliases=document.aliases,
+                    links=document.links,
+                    relation_tags=document.relation_tags,
                 )
             )
     return chunks

@@ -1,0 +1,32 @@
+[
+  {
+    "task": "consistency",
+    "target": "可伶",
+    "expected_category": "character"
+  },
+  {
+    "task": "logic",
+    "target": "海都事件",
+    "expected_category": "event"
+  },
+  {
+    "task": "entity_shaping",
+    "target": "諾愛爾．戈蒂埃",
+    "expected_category": "character"
+  },
+  {
+    "task": "pace",
+    "target": "星降神臨",
+    "expected_category": "srune"
+  },
+  {
+    "task": "suspense_audit",
+    "target": "人魚公主綁架事件",
+    "expected_category": "event"
+  },
+  {
+    "task": "negative",
+    "target": "不存在的設定項目",
+    "expected_category": null
+  }
+]

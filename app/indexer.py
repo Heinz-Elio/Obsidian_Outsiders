@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import uuid
 from pathlib import Path
 
 from app.chunker import chunk_document
@@ -44,6 +45,11 @@ def build_index(
         batch = chunks[start:start + batch_size]
         store.upsert(batch, embedder.embed([chunk.text for chunk in batch]))
         print(f"indexed {min(start + batch_size, len(chunks))}/{len(chunks)} chunks")
+    if limit_documents is None:
+        active_point_ids = {str(uuid.UUID(hex=chunk.id[:32])) for chunk in chunks}
+        deleted = store.sync_sources(active_point_ids)
+        if deleted:
+            print(f"deleted stale chunks={deleted}")
     return len(documents), len(chunks)
 
 
