@@ -231,7 +231,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 279.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -254,6 +255,9 @@
   },
   "active": "99e117a7283726d5",
   "lastOpenFiles": [
+    "RAG.md",
+    "Story/The Outsiders [Vol. Stargazer].md",
+    "Setting/世界觀.md",
     "HackMD/The Outsiders [Vol. Stargazer].md",
     "HackMD",
     "__pycache__/format_converter.cpython-312.pyc",
@@ -277,14 +281,11 @@
     "Setting/IU7/01_character/希寶卡波斯.md",
     "Setting/IU7/01_character/main/李察．蘇利文.md",
     "Setting/IU7/01_character/main/海因茨．萊文斯基-阿斯哈.md",
-    "Setting/世界觀.md",
     "Setting/IU7/07_item/HCSA-1 「守護神」超高壓縮法力砲.md",
     "Setting/IU7/07_item/PSML-5 「逐火」單兵法力導彈發射器.md",
     "Setting/IU7/07_item/KS A82 超輕法術弩.md",
-    "Setting/IU7/01_character/米迦勒.md",
     "Setting/IU7/09_event/IU7.mw.mw.mw",
     "Setting/IU7/09_event/Operation.mw",
-    "Setting/IU7/09_event/Operation.md",
     "線索-Clues and Investigation.drawio.svg",
     "mw_converter.py",
     "copilot/copilot-conversations",

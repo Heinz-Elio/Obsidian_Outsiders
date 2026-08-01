@@ -96,11 +96,24 @@ def convert_dot(match: Match[str]) -> str:
     )
 
 
+# Center
+CENTER_PATTERN = re.compile(r"\{\{center:(?P<text>[^{}]+)\}\}")
+
+def convert_center(match: Match[str]) -> str:
+    text = match.group("text")
+
+    return (
+        '<p align="center"><strong>'
+        f"{html.escape(text)}"
+        "</strong><p>"
+    )
+
 # Rules order matters
 
 RULES = [
     Rule(ANNOTATION_PATTERN, convert_annotation),
     Rule(DOT_PATTERN, convert_dot),
+    Rule(CENTER_PATTERN, convert_center),
 ]
 
 
