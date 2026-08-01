@@ -3,94 +3,166 @@ from __future__ import annotations
 import argparse
 import html
 import re
+from dataclasses import dataclass
 from pathlib import Path
+from typing import Callable, Match
 
 
-RUBY_PATTERN = re.compile(r"\{\{ruby:([^|{}]+)\|([^{}]+)\}\}")
-DOT_WORD_PATTERN = re.compile(
-    r"(?P<word>[^\s．、，,。！？!?]．"
-    r"[^\s．、，,。！？!?]．"
-    r"[^\s．、，,。！？!?]．"
-    r"[^\s．、，,。！？!?])"
-)
+# css styles
+CSS_STYLE = r"""
+<style>
+.ruby-container {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.anno-c {
+  font-size: 0.7em;
+  opacity: 0.8;
+  line-height: 1;
+  letter-spacing: 2em;
+  margin-right: -2em;
+}
+
+.anno-w {
+  font-size: 0.7em;
+  opacity: 0.8;
+  line-height: 1;
+}
+
+.emphasis-dot {
+  background-image: radial-gradient(circle at center, currentColor 1.5px, transparent 1.5px);
+  background-position: 0 bottom;
+  background-size: 1em 0.3em;
+  background-repeat: repeat-x;
+  padding-bottom: 0.25em;
+}
+</style>
+"""
+
+# Protected Markdown regions
 PROTECTED_PATTERN = re.compile(
-    r"```.*?```|`[^`\n]+`|\[\[[^\]]+\]\]",
-    re.DOTALL,
-)
-NAME_PATTERN = re.compile(
-    r"^(?P<base>.+?)"
-    r"（(?P<reading>[^，,）]+)"
-    r"(?:[，,](?P<abbr>[^）]+))?"
-    r"）$"
+    r"""
+    ```.*?```            |   # fenced code block
+    `[^`\n]+`            |   # inline code
+    \[\[[^\]]+\]\]       |   # Obsidian wikilink
+    \[[^\]]+\]\([^)]+\)  |   # Markdown link
+    <[^>]+>                  # existing HTML
+    """,
+    re.DOTALL | re.VERBOSE,
 )
 
 
-def _convert_ruby(match: re.Match[str]) -> str:
-    base, reading = match.groups()
+# Transformation rules
+@dataclass
+class Rule:
+    pattern: re.Pattern[str]
+    handler: Callable[[Match[str]], str]
+
+
+# Annotation
+ANNOTATION_PATTERN = re.compile(
+    r"\{\{(?P<class>anno-[cw]):(?P<anno>[^|{}]+)\|(?P<base>[^{}]+)\}\}"
+)
+
+
+def convert_annotation(match: Match[str]) -> str:
+    css_class = match.group("class")
+    annotation = match.group("anno")
+    base = match.group("base")
+
     return (
-        f"<ruby>{html.escape(base)}"
-        f"<rt>{html.escape(reading)}</rt></ruby>"
+        '<span class="ruby-container">'
+        f'<span class="{css_class}">'
+        f"{html.escape(annotation)}"
+        "</span>"
+        f"<span>{html.escape(base)}</span>"
+        "</span>"
     )
 
 
-def _convert_dot_word(match: re.Match[str]) -> str:
-    word = match.group("word")
-    characters = word.replace("．", "")
+# Emphasis dot
+DOT_PATTERN = re.compile(r"\{\{dot:(?P<text>[^{}]+)\}\}")
+
+def convert_dot(match: Match[str]) -> str:
+    text = match.group("text")
+
     return (
-        '<span class="bouten" data-source="'
-        f"{html.escape(word, quote=True)}\">{html.escape(characters)}</span>"
+        '<span class="emphasis-dot">'
+        f"{html.escape(text)}"
+        "</span>"
     )
 
 
-def convert_name(text: str) -> str:
-    """Convert 中文（English） or 中文（English，ABBR） to ruby HTML."""
-    match = NAME_PATTERN.fullmatch(text.strip())
-    if not match:
-        return text
+# Rules order matters
 
-    base = html.escape(match.group("base"))
-    reading = html.escape(match.group("reading"))
-    abbreviation = match.group("abbr")
-
-    result = f"<ruby>{base}<rt>{reading}</rt></ruby>"
-    if abbreviation:
-        result += f"（{html.escape(abbreviation)}）"
-    return result
+RULES = [
+    Rule(ANNOTATION_PATTERN, convert_annotation),
+    Rule(DOT_PATTERN, convert_dot),
+]
 
 
-def _convert_unprotected(text: str) -> str:
-    text = RUBY_PATTERN.sub(_convert_ruby, text)
-    return DOT_WORD_PATTERN.sub(_convert_dot_word, text)
+# Conversion
+def convert_unprotected(text: str) -> str:
+    """
+    Apply rules repeatedly.
+    Allows nested syntax.
+    """
+
+    while True:
+        previous = text
+
+        for rule in RULES:
+            text = rule.pattern.sub(rule.handler, text)
+
+        if text == previous:
+            break
+
+    return text
 
 
 def convert_inline(text: str) -> str:
-    """Convert ruby and exactly-four-character dot notation."""
     output: list[str] = []
+
     cursor = 0
+
     for match in PROTECTED_PATTERN.finditer(text):
-        output.append(_convert_unprotected(text[cursor:match.start()]))
+        output.append(
+            convert_unprotected(
+                text[cursor:match.start()]
+            )
+        )
+
         output.append(match.group(0))
+
         cursor = match.end()
-    output.append(_convert_unprotected(text[cursor:]))
+
+    output.append(
+        convert_unprotected(text[cursor:])
+    )
+
     return "".join(output)
 
 
+# File handling
 def convert_file(source: Path, destination: Path) -> None:
     destination.parent.mkdir(parents=True, exist_ok=True)
-    destination.write_text(
-        convert_inline(source.read_text(encoding="utf-8")),
-        encoding="utf-8",
-    )
+    text = source.read_text(encoding="utf-8")
+    destination.write_text(CSS_STYLE + convert_inline(text), encoding="utf-8")
 
 
+# CLI
 def main() -> None:
-    parser = argparse.ArgumentParser(
-        description="Convert ruby and Japanese emphasis-dot notation."
-    )
-    parser.add_argument("source", type=Path)
-    parser.add_argument("destination", type=Path)
-    args = parser.parse_args()
-    convert_file(args.source, args.destination)
+    PROJECT_ROOT = Path(__file__).resolve().parent
+    INPUT_DIR = PROJECT_ROOT / "Story"
+    OUTPUT_DIR = PROJECT_ROOT / "HackMD"
+
+    for source in sorted(INPUT_DIR.glob("*.md")):
+        relative = source.relative_to(INPUT_DIR)
+        destination = OUTPUT_DIR / relative
+        convert_file(source, destination)
 
 
 if __name__ == "__main__":

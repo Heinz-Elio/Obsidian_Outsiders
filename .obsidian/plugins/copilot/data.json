@@ -24,8 +24,8 @@
   "githubCopilotToken": "",
   "githubCopilotTokenExpiresAt": 0,
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "gemini-3.1-flash-lite|google",
-  "embeddingModelKey": "gemini-embedding-2-preview|google",
+  "defaultModelKey": "copilot-plus-flash|copilot-plus",
+  "embeddingModelKey": "gemini-embedding-001|google",
   "temperature": 0.1,
   "maxTokens": 6000,
   "contextTurns": 15,
@@ -42,13 +42,13 @@
   "defaultSendShortcut": "enter",
   "customPromptsFolder": "copilot/copilot-custom-prompts",
   "indexVaultToVectorStore": "ON MODE SWITCH",
-  "qaExclusions": "copilot,Excalidraw%2FScripts",
+  "qaExclusions": "copilot,Excalidraw%2FScripts,__pycache__,qdrant_storage",
   "qaInclusions": "",
   "chatNoteContextPath": "",
   "chatNoteContextTags": [],
   "enableIndexSync": true,
   "debug": false,
-  "maxSourceChunks": 40,
+  "maxSourceChunks": 30,
   "enableInlineCitations": true,
   "groqApiKey": "",
   "activeModels": [
@@ -78,17 +78,18 @@
     {
       "name": "gpt-5.5",
       "provider": "openai",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
       "capabilities": [
+        "reasoning",
         "vision"
       ]
     },
     {
       "name": "gpt-5.4-mini",
       "provider": "openai",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
       "capabilities": [
@@ -96,10 +97,32 @@
       ]
     },
     {
+      "name": "google/gemini-3.5-flash",
+      "provider": "openrouterai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "projectEnabled": true,
+      "capabilities": [
+        "reasoning",
+        "vision"
+      ]
+    },
+    {
       "name": "claude-sonnet-4-6",
       "provider": "anthropic",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
+      "capabilities": [
+        "reasoning",
+        "vision"
+      ]
+    },
+    {
+      "name": "gemini-3.5-flash",
+      "provider": "google",
+      "enabled": false,
+      "isBuiltIn": true,
+      "projectEnabled": true,
       "capabilities": [
         "reasoning",
         "vision"
@@ -108,18 +131,7 @@
     {
       "name": "gemini-3.1-flash-lite",
       "provider": "google",
-      "enabled": true,
-      "isBuiltIn": true,
-      "projectEnabled": true,
-      "capabilities": [
-        "vision"
-      ],
-      "maxTokens": 12100
-    },
-    {
-      "name": "gemini-2.5-flash",
-      "provider": "google",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "projectEnabled": true,
       "capabilities": [
@@ -127,12 +139,12 @@
       ]
     },
     {
-      "name": "google/gemini-3-flash-preview",
-      "provider": "openrouterai",
+      "name": "gemini-2.5-flash",
+      "provider": "google",
       "enabled": false,
       "isBuiltIn": true,
+      "projectEnabled": true,
       "capabilities": [
-        "reasoning",
         "vision"
       ]
     },
@@ -244,16 +256,6 @@
       ]
     },
     {
-      "name": "gemini-3-flash-preview",
-      "provider": "google",
-      "enabled": false,
-      "isBuiltIn": true,
-      "capabilities": [
-        "reasoning",
-        "vision"
-      ]
-    },
-    {
       "name": "gemini-3.1-pro-preview",
       "provider": "google",
       "enabled": false,
@@ -308,17 +310,21 @@
     {
       "name": "gpt-5.5-pro-2026-04-23",
       "provider": "openai",
-      "enabled": true
+      "enabled": false
     },
     {
-      "name": "gpt-5.4",
-      "provider": "openai",
-      "enabled": true
-    },
-    {
-      "name": "gpt-4o-mini",
-      "provider": "openai",
-      "enabled": true
+      "name": "gpt-5.6-sol",
+      "provider": "openrouterai",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "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",
+      "isEmbeddingModel": false,
+      "capabilities": [
+        "reasoning",
+        "websearch"
+      ],
+      "stream": true
     }
   ],
   "activeEmbeddingModels": [
@@ -366,7 +372,8 @@
       "enabled": true,
       "isBuiltIn": true,
       "isEmbeddingModel": true,
-      "core": true
+      "core": true,
+      "enableCors": false
     },
     {
       "name": "gemini-embedding-001",
@@ -374,7 +381,8 @@
       "enabled": true,
       "isBuiltIn": true,
       "isEmbeddingModel": true,
-      "core": true
+      "core": true,
+      "enableCors": true
     },
     {
       "name": "gemini-embedding-2-preview",
@@ -398,7 +406,8 @@
       "provider": "openai",
       "enabled": true,
       "isBuiltIn": true,
-      "isEmbeddingModel": true
+      "isEmbeddingModel": true,
+      "enableCors": true
     },
     {
       "name": "embed-multilingual-light-v3.0",
@@ -425,7 +434,7 @@
   "embeddingRequestsPerMin": 60,
   "embeddingBatchSize": 16,
   "disableIndexOnMobile": true,
-  "showSuggestedPrompts": true,
+  "showSuggestedPrompts": false,
   "showRelevantNotes": true,
   "numPartitions": 1,
   "lexicalSearchRamLimit": 200,
@@ -437,7 +446,7 @@
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
   "inlineEditCommands": [],
   "projectList": [],
-  "lastDismissedVersion": null,
+  "lastDismissedVersion": "3.3.3",
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,

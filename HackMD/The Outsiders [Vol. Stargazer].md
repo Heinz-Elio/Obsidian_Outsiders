@@ -1,3 +1,34 @@
+
+<style>
+.ruby-container {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.anno-c {
+  font-size: 0.7em;
+  opacity: 0.8;
+  line-height: 1;
+  letter-spacing: 2em;
+  margin-right: -2em;
+}
+
+.anno-w {
+  font-size: 0.7em;
+  opacity: 0.8;
+  line-height: 1;
+}
+
+.emphasis-dot {
+  background-image: radial-gradient(circle at center, currentColor 1.5px, transparent 1.5px);
+  background-position: 0 bottom;
+  background-size: 1em 0.3em;
+  background-repeat: repeat-x;
+  padding-bottom: 0.25em;
+}
+</style>
 # The Outsiders [Vol. Stargazer]
 
 ## Operation Siskin
@@ -28,7 +59,7 @@ Soar瞥了一眼手錶，距離上次例行通訊已過了近20分鐘，Kafziel�
 
 耳機裡陸續傳來應答，Soar隨即把注意力放回儀表板，完成例行檢查後看向強行卡在操縱桿上的軍用迷你筆記電腦。
 
-電腦正在播放Kafziel分享出來的畫面——準確來說是在Kafziel的防彈風鏡上顯示的合成畫面——畫面由加載到風鏡的{{anno-c:通用視覺擴展程式|UVAP}}根據環境數據實時渲染，亮度會自動調節，不看海拔數字完全看不出這是四千九百多米深的海底。不過受限於電腦的硬體性能，實際輸出的畫質並不高，唯一不用擔心的是畫面扭曲或是丟失，因為訊號並非以物理方式傳輸，不受海中的各種雜訊影響。
+電腦正在播放Kafziel分享出來的畫面——準確來說是在Kafziel的防彈風鏡上顯示的合成畫面——畫面由加載到風鏡的<span class="ruby-container"><span class="anno-c">通用視覺擴展程式</span><span>UVAP</span></span>根據環境數據實時渲染，亮度會自動調節，不看海拔數字完全看不出這是四千九百多米深的海底。不過受限於電腦的硬體性能，實際輸出的畫質並不高，唯一不用擔心的是畫面扭曲或是丟失，因為訊號並非以物理方式傳輸，不受海中的各種雜訊影響。
 
 此時Kafziel半跪在一堵坍塌的石牆後，防彈風鏡下如同鋼鐵般冷峻的祖母綠色雙眼正全神貫注地監視著前方的廢墟，修剪得極為清爽的深藍色頭髮短到幾乎飄不起來；軍綠色的M-65野戰夾克是二手的剩餘軍品，搭配洗到發白的灰色戰術褲與鞋面脫色的狼棕色戰鬥靴，彷彿久經風霜的退役軍人。
 

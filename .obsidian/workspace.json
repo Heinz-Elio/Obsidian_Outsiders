@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "27fa7c74436e6811",
+        "id": "da93c95e57bd7d6a",
         "type": "tabs",
         "children": [
           {
-            "id": "662b276f7bc84273",
+            "id": "99e117a7283726d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setting/IU7/01_character/金澤.md",
+                "file": "Story/The Outsiders [Vol. Stargazer].md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "金澤"
+              "title": "The Outsiders [Vol. Stargazer]"
             }
           }
         ],
@@ -55,7 +55,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -252,12 +252,21 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "662b276f7bc84273",
+  "active": "99e117a7283726d5",
   "lastOpenFiles": [
-    "Setting/IU7/01_character/波音.md",
-    "Setting/IU7/01_character/季直.md",
+    "HackMD/The Outsiders [Vol. Stargazer].md",
+    "HackMD",
+    "__pycache__/format_converter.cpython-312.pyc",
+    "Setting/IU7/01_character/奎森.md",
+    "Story/draft/01_siskin.md",
+    "Setting/IU7/01_character/信使.md",
     "Setting/IU7/01_character/沙羅.md",
     "Setting/IU7/01_character/杜溫.md",
+    "Setting/IU7/01_character/艾略特．賽德爾.md",
+    "Setting/IU7/01_character/七海尼歌娜.md",
+    "Setting/IU7/01_character/金澤.md",
+    "Setting/IU7/01_character/波音.md",
+    "Setting/IU7/01_character/季直.md",
     "Setting/IU7/00_總覽/overview.md",
     "Setting/IU7/01_character/main/可伶．戈蒂埃.md",
     "Setting/IU7/01_character/main",
@@ -267,7 +276,6 @@
     "Setting/IU7/01_character/哈維．波赫雷.md",
     "Setting/IU7/01_character/希寶卡波斯.md",
     "Setting/IU7/01_character/main/李察．蘇利文.md",
-    "Setting/IU7/01_character/奎森.md",
     "Setting/IU7/01_character/main/海因茨．萊文斯基-阿斯哈.md",
     "Setting/世界觀.md",
     "Setting/IU7/07_item/HCSA-1 「守護神」超高壓縮法力砲.md",
@@ -277,20 +285,12 @@
     "Setting/IU7/09_event/IU7.mw.mw.mw",
     "Setting/IU7/09_event/Operation.mw",
     "Setting/IU7/09_event/Operation.md",
-    "Setting/IU7/09_event/IU7.mw.mw.md",
-    "Setting/IU7/IU7法術.md",
-    "Excalidraw/線索.md",
     "線索-Clues and Investigation.drawio.svg",
-    "Setting/IU7/07_item/M5A1法力狙擊步槍.md",
-    "Setting/IU7/07_item/M5法力步槍.md",
-    "Setting/IU7/07_item/M4A 60毫米壓縮法力砲.md",
     "mw_converter.py",
     "copilot/copilot-conversations",
     "cedict_ts.u8",
     "merge_notes.py~",
     "merged/IU7/11_faction",
-    "merged/IU7/10_legend",
-    "merged/IU7/09_event",
     "Excalidraw/Scripts/Downloaded/Mindmap Builder.svg",
     "Excalidraw/Scripts/Downloaded/Uniform size.svg",
     "Excalidraw/Scripts/Downloaded/Text to Path.svg",
