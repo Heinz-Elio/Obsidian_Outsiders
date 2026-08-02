@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Story/The Outsiders [Vol. Stargazer].md",
+                "file": "Story/draft/01_siskin.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "The Outsiders [Vol. Stargazer]"
+              "title": "01_siskin"
             }
           }
         ],
@@ -255,8 +255,8 @@
   },
   "active": "99e117a7283726d5",
   "lastOpenFiles": [
-    "Setting/世界觀.md",
     "Story/The Outsiders [Vol. Stargazer].md",
+    "Setting/世界觀.md",
     "Setting/IU0/08_organization/學院登記游離者管理局所屬執法部隊游騎士.md",
     "Setting/IU7/01_character/七海尼歌娜.md",
     "Setting/IU7/08_organization/北大西洋王國.md",
