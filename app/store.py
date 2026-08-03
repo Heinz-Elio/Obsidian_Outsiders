@@ -9,6 +9,7 @@ from qdrant_client.models import (
     Distance,
     FieldCondition,
     Filter,
+    FilterSelector,
     MatchAny,
     MatchText,
     MatchValue,
@@ -25,8 +26,11 @@ class VectorStore:
         self.collection = collection
         self.client = QdrantClient(host=host, port=port)
 
+    def collection_exists(self) -> bool:
+        return self.client.collection_exists(self.collection)
+
     def ensure_collection(self, vector_size: int) -> None:
-        if self.client.collection_exists(self.collection):
+        if self.collection_exists():
             return
         self.client.create_collection(
             collection_name=self.collection,
@@ -65,7 +69,7 @@ class VectorStore:
 
     def sync_sources(self, active_point_ids: set[str]) -> int:
         """Delete points no longer produced by the current full index build."""
-        if not self.client.collection_exists(self.collection):
+        if not self.collection_exists():
             return 0
         stale = []
         offset = None
@@ -87,6 +91,34 @@ class VectorStore:
                 wait=True,
             )
         return len(stale)
+
+    def delete_by_source_path(self, source_path: str) -> int:
+        """Delete every stored chunk belonging to one exact source path."""
+        if not self.collection_exists():
+            return 0
+        chunks = self.source_chunks(source_path)
+        if not chunks:
+            return 0
+        self.client.delete(
+            collection_name=self.collection,
+            points_selector=FilterSelector(
+                filter=Filter(
+                    must=[
+                        FieldCondition(
+                            key="source_path",
+                            match=MatchValue(value=source_path),
+                        )
+                    ]
+                )
+            ),
+            wait=True,
+        )
+        return len(chunks)
+
+    def reset_collection(self) -> None:
+        """Remove the collection so the next upsert recreates it safely."""
+        if self.collection_exists():
+            self.client.delete_collection(collection_name=self.collection)
 
     def search(
         self,

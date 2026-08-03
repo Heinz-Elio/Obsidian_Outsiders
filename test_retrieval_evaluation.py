@@ -31,7 +31,7 @@ def _retriever() -> HybridRetriever:
 
 
 def test_cross_source_retrieval_recall():
-    build_index("config.test.yaml")
+    build_index("config.test.yaml", full=True)
     retriever = _retriever()
     cases = json.loads(
         Path("retrieval_eval_cases.json").read_text(encoding="utf-8")

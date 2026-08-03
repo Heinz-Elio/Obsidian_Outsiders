@@ -97,44 +97,60 @@ def _clean_links(text: str) -> str:
     return WIKILINK.sub(lambda match: match.group(2) or match.group(1), text)
 
 
-def load_documents(root: Path) -> Iterable[Document]:
-    """Yield source Markdown files while excluding generated/plugin state."""
+def source_paths(root: Path) -> Iterable[Path]:
+    """Yield source Markdown paths while excluding generated/plugin state."""
     root = root.resolve()
     for path in sorted(root.rglob("*.md")):
         relative = path.relative_to(root)
         if any(part in EXCLUDED_DIRS for part in relative.parts):
             continue
+        yield path
 
-        raw = path.read_text(encoding="utf-8")
-        metadata, body = _frontmatter(raw)
-        headings = HEADING.findall(body)
-        tags = _as_list(metadata.get("tags"))
-        tags.extend(TAG.findall(body))
-        links = [match.group(1).strip() for match in WIKILINK.finditer(body)]
-        aliases = _as_list(metadata.get("aliases"))
-        relation_tags = _relation_values(metadata)
-        entity_names = sorted(
-            {
-                path.stem,
-                str(metadata.get("title") or _title(path, body)),
-                str(metadata.get("name_en") or ""),
-                *aliases,
-            }
-            - {""}
-        )
 
-        yield Document(
-            path=relative,
-            title=str(metadata.get("title") or _title(path, body)),
-            text=_clean_links(body).strip(),
-            tags=sorted(set(tags)),
-            aliases=aliases,
-            links=links,
-            headings=headings,
-            modified=path.stat().st_mtime,
-            category=_category(relative),
-            metadata=_metadata(metadata),
-            source_id=_source_id(relative),
-            entity_names=entity_names,
-            relation_tags=relation_tags,
-        )
+def load_document(root: Path, path: Path) -> Document:
+    """Parse one Markdown source below the configured vault root."""
+    root = root.resolve()
+    path = path.resolve() if path.is_absolute() else (root / path).resolve()
+    if root not in path.parents:
+        raise ValueError("source path escapes the configured vault")
+    relative = path.relative_to(root)
+
+    raw = path.read_text(encoding="utf-8")
+    metadata, body = _frontmatter(raw)
+    headings = HEADING.findall(body)
+    tags = _as_list(metadata.get("tags"))
+    tags.extend(TAG.findall(body))
+    links = [match.group(1).strip() for match in WIKILINK.finditer(body)]
+    aliases = _as_list(metadata.get("aliases"))
+    relation_tags = _relation_values(metadata)
+    entity_names = sorted(
+        {
+            path.stem,
+            str(metadata.get("title") or _title(path, body)),
+            str(metadata.get("name_en") or ""),
+            *aliases,
+        }
+        - {""}
+    )
+
+    return Document(
+        path=relative,
+        title=str(metadata.get("title") or _title(path, body)),
+        text=_clean_links(body).strip(),
+        tags=sorted(set(tags)),
+        aliases=aliases,
+        links=links,
+        headings=headings,
+        modified=path.stat().st_mtime,
+        category=_category(relative),
+        metadata=_metadata(metadata),
+        source_id=_source_id(relative),
+        entity_names=entity_names,
+        relation_tags=relation_tags,
+    )
+
+
+def load_documents(root: Path) -> Iterable[Document]:
+    """Yield parsed Markdown documents from the configured vault."""
+    for path in source_paths(root):
+        yield load_document(root, path)

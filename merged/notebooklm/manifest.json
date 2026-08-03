@@ -1,0 +1,361 @@
+{
+  "generated": "2026-08-03T12:24:27",
+  "source_limit": 50,
+  "long_note_chars": 10000,
+  "output_count": 18,
+  "outputs": [
+    {
+      "file": "IU0.md",
+      "kind": "category_bundle",
+      "note_count": 1,
+      "characters": 35,
+      "sources": [
+        "IU0/萊文斯基.md"
+      ]
+    },
+    {
+      "file": "IU0_01_character.md",
+      "kind": "category_bundle",
+      "note_count": 11,
+      "characters": 989,
+      "sources": [
+        "IU0/01_character/亞斯蘭．察拉.md",
+        "IU0/01_character/基亞蘭．康沃爾.md",
+        "IU0/01_character/弗雷德里希．萊文斯基.md",
+        "IU0/01_character/愛麗絲．法伊茲.md",
+        "IU0/01_character/橘婆婆.md",
+        "IU0/01_character/海因里希．萊文斯基.md",
+        "IU0/01_character/鐙家睦實.md",
+        "IU0/01_character/阿克塞．施威格.md",
+        "IU0/01_character/阿嘉特．哈洛．萊文斯基．麥克阿瑟.md",
+        "IU0/01_character/阿斯翠德．費嘉．萊文斯基.md",
+        "IU0/01_character/雷明希爾．高文．休斯.md"
+      ]
+    },
+    {
+      "file": "IU0_03_species.md",
+      "kind": "category_bundle",
+      "note_count": 2,
+      "characters": 568,
+      "sources": [
+        "IU0/03_species/新人類.md",
+        "IU0/03_species/藍圖.md"
+      ]
+    },
+    {
+      "file": "IU0_08_organization.md",
+      "kind": "category_bundle",
+      "note_count": 3,
+      "characters": 6396,
+      "sources": [
+        "IU0/08_organization/學院登記游離者管理局所屬執法部隊游騎士.md",
+        "IU0/08_organization/終端機.md",
+        "IU0/08_organization/雷霆跨界戰術快遞.md"
+      ]
+    },
+    {
+      "file": "IU7.md",
+      "kind": "category_bundle",
+      "note_count": 2,
+      "characters": 4308,
+      "sources": [
+        "IU7/IU7法術.md",
+        "IU7/先天性法力系統過激.md"
+      ]
+    },
+    {
+      "file": "IU7_01_character.md",
+      "kind": "category_bundle",
+      "note_count": 75,
+      "characters": 83188,
+      "sources": [
+        "IU7/01_character/117.md",
+        "IU7/01_character/Doktorvater.md",
+        "IU7/01_character/Shadow.md",
+        "IU7/01_character/七海尼歌娜.md",
+        "IU7/01_character/七海露芝亞.md",
+        "IU7/01_character/伊恩．戈蒂埃.md",
+        "IU7/01_character/伊絲塔．密茨凱維奇.md",
+        "IU7/01_character/信使.md",
+        "IU7/01_character/克洛德.md",
+        "IU7/01_character/勞倫斯．雷丁.md",
+        "IU7/01_character/可可.md",
+        "IU7/01_character/右.md",
+        "IU7/01_character/名護.md",
+        "IU7/01_character/哈維．波赫雷.md",
+        "IU7/01_character/埃爾溫．黑克勒.md",
+        "IU7/01_character/基耶爾．科克倫.md",
+        "IU7/01_character/堂本海斗.md",
+        "IU7/01_character/堂本薰.md",
+        "IU7/01_character/塞雷亞．哈洛蘭.md",
+        "IU7/01_character/天城博敏.md",
+        "IU7/01_character/天城美嘉留.md",
+        "IU7/01_character/奎森.md",
+        "IU7/01_character/奧利維．雷丁.md",
+        "IU7/01_character/威托德．密茨凱維奇.md",
+        "IU7/01_character/季直.md",
+        "IU7/01_character/孫天烺.md",
+        "IU7/01_character/守墓人.md",
+        "IU7/01_character/安潔莉娜.md",
+        "IU7/01_character/寇馬克.md",
+        "IU7/01_character/尤莉亞.md",
+        "IU7/01_character/崔斯坦．海森堡.md",
+        "IU7/01_character/希寶卡波斯.md",
+        "IU7/01_character/康士坦絲.md",
+        "IU7/01_character/弗拉基米爾．萊文斯基.md",
+        "IU7/01_character/弗林.md",
+        "IU7/01_character/張睿.md",
+        "IU7/01_character/恩斯特．萊文斯基.md",
+        "IU7/01_character/愛麗卡．甘迺迪.md",
+        "IU7/01_character/文森佐．奧默.md",
+        "IU7/01_character/斯普魯恩斯.md",
+        "IU7/01_character/星羅.md",
+        "IU7/01_character/札卡里.md",
+        "IU7/01_character/杜溫.md",
+        "IU7/01_character/柏西菲卡．萊文斯基-阿斯哈.md",
+        "IU7/01_character/柯蘭尼.md",
+        "IU7/01_character/沙羅.md",
+        "IU7/01_character/波音.md",
+        "IU7/01_character/洛斯艾古雅.md",
+        "IU7/01_character/海月太郎.md",
+        "IU7/01_character/海都.md",
+        "IU7/01_character/烏蘇拉.md",
+        "IU7/01_character/燁森.md",
+        "IU7/01_character/白.md",
+        "IU7/01_character/米迦勒.md",
+        "IU7/01_character/紫.md",
+        "IU7/01_character/維克多．史特萊斯.md",
+        "IU7/01_character/維達.md",
+        "IU7/01_character/艾略特．賽德爾.md",
+        "IU7/01_character/艾芙蓮.md",
+        "IU7/01_character/范雅.md",
+        "IU7/01_character/萊恩．科赫.md",
+        "IU7/01_character/葉倩尼亞.md",
+        "IU7/01_character/葉忍冬.md",
+        "IU7/01_character/葉老頭.md",
+        "IU7/01_character/葉蕗.md",
+        "IU7/01_character/蕭.md",
+        "IU7/01_character/藍.md",
+        "IU7/01_character/迪莉亞.md",
+        "IU7/01_character/達姬.md",
+        "IU7/01_character/金澤.md",
+        "IU7/01_character/阿德萊德.md",
+        "IU7/01_character/阿拉拉.md",
+        "IU7/01_character/雪莉.md",
+        "IU7/01_character/麗奈.md",
+        "IU7/01_character/麥迪文.md"
+      ]
+    },
+    {
+      "file": "IU7_01_character_main.md",
+      "kind": "category_bundle",
+      "note_count": 4,
+      "characters": 29387,
+      "sources": [
+        "IU7/01_character/main/可伶．戈蒂埃.md",
+        "IU7/01_character/main/李察．蘇利文.md",
+        "IU7/01_character/main/海因茨．萊文斯基-阿斯哈.md",
+        "IU7/01_character/main/諾愛爾．戈蒂埃.md"
+      ]
+    },
+    {
+      "file": "IU7_02_location.md",
+      "kind": "category_bundle",
+      "note_count": 10,
+      "characters": 2660,
+      "sources": [
+        "IU7/02_location/北冰洋王國王城.md",
+        "IU7/02_location/北大西洋王國王城.md",
+        "IU7/02_location/北太平洋王國王城.md",
+        "IU7/02_location/南冰洋王國王城.md",
+        "IU7/02_location/南大西洋王國王城.md",
+        "IU7/02_location/南太平洋王國王城.md",
+        "IU7/02_location/南太平洋王國領地.md",
+        "IU7/02_location/印度洋王國王城.md",
+        "IU7/02_location/基質噴發點.md",
+        "IU7/02_location/海都城.md"
+      ]
+    },
+    {
+      "file": "IU7_03_species.md",
+      "kind": "category_bundle",
+      "note_count": 6,
+      "characters": 4791,
+      "sources": [
+        "IU7/03_species/人魚.md",
+        "IU7/03_species/彭達拉薩人.md",
+        "IU7/03_species/水妖.md",
+        "IU7/03_species/海之主.md",
+        "IU7/03_species/阿奎斯托.md",
+        "IU7/03_species/鳥人.md"
+      ]
+    },
+    {
+      "file": "IU7_04_language.md",
+      "kind": "category_bundle",
+      "note_count": 1,
+      "characters": 106,
+      "sources": [
+        "IU7/04_language/阿奎斯托語.md"
+      ]
+    },
+    {
+      "file": "IU7_05_srune.md",
+      "kind": "category_bundle",
+      "note_count": 6,
+      "characters": 7254,
+      "sources": [
+        "IU7/05_srune/三相防禦.md",
+        "IU7/05_srune/原初大法術．星降神臨.md",
+        "IU7/05_srune/星歸.md",
+        "IU7/05_srune/聲之法術.md",
+        "IU7/05_srune/閃擊.md",
+        "IU7/05_srune/雷光.md"
+      ]
+    },
+    {
+      "file": "IU7_06_technology.md",
+      "kind": "category_bundle",
+      "note_count": 1,
+      "characters": 183,
+      "sources": [
+        "IU7/06_technology/去特徵化.md"
+      ]
+    },
+    {
+      "file": "IU7_07_item.md",
+      "kind": "category_bundle",
+      "note_count": 37,
+      "characters": 13404,
+      "sources": [
+        "IU7/07_item/60毫米蝕刻彈.md",
+        "IU7/07_item/A-11D干擾弩箭.md",
+        "IU7/07_item/A-11L長程弩箭.md",
+        "IU7/07_item/A-11P穿甲弩箭.md",
+        "IU7/07_item/BM-1 5.56毫米水中用子彈.md",
+        "IU7/07_item/BM-2 7.62毫米水中用法力助推彈.md",
+        "IU7/07_item/BM-3 5.56毫米壓縮法力彈.md",
+        "IU7/07_item/CSMG-2 六聯裝壓縮法力機砲.md",
+        "IU7/07_item/CT-1 SMC工程船.md",
+        "IU7/07_item/HCSA-1 「守護神」超高壓縮法力砲.md",
+        "IU7/07_item/KS A68 複合弩.md",
+        "IU7/07_item/KS A82 超輕法術弩.md",
+        "IU7/07_item/KS SA72 狙擊弩.md",
+        "IU7/07_item/KS SSG04.md",
+        "IU7/07_item/KS SSG69 複合狙擊步槍.md",
+        "IU7/07_item/KS SSG69E 複合狙擊步槍.md",
+        "IU7/07_item/LCSA-4 「劍魚」三聯裝壓縮法力砲.md",
+        "IU7/07_item/M1晶核軍刀.md",
+        "IU7/07_item/M2法力弩.md",
+        "IU7/07_item/M3狙擊用法力弩.md",
+        "IU7/07_item/M4A 60毫米壓縮法力砲.md",
+        "IU7/07_item/M5A1法力狙擊步槍.md",
+        "IU7/07_item/M5法力步槍.md",
+        "IU7/07_item/PSML-5 「逐火」單兵法力導彈發射器.md",
+        "IU7/07_item/便攜法術媒介.md",
+        "IU7/07_item/北冰洋法力弩.md",
+        "IU7/07_item/可現場編程法力邏輯陣列.md",
+        "IU7/07_item/四軸偵察無人機.md",
+        "IU7/07_item/基質能-物質轉換器.md",
+        "IU7/07_item/基質能-能量轉換器.md",
+        "IU7/07_item/晶核.md",
+        "IU7/07_item/晶核長槍.md",
+        "IU7/07_item/紀錄節點.md",
+        "IU7/07_item/美人魚占卜卡牌.md",
+        "IU7/07_item/艾方合金.md",
+        "IU7/07_item/萬用晶核棒.md",
+        "IU7/07_item/靈池.md"
+      ]
+    },
+    {
+      "file": "IU7_08_organization.md",
+      "kind": "category_bundle",
+      "note_count": 24,
+      "characters": 12282,
+      "sources": [
+        "IU7/08_organization/Invisible Link.md",
+        "IU7/08_organization/SWI調查事務所.md",
+        "IU7/08_organization/克洛克有限責任公司.md",
+        "IU7/08_organization/北冰洋王國.md",
+        "IU7/08_organization/北大西洋王國.md",
+        "IU7/08_organization/北太平洋王國.md",
+        "IU7/08_organization/北太平洋王國研究院.md",
+        "IU7/08_organization/北太平洋王國衛隊.md",
+        "IU7/08_organization/南冰洋王國.md",
+        "IU7/08_organization/南冰洋王國特務部隊.md",
+        "IU7/08_organization/南大西洋王國.md",
+        "IU7/08_organization/南太平洋王國.md",
+        "IU7/08_organization/印度洋王國.md",
+        "IU7/08_organization/常藍集團.md",
+        "IU7/08_organization/斯蒂爾武器.md",
+        "IU7/08_organization/未來海洋科技.md",
+        "IU7/08_organization/深海之星.md",
+        "IU7/08_organization/清道夫.md",
+        "IU7/08_organization/第三小隊 Lumiere.md",
+        "IU7/08_organization/遠古生物及文明研究所.md",
+        "IU7/08_organization/雷神國際.md",
+        "IU7/08_organization/雷霆快遞（IU7）.md",
+        "IU7/08_organization/韋斯柏卓越戰術方案.md",
+        "IU7/08_organization/龍騎兵.md"
+      ]
+    },
+    {
+      "file": "IU7_09_event.md",
+      "kind": "category_bundle",
+      "note_count": 17,
+      "characters": 8969,
+      "sources": [
+        "IU7/09_event/Ancient.mw.md",
+        "IU7/09_event/IU7.mw.mw.md",
+        "IU7/09_event/Operation.md",
+        "IU7/09_event/人魚公主綁架事件.md",
+        "IU7/09_event/南太平洋王國滅國.md",
+        "IU7/09_event/南極化石再現事件.md",
+        "IU7/09_event/南極考察造假案.md",
+        "IU7/09_event/印度洋王國滅國.md",
+        "IU7/09_event/埃爾確解封.md",
+        "IU7/09_event/太平洋郵輪沉沒事件.md",
+        "IU7/09_event/張睿被殺案.md",
+        "IU7/09_event/曙光社盜竊縱火案.md",
+        "IU7/09_event/最後的戰爭.md",
+        "IU7/09_event/海都事件.md",
+        "IU7/09_event/葉家毒藥外流.md",
+        "IU7/09_event/雷丁家族綁架事件.md",
+        "IU7/09_event/鳥人種族保存計劃.md"
+      ]
+    },
+    {
+      "file": "IU7_10_legend.md",
+      "kind": "category_bundle",
+      "note_count": 2,
+      "characters": 1216,
+      "sources": [
+        "IU7/10_legend/引導未來之光.md",
+        "IU7/10_legend/愚昧的災難.md"
+      ]
+    },
+    {
+      "file": "IU7_11_faction.md",
+      "kind": "category_bundle",
+      "note_count": 6,
+      "characters": 1337,
+      "sources": [
+        "IU7/11_faction/人魚王國.md",
+        "IU7/11_faction/保守派.md",
+        "IU7/11_faction/北部集團.md",
+        "IU7/11_faction/南部集團.md",
+        "IU7/11_faction/改革派.md",
+        "IU7/11_faction/米迦勒派系.md"
+      ]
+    },
+    {
+      "file": "root.md",
+      "kind": "category_bundle",
+      "note_count": 1,
+      "characters": 5446,
+      "sources": [
+        "世界觀.md"
+      ]
+    }
+  ]
+}

@@ -89,6 +89,21 @@ With Qdrant and Ollama running:
 .\.venv\Scripts\python.exe -m app.indexer
 ```
 
+The default command is incremental. It hashes the Markdown sources and only
+chunks, embeds, and replaces new or changed notes; removed notes are deleted
+from Qdrant. The first run after enabling incremental indexing performs one
+complete rebuild and writes a per-collection manifest under
+`qdrant_storage/`.
+
+Force a complete rebuild when required:
+
+```powershell
+.\.venv\Scripts\python.exe -m app.indexer --full
+```
+
+After indexing changes, restart the MCP server so its in-memory document graph
+and lexical entity index reflect the updated notes.
+
 Confirm the collection exists:
 
 ```powershell
@@ -150,12 +165,16 @@ The search returns `scope_used` together with each result's source path. Use
 The index stores the category derived from the numbered setting folder and
 selected frontmatter fields (`type`, `importance`, `entity_type`, `alive`,
 `ranger`, `military`, `process_srune`, and event relation fields) together with
-aliases and wikilinks in each chunk payload. Rebuild the index after changing
-this metadata schema.
+aliases and wikilinks in each chunk payload. Increment the index schema version
+and run a full rebuild after changing this metadata schema.
 
-The indexer uses heading/content-based deterministic chunk IDs. A complete
-index run deletes stale chunks for removed or shortened documents. Limited
-smoke-test runs do not perform stale deletion.
+The indexer keeps a normalized note at or below `max_tokens * 4` characters as
+one chunk, even when it contains several headings. Longer notes are split on
+heading boundaries; overlap is used only when an individual section exceeds
+the same limit. Chunk IDs remain deterministic. Incremental runs delete old
+chunks for each changed source before inserting its replacement, and delete
+sources removed from the vault. Limited smoke-test runs do not update the
+manifest or delete unrelated sources.
 
 `retrieve_evidence` treats exact title/alias/entity matches and top semantic
 hits as primary sources, expands one hop through the source graph, reranks and
@@ -197,7 +216,7 @@ Expected: `fake_embed_ok`, indexed chunks > 0, and search hits.
 Run the deterministic cross-source retrieval evaluation:
 
 ```powershell
-.\.venv\Scripts\python.exe -m pytest -q test_query_routing.py test_editor_evaluation.py test_retrieval_evaluation.py
+.\.venv\Scripts\python.exe -m pytest -q test_chunker.py test_indexer_incremental.py test_query_routing.py test_editor_evaluation.py test_retrieval_evaluation.py
 ```
 
 The evaluation includes role/world-setting, event sequence, organization,
