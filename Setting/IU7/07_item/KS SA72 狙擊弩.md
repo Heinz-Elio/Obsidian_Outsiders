@@ -7,6 +7,7 @@ new: true
 
 ---
 # KS SA72 狙擊弩
+
 KS SA72 Sniper Crossbow
 
 ---

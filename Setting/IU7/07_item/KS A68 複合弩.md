@@ -7,6 +7,7 @@ new: true
 
 ---
 # KS A68 複合弩
+
 KS A68 Compoud Crossbow
 
 ---
@@ -15,4 +16,5 @@ KS A68 Compoud Crossbow
 
 ---
 ## 簡介
+
 由狩獵用的弩改裝而成，重3.4公斤，弩箭有效射程100-200米，具備機械瞄具與可拆卸的光學瞄具。

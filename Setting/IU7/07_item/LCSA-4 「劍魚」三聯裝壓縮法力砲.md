@@ -6,6 +6,7 @@ subtype: weapon
 new: true
 ---
 # LCSA-4 「劍魚」三聯裝壓縮法力砲
+
 LCSA-4 “Swordfish” Low Compression Sruna Artillery
 
 ---
@@ -14,4 +15,5 @@ LCSA-4 “Swordfish” Low Compression Sruna Artillery
 
 ---
 ## 簡介
+
 模仿艦炮設計，利用低壓縮法力發射導引魚雷，射速中等，射程10-100公里。

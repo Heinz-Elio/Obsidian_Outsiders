@@ -7,6 +7,7 @@ new: true
 
 ---
 # KS A82 超輕法術弩
+
 KS A82 Ultra Light Compound Crossbow
 
 ---
@@ -15,4 +16,5 @@ KS A82 Ultra Light Compound Crossbow
 
 ---
 ## 簡介
+
 尺寸與衝鋒槍接近的輕型法術弩。弩身大量採用聚合物，射程80-100米。
