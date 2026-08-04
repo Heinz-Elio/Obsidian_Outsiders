@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-03T12:24:27",
+  "generated": "2026-08-04T17:56:37",
   "source_limit": 50,
   "long_note_chars": 10000,
   "output_count": 18,
@@ -17,7 +17,7 @@
       "file": "IU0_01_character.md",
       "kind": "category_bundle",
       "note_count": 11,
-      "characters": 989,
+      "characters": 992,
       "sources": [
         "IU0/01_character/亞斯蘭．察拉.md",
         "IU0/01_character/基亞蘭．康沃爾.md",
@@ -36,7 +36,7 @@
       "file": "IU0_03_species.md",
       "kind": "category_bundle",
       "note_count": 2,
-      "characters": 568,
+      "characters": 569,
       "sources": [
         "IU0/03_species/新人類.md",
         "IU0/03_species/藍圖.md"
@@ -46,7 +46,7 @@
       "file": "IU0_08_organization.md",
       "kind": "category_bundle",
       "note_count": 3,
-      "characters": 6396,
+      "characters": 6435,
       "sources": [
         "IU0/08_organization/學院登記游離者管理局所屬執法部隊游騎士.md",
         "IU0/08_organization/終端機.md",
@@ -57,7 +57,7 @@
       "file": "IU7.md",
       "kind": "category_bundle",
       "note_count": 2,
-      "characters": 4308,
+      "characters": 4312,
       "sources": [
         "IU7/IU7法術.md",
         "IU7/先天性法力系統過激.md"
@@ -67,7 +67,7 @@
       "file": "IU7_01_character.md",
       "kind": "category_bundle",
       "note_count": 75,
-      "characters": 83188,
+      "characters": 83815,
       "sources": [
         "IU7/01_character/117.md",
         "IU7/01_character/Doktorvater.md",
@@ -150,7 +150,7 @@
       "file": "IU7_01_character_main.md",
       "kind": "category_bundle",
       "note_count": 4,
-      "characters": 29387,
+      "characters": 29511,
       "sources": [
         "IU7/01_character/main/可伶．戈蒂埃.md",
         "IU7/01_character/main/李察．蘇利文.md",
@@ -162,7 +162,7 @@
       "file": "IU7_02_location.md",
       "kind": "category_bundle",
       "note_count": 10,
-      "characters": 2660,
+      "characters": 2661,
       "sources": [
         "IU7/02_location/北冰洋王國王城.md",
         "IU7/02_location/北大西洋王國王城.md",
@@ -180,7 +180,7 @@
       "file": "IU7_03_species.md",
       "kind": "category_bundle",
       "note_count": 6,
-      "characters": 4791,
+      "characters": 4813,
       "sources": [
         "IU7/03_species/人魚.md",
         "IU7/03_species/彭達拉薩人.md",
@@ -203,7 +203,7 @@
       "file": "IU7_05_srune.md",
       "kind": "category_bundle",
       "note_count": 6,
-      "characters": 7254,
+      "characters": 7288,
       "sources": [
         "IU7/05_srune/三相防禦.md",
         "IU7/05_srune/原初大法術．星降神臨.md",
@@ -217,7 +217,7 @@
       "file": "IU7_06_technology.md",
       "kind": "category_bundle",
       "note_count": 1,
-      "characters": 183,
+      "characters": 186,
       "sources": [
         "IU7/06_technology/去特徵化.md"
       ]
@@ -226,7 +226,7 @@
       "file": "IU7_07_item.md",
       "kind": "category_bundle",
       "note_count": 37,
-      "characters": 13404,
+      "characters": 13458,
       "sources": [
         "IU7/07_item/60毫米蝕刻彈.md",
         "IU7/07_item/A-11D干擾弩箭.md",
@@ -271,7 +271,7 @@
       "file": "IU7_08_organization.md",
       "kind": "category_bundle",
       "note_count": 24,
-      "characters": 12282,
+      "characters": 12346,
       "sources": [
         "IU7/08_organization/Invisible Link.md",
         "IU7/08_organization/SWI調查事務所.md",
@@ -303,7 +303,7 @@
       "file": "IU7_09_event.md",
       "kind": "category_bundle",
       "note_count": 17,
-      "characters": 8969,
+      "characters": 9012,
       "sources": [
         "IU7/09_event/Ancient.mw.md",
         "IU7/09_event/IU7.mw.mw.md",
@@ -328,7 +328,7 @@
       "file": "IU7_10_legend.md",
       "kind": "category_bundle",
       "note_count": 2,
-      "characters": 1216,
+      "characters": 1220,
       "sources": [
         "IU7/10_legend/引導未來之光.md",
         "IU7/10_legend/愚昧的災難.md"
@@ -338,7 +338,7 @@
       "file": "IU7_11_faction.md",
       "kind": "category_bundle",
       "note_count": 6,
-      "characters": 1337,
+      "characters": 1342,
       "sources": [
         "IU7/11_faction/人魚王國.md",
         "IU7/11_faction/保守派.md",
@@ -352,7 +352,7 @@
       "file": "root.md",
       "kind": "category_bundle",
       "note_count": 1,
-      "characters": 5446,
+      "characters": 5550,
       "sources": [
         "世界觀.md"
       ]

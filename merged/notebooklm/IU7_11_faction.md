@@ -16,6 +16,7 @@ Mermaid Kingdom Faction
 	- 北太平洋王國
 	- 北冰洋王國
 #### 簡介
+
 分散在海洋各處的人魚王國組成的集團，各王國的大長老會定期透過大長老會議商討牽涉各國的重要事項。
 
 ---
@@ -43,6 +44,7 @@ Meta: type=faction; id=org_the north group; name_en=The North Group
 The North Group
 
 #### 簡介
+
 指地理上處於北半球的人魚王國：北冰洋王國、北太平洋王國、北大西洋王國。
 
 ---
@@ -54,6 +56,7 @@ Meta: type=faction; id=org_the south group; name_en=The South Group
 The South Group
 
 #### 簡介
+
 指地理上處於南半球的人魚王國：南冰洋王國、印度洋王國、南太平洋王國、南大西洋王國。
 
 ---
@@ -73,6 +76,7 @@ Reform Faction
 - 中立: [[]]
 
 #### 簡介
+
 銳意破除星降神臨的人魚派系，尋求脫離七國集團自立。
 
 ---
@@ -91,4 +95,5 @@ Michael' s Faction
 - 阿拉拉
 
 #### 簡介
+
 意圖綁架人魚公主、奪取她們力量的神秘勢力，自稱為「」而戰。

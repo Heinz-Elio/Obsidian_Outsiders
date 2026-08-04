@@ -25,10 +25,13 @@ Source: IU0/01_character/橘婆婆.md
 Meta: type=character; id=grandma_001; name_en=Grandma Tangerine; entity_type=outsider
 
 たちばなばあちゃん | Grandma Tangerine
+
 #### 簡介
+
 收養李察．蘇利文的老人，將李察視作親孫子。於學院附近居住，在一條小巷裡經營拉麵店、生果及果汁店。實際上是阿克塞．施威格的第三位學生，Invisible Link的幕後負責人，製作相對合理存在的專家。知曉清道夫的存在，為了保障游離者群體的存續而創立了Invisible Link，並透過分身跨時空維持組織的營運。
 
 #### 相對合理存在
+
 名字: |
 出生: 年月日 |
 #### 修正力術式

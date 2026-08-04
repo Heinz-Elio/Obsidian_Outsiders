@@ -105,6 +105,7 @@ Meta: type=location; id=loc_substrate spring_1; name_en=Substrate Spring; subtyp
 Substrate Spring
 
 #### 簡介
+
 基質大量湧出的區域，通常位於海床。人魚王國中心的誓約之泉即是主要的基質噴發點，此外在馬里亞納海溝等深海也有基質噴發點。
 
 ---
