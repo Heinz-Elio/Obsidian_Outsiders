@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Story/reference/二創方向.md",
+                "file": "Story/draft/draft_09_in_her_dream.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "二創方向"
+              "title": "draft_09_in_her_dream"
             }
           }
         ],
@@ -42,7 +42,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "檔案瀏覽器"
@@ -255,13 +257,20 @@
   },
   "active": "99e117a7283726d5",
   "lastOpenFiles": [
-    "Story/The Outsiders [Vol. Stargazer].md",
+    "Story/draft/draft_10_fop.md",
+    "Story/draft/draft_21_heinz.md",
+    "Story/draft/draft_09_in_her_dream.md",
     "Story/reference/二創方向.md",
+    "Story/draft/draft_07_castle_of_glass.md",
+    "Story/draft/draft_08_breakpoint.md",
+    "Story/draft/draft_other.md",
+    "Setting/IU7/09_event/IU7.mw.mw.mw",
+    "Setting/IU7/IU7法術.md",
     "Story/reference/真珠美人魚設定整理.md",
+    "Story/The Outsiders [Vol. Stargazer].md",
     "Setting/世界觀.md",
     "Setting/IU7/09_event/Operation.mw",
     "Setting/IU7/09_event/Operation.md",
-    "Setting/IU7/09_event/IU7.mw.mw.mw",
     "Setting/IU7/09_event/IU7.mw.mw.md",
     "Setting/IU7/09_event/Ancient.mw.mw",
     "Story/draft/01_siskin.md",
@@ -278,16 +287,9 @@
     "merged/notebooklm/IU7_03_species.md",
     "merged/notebooklm/IU7_02_location.md",
     "merged/notebooklm/IU7_01_character_main.md",
-    "merged/notebooklm/IU7_01_character.md",
-    "merged/notebooklm/IU7.md",
-    "merged/notebooklm/IU0_08_organization.md",
-    "merged/notebooklm/IU0_03_species.md",
-    "merged/notebooklm/IU0_01_character.md",
-    "merged/notebooklm/IU0.md",
     "merged/notebooklm",
     "app/manifest.py",
     "Story/reference",
-    "Setting/IU7/先天性法力系統過激.md",
     "HackMD",
     "__pycache__/format_converter.cpython-312.pyc",
     "Setting/IU7/01_character/main",
