@@ -57,6 +57,10 @@ def _metadata(raw: dict) -> dict:
         "location",
         "timeline",
         "sub_type",
+        "source_file",
+        "source_sheet",
+        "operation",
+        "generated",
     }
     return {key: value for key, value in raw.items() if key in allowed}
 

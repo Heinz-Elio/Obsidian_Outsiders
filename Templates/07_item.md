@@ -20,6 +20,7 @@ new: <% data.isNew %>
 
 ---
 # 
+
 <% data.name_en %>
 
 ---
@@ -30,3 +31,4 @@ new: <% data.isNew %>
 
 ---
 ## 簡介
+

@@ -16,6 +16,19 @@ from app.manifest import (
     source_hash,
 )
 from app.store import VectorStore
+from convert_outline_workbook import convert_workbook, write_documents
+
+
+def _refresh_outline_sources(vault: Path) -> None:
+    source = vault / "大綱及行動.xlsx"
+    if not source.exists():
+        return
+
+    output = vault / "00_大綱索引"
+    documents = convert_workbook(source)
+    unchanged = write_documents(documents, output)
+    status = "unchanged" if unchanged else "updated"
+    print(f"{status} generated outline sources={len(documents)}")
 
 
 def _upsert_chunks(store, embedder, chunks) -> None:
@@ -32,6 +45,7 @@ def build_index(
     full: bool = False,
 ) -> tuple[int, int]:
     config = load_config(config_path)
+    _refresh_outline_sources(config.vault.path)
     paths = list(source_paths(config.vault.path))
     if limit_documents is not None:
         paths = paths[: max(0, limit_documents)]

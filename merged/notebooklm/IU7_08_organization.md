@@ -178,10 +178,10 @@ KNPA Denfense Force
 ##### 輕武器
 
 - M1晶核軍刀
-- M2法力弩
-- M3狙擊用法力弩
-- M5法力步槍
-	- M5A1法力狙擊步槍
+- M2 法力弩
+- M3 狙擊用法力弩
+- M5 法力步槍
+	- M5A1 法力狙擊步槍
 ##### 重武器
 
 - M4A 60毫米壓縮法力砲
@@ -361,7 +361,7 @@ Mirai Ocean Technology
 
 ## 深海之星
 Source: IU7/08_organization/深海之星.md
-Meta: type=organization; id=org_sidus maris profundi; name_en=Sidus Maris Profundi; subtype=reseach
+Meta: type=organization; id=org_sidus maris profundi; name_en=Sidus Maris Profundi; subtype=research
 
 Sidus Maris Profundi
 
@@ -438,7 +438,7 @@ Lumiere
 
 ## 遠古生物及文明研究所
 Source: IU7/08_organization/遠古生物及文明研究所.md
-Meta: type=organization; id=org_acient organisms and civialization research insitititue; name_en=Acient Organisms and Civialization Research Insitititue; subtype=reseach
+Meta: type=organization; id=org_acient organisms and civialization research insitititue; name_en=Acient Organisms and Civialization Research Insitititue; subtype=research
 
 Acient Organisms and Civialization Research Insitititue
 

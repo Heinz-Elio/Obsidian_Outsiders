@@ -32,5 +32,6 @@ next:
 
 ---
 # <% data.title %>
+
 ---
-description
+

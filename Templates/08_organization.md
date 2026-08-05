@@ -5,8 +5,8 @@ data.name_en = await tp.system.prompt("name") || "Unknown";
 data.id = `org_${data.name_en.toLowerCase()}`
 
 data.subtype = await tp.system.suggester(
-  ["kingdom", "political", "military", "business", "reseach"],
-  ["kingdom", "political", "military", "business", "reseach"]
+  ["kingdom", "political", "military", "business", "research"],
+  ["kingdom", "political", "military", "business", "research"]
 );
 -%>
 ---
@@ -17,6 +17,7 @@ subtype: <% data.subtype %>
 
 ---
 # 
+
 <% data.name_en %>
 
 ---
@@ -36,9 +37,14 @@ subtype: <% data.subtype %>
 <%* if (data.subtype === "military") { -%>
 ## 編制
 
+
 ### 階級
+
+
 ## 裝備
 
+
 ## 載具
+
 
 <%* } -%>

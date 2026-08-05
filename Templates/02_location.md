@@ -25,6 +25,7 @@ ruin: <% data.isRuin %>
 
 ---
 # 
+
 <% data.name_en %>
 
 ---

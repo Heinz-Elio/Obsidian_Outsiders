@@ -40,10 +40,14 @@ process_srune: <% data.isSrune %>
 
 ---
 # 
+
  | <% data.name_en %>
+ 
 ## 無
+
 ---
 ## 基本資訊
+
 種族: 
 國籍: 
 <%* if (data.importance !== "normal") { -%>
@@ -58,10 +62,12 @@ process_srune: <% data.isSrune %>
 
 ---
 ## 相對合理存在
+
 名字: |
 出生: 年月日 | 
 國籍: 
 身份: 
+
 ### 簡介
 
 <%* } -%>
@@ -69,9 +75,11 @@ process_srune: <% data.isSrune %>
 
 ---
 ## 藍圖
+
 所屬藍圖: 
 代號: 
 身份: 
+
 ### 簡介
 
 <%* } -%>
@@ -79,6 +87,7 @@ process_srune: <% data.isSrune %>
 
 ---
 ## 游騎士檔案
+
 編號: R
 職級: 等級
 單位:
@@ -88,6 +97,7 @@ process_srune: <% data.isSrune %>
 
 ---
 ## 軍事檔案
+
 所屬: 
 職級: 
 單位: 
@@ -96,32 +106,42 @@ process_srune: <% data.isSrune %>
 
 ---
 ## 關係
+
+
 - [[]] #
 ---
 <%* if (data.importance !== "main") { -%>
 ## 簡介
+
 
 <%* } else { -%>
 ## 外貌
 
 ## 性格
 
+
 ## 習慣與喜好
+
 
 ---
 ## 經歷
+
 ### 童年
 
+
 ### 青年
+
 
 <%* } -%>
 <%* if (data.entity_type === "outsider") { -%>
 
 ---
 ## 修正力結構
+
 能力名稱:
 散逸類別:
 特性:
+
 ## 修正力術式
 
 |     |     |
@@ -132,7 +152,10 @@ process_srune: <% data.isSrune %>
 
 ---
 ## 戰鬥
+
 ### 風格
+
+
 
 ### 裝備
 
@@ -147,10 +170,12 @@ process_srune: <% data.isSrune %>
 
 ---
 ## 法術
+
 - [[]]
 <%* } -%>
 <%* } -%>
 
 ---
 ## 事件
+
 - [[ ]]

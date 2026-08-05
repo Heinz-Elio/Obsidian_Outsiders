@@ -2,7 +2,7 @@
 
 ## 去特徵化
 Source: IU7/06_technology/去特徵化.md
-Meta: type=item; id=item_defeaturing; name_en=Defeaturing
+Meta: type=technology; id=technology_defeaturing; name_en=Defeaturing
 
 Defeaturing
 

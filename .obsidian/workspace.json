@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "da93c95e57bd7d6a",
+        "id": "5dd4556728ff3611",
         "type": "tabs",
         "children": [
           {
-            "id": "99e117a7283726d5",
+            "id": "101be857d28bcb2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Story/draft/draft_09_in_her_dream.md",
+                "file": "Story/draft/draft_01_siskin.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "draft_09_in_her_dream"
+              "title": "draft_01_siskin"
             }
           }
         ],
@@ -47,7 +47,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "檔案瀏覽器"
+              "title": "Files"
             }
           },
           {
@@ -64,7 +64,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "搜尋"
+              "title": "Search"
             }
           },
           {
@@ -217,19 +217,9 @@
               "icon": "lucide-ghost",
               "title": "smart-lookup-view-connections"
             }
-          },
-          {
-            "id": "9c3e8c8d35896c8f",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
-            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -238,14 +228,14 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:開啟快速切換": false,
-      "graph:查看關聯圖": false,
-      "canvas:建立新畫布": false,
-      "daily-notes:開啟今天的每日筆記": false,
-      "templates:插入模板": false,
-      "command-palette:開啟命令面板": false,
-      "bases:建立新的 base": false,
-      "obsidian-excalidraw-plugin:新建繪圖檔案": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "markwhen:Create new Markwhen file": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Toggle Footer Connections": false,
@@ -255,44 +245,44 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "99e117a7283726d5",
+  "active": "101be857d28bcb2d",
   "lastOpenFiles": [
-    "Story/draft/draft_10_fop.md",
-    "Story/draft/draft_21_heinz.md",
-    "Story/draft/draft_09_in_her_dream.md",
-    "Story/reference/二創方向.md",
-    "Story/draft/draft_07_castle_of_glass.md",
-    "Story/draft/draft_08_breakpoint.md",
-    "Story/draft/draft_other.md",
+    "Setting/IU7/00_大綱索引/15_operation_02.md",
+    "Setting/IU7/00_大綱索引/16_action_expenses.md",
+    "Setting/IU7/00_大綱索引/14_operation_01.md",
+    "Setting/IU7/00_大綱索引/13_water_demon_actions.md",
+    "Setting/IU7/00_大綱索引/12_transformation_kpi.md",
+    "Setting/IU7/00_大綱索引/11_outline_final_operation_retourner_les_etoiles.md",
+    "Setting/IU7/00_大綱索引/10_outline_song_iii.md",
+    "Setting/IU7/00_大綱索引/09_outline_fuse_into_the_shadow.md",
+    "Setting/IU7/00_大綱索引/08_outline_operation_capture_the_flag.md",
+    "Setting/IU7/00_大綱索引/07_outline_castle_of_glass.md",
+    "Setting/IU7/00_大綱索引/06_outline_operation_trailblazer.md",
+    "Setting/IU7/00_大綱索引/05_outline_night_fall.md",
+    "Setting/IU7/00_大綱索引/04_outline_deep_blue.md",
+    "Setting/IU7/00_大綱索引/03_outline_operation_stargazer.md",
+    "Setting/IU7/00_大綱索引/02_outline_operation_siskin.md",
+    "Setting/IU7/00_大綱索引/01_outline_unassigned.md",
+    "Setting/IU7/00_大綱索引",
+    "Setting/00_大綱索引/16_action_expenses.md",
+    "Setting/00_大綱索引/15_operation_02.md",
+    "Setting/00_大綱索引/14_operation_01.md",
+    "Setting/00_大綱索引/13_water_demon_actions.md",
+    "Setting/00_大綱索引/12_transformation_kpi.md",
+    "Setting/00_大綱索引/15_action_expenses.md",
+    "Setting/00_大綱索引/14_operation_02.md",
+    "Setting/00_大綱索引/13_operation_01.md",
+    "Setting/00_大綱索引/12_water_demon_actions.md",
+    "Setting/00_大綱索引/11_outline_final_operation_retourner_les_etoiles.md",
+    "Setting/00_大綱索引",
+    "__pycache__/convert_outline_workbook.cpython-311.pyc",
+    "__pycache__/test_convert_outline_workbook.cpython-311-pytest-9.1.1.pyc",
+    "test_convert_outline_workbook.py",
+    "convert_outline_workbook.py",
+    "Setting/大綱及行動.xlsx",
+    "Setting/IU0/07_item",
+    "Setting/IU0/06_technology",
     "Setting/IU7/09_event/IU7.mw.mw.mw",
-    "Setting/IU7/IU7法術.md",
-    "Story/reference/真珠美人魚設定整理.md",
-    "Story/The Outsiders [Vol. Stargazer].md",
-    "Setting/世界觀.md",
-    "Setting/IU7/09_event/Operation.mw",
-    "Setting/IU7/09_event/Operation.md",
-    "Setting/IU7/09_event/IU7.mw.mw.md",
-    "Setting/IU7/09_event/Ancient.mw.mw",
-    "Story/draft/01_siskin.md",
-    "merged/notebooklm/root.md",
-    "merged/notebooklm/manifest.json",
-    "merged/notebooklm/IU7_10_legend.md",
-    "merged/notebooklm/IU7_11_faction.md",
-    "merged/notebooklm/IU7_08_organization.md",
-    "merged/notebooklm/IU7_09_event.md",
-    "merged/notebooklm/IU7_06_technology.md",
-    "merged/notebooklm/IU7_07_item.md",
-    "merged/notebooklm/IU7_05_srune.md",
-    "merged/notebooklm/IU7_04_language.md",
-    "merged/notebooklm/IU7_03_species.md",
-    "merged/notebooklm/IU7_02_location.md",
-    "merged/notebooklm/IU7_01_character_main.md",
-    "merged/notebooklm",
-    "app/manifest.py",
-    "Story/reference",
-    "HackMD",
-    "__pycache__/format_converter.cpython-312.pyc",
-    "Setting/IU7/01_character/main",
     "線索-Clues and Investigation.drawio.svg",
     "Excalidraw/Scripts/Downloaded/Mindmap Builder.svg",
     "Excalidraw/Scripts/Downloaded/Uniform size.svg",

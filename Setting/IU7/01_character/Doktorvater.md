@@ -19,7 +19,7 @@ process_srune: false
 ---
 ## 基本資訊
 
-下屬: Master
+實例: [[孫天烺|Master]]
 
 ---
 ## 關係

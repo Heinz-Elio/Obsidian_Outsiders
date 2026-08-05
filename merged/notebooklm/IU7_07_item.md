@@ -222,8 +222,8 @@ Source: IU7/07_item/M1晶核軍刀.md
 
 ---
 
-## M2法力弩
-Source: IU7/07_item/M2法力弩.md
+## M2 法力弩
+Source: IU7/07_item/M2 法力弩.md
 Meta: type=item; id=item_m2 sruna crossbow; name_en=M2 Sruna Crossbow; subtype=weapon; new=True
 
 M2 Srune Crossbow
@@ -236,19 +236,19 @@ M2 Srune Crossbow
 
 #### 改型
 
-- M3狙擊用法力弩
+- M3 狙擊用法力弩
 
 ---
 
-## M3狙擊用法力弩
-Source: IU7/07_item/M3狙擊用法力弩.md
+## M3 狙擊用法力弩
+Source: IU7/07_item/M3 狙擊用法力弩.md
 Meta: type=item; id=item_m3 sniper sruna crossbow; name_en=M3 Sniper Sruna Crossbow; subtype=weapon; new=True
 
 M3 Sniper Srune Crossbow
 
 #### 簡介
 
-M2法力弩的弩機加長型，擁有更大的法力壓縮艙、更長的弩管，配合瞄具能讓使用者攻擊感知範圍外的對象。
+M2 法力弩的弩機加長型，擁有更大的法力壓縮艙、更長的弩管，配合瞄具能讓使用者攻擊感知範圍外的對象。
 
 ---
 
@@ -266,8 +266,26 @@ M4A 60mm Compressed Sruna Launcher
 
 ---
 
-## M5A1法力狙擊步槍
-Source: IU7/07_item/M5A1法力狙擊步槍.md
+## M5 法力步槍
+Source: IU7/07_item/M5 法力步槍.md
+Meta: type=item; id=item_m5 sruna rifle; name_en=M5 Sruna Rifle; subtype=weapon; new=True
+
+M5 Sruna Rifle
+
+發明者: 北太平洋王國
+
+#### 簡介
+
+由於弩匣大且重，弩箭生產成本也不低，因此北太平洋王國技術研究所在完成突擊弩的改良後馬上開始研製海底用突擊步槍及子彈。M5使用與M2 法力弩相同的原理，因應子彈尺寸縮短了長度，但射程、威力不減，攜彈量增加，加上子彈成本更低，因此很快便取代了法力弩。考慮到陸地使用場景，採用了北約口徑設計，能兼容5.56NATO彈藥。
+
+#### 改型
+
+- M5A1 法力狙擊步槍
+
+---
+
+## M5A1 法力狙擊步槍
+Source: IU7/07_item/M5A1 法力狙擊步槍.md
 Meta: type=item; id=item_m5a1 sruna sniper rifle; name_en=M5A1 Sruna Sniper Rifle; subtype=weapon; new=True
 
 M5A1 Sruna Sniper Rifle
@@ -277,24 +295,6 @@ M5A1 Sruna Sniper Rifle
 #### 簡介
 
 換上了法力助推子彈專用的重型機匣，射程更遠。
-
----
-
-## M5法力步槍
-Source: IU7/07_item/M5法力步槍.md
-Meta: type=item; id=item_m5 sruna rifle; name_en=M5 Sruna Rifle; subtype=weapon; new=True
-
-M5 Sruna Rifle
-
-發明者: 北太平洋王國
-
-#### 簡介
-
-由於弩匣大且重，弩箭生產成本也不低，因此北太平洋王國技術研究所在完成突擊弩的改良後馬上開始研製海底用突擊步槍及子彈。M5使用與M2法力弩相同的原理，因應子彈尺寸縮短了長度，但射程、威力不減，攜彈量增加，加上子彈成本更低，因此很快便取代了法力弩。考慮到陸地使用場景，採用了北約口徑設計，能兼容5.56NATO彈藥。
-
-#### 改型
-
-- M5A1法力狙擊步槍
 
 ---
 
@@ -346,7 +346,7 @@ KAO Srune Crossbow
 
 #### 簡介
 
-北冰洋王國自主研發、生產的老式法力弩，使用混合了銅、鐵、矽與艾方的金屬製作弩身。製程較先進，法力轉換效率高於老式法力弩且可連發，是北冰洋王國衛隊近幾百年的制式武器，不過北冰洋王國近年已改為採購北太平洋王國汰換下來的M2法力弩，庫存的老式法力弩一部分被低價賣給商人，只留下幾十把放在倉庫裡作為備用武器。
+北冰洋王國自主研發、生產的老式法力弩，使用混合了銅、鐵、矽與艾方的金屬製作弩身。製程較先進，法力轉換效率高於老式法力弩且可連發，是北冰洋王國衛隊近幾百年的制式武器，不過北冰洋王國近年已改為採購北太平洋王國汰換下來的M2 法力弩，庫存的老式法力弩一部分被低價賣給商人，只留下幾十把放在倉庫裡作為備用武器。
 
 ---
 

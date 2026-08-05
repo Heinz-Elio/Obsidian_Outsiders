@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-04T17:56:37",
+  "generated": "2026-08-05T16:50:23",
   "source_limit": 50,
   "long_note_chars": 10000,
-  "output_count": 18,
+  "output_count": 20,
   "outputs": [
     {
       "file": "IU0.md",
@@ -43,13 +43,45 @@
       ]
     },
     {
+      "file": "IU0_06_technology.md",
+      "kind": "category_bundle",
+      "note_count": 4,
+      "characters": 2780,
+      "sources": [
+        "IU0/06_technology/N系列.md",
+        "IU0/06_technology/光子力場產生器.md",
+        "IU0/06_technology/跨界統合學院統合數據庫.md",
+        "IU0/06_technology/跨界網絡.md"
+      ]
+    },
+    {
+      "file": "IU0_07_item.md",
+      "kind": "category_bundle",
+      "note_count": 11,
+      "characters": 5326,
+      "sources": [
+        "IU0/07_item/AUMF-M40X 空軍准將.md",
+        "IU0/07_item/CRC B-44 光束迴旋鏢.md",
+        "IU0/07_item/CRC S-2 雙向光束軍刀.md",
+        "IU0/07_item/CRC TK-62 「銘刻者」複合對艦刀.md",
+        "IU0/07_item/MMI-GAU71 20mm CIWS.md",
+        "IU0/07_item/MRA AS-12 自動霰彈槍.md",
+        "IU0/07_item/MRA BR-7 「游騎兵」高能光束步槍.md",
+        "IU0/07_item/MRA ER-30 120mm 電磁步槍.md",
+        "IU0/07_item/MRA HEPC-56 高能脈衝砲.md",
+        "IU0/07_item/ZGMF-X19A Re. 新生無限正義.md",
+        "IU0/07_item/ZGMF-X20A Re. 新生突擊自由.md"
+      ]
+    },
+    {
       "file": "IU0_08_organization.md",
       "kind": "category_bundle",
-      "note_count": 3,
-      "characters": 6435,
+      "note_count": 4,
+      "characters": 7071,
       "sources": [
         "IU0/08_organization/學院登記游離者管理局所屬執法部隊游騎士.md",
         "IU0/08_organization/終端機.md",
+        "IU0/08_organization/跨界統合學院.md",
         "IU0/08_organization/雷霆跨界戰術快遞.md"
       ]
     },
@@ -67,7 +99,7 @@
       "file": "IU7_01_character.md",
       "kind": "category_bundle",
       "note_count": 75,
-      "characters": 83815,
+      "characters": 83884,
       "sources": [
         "IU7/01_character/117.md",
         "IU7/01_character/Doktorvater.md",
@@ -180,7 +212,7 @@
       "file": "IU7_03_species.md",
       "kind": "category_bundle",
       "note_count": 6,
-      "characters": 4813,
+      "characters": 4776,
       "sources": [
         "IU7/03_species/人魚.md",
         "IU7/03_species/彭達拉薩人.md",
@@ -217,7 +249,7 @@
       "file": "IU7_06_technology.md",
       "kind": "category_bundle",
       "note_count": 1,
-      "characters": 186,
+      "characters": 198,
       "sources": [
         "IU7/06_technology/去特徵化.md"
       ]
@@ -226,7 +258,7 @@
       "file": "IU7_07_item.md",
       "kind": "category_bundle",
       "note_count": 37,
-      "characters": 13458,
+      "characters": 13471,
       "sources": [
         "IU7/07_item/60毫米蝕刻彈.md",
         "IU7/07_item/A-11D干擾弩箭.md",
@@ -246,11 +278,11 @@
         "IU7/07_item/KS SSG69E 複合狙擊步槍.md",
         "IU7/07_item/LCSA-4 「劍魚」三聯裝壓縮法力砲.md",
         "IU7/07_item/M1晶核軍刀.md",
-        "IU7/07_item/M2法力弩.md",
-        "IU7/07_item/M3狙擊用法力弩.md",
+        "IU7/07_item/M2 法力弩.md",
+        "IU7/07_item/M3 狙擊用法力弩.md",
         "IU7/07_item/M4A 60毫米壓縮法力砲.md",
-        "IU7/07_item/M5A1法力狙擊步槍.md",
-        "IU7/07_item/M5法力步槍.md",
+        "IU7/07_item/M5 法力步槍.md",
+        "IU7/07_item/M5A1 法力狙擊步槍.md",
         "IU7/07_item/PSML-5 「逐火」單兵法力導彈發射器.md",
         "IU7/07_item/便攜法術媒介.md",
         "IU7/07_item/北冰洋法力弩.md",
@@ -271,7 +303,7 @@
       "file": "IU7_08_organization.md",
       "kind": "category_bundle",
       "note_count": 24,
-      "characters": 12346,
+      "characters": 12352,
       "sources": [
         "IU7/08_organization/Invisible Link.md",
         "IU7/08_organization/SWI調查事務所.md",
@@ -303,7 +335,7 @@
       "file": "IU7_09_event.md",
       "kind": "category_bundle",
       "note_count": 17,
-      "characters": 9012,
+      "characters": 10785,
       "sources": [
         "IU7/09_event/Ancient.mw.md",
         "IU7/09_event/IU7.mw.mw.md",

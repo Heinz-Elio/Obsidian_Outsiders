@@ -94,7 +94,7 @@ Lord of the sea
 
 ## 阿奎斯托
 Source: IU7/03_species/阿奎斯托.md
-Meta: type=species; id=species_aquisto; name_en=aquisto; branch=undefined; extinct=undefined
+Meta: type=species; id=species_aquisto; name_en=aquisto
 
 Aquistō
 

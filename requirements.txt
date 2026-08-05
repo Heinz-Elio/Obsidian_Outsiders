@@ -2,4 +2,5 @@ mcp<2
 ollama
 qdrant-client
 PyYAML
+openpyxl
 pytest

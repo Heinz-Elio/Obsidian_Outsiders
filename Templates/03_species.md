@@ -17,6 +17,7 @@ extinct: <% data.isExtinct %>
 
 ---
 # 
+
 <% data.name_en %>
 
 <%* if (data.isBranch)
@@ -33,8 +34,12 @@ extinct: <% data.isExtinct %>
 ---
 ## 簡介
 
+
 ## 特徵
+
 
 ## 政治
 
+
 ## 歷史
+
