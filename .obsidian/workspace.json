@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "5dd4556728ff3611",
+        "id": "476b622ca4e1c6c6",
         "type": "tabs",
         "children": [
           {
-            "id": "101be857d28bcb2d",
+            "id": "f4e934653094b666",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setting/IU7/09_event/南極考察造假案.md",
+                "file": "Story/draft/draft_09_in_her_dream.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "南極考察造假案"
+              "title": "draft_09_in_her_dream"
+            }
+          },
+          {
+            "id": "930dff1286bd63fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Setting/IU0/07_item/CRC TK-62 「銘刻者」複合對艦刀.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CRC TK-62 「銘刻者」複合對艦刀"
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -47,7 +62,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "檔案瀏覽器"
             }
           },
           {
@@ -228,32 +243,41 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "bases:建立新的 base": false,
+      "obsidian-excalidraw-plugin:新建繪圖檔案": false,
       "markwhen:Create new Markwhen file": false,
+      "templater-obsidian:Templater": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Toggle Footer Connections": false,
       "smart-connections:Smart Connections: Open random connection": false,
-      "smart-connections:Smart Lookup: Open lookup view": false,
-      "templater-obsidian:Templater": false,
-      "copilot:Open Copilot Chat": false
+      "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "101be857d28bcb2d",
+  "active": "930dff1286bd63fc",
   "lastOpenFiles": [
+    "Setting/IU0/07_item/CRC B-44 光束迴旋鏢.md",
+    "Setting/IU0/07_item/CRC TK-62 「銘刻者」複合對艦刀.md",
+    "Story/draft/draft_09_in_her_dream.md",
+    "Setting/IU7/07_item/晶核.md",
+    "Story/draft/draft_22_richard.md",
+    "Story/draft/draft_01_siskin.md",
+    "Setting/IU7/IU7法術.md",
+    "Setting/世界觀.md",
+    "Setting/IU7/01_character/main/海因茨．萊文斯基-阿斯哈.md",
+    "Story/draft/draft_01_siskin(1).md",
+    "Setting/IU7/09_event/南極考察造假案.md",
     "Setting/IU7/09_event/南太平洋王國滅國.md",
     "Setting/IU7/09_event/南極化石再現事件.md",
     "Setting/IU7/09_event/Next 計劃.md",
     "Setting/IU7/09_event/人魚公主綁架事件.md",
     "Setting/IU7/09_event/Operation.md",
     "Setting/IU7/09_event/葉家毒藥外流.md",
-    "Story/draft/draft_01_siskin.md",
     "merged/notebooklm/IU7_00_大綱索引.md",
     "merged/notebooklm/00_大綱索引.md",
     "Setting/00_大綱索引/16_action_expenses.md",
@@ -263,17 +287,7 @@
     "Setting/00_大綱索引/12_transformation_kpi.md",
     "Setting/00_大綱索引/11_outline_final_operation_retourner_les_etoiles.md",
     "Setting/00_大綱索引/10_outline_song_iii.md",
-    "Setting/00_大綱索引/08_outline_operation_capture_the_flag.md",
-    "Setting/00_大綱索引/09_outline_fuse_into_the_shadow.md",
-    "Setting/00_大綱索引/07_outline_castle_of_glass.md",
-    "Setting/00_大綱索引/03_outline_operation_stargazer.md",
-    "Setting/00_大綱索引/05_outline_night_fall.md",
-    "Setting/00_大綱索引/06_outline_operation_trailblazer.md",
-    "Setting/00_大綱索引/04_outline_deep_blue.md",
-    "Setting/00_大綱索引/02_outline_operation_siskin.md",
-    "Setting/00_大綱索引/01_outline_unassigned.md",
     "Setting/00_大綱索引",
-    "Setting/IU7/00_大綱索引/15_operation_02.md",
     "Setting/IU7/00_大綱索引",
     "__pycache__/convert_outline_workbook.cpython-311.pyc",
     "__pycache__/test_convert_outline_workbook.cpython-311-pytest-9.1.1.pyc",
