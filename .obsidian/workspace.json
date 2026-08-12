@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Story/draft/draft_07_castle_of_glass.md",
+                "file": "Story/draft/draft_01_siskin.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "draft_07_castle_of_glass"
+              "title": "draft_01_siskin"
             }
           }
         ],
@@ -246,6 +246,15 @@
   },
   "active": "f4e934653094b666",
   "lastOpenFiles": [
+    "Setting/世界觀.md",
+    "Setting/IU7/IU7法術.md",
+    "Story/draft/draft_01_siskin.md",
+    "Story/draft/draft_other.md",
+    "Setting/IU7/00_大綱索引/02_outline_operation_siskin.md",
+    "Setting/IU7/00_大綱索引/01_outline_unassigned.md",
+    "Setting/00_大綱索引/01_outline_unassigned.md",
+    "Setting/IU7/先天性法力系統過激.md",
+    "Story/draft/draft_07_castle_of_glass.md",
     "Story/draft/draft_09_in_her_dream.md",
     "Setting/IU7/01_character/main/海因茨．萊文斯基-阿斯哈.md",
     "Setting/IU0/07_item/CRC TK-62 「銘刻者」複合對艦刀.md",
@@ -253,9 +262,6 @@
     "Setting/IU0/07_item/CRC B-44 光束迴旋鏢.md",
     "Setting/IU7/07_item/晶核.md",
     "Story/draft/draft_22_richard.md",
-    "Story/draft/draft_01_siskin.md",
-    "Setting/IU7/IU7法術.md",
-    "Setting/世界觀.md",
     "Story/draft/draft_01_siskin(1).md",
     "Setting/IU7/09_event/南極考察造假案.md",
     "Setting/IU7/09_event/南太平洋王國滅國.md",
@@ -266,12 +272,6 @@
     "Setting/IU7/09_event/葉家毒藥外流.md",
     "merged/notebooklm/IU7_00_大綱索引.md",
     "merged/notebooklm/00_大綱索引.md",
-    "Setting/00_大綱索引/16_action_expenses.md",
-    "Setting/00_大綱索引/15_operation_02.md",
-    "Setting/00_大綱索引/14_operation_01.md",
-    "Setting/00_大綱索引/13_water_demon_actions.md",
-    "Setting/00_大綱索引/12_transformation_kpi.md",
-    "Setting/00_大綱索引/11_outline_final_operation_retourner_les_etoiles.md",
     "Setting/00_大綱索引",
     "Setting/IU7/00_大綱索引",
     "__pycache__/convert_outline_workbook.cpython-311.pyc",
