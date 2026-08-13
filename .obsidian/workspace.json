@@ -13,12 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Story/draft/draft_01_siskin.md",
+                "file": "Story/draft/draft_07_castle_of_glass.md",
+                "file": "Setting/世界觀.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "draft_01_siskin"
+              "title": "draft_07_castle_of_glass"
+              "title": "世界觀"
             }
           }
         ],
@@ -203,8 +205,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
+              "state": {},
               "state": {
-                "file": "Story/draft/draft_01_siskin.md"
+                "file": "Setting/世界觀.md"
               },
               "icon": "lucide-info",
               "title": "檔案屬性"
@@ -250,7 +253,8 @@
   "lastOpenFiles": [
     "Story/draft/draft_01_siskin.md",
     "Story/draft/draft_09_in_her_dream.md",
-    "Story/draft/draft_01_siskin.md",
+    "Setting/IU7/01_character/main/海因茨．萊文斯基-阿斯哈.md",
+    "Setting/IU0/07_item/CRC TK-62 「銘刻者」複合對艦刀.md",
     "Setting/IU7/07_item/萬用晶核棒.md",
     "Setting/IU7/07_item/M1 晶核軍刀.md",
     "Setting/IU0/07_item/CRC B-44 光束迴旋鏢.md",
