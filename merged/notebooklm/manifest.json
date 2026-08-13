@@ -1,33 +1,9 @@
 {
-  "generated": "2026-08-11T17:59:41",
+  "generated": "2026-08-12T21:30:26",
   "source_limit": 50,
   "long_note_chars": 10000,
-  "output_count": 22,
+  "output_count": 21,
   "outputs": [
-    {
-      "file": "00_大綱索引.md",
-      "kind": "category_bundle",
-      "note_count": 16,
-      "characters": 30386,
-      "sources": [
-        "00_大綱索引/01_outline_unassigned.md",
-        "00_大綱索引/02_outline_operation_siskin.md",
-        "00_大綱索引/03_outline_operation_stargazer.md",
-        "00_大綱索引/04_outline_deep_blue.md",
-        "00_大綱索引/05_outline_night_fall.md",
-        "00_大綱索引/06_outline_operation_trailblazer.md",
-        "00_大綱索引/07_outline_castle_of_glass.md",
-        "00_大綱索引/08_outline_operation_capture_the_flag.md",
-        "00_大綱索引/09_outline_fuse_into_the_shadow.md",
-        "00_大綱索引/10_outline_song_iii.md",
-        "00_大綱索引/11_outline_final_operation_retourner_les_etoiles.md",
-        "00_大綱索引/12_transformation_kpi.md",
-        "00_大綱索引/13_water_demon_actions.md",
-        "00_大綱索引/14_operation_01.md",
-        "00_大綱索引/15_operation_02.md",
-        "00_大綱索引/16_action_expenses.md"
-      ]
-    },
     {
       "file": "IU0.md",
       "kind": "category_bundle",
@@ -113,7 +89,7 @@
       "file": "IU7.md",
       "kind": "category_bundle",
       "note_count": 2,
-      "characters": 4307,
+      "characters": 4266,
       "sources": [
         "IU7/IU7法術.md",
         "IU7/先天性法力系統過激.md"
@@ -433,7 +409,7 @@
       "file": "root.md",
       "kind": "category_bundle",
       "note_count": 1,
-      "characters": 5648,
+      "characters": 5556,
       "sources": [
         "世界觀.md"
       ]
