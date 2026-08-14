@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "draft_01_siskin"
             }
+          },
+          {
+            "id": "d549488c8da3c163",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Story/The Outsiders [Vol. Stargazer].md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The Outsiders [Vol. Stargazer]"
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -216,8 +231,8 @@
             "state": {
               "type": "smart-lookup-view-connections",
               "state": {},
-              "icon": "smart-lookup",
-              "title": "Lookup"
+              "icon": "lucide-ghost",
+              "title": "smart-lookup-view-connections"
             }
           }
         ],
@@ -239,43 +254,42 @@
       "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "markwhen:Create new Markwhen file": false,
+      "templater-obsidian:Templater": false,
+      "smart-connections:Smart Connections: Open random connection": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Toggle Footer Connections": false,
-      "smart-connections:Smart Connections: Open random connection": false,
-      "smart-connections:Smart Lookup: Open lookup view": false,
-      "templater-obsidian:Templater": false,
-      "copilot:Open Copilot Chat": false
+      "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "101be857d28bcb2d",
+  "active": "d549488c8da3c163",
   "lastOpenFiles": [
+    "Story/draft/draft_01_siskin.md",
+    "Story/The Outsiders [Vol. Stargazer].md",
+    "Setting/IU7/01_character/沙羅.md",
+    "Setting/IU7/01_character/波音.md",
+    "Setting/IU7/01_character/洛斯艾古雅.md",
+    "Setting/IU7/01_character/海月太郎.md",
+    "Setting/IU7/01_character/海都.md",
+    "Setting/IU7/01_character/米迦勒.md",
+    "Setting/IU7/01_character/紫.md",
+    "Setting/IU7/01_character/萊恩．科赫.md",
+    "Setting/IU7/01_character/葉蕗.md",
+    "Setting/IU7/01_character/蕭.md",
+    "Setting/IU7/01_character/藍.md",
+    "Setting/IU7/01_character/迪莉亞.md",
+    "Setting/IU7/01_character/達姬.md",
+    "Setting/IU7/01_character/金澤.md",
+    "Setting/IU7/01_character/雪莉.md",
+    "Setting/IU7/09_event/Next 計劃.md",
+    "Setting/IU7/01_character/杜溫.md",
+    "Setting/IU7/01_character/烏蘇拉.md",
     "Story/draft/draft_07_castle_of_glass.md",
     "Story/draft/draft_09_in_her_dream.md",
     "Story/draft/draft_06_night_fall.md",
     "Story/draft/draft_05_op_trailblazer.md",
     "Setting/世界觀.md",
-    "Story/draft/draft_01_siskin.md",
     "Setting/IU7/07_item/萬用晶核棒.md",
-    "Setting/IU7/07_item/M1 晶核軍刀.md",
-    "Setting/IU7/07_item/晶核長槍.md",
-    "Setting/IU7/07_item/晶核.md",
-    "Setting/IU7/IU7法術.md",
     "_tmp_check.txt",
-    "Setting/IU7/07_item/A-11D干擾弩箭.md",
-    "Setting/IU7/07_item/60毫米蝕刻彈.md",
-    "Setting/IU7/07_item/LCSA-4 「劍魚」三聯裝壓縮法力砲.md",
-    "Setting/IU7/07_item/M2 法力弩.md",
-    "Setting/IU7/09_event/南極考察造假案.md",
-    "Setting/IU7/09_event/南太平洋王國滅國.md",
-    "Setting/IU7/09_event/南極化石再現事件.md",
-    "Setting/IU7/09_event/Next 計劃.md",
-    "Setting/IU7/09_event/人魚公主綁架事件.md",
-    "Setting/IU7/09_event/Operation.md",
-    "Setting/IU7/09_event/葉家毒藥外流.md",
-    "merged/notebooklm/IU7_00_大綱索引.md",
-    "merged/notebooklm/00_大綱索引.md",
-    "Setting/00_大綱索引/16_action_expenses.md",
-    "Setting/00_大綱索引/15_operation_02.md",
     "Setting/00_大綱索引",
     "Setting/IU7/00_大綱索引",
     "__pycache__/convert_outline_workbook.cpython-311.pyc",

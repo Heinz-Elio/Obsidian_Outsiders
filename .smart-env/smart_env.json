@@ -16,6 +16,32 @@
     "file_exclusions": "Untitled",
     "folder_exclusions": ""
   },
+  "gitignore_exclusions": [
+    "/.idea\r",
+    "/.obsidian\r",
+    "/.smart-env\r",
+    "/.cursor-usage\r",
+    ".env\r",
+    ".env.*\r",
+    ".venv/\r",
+    "rendered/\r",
+    "qdrant_storage/\r",
+    "__pycache__/\r",
+    "*.py[cod]\r",
+    ".smart-env/event_logs/event_logs.ajson\r",
+    ".smart-env/multi/copilot_copilot-custom-prompts_Clip_YouTube_Transcript_md.ajson\r",
+    ".smart-env/multi/copilot_copilot-custom-prompts_Generate_table_of_contents_md.ajson\r",
+    ".smart-env/multi/Setting_IU7_01_character_奎森_md.ajson\r",
+    ".smart-env/event_logs/event_logs.ajson\r",
+    ".smart-env/multi/copilot_copilot-custom-prompts_Clip_YouTube_Transcript_md.ajson\r",
+    ".smart-env/multi/copilot_copilot-custom-prompts_Generate_table_of_contents_md.ajson\r",
+    ".smart-env/multi/Setting_IU7_01_character_奎森_md.ajson\r",
+    ".smart-env/event_logs/event_logs.ajson\r",
+    ".smart-env/event_logs/event_logs.ajson\r",
+    ".obsidian/workspace.json\r",
+    ".obsidian/plugins/various-complements/histories.json\r"
+  ],
+  "gitignore_exclusions_updated_at": 1786696137170,
   "language": "en",
   "re_import_wait_time": 13,
   "smart_chat_threads": {
@@ -57,7 +83,8 @@
       }
     },
     "expanded_view": false,
-    "footer_connections": true
+    "footer_connections": true,
+    "footer_connections_list_component_key": "connections_list_v3"
   },
   "context_items": {
     "template_preset": "xml_structured",
@@ -74,7 +101,8 @@
   "lookup_lists": {
     "results_collection_key": "smart_blocks",
     "score_algo_key": "similarity",
-    "results_limit": 20
+    "results_limit": 20,
+    "get_results_action_key": "lookup_list_get_results"
   },
   "smart_contexts": {
     "template_preset": "xml_structured",

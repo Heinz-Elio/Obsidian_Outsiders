@@ -18,6 +18,9 @@ __pycache__/
 .smart-env/multi/copilot_copilot-custom-prompts_Generate_table_of_contents_md.ajson
 .smart-env/multi/Setting_IU7_01_character_奎森_md.ajson
 .smart-env/event_logs/event_logs.ajson
-.smart-env/event_logs/event_logs.ajson
 .obsidian/workspace.json
 .obsidian/plugins/various-complements/histories.json
+.obsidian/plugins/copilot/main.js
+.obsidian/plugins/copilot/manifest.json
+.obsidian/plugins/copilot/styles.css
+.vscode/settings.json

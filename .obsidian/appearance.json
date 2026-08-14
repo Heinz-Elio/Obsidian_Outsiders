@@ -4,5 +4,6 @@
   "cssTheme": "PLN",
   "interfaceFontFamily": "Arial",
   "textFontFamily": "Arial",
-  "monospaceFontFamily": "Arial"
+  "monospaceFontFamily": "Arial",
+  "nativeMenus": false
 }
