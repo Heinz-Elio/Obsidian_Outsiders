@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17T00:36:34",
+  "generated": "2026-08-17T21:21:49",
   "source_limit": 50,
   "long_note_chars": 10000,
   "output_count": 21,
@@ -123,7 +123,7 @@
       "file": "IU7_01_character.md",
       "kind": "category_bundle",
       "note_count": 75,
-      "characters": 84081,
+      "characters": 83925,
       "sources": [
         "IU7/01_character/117.md",
         "IU7/01_character/Doktorvater.md",
@@ -217,12 +217,13 @@
     {
       "file": "IU7_02_location.md",
       "kind": "category_bundle",
-      "note_count": 10,
-      "characters": 2661,
+      "note_count": 11,
+      "characters": 3416,
       "sources": [
         "IU7/02_location/北冰洋王國王城.md",
         "IU7/02_location/北大西洋王國王城.md",
         "IU7/02_location/北太平洋王國王城.md",
+        "IU7/02_location/南冰洋王國最高書庫.md",
         "IU7/02_location/南冰洋王國王城.md",
         "IU7/02_location/南大西洋王國王城.md",
         "IU7/02_location/南太平洋王國王城.md",
@@ -273,7 +274,7 @@
       "file": "IU7_06_technology.md",
       "kind": "category_bundle",
       "note_count": 2,
-      "characters": 791,
+      "characters": 800,
       "sources": [
         "IU7/06_technology/去特徵化.md",
         "IU7/06_technology/法力加密通訊協定.md"
@@ -282,8 +283,8 @@
     {
       "file": "IU7_07_item.md",
       "kind": "category_bundle",
-      "note_count": 38,
-      "characters": 14942,
+      "note_count": 40,
+      "characters": 15642,
       "sources": [
         "IU7/07_item/60毫米蝕刻彈.md",
         "IU7/07_item/A-11D 干擾弩箭.md",
@@ -311,10 +312,12 @@
         "IU7/07_item/PSML-5  「逐火」單兵法力導彈發射器.md",
         "IU7/07_item/便攜法術媒介.md",
         "IU7/07_item/北冰洋法力弩.md",
+        "IU7/07_item/可互動紀錄板.md",
         "IU7/07_item/可現場編程法力邏輯陣列.md",
         "IU7/07_item/四軸偵察無人機.md",
         "IU7/07_item/基質能-物質轉換器.md",
         "IU7/07_item/基質能-能量轉換器.md",
+        "IU7/07_item/小型紀錄晶片.md",
         "IU7/07_item/晶核.md",
         "IU7/07_item/晶核長槍.md",
         "IU7/07_item/法力加密戰鬥通訊系統.md",
@@ -361,7 +364,7 @@
       "file": "IU7_09_event.md",
       "kind": "category_bundle",
       "note_count": 19,
-      "characters": 12263,
+      "characters": 12465,
       "sources": [
         "IU7/09_event/Ancient.mw.md",
         "IU7/09_event/IU7.mw.mw.md",

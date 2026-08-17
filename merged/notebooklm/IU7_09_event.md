@@ -88,6 +88,8 @@ Source: IU7/09_event/IU7.mw.mw.md
 Source: IU7/09_event/Next 計劃.md
 Meta: type=event; id=event_plot_Project Next; sub_type=plot; timeline=iu7; involved=克洛德, 崔斯坦．海森堡, 烏蘇拉, 杜溫, 達姬, 七海尼歌娜, 柯蘭尼, 阿拉拉, 孫天烺, 斯普魯恩斯; location=None; prev=None; next=None
 
+克洛德主導的秘密計劃，目的在於破除星降神臨，使北太平洋王國得以脫離七國集團自由發展。計劃代號`Next`意指邁向全新的時代。
+
 ---
 
 ## 第一次營救行動
@@ -105,9 +107,9 @@ Source: IU7/09_event/Operation.md
 
 ---
 
-## Puppet Assault
+## 人偶襲擊
 Source: IU7/09_event/人偶襲擊.md
-Meta: type=event; id=event_plot_Puppet Assault; sub_type=plot; timeline=iu7; involved=諾愛爾．戈蒂埃, 可伶．戈蒂埃, 七海尼歌娜, 伊絲塔．密茨凱維奇, 李察．蘇利文; location=日本; prev=真相揭露; next=None
+Meta: type=event; id=event_plot_人偶襲擊; sub_type=plot; timeline=iu7; involved=諾愛爾．戈蒂埃, 可伶．戈蒂埃, 七海尼歌娜, 伊絲塔．密茨凱維奇, 李察．蘇利文; location=日本; prev=真相揭露; next=None
 
 #### 經過
 
@@ -270,6 +272,7 @@ Meta: type=event; id=event_太平洋郵輪沉沒事件; sub_type=history; timeli
 
 ## 張睿被殺案
 Source: IU7/09_event/張睿被殺案.md
+Meta: type=event; id=event_plot_張睿被殺案; sub_type=plot; timeline=iu7; involved=張睿, 諾愛爾．戈蒂埃, 可伶．戈蒂埃, 海因茨．萊文斯基-阿斯哈, Shadow; location=美國; prev=南極化石再現事件; next=None
 
 ---
 
