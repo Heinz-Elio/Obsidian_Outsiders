@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12T21:30:26",
+  "generated": "2026-08-17T00:36:34",
   "source_limit": 50,
   "long_note_chars": 10000,
   "output_count": 21,
@@ -123,7 +123,7 @@
       "file": "IU7_01_character.md",
       "kind": "category_bundle",
       "note_count": 75,
-      "characters": 83880,
+      "characters": 84081,
       "sources": [
         "IU7/01_character/117.md",
         "IU7/01_character/Doktorvater.md",
@@ -206,7 +206,7 @@
       "file": "IU7_01_character_main.md",
       "kind": "category_bundle",
       "note_count": 4,
-      "characters": 29525,
+      "characters": 29603,
       "sources": [
         "IU7/01_character/main/可伶．戈蒂埃.md",
         "IU7/01_character/main/李察．蘇利文.md",
@@ -272,27 +272,28 @@
     {
       "file": "IU7_06_technology.md",
       "kind": "category_bundle",
-      "note_count": 1,
-      "characters": 198,
+      "note_count": 2,
+      "characters": 791,
       "sources": [
-        "IU7/06_technology/去特徵化.md"
+        "IU7/06_technology/去特徵化.md",
+        "IU7/06_technology/法力加密通訊協定.md"
       ]
     },
     {
       "file": "IU7_07_item.md",
       "kind": "category_bundle",
-      "note_count": 37,
-      "characters": 14421,
+      "note_count": 38,
+      "characters": 14942,
       "sources": [
         "IU7/07_item/60毫米蝕刻彈.md",
-        "IU7/07_item/A-11D干擾弩箭.md",
-        "IU7/07_item/A-11L長程弩箭.md",
-        "IU7/07_item/A-11P穿甲弩箭.md",
+        "IU7/07_item/A-11D 干擾弩箭.md",
+        "IU7/07_item/A-11L 長程弩箭.md",
+        "IU7/07_item/A-11P 穿甲弩箭.md",
         "IU7/07_item/BM-1 5.56毫米水中用子彈.md",
         "IU7/07_item/BM-2 7.62毫米水中用法力助推彈.md",
         "IU7/07_item/BM-3 5.56毫米壓縮法力彈.md",
         "IU7/07_item/CSMG-2 六聯裝壓縮法力機砲.md",
-        "IU7/07_item/CT-1 SMC工程船.md",
+        "IU7/07_item/CT-1 SMC 工程船.md",
         "IU7/07_item/HCSA-1 「守護神」超高壓縮法力砲.md",
         "IU7/07_item/KS A68 複合弩.md",
         "IU7/07_item/KS A82 超輕法術弩.md",
@@ -307,7 +308,7 @@
         "IU7/07_item/M4A 60毫米壓縮法力砲.md",
         "IU7/07_item/M5 法力步槍.md",
         "IU7/07_item/M5A1 法力狙擊步槍.md",
-        "IU7/07_item/PSML-5 「逐火」單兵法力導彈發射器.md",
+        "IU7/07_item/PSML-5  「逐火」單兵法力導彈發射器.md",
         "IU7/07_item/便攜法術媒介.md",
         "IU7/07_item/北冰洋法力弩.md",
         "IU7/07_item/可現場編程法力邏輯陣列.md",
@@ -316,6 +317,7 @@
         "IU7/07_item/基質能-能量轉換器.md",
         "IU7/07_item/晶核.md",
         "IU7/07_item/晶核長槍.md",
+        "IU7/07_item/法力加密戰鬥通訊系統.md",
         "IU7/07_item/紀錄節點.md",
         "IU7/07_item/美人魚占卜卡牌.md",
         "IU7/07_item/艾方合金.md",
@@ -327,7 +329,7 @@
       "file": "IU7_08_organization.md",
       "kind": "category_bundle",
       "note_count": 24,
-      "characters": 12353,
+      "characters": 12371,
       "sources": [
         "IU7/08_organization/Invisible Link.md",
         "IU7/08_organization/SWI調查事務所.md",
@@ -358,13 +360,14 @@
     {
       "file": "IU7_09_event.md",
       "kind": "category_bundle",
-      "note_count": 18,
-      "characters": 11270,
+      "note_count": 19,
+      "characters": 12263,
       "sources": [
         "IU7/09_event/Ancient.mw.md",
         "IU7/09_event/IU7.mw.mw.md",
         "IU7/09_event/Next 計劃.md",
         "IU7/09_event/Operation.md",
+        "IU7/09_event/人偶襲擊.md",
         "IU7/09_event/人魚公主綁架事件.md",
         "IU7/09_event/南太平洋王國滅國.md",
         "IU7/09_event/南極化石再現事件.md",
@@ -409,7 +412,7 @@
       "file": "root.md",
       "kind": "category_bundle",
       "note_count": 1,
-      "characters": 5556,
+      "characters": 5552,
       "sources": [
         "世界觀.md"
       ]

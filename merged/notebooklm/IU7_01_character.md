@@ -60,7 +60,7 @@ Meta: type=character; id=shadow_001; name_en=Shadow; entity_type=outsider; alive
 
 ## 七海尼歌娜
 Source: IU7/01_character/七海尼歌娜.md
-Meta: type=character; id=Nanami Nikola_001; importance=important; name_en=Nanami Nikola; entity_type=normal; alive=True; military=True; have_combat_eq=True; process_srune=True
+Meta: type=character; id=nanami_001; importance=important; name_en=Nanami Nikola; entity_type=normal; alive=True; military=True; have_combat_eq=True; process_srune=True
 
 ななみ　にこら | Nanami Nikola
 
@@ -119,7 +119,7 @@ Meta: type=character; id=Nanami Nikola_001; importance=important; name_en=Nanami
 
 有著優秀的法術才能與感知能力，只是一直按尤莉亞吩咐故意隱藏實力，入隊測試表現在同期生中不算突出（故意考出82分），術士資格試也只考到二級，有一級術士的實力但故意不考一級。
 
-主要負責通訊及火力支援，擁有極其稀有的調頻能力，能同時發射並調控多個法力頻率（一般通訊雙頻，火力支援四頻，極限七頻），切換頻率延遲不超過一秒，且可選頻域極廣，是小隊加密通訊網絡的核心，同時配合強大的感知與法力追蹤能力，還能夠在兩公里外利用導引武器進行精確打擊，為前線提供火力支援。
+主要負責通訊及火力支援，擁有極其稀有的調頻能力，能同時發射並調控多個法力頻率（一般通訊雙頻，火力支援四頻，極限七頻），切換頻率延遲不超過一秒，且可選頻域極廣，是小隊法力加密通訊網絡的核心，同時能夠結合強大的感知與法力追蹤能力，在兩公里外利用導引武器進行精確打擊，為前線提供火力支援。鑑於陸地法力訊號稀少，進行法力通訊會非常顯眼以致極易被追蹤，而且諾愛爾自身也會干擾法力通訊，尼歌娜會使用專門的無線電／法力雙線訊號收發器進行通訊，視情況決定使用訊號類別。
 
 能夠壓縮法力，但要壓縮至與法力步槍同等的水平需要1.4秒，一般情況下使用法力步槍會更穩定迅速。能在運動時保持絕佳的穩定性，相當擅長移動射擊，而且和安漯莉娜一樣能夠雙持，因而被視為安潔莉娜的繼承者，但在作戰方式上尼歌娜其實更偏遠程。格鬥與劍術由尤莉亞親自指導，基礎非常紮實。游速很快，動作靈活，尾巴強而有力，人型態下的踢擊也相當厲害，還能進一步配合強化肌肉的法術提升近戰能力。
 
@@ -154,7 +154,7 @@ Meta: type=character; id=Nanami Nikola_001; importance=important; name_en=Nanami
 
 ## 七海露芝亞
 Source: IU7/01_character/七海露芝亞.md
-Meta: type=character; id=nanami_001; name_en=Nanami Lucia; entity_type=normal; alive=True
+Meta: type=character; id=nanami_002; name_en=Nanami Lucia; entity_type=normal; alive=True
 
 ななみ　るちあ | Nanami Lucia
 
@@ -267,7 +267,7 @@ Ishita Mickiewicz
 
 ## 信使
 Source: IU7/01_character/信使.md
-Meta: type=character; id=char_messenger_001; name_en=Messenger; entity_type=normal; alive=True
+Meta: type=character; id=messenger_001; name_en=Messenger; entity_type=normal; alive=True
 
 Messenger
 
@@ -611,7 +611,7 @@ Sereia Halloran
 國籍: 加拿大
 身高: 公分
 體重: 公斤
-出生日: 年月日 |
+出生日: 年月日 | 北大西洋王國王城
 
 #### 關係
 
@@ -971,7 +971,7 @@ Suen Tin Long
 
 ## 守墓人
 Source: IU7/01_character/守墓人.md
-Meta: type=character; id=char_gravekeeper_001; name_en=Gravekeeper; entity_type=normal
+Meta: type=character; id=gravekeeper_001; name_en=Gravekeeper; entity_type=normal
 
 Gravekeeper
 
@@ -1808,13 +1808,19 @@ Ursula
 - 杜溫 #coop #monitor
 #### 簡介
 
-克洛德的代理人，真名為奧蕾莉亞（Aurelia），「烏蘇拉」是繼承自其母親的身份。前北太平洋王國衛隊機動聯隊小隊長。有著紅棕色短髮，深紫紅色雙眼，臉上有疤痕。小時候與母親遭到追殺，母親為了保護她，將她藏在珊瑚礁中加以偽裝後獨自逃跑，但卻在不遠處被殺。奧蕾莉亞因為太過害怕，在被路過的護衛發現並送往北太平洋王國期間總是躲在衛隊的貨物堆裡。抵達北太平洋王國後，事務官為她安排了臨時住處與照顧者，之後被一名衛隊術士正式收養。因為逃亡的經歷，奧蕾莉亞總是對周圍保持著非常高的警惕心，所以花了相當長一段時間才成功融入環境。受養母影響，長大後打算加入衛隊，但因為不確定自己的才能傾向，所以術士團與騎士團的選拔都參加了，結果同時獲得雙方取錄，成為史上首例。原本打算先加入術士團學習法術，一年後再視情況決定是否申請轉至騎士團，但不久後術士團與騎士團便改組成王國衛隊，奧蕾莉亞主動申請分配到機動聯隊，因為優秀的才能獲得尤莉亞的親自指導，僅花了一年便升任小隊長。與時任機動聯隊副指揮安潔莉娜熟識，還在露芝亞出生時抱過她，因此尼歌娜對她有印象。1989年，有望升任中隊長的奧蕾莉亞因為克洛德從中作梗而在行動中違反規定，事後遭到問責，奧蕾莉亞以此為藉口退出衛隊，離開北太平洋王國開始其傭兵生涯。
+「烏蘇拉」是克洛德代理人的專用代號，現任烏蘇拉的真名為奧蕾莉亞（Aurelia），身份繼承自其母親，為前北太平洋王國衛隊機動聯隊小隊長。有著紅棕色短髮，深紫紅色雙眼，臉上有疤痕。
+
+小時候與母親遭到追殺，母親為了保護她，將她藏在珊瑚礁中加以偽裝後獨自逃跑，但卻在不遠處被殺。奧蕾莉亞因為太過害怕，在被路過的護衛發現並送往北太平洋王國期間總是躲在衛隊的貨物堆裡。抵達北太平洋王國後，事務官為她安排了臨時住處與照顧者，之後被一名衛隊術士正式收養。因為逃亡的經歷，奧蕾莉亞總是對周圍保持著非常高的警惕心，所以花了相當長一段時間才成功融入環境。受養母影響，長大後打算加入衛隊，但因為不確定自己的才能傾向，所以術士團與騎士團的選拔都參加了，結果同時獲得雙方取錄，成為史上首例。原本打算先加入術士團學習法術，一年後再視情況決定是否申請轉至騎士團，但不久後術士團與騎士團便改組成王國衛隊，奧蕾莉亞主動申請分配到機動聯隊，因為優秀的才能獲得尤莉亞的親自指導，僅花了一年便升任小隊長。與時任機動聯隊副指揮安潔莉娜熟識，還在露芝亞出生時抱過她，因此尼歌娜對她有印象。
+
+1989年，有望升任中隊長的奧蕾莉亞因為克洛德從中作梗而在行動中違反規定，事後遭到問責，奧蕾莉亞以此為藉口退出衛隊，離開北太平洋王國開始其傭兵生涯。
 
 與弗拉基米爾合作製造危機迫使人魚公主逃到陸地，不斷派水妖襲擊人魚公主以消耗星降神臨的能量儲備，並暗中截下可伶給康士坦絲的報告，令康士坦絲認為可伶已經脫離其掌控，促使她執行星盡。一直在提防另有所圖的弗拉基米爾，由於杜溫亦不信任弗拉基米爾，因此三人維持著互相制衡的狀態。自知只是克洛德的代行者、替罪羊，但因為心中只有徹底瓦解保守派的願望，無所牽掛，因而甘願聽命於克洛德。
 
 協助終端機綁架星羅，干擾尼歌娜的追蹤。
 
-熟習各種形式的法術。使用名為「邃火」的晶核劍，劍因為打造時加入了鳥蘇拉自身的法力而呈深紅色，劍柄黑色。因為劍身的一部分由法力構成，所以只要灌注法力就能進行自我修復。耐高溫，能夠用作火系法術的施展媒介。使役城中的渡鴉、烏鴉、鴿、日本領角鴞、魚鷹、信天翁等追蹤人魚公主，並適時通知弗拉基米爾人魚公主的動向，通常會挑人魚公主在海邊時通報，使水妖傾向將人魚公主誘至離岸區域。由於其手下所有使魔都分屬不同的群體，因此不易追蹤。
+熟習各種形式的法術。使用名為「邃火」的晶核劍，劍因為打造時加入了鳥蘇拉自身的法力而呈深紅色，劍柄黑色。因為劍身的一部分由法力構成，所以只要灌注法力就能進行自我修復。耐高溫，能夠用作火系法術的施展媒介。
+
+使役城中的渡鴉、烏鴉、鴿、日本領角鴞、魚鷹、信天翁等追蹤人魚公主，並適時通知弗拉基米爾人魚公主的動向，通常會挑人魚公主在海邊時通報，使水妖傾向將人魚公主誘至離岸區域。因為無法建立高功率訊號基站進行數據傳輸，且要避免與達姬的連繫曝光，並未與達姬或使役物建立法力通訊連線進行即時通訊，而是讓使役物分別飛到珍珠比華利與自己的藏身處，直接取下固定在使役物體表的紀錄節點裡的數據盤讀取數據，同時其手下的使役物都分屬不同的群體，因此不易追蹤。
 
 ---
 
@@ -2149,7 +2155,7 @@ Yesenia
 
 ## 葉忍冬
 Source: IU7/01_character/葉忍冬.md
-Meta: type=character; id=yip_001; importance=important; name_en=Yip Yan Dong; entity_type=normal; alive=True; process_srune=True
+Meta: type=character; id=yip_002; importance=important; name_en=Yip Yan Dong; entity_type=normal; alive=True; process_srune=True
 
 Yip Yan Dong
 
@@ -2188,7 +2194,7 @@ Yip Yan Dong
 
 ## 葉老頭
 Source: IU7/01_character/葉老頭.md
-Meta: type=character; id=yip_001; name_en=Yip; entity_type=normal; alive=True; process_srune=True
+Meta: type=character; id=yip_003; name_en=Yip; entity_type=normal; alive=True; process_srune=True
 
 Yip
 

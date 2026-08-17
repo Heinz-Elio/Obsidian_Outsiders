@@ -6,7 +6,7 @@ Source: IU7/07_item/60毫米蝕刻彈.md
 ---
 
 ## A-11P穿甲弩箭
-Source: IU7/07_item/A-11D干擾弩箭.md
+Source: IU7/07_item/A-11D 干擾弩箭.md
 Meta: type=item; id=item_a-11p interfering arrow; name_en=A-11P Interfering Arrow; subtype=weapon; new=True
 
 A-11P Interfering Arrow
@@ -20,7 +20,7 @@ A-11P Interfering Arrow
 ---
 
 ## A-11L長程弩箭
-Source: IU7/07_item/A-11L長程弩箭.md
+Source: IU7/07_item/A-11L 長程弩箭.md
 Meta: type=item; id=item_a-11l long range arrow; name_en=A-11L Long Range Arrow; subtype=weapon; new=True
 
 A-11L Long Range Arrow
@@ -34,7 +34,7 @@ A-11L Long Range Arrow
 ---
 
 ## A-11P穿甲弩箭
-Source: IU7/07_item/A-11P穿甲弩箭.md
+Source: IU7/07_item/A-11P 穿甲弩箭.md
 Meta: type=item; id=item_a-11p armor-piercing arrow; name_en=A-11P Armor-piercing Arrow; subtype=weapon; new=True
 
 A-11P Armor-piercing Arrow
@@ -104,7 +104,7 @@ CSMG-2
 ---
 
 ## CT-1 SMC工程船
-Source: IU7/07_item/CT-1 SMC工程船.md
+Source: IU7/07_item/CT-1 SMC 工程船.md
 Meta: type=item; id=item_ct-1 smc construction boot; name_en=CT-1 SMC Construction Boot; subtype=machine; new=True
 
 CT-1 SMC Construction Boot
@@ -308,7 +308,7 @@ M5A1 Sruna Sniper Rifle
 ---
 
 ## PSML-5 「逐火」單兵法力導彈發射器
-Source: IU7/07_item/PSML-5 「逐火」單兵法力導彈發射器.md
+Source: IU7/07_item/PSML-5  「逐火」單兵法力導彈發射器.md
 Meta: type=item; id=item_psml-5 "fire chasing" portable sruna missile launcher; name_en=PSML-5 "Fire Chasing" Portable Sruna Missile Launcher; subtype=weapon; new=True
 
 PSML-5 "Fire Chasing" Portable Sruna Missile Launcher
@@ -465,6 +465,22 @@ Deepsea Crystal Nucleus Spontoon
 #### 簡介
 
 常見晶核武器，標定晶核壽命視乎型號，激發次數由6000-10000次不等，正常產品會配備機械式通量指示，提醒使用者更換核容。槍柄長約半米，槍尖由位於槍柄內部前端的晶核生成，法力入口並非緊貼晶核，而是位於槍柄中段的握持位置。高級型號會在槍柄末端加設法力容器和基質能-能量轉換器，能夠釋放高壓電、雷射，可用作雷射切割。有專門設計的收納包，可隨身攜帶。雖是武器，但只要改變結晶體形狀就能變成其他工具。
+
+---
+
+## 法力加密戰鬥通訊系統
+Source: IU7/07_item/法力加密戰鬥通訊系統.md
+Meta: type=item; id=item_sruna encrypted combat communication system; name_en=Sruna Encrypted Combat Communication System; subtype=machine; new=True
+
+Sruna Encrypted Combat Communication System
+
+發明者: 北太平洋王國衛隊
+
+#### 簡介
+
+法力加密戰鬥通訊系統（Sruna Encrypted Combat Communication System，SECCS），北太平洋王國衛隊採用的通訊設備系統，包括隊員隨身的小型法力訊號收發終端、通訊員的單兵法力訊號站以及陣地的中型法力訊號基站，使用最高級別加密的SECP傳輸，使衛隊能夠進行即時通訊甚至數位化作戰。
+
+由於海底基質較充沛，法力訊號較混亂，因此保守派並未發現衛隊所使用的通訊系統，但在基質稀薄的陸地，法力訊號會變得非常顯眼，為免系統曝光，衛隊會轉向物理傳輸或線下傳遞。
 
 ---
 
