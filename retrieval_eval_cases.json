@@ -1,10 +1,11 @@
 [
   {
     "name": "karine_cross_source_context",
+    "question_type": "cross_source_comparison",
     "query": "比較可伶．戈蒂埃、人魚、原初大法術．星降神臨與水妖的戰鬥設定",
     "entity": "可伶．戈蒂埃",
     "expected_sources": [
-      "IU7/01_character/可伶．戈蒂埃.md",
+      "IU7/01_character/main/可伶．戈蒂埃.md",
       "IU7/03_species/人魚.md",
       "IU7/05_srune/原初大法術．星降神臨.md",
       "IU7/03_species/水妖.md"
@@ -13,6 +14,7 @@
   },
   {
     "name": "event_sequence",
+    "question_type": "event_sequence",
     "query": "海都事件與埃爾確解封的前後因果",
     "expected_sources": [
       "IU7/09_event/海都事件.md",
@@ -22,6 +24,7 @@
   },
   {
     "name": "organization_relation",
+    "question_type": "organization_relation",
     "query": "北太平洋王國與北太平洋王國衛隊的組織關係",
     "expected_sources": [
       "IU7/08_organization/北太平洋王國.md",
@@ -31,10 +34,101 @@
   },
   {
     "name": "root_world_notes",
+    "question_type": "cross_scope_context",
     "query": "世界觀與先天性法力系統過激的關係",
     "expected_sources": [
       "世界觀.md",
-      "先天性法力系統過激.md"
+      "IU7/先天性法力系統過激.md"
+    ],
+    "minimum_recall": 1.0
+  },
+  {
+    "name": "puppet_attack_character_context",
+    "question_type": "character_event_integration",
+    "query": "人偶襲擊中諾愛爾．戈蒂埃、七海尼歌娜與第三小隊 Lumiere 的行動和關係",
+    "entity": "諾愛爾．戈蒂埃",
+    "expected_sources": [
+      "IU7/09_event/人偶襲擊.md",
+      "IU7/01_character/main/諾愛爾．戈蒂埃.md",
+      "IU7/01_character/七海尼歌娜.md",
+      "IU7/08_organization/第三小隊 Lumiere.md"
+    ],
+    "minimum_recall": 1.0
+  },
+  {
+    "name": "south_pole_event_sequence",
+    "question_type": "historical_event_sequence",
+    "query": "南極考察造假案如何銜接南極化石再現事件",
+    "expected_sources": [
+      "IU7/09_event/南極考察造假案.md",
+      "IU7/09_event/南極化石再現事件.md"
+    ],
+    "minimum_recall": 1.0
+  },
+  {
+    "name": "tactical_communications",
+    "question_type": "character_organization_technology",
+    "query": "七海尼歌娜如何在北太平洋王國衛隊使用法力加密戰鬥通訊系統",
+    "entity": "七海尼歌娜",
+    "expected_sources": [
+      "IU7/01_character/七海尼歌娜.md",
+      "IU7/08_organization/北太平洋王國衛隊.md",
+      "IU7/07_item/法力加密戰鬥通訊系統.md"
+    ],
+    "minimum_recall": 1.0
+  },
+  {
+    "name": "kidnapping_multi_party",
+    "question_type": "multi_party_event",
+    "query": "人魚公主綁架事件中 SWI調查事務所、常藍集團與雷神國際分別扮演甚麼角色",
+    "expected_sources": [
+      "IU7/09_event/人魚公主綁架事件.md",
+      "IU7/08_organization/SWI調查事務所.md",
+      "IU7/08_organization/常藍集團.md",
+      "IU7/08_organization/雷神國際.md"
+    ],
+    "minimum_recall": 1.0
+  },
+  {
+    "name": "noel_equipment_context",
+    "question_type": "character_equipment",
+    "query": "諾愛爾．戈蒂埃為何使用 KS SSG69E 複合狙擊步槍，其戰鬥方式與武器設定如何配合",
+    "entity": "諾愛爾．戈蒂埃",
+    "expected_sources": [
+      "IU7/01_character/main/諾愛爾．戈蒂埃.md",
+      "IU7/07_item/KS SSG69E 複合狙擊步槍.md"
+    ],
+    "minimum_recall": 1.0
+  },
+  {
+    "name": "species_medical_context",
+    "question_type": "species_condition_integration",
+    "query": "比較阿奎斯托、彭達拉薩人與先天性法力系統過激的生理設定",
+    "expected_sources": [
+      "IU7/03_species/阿奎斯托.md",
+      "IU7/03_species/彭達拉薩人.md",
+      "IU7/先天性法力系統過激.md"
+    ],
+    "minimum_recall": 1.0
+  },
+  {
+    "name": "kingdom_location_context",
+    "question_type": "organization_location",
+    "query": "南冰洋王國與南冰洋王國最高書庫的關係及書庫功能",
+    "expected_sources": [
+      "IU7/08_organization/南冰洋王國.md",
+      "IU7/02_location/南冰洋王國最高書庫.md"
+    ],
+    "minimum_recall": 1.0
+  },
+  {
+    "name": "lumiere_command_structure",
+    "question_type": "organization_chain",
+    "query": "第三小隊 Lumiere、龍騎兵與遠古生物及文明研究所之間的指揮和任務關係",
+    "expected_sources": [
+      "IU7/08_organization/第三小隊 Lumiere.md",
+      "IU7/08_organization/龍騎兵.md",
+      "IU7/08_organization/遠古生物及文明研究所.md"
     ],
     "minimum_recall": 1.0
   }
