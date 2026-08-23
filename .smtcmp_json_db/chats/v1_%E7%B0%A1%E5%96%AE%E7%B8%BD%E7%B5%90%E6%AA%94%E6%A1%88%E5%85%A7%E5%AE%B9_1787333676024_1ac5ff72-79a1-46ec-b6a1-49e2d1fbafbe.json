@@ -1,0 +1,76 @@
+{
+  "id": "1ac5ff72-79a1-46ec-b6a1-49e2d1fbafbe",
+  "title": "簡單總結檔案內容",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "簡單總結檔案內容",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n簡單總結檔案內容\n\n"
+        }
+      ],
+      "id": "eda4739c-8ab7-4ab9-9db4-5bbd1a43a2ed",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "Story/The Outsiders [Vol. Stargazer].md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "<smtcmp_block filename=\"example.md\" language=\"markdown\">\n<!-- ... existing content ... -->\n- Use `local__list_sources` to get all Markdown file paths under a specific folder.\n- Apply filters on the returned list if needed, e.g., by date or author.\n\n</smtcmp_block>",
+      "id": "3317a522-c585-4699-bb43-d2b9b9f9bede",
+      "metadata": {
+        "model": {
+          "providerId": "ollama",
+          "providerType": "ollama",
+          "id": "phi4-mini",
+          "model": "phi4-mini",
+          "promptLevel": 1,
+          "enable": true
+        },
+        "usage": {
+          "prompt_tokens": 827,
+          "completion_tokens": 63,
+          "total_tokens": 890
+        }
+      }
+    }
+  ],
+  "createdAt": 1787333490530,
+  "updatedAt": 1787333676024,
+  "schemaVersion": 1
+}
