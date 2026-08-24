@@ -130,14 +130,17 @@ A HTTP 200 from `http://127.0.0.1:6333/` is Qdrant, not MCP.
   "mcpServers": {
     "obsidian-rag": {
       "command": "G:\\RAG_test\\.venv\\Scripts\\python.exe",
-      "args": ["G:\\RAG_test\\app\\mcp_server.py"],
+      "args": ["-m", "app.mcp_server"],
       "cwd": "G:\\RAG_test"
     }
   }
 }
 ```
 
-`app/mcp_server.py` and `load_config()` resolve `config.yaml` from the project root
+`app/mcp_server.py` and `load_config()` resolve `config.yaml` from the project root.
+Run it as a module (`-m app.mcp_server`), never as a direct script path — executing
+the file directly puts `app/` on `sys.path`, so the `from app...` imports fail with
+`ModuleNotFoundError`. This is a stdio server; do not set a `url` field in the MCP config.
 even if Cursor starts the process with a different working directory.
 Absolute paths in the MCP config are still recommended.
 
