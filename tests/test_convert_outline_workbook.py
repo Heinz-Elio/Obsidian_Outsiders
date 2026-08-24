@@ -3,7 +3,7 @@ from pathlib import Path
 from openpyxl import Workbook
 from openpyxl.styles import PatternFill
 
-import convert_outline_workbook
+import app.outline_converter as outline_converter
 from app.indexer import _refresh_outline_sources
 
 
@@ -79,7 +79,7 @@ def _workbook(path: Path) -> Path:
 
 
 def test_outline_uses_merged_context_without_filling_normal_blanks(tmp_path):
-    documents = convert_outline_workbook.convert_workbook(
+    documents = outline_converter.convert_workbook(
         _workbook(tmp_path / "outline.xlsx")
     )
 
@@ -98,7 +98,7 @@ def test_outline_uses_merged_context_without_filling_normal_blanks(tmp_path):
 
 
 def test_transformation_counts_and_monthly_kpi_are_separate(tmp_path):
-    documents = convert_outline_workbook.convert_workbook(
+    documents = outline_converter.convert_workbook(
         _workbook(tmp_path / "outline.xlsx")
     )
 
@@ -109,7 +109,7 @@ def test_transformation_counts_and_monthly_kpi_are_separate(tmp_path):
 
 
 def test_water_demon_colors_become_explicit_semantics(tmp_path):
-    documents = convert_outline_workbook.convert_workbook(
+    documents = outline_converter.convert_workbook(
         _workbook(tmp_path / "outline.xlsx")
     )
 
@@ -126,7 +126,7 @@ def test_water_demon_colors_become_explicit_semantics(tmp_path):
 
 
 def test_actions_and_expenses_are_rendered_as_readable_sources(tmp_path):
-    documents = convert_outline_workbook.convert_workbook(
+    documents = outline_converter.convert_workbook(
         _workbook(tmp_path / "outline.xlsx")
     )
 
@@ -141,7 +141,7 @@ def test_actions_and_expenses_are_rendered_as_readable_sources(tmp_path):
 
 
 def test_filenames_are_english_and_indexed_in_source_order(tmp_path):
-    documents = convert_outline_workbook.convert_workbook(
+    documents = outline_converter.convert_workbook(
         _workbook(tmp_path / "outline.xlsx")
     )
 
@@ -159,11 +159,11 @@ def test_check_mode_detects_stale_output(tmp_path):
     documents = {"one.md": "# One\n"}
     output = tmp_path / "generated"
 
-    assert not convert_outline_workbook.write_documents(documents, output)
-    assert convert_outline_workbook.write_documents(documents, output, check=True)
+    assert not outline_converter.write_documents(documents, output)
+    assert outline_converter.write_documents(documents, output, check=True)
 
     (output / "one.md").write_text("# Changed\n", encoding="utf-8")
-    assert not convert_outline_workbook.write_documents(
+    assert not outline_converter.write_documents(
         documents,
         output,
         check=True,
@@ -177,8 +177,8 @@ def test_index_refresh_generates_sources_beside_workbook(tmp_path):
 
     output = tmp_path / "00_大綱索引"
     assert (output / "01_outline_operation_test.md").exists()
-    assert convert_outline_workbook.write_documents(
-        convert_outline_workbook.convert_workbook(tmp_path / "大綱及行動.xlsx"),
+    assert outline_converter.write_documents(
+        outline_converter.convert_workbook(tmp_path / "大綱及行動.xlsx"),
         output,
         check=True,
     )

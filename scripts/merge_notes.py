@@ -11,9 +11,9 @@ from typing import Any
 
 import yaml
 
-
-INPUT_DIR = Path("./Setting")
-OUTPUT_DIR = Path("./merged/notebooklm")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+INPUT_DIR = PROJECT_ROOT / "Setting"
+OUTPUT_DIR = PROJECT_ROOT / "merged" / "notebooklm"
 
 NOTEBOOKLM_SOURCE_LIMIT = 50
 LONG_NOTE_CHARS = 10_000

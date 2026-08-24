@@ -168,9 +168,9 @@ def convert_file(source: Path, destination: Path) -> None:
 
 # CLI
 def main() -> None:
-    PROJECT_ROOT = Path(__file__).resolve().parent
-    INPUT_DIR = PROJECT_ROOT / "Story"
-    OUTPUT_DIR = PROJECT_ROOT / "HackMD"
+    project_root = Path(__file__).resolve().parent.parent
+    INPUT_DIR = project_root / "Story"
+    OUTPUT_DIR = project_root / "HackMD"
 
     for source in sorted(INPUT_DIR.glob("*.md")):
         relative = source.relative_to(INPUT_DIR)

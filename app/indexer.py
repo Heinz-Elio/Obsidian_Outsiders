@@ -16,7 +16,7 @@ from app.manifest import (
     source_hash,
 )
 from app.store import VectorStore
-from convert_outline_workbook import convert_workbook, write_documents
+from app.outline_converter import convert_workbook, write_documents
 
 
 def _refresh_outline_sources(vault: Path) -> None:

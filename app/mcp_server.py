@@ -1,11 +1,10 @@
 from __future__ import annotations
 
 import json
-from pathlib import Path
 
 from mcp.server.fastmcp import FastMCP
 
-from app.config import load_config
+from app.config import DEFAULT_CONFIG_PATH, load_config
 from app.context import assemble_evidence
 from app.embedder import get_embedder
 from app.graph import SourceGraph
@@ -15,8 +14,7 @@ from app.router import SCOPE_CATEGORIES, resolve_scope
 from app.store import VectorStore, read_source
 
 
-CONFIG_PATH = Path(__file__).resolve().parent / "config.yaml"
-config = load_config(CONFIG_PATH)
+config = load_config(DEFAULT_CONFIG_PATH)
 embedder = get_embedder(
     config.embedding.provider,
     config.embedding.model,

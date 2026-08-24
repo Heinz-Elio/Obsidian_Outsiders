@@ -1,6 +1,6 @@
 from pathlib import Path
 
-import merge_notes
+from scripts import merge_notes
 
 
 def _note(path: str, body_chars: int) -> merge_notes.Note:

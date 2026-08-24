@@ -1,7 +1,7 @@
 from pathlib import Path
 import re
 
-
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 INPUT_EXTENSIONS = {".mw", ".markwhen"}
 
 
@@ -66,7 +66,7 @@ def convert_file(path: Path):
 
 
 def main():
-    INPUT_DIR = Path("./Setting")
+    INPUT_DIR = PROJECT_ROOT / "Setting"
 
     EXCLUDE_FOLDERS = {
         ".obsidian",

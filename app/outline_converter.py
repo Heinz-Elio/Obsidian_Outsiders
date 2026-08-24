@@ -14,10 +14,10 @@ from openpyxl import load_workbook
 from openpyxl.cell.cell import Cell
 from openpyxl.worksheet.worksheet import Worksheet
 
+from app.config import PROJECT_ROOT
 
-ROOT = Path(__file__).resolve().parent
-DEFAULT_SOURCE = ROOT / "Setting" / "大綱及行動.xlsx"
-DEFAULT_OUTPUT = ROOT / "Setting" / "00_大綱索引"
+DEFAULT_SOURCE = PROJECT_ROOT / "Setting" / "大綱及行動.xlsx"
+DEFAULT_OUTPUT = PROJECT_ROOT / "Setting" / "00_大綱索引"
 
 BACKGROUND_RGB = {"CCCCCC", "D9D9D9"}
 DEBUT_RGB = {"FFFF00"}
@@ -175,7 +175,7 @@ def _document_header(
             "---",
             f"# {title}",
             "",
-            "<!-- 此檔由 convert_outline_workbook.py 自動產生，請勿手動編輯。 -->",
+            "<!-- 此檔由 app/outline_converter.py 自動產生，請勿手動編輯。 -->",
             "",
             f"來源檔案：{source.name}",
             "",

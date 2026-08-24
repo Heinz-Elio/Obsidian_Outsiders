@@ -117,7 +117,7 @@ Expected collection name: `obsidian` (see `config.yaml`).
 stdio server (for Cursor local MCP):
 
 ```powershell
-.\.venv\Scripts\python.exe mcp_server.py
+.\.venv\Scripts\python.exe -m app.mcp_server
 ```
 
 This process waits on stdin/stdout. It does not serve HTTP by itself.
@@ -130,14 +130,14 @@ A HTTP 200 from `http://127.0.0.1:6333/` is Qdrant, not MCP.
   "mcpServers": {
     "obsidian-rag": {
       "command": "G:\\RAG_test\\.venv\\Scripts\\python.exe",
-      "args": ["G:\\RAG_test\\mcp_server.py"],
+      "args": ["G:\\RAG_test\\app\\mcp_server.py"],
       "cwd": "G:\\RAG_test"
     }
   }
 }
 ```
 
-`mcp_server.py` and `load_config()` resolve `config.yaml` from the project root
+`app/mcp_server.py` and `load_config()` resolve `config.yaml` from the project root
 even if Cursor starts the process with a different working directory.
 Absolute paths in the MCP config are still recommended.
 
@@ -192,8 +192,8 @@ Run these from the project root after Qdrant and Ollama are up.
 Start Qdrant with an empty or new `qdrant_storage`, then:
 
 ```powershell
-.\.venv\Scripts\python.exe -c "import mcp_server; print('import_ok')"
-.\.venv\Scripts\python.exe -c "import mcp_server; print(mcp_server.list_sources('IU7')[:200])"
+.\.venv\Scripts\python.exe -c "from app import mcp_server; print('import_ok')"
+.\.venv\Scripts\python.exe -c "from app import mcp_server; print(mcp_server.list_sources('IU7')[:200])"
 ```
 
 Expected:
@@ -207,7 +207,7 @@ Expected:
 If Ollama CUDA fails, use deterministic fake embeddings for a tiny pipeline smoke test:
 
 ```powershell
-.\.venv\Scripts\python.exe test_embeddings.py --limit-documents 5 --query "星降神臨"
+.\.venv\Scripts\python.exe tests/test_embeddings.py --limit-documents 5 --query "星降神臨"
 ```
 
 This uses `config.test.yaml` (`provider: fake`, collection `obsidian_test`).
@@ -216,7 +216,7 @@ Expected: `fake_embed_ok`, indexed chunks > 0, and search hits.
 Run the deterministic cross-source retrieval evaluation:
 
 ```powershell
-.\.venv\Scripts\python.exe -m pytest -q test_chunker.py test_indexer_incremental.py test_query_routing.py test_editor_evaluation.py test_retrieval_evaluation.py
+.\.venv\Scripts\python.exe -m pytest -q tests
 ```
 
 The evaluation includes role/world-setting, event sequence, organization,
@@ -237,7 +237,7 @@ Expected: collection `obsidian` exists and point count > 0.
 ### 4. Search test
 
 ```powershell
-.\.venv\Scripts\python.exe -c "import mcp_server; print(mcp_server.search_knowledge('星降神臨', 3))"
+.\.venv\Scripts\python.exe -c "from app import mcp_server; print(mcp_server.search_knowledge('星降神臨', 3))"
 ```
 
 Expected: JSON chunks with `source_path`, `text`, and `score`.
@@ -245,7 +245,7 @@ Expected: JSON chunks with `source_path`, `text`, and `score`.
 ### 5. Document read test
 
 ```powershell
-.\.venv\Scripts\python.exe -c "import mcp_server; print(mcp_server.get_document('IU7/05_srune/原初大法術．星降神臨.md')[:300])"
+.\.venv\Scripts\python.exe -c "from app import mcp_server; print(mcp_server.get_document('IU7/05_srune/原初大法術．星降神臨.md')[:300])"
 ```
 
 Expected: Markdown note content.
@@ -278,7 +278,7 @@ Expected: Markdown note content.
 
 ## Novel formatting conversion
 
-`format_converter.py` converts explicit ruby markers and exactly-four-character
+`scripts/format_converter.py` converts explicit ruby markers and exactly-four-character
 fullwidth-dot notation:
 
 ```text
@@ -297,7 +297,7 @@ It reads `Setting/` and writes converted files to `rendered/`.
 For one file:
 
 ```powershell
-.\.venv\Scripts\python.exe format_converter.py input.md output.md
+.\.venv\Scripts\python.exe scripts/format_converter.py input.md output.md
 ```
 
 CSS for emphasis dots:
