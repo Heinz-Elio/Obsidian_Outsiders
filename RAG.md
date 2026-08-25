@@ -114,35 +114,54 @@ Expected collection name: `obsidian` (see `config.yaml`).
 
 ## Run the MCP server
 
-stdio server (for Cursor local MCP):
+The server supports stdio and HTTP from the same entry point. It defaults to
+stdio for Cursor.
+
+### stdio (Cursor)
 
 ```powershell
-.\.venv\Scripts\python.exe -m app.mcp_server
+.\.venv\Scripts\python.exe .\app\mcp_server.py
 ```
 
-This process waits on stdin/stdout. It does not serve HTTP by itself.
+This process waits on stdin/stdout.
 A HTTP 200 from `http://127.0.0.1:6333/` is Qdrant, not MCP.
 
-### Cursor MCP config example
+Cursor MCP config example (replace both absolute paths on each PC):
 
 ```json
 {
   "mcpServers": {
     "obsidian-rag": {
       "command": "G:\\RAG_test\\.venv\\Scripts\\python.exe",
-      "args": ["-m", "app.mcp_server"],
-      "cwd": "G:\\RAG_test"
+      "args": ["G:\\RAG_test\\app\\mcp_server.py"]
     }
   }
 }
 ```
 
-`app/mcp_server.py` and `load_config()` resolve `config.yaml` from the project root.
-Run it as a module (`-m app.mcp_server`), never as a direct script path — executing
-the file directly puts `app/` on `sys.path`, so the `from app...` imports fail with
-`ModuleNotFoundError`. This is a stdio server; do not set a `url` field in the MCP config.
-even if Cursor starts the process with a different working directory.
-Absolute paths in the MCP config are still recommended.
+The script and `load_config()` resolve the project root and `config.yaml` from
+their own file locations, so they do not depend on Cursor preserving `cwd`.
+
+### Streamable HTTP (local Obsidian plugin)
+
+Run this on the PC where Obsidian is installed:
+
+```powershell
+$env:OBSIDIAN_RAG_TRANSPORT = "streamable-http"
+.\.venv\Scripts\python.exe .\app\mcp_server.py
+```
+
+Configure the plugin with:
+
+```text
+http://127.0.0.1:8000/mcp
+```
+
+The default listener is local-only. Keep it on `127.0.0.1` unless another
+device must connect; the server currently has no authentication. For LAN
+access, explicitly set `OBSIDIAN_RAG_HOST=0.0.0.0` (and optionally
+`OBSIDIAN_RAG_PORT`), allow the port through the firewall, and add
+authentication or another access-control layer.
 
 ## MCP tools
 
