@@ -114,37 +114,56 @@ Expected collection name: `obsidian` (see `config.yaml`).
 
 ## Run the MCP server
 
-The server supports stdio and HTTP from the same entry point. It defaults to
-stdio for Cursor.
+Use **one server module, two processes**, both reading the same Qdrant
+collection (`config.yaml` → `database.collection`). Do not use a manual
+transport switch and do not put `OBSIDIAN_RAG_TRANSPORT` in Windows User
+or System environment variables — Cursor would inherit HTTP mode and break
+stdio.
+
+| Client | Transport | Process |
+|---|---|---|
+| Cursor | stdio | Cursor spawns `app/mcp_server.py` |
+| Obsidian | Streamable HTTP | You start a second process with `scripts/run_mcp_http.ps1` |
+
+Each process loads its own in-memory graph; Qdrant stays the shared index.
+Restart both after re-indexing if you need the graph/lexical side to match.
 
 ### stdio (Cursor)
 
-```powershell
-.\.venv\Scripts\python.exe .\app\mcp_server.py
-```
-
-This process waits on stdin/stdout.
-A HTTP 200 from `http://127.0.0.1:6333/` is Qdrant, not MCP.
-
-Cursor MCP config example (replace both absolute paths on each PC):
+Cursor must pin stdio in MCP config so a leftover HTTP env cannot override it.
+Replace both absolute paths on each PC:
 
 ```json
 {
   "mcpServers": {
     "obsidian-rag": {
       "command": "G:\\RAG_test\\.venv\\Scripts\\python.exe",
-      "args": ["G:\\RAG_test\\app\\mcp_server.py"]
+      "args": ["G:\\RAG_test\\app\\mcp_server.py"],
+      "env": {
+        "OBSIDIAN_RAG_TRANSPORT": "stdio",
+        "PYTHONPATH": "G:\\RAG_test"
+      }
     }
   }
 }
 ```
+
+This process waits on stdin/stdout. A HTTP 200 from
+`http://127.0.0.1:6333/` is Qdrant, not MCP.
 
 The script and `load_config()` resolve the project root and `config.yaml` from
 their own file locations, so they do not depend on Cursor preserving `cwd`.
 
 ### Streamable HTTP (local Obsidian plugin)
 
-Run this on the PC where Obsidian is installed:
+Start a **separate** process on the PC where Obsidian is installed (leave
+Cursor's stdio process alone):
+
+```powershell
+.\scripts\run_mcp_http.ps1
+```
+
+Equivalent:
 
 ```powershell
 $env:OBSIDIAN_RAG_TRANSPORT = "streamable-http"
@@ -156,6 +175,9 @@ Configure the plugin with:
 ```text
 http://127.0.0.1:8000/mcp
 ```
+
+If the plugin only speaks legacy SSE, use `OBSIDIAN_RAG_TRANSPORT=sse` and
+`http://127.0.0.1:8000/sse` instead.
 
 The default listener is local-only. Keep it on `127.0.0.1` unless another
 device must connect; the server currently has no authentication. For LAN
@@ -291,7 +313,9 @@ Expected: Markdown note content.
 
 | Symptom | Likely cause |
 |---|---|
-| MCP connection fails immediately | Wrong `command`/`cwd`, or import crash |
+| MCP connection fails immediately | Wrong `command`/`cwd`, import crash, or Cursor inherited HTTP transport |
+| Cursor MCP logs show Uvicorn on :8000 | `OBSIDIAN_RAG_TRANSPORT` is not `stdio` in Cursor MCP `env` |
+| Obsidian cannot reach `/mcp` | HTTP process not running, or plugin expects SSE (`/sse`) |
 | `config.yaml` not found | Cursor `cwd` is not project root |
 | Qdrant 200 but MCP fails | Confusing Qdrant health with MCP stdio |
 | `search_knowledge` HTTP 500 | Ollama embedding/CUDA failure |

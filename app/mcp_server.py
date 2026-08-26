@@ -61,10 +61,13 @@ class Runtime:
 
 
 _runtime: Runtime | None = None
+# One process, one transport. Cursor and Obsidian each spawn this module
+# separately; both talk to the same Qdrant collection from config.yaml.
 mcp = FastMCP(
     "obsidian-rag",
     host=os.getenv("OBSIDIAN_RAG_HOST", "127.0.0.1"),
     port=_http_port_from_env(),
+    stateless_http=True,
 )
 
 
@@ -241,4 +244,6 @@ def list_sources(folder: str = "") -> str:
 
 
 if __name__ == "__main__":
-    mcp.run(transport=_transport_from_env())
+    transport = _transport_from_env()
+    print(f"obsidian-rag MCP transport={transport}", file=sys.stderr, flush=True)
+    mcp.run(transport=transport)
