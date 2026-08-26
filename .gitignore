@@ -24,10 +24,4 @@ __pycache__/
 .obsidian/plugins/copilot/manifest.json
 .obsidian/plugins/copilot/styles.css
 .vscode/settings.json
-.agentic-plugins/builtins/plugin.json
-.agentic-plugins/builtins/README.md
-.agentic-plugins/builtins/skills/deep-research/SKILL.md
-.agentic-plugins/builtins/skills/install-plugin/SKILL.md
-.agentic-plugins/builtins/skills/self-knowledge/SKILL.md
-.agentic-plugins/obsidian-rag/mcp.json
-.agentic-plugins/obsidian-rag/plugin.json
+.agentic-plugins/
