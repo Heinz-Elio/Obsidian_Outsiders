@@ -152,7 +152,7 @@ cssclasses:
 digraph clues {
   graph [
     rankdir="TB", bgcolor="#FFFFFF", newrank="true", compound="true",
-    splines="polyline", nodesep="0.30", ranksep="0.60", pad="0.15",
+    splines="spline", nodesep="0.30", ranksep="0.60", pad="0.15",
     fontname="Microsoft JhengHei, Noto Sans CJK TC, PingFang TC, sans-serif", fontsize="16", labelloc="t",
     label="人魚公主真相｜原圖推理、制度表象、全知設定與缺口"
   ];

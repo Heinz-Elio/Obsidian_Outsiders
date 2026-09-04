@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"d75ae21741a94d91","type":"group","label":"阿拉拉","x":8,"y":8,"width":1660,"height":752},
+		{"id":"891803f5f7adc05c","type":"group","label":"南極埋伏","x":32,"y":60,"width":640,"height":534},
+		{"id":"5d6af3647d3e9b88","type":"text","text":"成為明星推出人魚公主平常唱的歌吸引人魚公主注意，引導她們懷疑長老","x":720,"y":87,"width":260,"height":100},
+		{"id":"8e4c7cd77cf19474","type":"text","text":"背後有完整團隊","x":720,"y":314,"width":260,"height":52},
+		{"id":"5fff9d0fe2a087ad","type":"text","text":"告訴米迦勒海因茨是舒華澤的人，且知道舒華澤的人法力沒有共振特性","x":1052,"y":87,"width":260,"height":100},
+		{"id":"0ab94f6a7a9fb5be","type":"text","text":"警告海因茨人魚公主比米迦勒更危險","x":1052,"y":302,"width":260,"height":76},
+		{"id":"21a7c05f00ef7236","type":"text","text":"態度不像米迦勒手下","x":720,"y":505,"width":260,"height":52},
+		{"id":"80ca8c497655eba2","type":"text","text":"真正的幕後黑手","x":554,"y":684,"width":260,"height":52},
+		{"id":"8cdd3453c8f9ef58","type":"text","text":"可能知道人魚公主的秘密","x":1052,"y":684,"width":260,"height":52},
+		{"id":"b129063d240e77bb","type":"text","text":"認為人魚公主危險是不尋常的想法","x":1052,"y":493,"width":260,"height":76},
+		{"id":"29720c5db3c4c259","type":"text","text":"使監視者對海因茨懷疑加深","x":1384,"y":111,"width":260,"height":52},
+		{"id":"50031a31825703fc","type":"text","text":"在神殿出口埋伏","x":56,"y":111,"width":260,"height":52},
+		{"id":"4f7921fabb82f1fd","type":"text","text":"米迦勒料到人魚公主會到神殿調查並從海底的隱藏出口離開","x":56,"y":302,"width":260,"height":76},
+		{"id":"a002cbdd92c7f42a","type":"text","text":"自行前往埋伏，引導人魚公主懷疑己方存在叛徒","x":388,"y":302,"width":260,"height":76},
+		{"id":"cd36eef862627600","type":"text","text":"米迦勒不知道神殿的存在","x":388,"y":111,"width":260,"height":52},
+		{"id":"a587f333fefbb6de","type":"text","text":"米迦勒故意引導人魚公主調查，好趁人魚公主落單時捉走","x":56,"y":493,"width":260,"height":76},
+		{"id":"93bf9b4a92c7200b","type":"text","text":"知道神殿構造、不受米迦勒指揮","x":388,"y":505,"width":260,"height":52}
+	],
+	"edges":[
+		{"id":"2771bea79d425fae","fromNode":"5d6af3647d3e9b88","fromSide":"bottom","toNode":"8e4c7cd77cf19474","toSide":"top","color":"#94A3B8"},
+		{"id":"2855346b62d29d73","fromNode":"a002cbdd92c7f42a","fromSide":"bottom","toNode":"93bf9b4a92c7200b","toSide":"top","color":"#94A3B8"},
+		{"id":"64f94291c5c0e65f","fromNode":"50031a31825703fc","fromSide":"bottom","toNode":"4f7921fabb82f1fd","toSide":"top","color":"#94A3B8"},
+		{"id":"d7acc8c87e15f7dc","fromNode":"50031a31825703fc","fromSide":"right","toNode":"a002cbdd92c7f42a","toSide":"left","color":"#94A3B8"},
+		{"id":"ab2540444c669232","fromNode":"cd36eef862627600","fromSide":"bottom","toNode":"a002cbdd92c7f42a","toSide":"top","color":"#94A3B8"},
+		{"id":"931bd1face39e3f0","fromNode":"4f7921fabb82f1fd","fromSide":"bottom","toNode":"a587f333fefbb6de","toSide":"top","color":"#94A3B8"},
+		{"id":"e4f9079bf4620ea9","fromNode":"0ab94f6a7a9fb5be","fromSide":"left","toNode":"21a7c05f00ef7236","toSide":"right","color":"#94A3B8"},
+		{"id":"9de1955e175fa643","fromNode":"0ab94f6a7a9fb5be","fromSide":"bottom","toNode":"b129063d240e77bb","toSide":"top","color":"#94A3B8"},
+		{"id":"fc0329a1798135ac","fromNode":"21a7c05f00ef7236","fromSide":"bottom","toNode":"80ca8c497655eba2","toSide":"top","color":"#94A3B8"},
+		{"id":"c6dfb6bb96c1cf47","fromNode":"b129063d240e77bb","fromSide":"bottom","toNode":"8cdd3453c8f9ef58","toSide":"top","color":"#94A3B8"},
+		{"id":"6c8481d0e8b5f94e","fromNode":"93bf9b4a92c7200b","fromSide":"bottom","toNode":"80ca8c497655eba2","toSide":"top","color":"#94A3B8"}
+	]
+}

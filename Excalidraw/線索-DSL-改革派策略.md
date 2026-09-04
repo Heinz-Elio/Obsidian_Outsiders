@@ -112,7 +112,7 @@ VPTS綁架 -> 阻止VPTS
 digraph clues {
   graph [
     rankdir="TB", bgcolor="#FFFFFF", newrank="true", compound="true",
-    splines="polyline", nodesep="0.30", ranksep="0.60", pad="0.15",
+    splines="spline", nodesep="0.30", ranksep="0.60", pad="0.15",
     fontname="Microsoft JhengHei, Noto Sans CJK TC, PingFang TC, sans-serif", fontsize="16", labelloc="t",
     label="改革派對付保守派策略｜由目標逆推"
   ];

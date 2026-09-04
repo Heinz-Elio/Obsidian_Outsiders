@@ -1,0 +1,629 @@
+{
+ "nodes": [
+  {
+   "id": "891803f5f7adc05c",
+   "type": "group",
+   "label": "天城理人音樂會現場",
+   "x": 308,
+   "y": 123,
+   "width": 972,
+   "height": 1608
+  },
+  {
+   "id": "15b656be28fbb5d6",
+   "type": "group",
+   "label": "廢棄孤兒院",
+   "x": 1288,
+   "y": 8,
+   "width": 4008,
+   "height": 518
+  },
+  {
+   "id": "9590a700eb3a40e9",
+   "type": "group",
+   "label": "Hangman 謎題",
+   "x": 1312,
+   "y": 123,
+   "width": 308,
+   "height": 128
+  },
+  {
+   "id": "b503d9bb1f55ecce",
+   "type": "group",
+   "label": "地下室",
+   "x": 1644,
+   "y": 60,
+   "width": 2656,
+   "height": 442
+  },
+  {
+   "id": "83a056d93f512c5f",
+   "type": "group",
+   "label": "沙羅",
+   "x": 1668,
+   "y": 123,
+   "width": 308,
+   "height": 354
+  },
+  {
+   "id": "6eca50fefd90742f",
+   "type": "group",
+   "label": "第一張門票",
+   "x": 2000,
+   "y": 123,
+   "width": 640,
+   "height": 128
+  },
+  {
+   "id": "a19268416bb74cc2",
+   "type": "group",
+   "label": "第二封信件",
+   "x": 2664,
+   "y": 111,
+   "width": 1304,
+   "height": 366
+  },
+  {
+   "id": "54446d7342cadeac",
+   "type": "group",
+   "label": "尼歌娜",
+   "x": 4324,
+   "y": 111,
+   "width": 308,
+   "height": 378
+  },
+  {
+   "id": "d9162b012ce923e5",
+   "type": "text",
+   "text": "塞雷亞清楚人魚公主行蹤",
+   "x": 0,
+   "y": 1321,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "a6d7d30b4dacdb13",
+   "type": "text",
+   "text": "達姬與尼歌娜都大致理解其他王國的狀況",
+   "x": 5344,
+   "y": 162,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "3b33fa789567e336",
+   "type": "text",
+   "text": "尼歌姬會管束公主，達姬則鼓勵公主享受",
+   "x": 5676,
+   "y": 162,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "ca012813b96a2902",
+   "type": "text",
+   "text": "尼歌娜和達姬的角色與各自的身份閱歷不符，達姬理應比尼歌娜更清楚犯錯的後果以及帶來的外交問題",
+   "x": 5676,
+   "y": 366,
+   "width": 260,
+   "height": 124
+  },
+  {
+   "id": "e7c03b39935b4dd9",
+   "type": "text",
+   "text": "其他王國十分重視規矩，犯規會被嚴懲",
+   "x": 6008,
+   "y": 162,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "28a6dd4fbf95cd1a",
+   "type": "text",
+   "text": "水妖對人魚公主的行蹤有一定掌握，且從來不會在人魚公主忙碌時出現",
+   "x": 6340,
+   "y": 150,
+   "width": 260,
+   "height": 100
+  },
+  {
+   "id": "344392e3466c06f1",
+   "type": "text",
+   "text": "有人密切監視人魚公主動向",
+   "x": 6340,
+   "y": 402,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "ac24682bfdd0a2b9",
+   "type": "text",
+   "text": "多人監視人魚公主",
+   "x": 996,
+   "y": 174,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "00350ca7861456cc",
+   "type": "text",
+   "text": "保守派監視者",
+   "x": 996,
+   "y": 402,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "74f8cf022f82482d",
+   "type": "text",
+   "text": "改革派與保守派矛盾",
+   "x": 996,
+   "y": 604,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "d7dd140f1e16ff10",
+   "type": "text",
+   "text": "彭達拉薩人的存在十分敏感，會激化人魚內部矛盾",
+   "x": 996,
+   "y": 772,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "4ffe86ff21227538",
+   "type": "text",
+   "text": "就算不至內戰也會瓦解同盟",
+   "x": 664,
+   "y": 975,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "24ff1b273d28447b",
+   "type": "text",
+   "text": "塞雷亞明知而同意合作，且刻意淡化問題",
+   "x": 996,
+   "y": 963,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "3dffff398c39b824",
+   "type": "text",
+   "text": "塞雷亞向VPTS洩密",
+   "x": 498,
+   "y": 1488,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "61ca95860e34ef71",
+   "type": "text",
+   "text": "與北太平洋立場矛盾",
+   "x": 996,
+   "y": 1154,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "f0f3db644ebfa861",
+   "type": "text",
+   "text": "塞雷亞與長老目標不同",
+   "x": 664,
+   "y": 1321,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "26a4bb2e830d24f6",
+   "type": "text",
+   "text": "北太平洋有意挑起爭端",
+   "x": 996,
+   "y": 1321,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "1c187786bbb46b68",
+   "type": "text",
+   "text": "不利米迦勒復興海之住民",
+   "x": 332,
+   "y": 1154,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "4dfec7118bf3606a",
+   "type": "text",
+   "text": "復興不是米迦勒的真正目的",
+   "x": 332,
+   "y": 1321,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "2d247acea143c5ef",
+   "type": "text",
+   "text": "長老向VPTS洩密",
+   "x": 996,
+   "y": 1488,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "cbde140d3079a65c",
+   "type": "text",
+   "text": "有利米迦勒綁架人魚公主",
+   "x": 664,
+   "y": 1154,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "0413deaf6fbf9f68",
+   "type": "text",
+   "text": "挑起內部爭端",
+   "x": 498,
+   "y": 1655,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "b54744f9611fec6b",
+   "type": "text",
+   "text": "選擇孤兒院的理由：暗指人魚公主沒有父母，形同孤兒",
+   "x": 4680,
+   "y": 162,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "a5ab6a6d0338dfae",
+   "type": "text",
+   "text": "29年前發生火災，案件紀錄3人倖存",
+   "x": 5012,
+   "y": 162,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "e650b9db679a14d1",
+   "type": "text",
+   "text": "場景含意",
+   "x": 1336,
+   "y": 174,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "bcece6719db8a3e0",
+   "type": "text",
+   "text": "地下室有APCS，導致未能提前發現沙羅",
+   "x": 4016,
+   "y": 162,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "3ac26482a529bb25",
+   "type": "text",
+   "text": "手套",
+   "x": 4016,
+   "y": 402,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "cb82b33feec3a657",
+   "type": "text",
+   "text": "V前往海都城帶走沙羅",
+   "x": 1692,
+   "y": 174,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "3bff1fbdd6b2e883",
+   "type": "text",
+   "text": "V知道海都城位置",
+   "x": 1692,
+   "y": 402,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "8e83af61827d67d5",
+   "type": "text",
+   "text": "座標、海拔",
+   "x": 2024,
+   "y": 174,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "3e48fbf60bd225cf",
+   "type": "text",
+   "text": "時間",
+   "x": 2356,
+   "y": 174,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "3d6b964239b127bc",
+   "type": "text",
+   "text": "以阿奎斯托語寫成",
+   "x": 2688,
+   "y": 174,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "8e07270ef4b19a02",
+   "type": "text",
+   "text": "V懂得阿奎斯托語",
+   "x": 2688,
+   "y": 402,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "d2fcd87e61d787f9",
+   "type": "text",
+   "text": "V知道沙羅是前公主",
+   "x": 3020,
+   "y": 402,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "a6a24df9c26e75af",
+   "type": "text",
+   "text": "對象為前公主",
+   "x": 3020,
+   "y": 174,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "42c6424829aa2f4a",
+   "type": "text",
+   "text": "地址、行李保險箱編號、密碼",
+   "x": 3352,
+   "y": 174,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "4142d7e1576b0dc1",
+   "type": "text",
+   "text": "4月6日0時0分後至4月7日0時0分前領取",
+   "x": 3684,
+   "y": 162,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "95c1a226e53fd83e",
+   "type": "text",
+   "text": "明明只是基層，卻知道監視者的存在",
+   "x": 4348,
+   "y": 162,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "37086f239ff6bb3e",
+   "type": "text",
+   "text": "暗中保護公主，並防止保守派抓到把柄",
+   "x": 4348,
+   "y": 390,
+   "width": 260,
+   "height": 76
+  }
+ ],
+ "edges": [
+  {
+   "id": "616abd7dcb1272e6",
+   "fromNode": "bcece6719db8a3e0",
+   "fromSide": "bottom",
+   "toNode": "3ac26482a529bb25",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "8177cf38b950892d",
+   "fromNode": "ac24682bfdd0a2b9",
+   "fromSide": "bottom",
+   "toNode": "00350ca7861456cc",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "708d53f70d844a82",
+   "fromNode": "00350ca7861456cc",
+   "fromSide": "bottom",
+   "toNode": "74f8cf022f82482d",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "142ee8855d50a421",
+   "fromNode": "37086f239ff6bb3e",
+   "fromSide": "left",
+   "toNode": "74f8cf022f82482d",
+   "toSide": "right",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "037b674f998c136c",
+   "fromNode": "74f8cf022f82482d",
+   "fromSide": "bottom",
+   "toNode": "d7dd140f1e16ff10",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "c5ff43a0c86b9d9e",
+   "fromNode": "d7dd140f1e16ff10",
+   "fromSide": "left",
+   "toNode": "4ffe86ff21227538",
+   "toSide": "right",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "7a903b2952726629",
+   "fromNode": "24ff1b273d28447b",
+   "fromSide": "bottom",
+   "toNode": "61ca95860e34ef71",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "2e8adf0d63a3cf8e",
+   "fromNode": "61ca95860e34ef71",
+   "fromSide": "left",
+   "toNode": "f0f3db644ebfa861",
+   "toSide": "right",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "3eb3e1ff1cd4fdae",
+   "fromNode": "61ca95860e34ef71",
+   "fromSide": "bottom",
+   "toNode": "26a4bb2e830d24f6",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "3359f3e0abec36a8",
+   "fromNode": "f0f3db644ebfa861",
+   "fromSide": "bottom",
+   "toNode": "3dffff398c39b824",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "91b332bb4b278289",
+   "fromNode": "26a4bb2e830d24f6",
+   "fromSide": "bottom",
+   "toNode": "2d247acea143c5ef",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "d92cbcd2506b0788",
+   "fromNode": "1c187786bbb46b68",
+   "fromSide": "bottom",
+   "toNode": "4dfec7118bf3606a",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "527fde818cfbabee",
+   "fromNode": "cbde140d3079a65c",
+   "fromSide": "left",
+   "toNode": "4dfec7118bf3606a",
+   "toSide": "right",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "81a1d54371e5d30e",
+   "fromNode": "d7dd140f1e16ff10",
+   "fromSide": "bottom",
+   "toNode": "24ff1b273d28447b",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "37486a3733090893",
+   "fromNode": "4ffe86ff21227538",
+   "fromSide": "left",
+   "toNode": "1c187786bbb46b68",
+   "toSide": "right",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "6147f4e9f80b46eb",
+   "fromNode": "4ffe86ff21227538",
+   "fromSide": "bottom",
+   "toNode": "cbde140d3079a65c",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "df379295cb11ca76",
+   "fromNode": "3dffff398c39b824",
+   "fromSide": "bottom",
+   "toNode": "0413deaf6fbf9f68",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "0b17733290dec7c8",
+   "fromNode": "cb82b33feec3a657",
+   "fromSide": "bottom",
+   "toNode": "3bff1fbdd6b2e883",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "fbf8b3a08766dbdf",
+   "fromNode": "3d6b964239b127bc",
+   "fromSide": "bottom",
+   "toNode": "8e07270ef4b19a02",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "2b6283a7ec0be2bf",
+   "fromNode": "a6a24df9c26e75af",
+   "fromSide": "bottom",
+   "toNode": "d2fcd87e61d787f9",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "816ac55e7bab885c",
+   "fromNode": "d9162b012ce923e5",
+   "fromSide": "right",
+   "toNode": "3dffff398c39b824",
+   "toSide": "left",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "395c423c6447c806",
+   "fromNode": "a6d7d30b4dacdb13",
+   "fromSide": "right",
+   "toNode": "ca012813b96a2902",
+   "toSide": "left",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "ea33550166ca1ba5",
+   "fromNode": "3b33fa789567e336",
+   "fromSide": "bottom",
+   "toNode": "ca012813b96a2902",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "bb652627e0532c8c",
+   "fromNode": "e7c03b39935b4dd9",
+   "fromSide": "left",
+   "toNode": "ca012813b96a2902",
+   "toSide": "right",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "77284145462916bb",
+   "fromNode": "28a6dd4fbf95cd1a",
+   "fromSide": "bottom",
+   "toNode": "344392e3466c06f1",
+   "toSide": "top",
+   "color": "#94A3B8"
+  }
+ ]
+}

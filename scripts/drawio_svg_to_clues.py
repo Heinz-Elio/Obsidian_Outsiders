@@ -47,6 +47,8 @@ def export(
     subset: set[str] | None,
     title: str,
     container_color: str | None = None,
+    container_labels: set[str] | None = None,
+    component_labels: set[str] | None = None,
 ) -> str:
     cells = [c for c in graph_model.findall(".//mxCell") if "id" in c.attrib]
     by_id = {c.attrib["id"]: c for c in cells}
@@ -75,6 +77,29 @@ def export(
             fill = style.get("swimlaneFillColor")
         return valid_color(fill, "")
 
+    root_component: set[str] = set()
+    if component_labels:
+        # 已獨立拆出的改革派策略節點也在根層，連通時不得把它們拉進來
+        root_nodes = {
+            c.attrib["id"] for c in vertices
+            if c.attrib["id"] not in containers and labels[c.attrib["id"]]
+            and labels[c.attrib["id"]] not in SPLIT_STANDALONE_LABELS
+            and not any(a in containers for a in ancestors(c.attrib["id"]))
+        }
+        adjacency: dict[str, set[str]] = {}
+        for edge in edges:
+            s, t = edge.attrib.get("source", ""), edge.attrib.get("target", "")
+            if s in root_nodes and t in root_nodes:
+                adjacency.setdefault(s, set()).add(t)
+                adjacency.setdefault(t, set()).add(s)
+        stack = [cid for cid in root_nodes if any(labels[cid].startswith(seed) for seed in component_labels)]
+        while stack:
+            current = stack.pop()
+            if current in root_component:
+                continue
+            root_component.add(current)
+            stack.extend(adjacency.get(current, set()) - root_component)
+
     def keep(cid: str) -> bool:
         if cid in containers or not labels.get(cid):
             return False
@@ -85,6 +110,10 @@ def export(
             a in containers and container_fill(a) == container_color.upper() for a in chain
         ):
             return False
+        if container_labels or component_labels:
+            in_container = any(a in containers and labels[a] in (container_labels or set()) for a in chain)
+            if not in_container and cid not in root_component:
+                return False
         return subset is None or labels[cid] in subset
 
     kept = [c.attrib["id"] for c in vertices if keep(c.attrib["id"])]
@@ -114,14 +143,20 @@ def export(
 
     kept_set = set(kept)
     dropped = 0
+    interfaces: list[str] = []
     out.append("")
     for edge in edges:
         src, dst = edge.attrib.get("source", ""), edge.attrib.get("target", "")
         if src in kept_set and dst in kept_set:
             out.append(f"{labels[src]} -> {labels[dst]}")
+        elif (src in kept_set) != (dst in kept_set) and labels.get(src) and labels.get(dst):
+            outside = labels[dst] if src in kept_set else labels[src]
+            interfaces.append(f"// 接口: {labels[src]} -> {labels[dst]}　（「{outside}」在本主題之外）")
         else:
             dropped += 1
-    out.append(f"// 原圖連線中有 {dropped} 條因端點缺失或不在本子集而未匯出")
+    if interfaces:
+        out += ["", "// 跨主題接口：需要時把對方寫成「未決 XXX（見 [[另一篇]]）」再連線"] + interfaces
+    out.append(f"// 原圖連線中另有 {dropped} 條因端點缺失或不在本子集而未匯出")
     return "\n".join(out) + "\n"
 
 
@@ -132,9 +167,18 @@ def main() -> int:
     parser.add_argument("--subset", choices=sorted(SUBSETS), help="只匯出預設子集")
     parser.add_argument("--title", default="線索與調查")
     parser.add_argument("--container-color", help="只匯出位於此填色容器內的節點，例如 #86A2CD")
+    parser.add_argument("--containers", help="以逗號分隔的頂層容器標籤，匯出其內所有節點")
+    parser.add_argument("--component", action="append", default=[], help="根層節點標籤（可為前綴）；匯出其所在的連通群，可重複")
     args = parser.parse_args()
 
-    dsl = export(load_page(args.source), SUBSETS.get(args.subset), args.title, args.container_color)
+    dsl = export(
+        load_page(args.source),
+        SUBSETS.get(args.subset),
+        args.title,
+        args.container_color,
+        {c.strip() for c in args.containers.split(",")} if args.containers else None,
+        set(args.component) or None,
+    )
     note = (
         "---\ntags:\n  - investigation\n  - clues-dsl\ncssclasses:\n  - graphviz-large-preview\n---\n\n"
         f"# {args.title}\n\n"
