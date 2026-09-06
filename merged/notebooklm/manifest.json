@@ -1,9 +1,33 @@
 {
-  "generated": "2026-08-17T21:21:49",
+  "generated": "2026-09-05T21:45:22",
   "source_limit": 50,
   "long_note_chars": 10000,
-  "output_count": 21,
+  "output_count": 22,
   "outputs": [
+    {
+      "file": "00_大綱索引.md",
+      "kind": "category_bundle",
+      "note_count": 16,
+      "characters": 30338,
+      "sources": [
+        "00_大綱索引/01_outline_unassigned.md",
+        "00_大綱索引/02_outline_operation_siskin.md",
+        "00_大綱索引/03_outline_operation_stargazer.md",
+        "00_大綱索引/04_outline_deep_blue.md",
+        "00_大綱索引/05_outline_night_fall.md",
+        "00_大綱索引/06_outline_operation_trailblazer.md",
+        "00_大綱索引/07_outline_castle_of_glass.md",
+        "00_大綱索引/08_outline_operation_capture_the_flag.md",
+        "00_大綱索引/09_outline_fuse_into_the_shadow.md",
+        "00_大綱索引/10_outline_song_iii.md",
+        "00_大綱索引/11_outline_final_operation_retourner_les_etoiles.md",
+        "00_大綱索引/12_transformation_kpi.md",
+        "00_大綱索引/13_water_demon_actions.md",
+        "00_大綱索引/14_operation_01.md",
+        "00_大綱索引/15_operation_02.md",
+        "00_大綱索引/16_action_expenses.md"
+      ]
+    },
     {
       "file": "IU0.md",
       "kind": "category_bundle",
@@ -89,7 +113,7 @@
       "file": "IU7.md",
       "kind": "category_bundle",
       "note_count": 2,
-      "characters": 4266,
+      "characters": 4499,
       "sources": [
         "IU7/IU7法術.md",
         "IU7/先天性法力系統過激.md"
@@ -123,7 +147,7 @@
       "file": "IU7_01_character.md",
       "kind": "category_bundle",
       "note_count": 75,
-      "characters": 83925,
+      "characters": 84593,
       "sources": [
         "IU7/01_character/117.md",
         "IU7/01_character/Doktorvater.md",
@@ -206,7 +230,7 @@
       "file": "IU7_01_character_main.md",
       "kind": "category_bundle",
       "note_count": 4,
-      "characters": 29603,
+      "characters": 29307,
       "sources": [
         "IU7/01_character/main/可伶．戈蒂埃.md",
         "IU7/01_character/main/李察．蘇利文.md",
@@ -260,7 +284,7 @@
       "file": "IU7_05_srune.md",
       "kind": "category_bundle",
       "note_count": 6,
-      "characters": 7288,
+      "characters": 7415,
       "sources": [
         "IU7/05_srune/三相防禦.md",
         "IU7/05_srune/原初大法術．星降神臨.md",
@@ -284,7 +308,7 @@
       "file": "IU7_07_item.md",
       "kind": "category_bundle",
       "note_count": 40,
-      "characters": 15642,
+      "characters": 15698,
       "sources": [
         "IU7/07_item/60毫米蝕刻彈.md",
         "IU7/07_item/A-11D 干擾弩箭.md",
@@ -364,7 +388,7 @@
       "file": "IU7_09_event.md",
       "kind": "category_bundle",
       "note_count": 19,
-      "characters": 12465,
+      "characters": 12433,
       "sources": [
         "IU7/09_event/Ancient.mw.md",
         "IU7/09_event/IU7.mw.mw.md",
@@ -400,15 +424,16 @@
     {
       "file": "IU7_11_faction.md",
       "kind": "category_bundle",
-      "note_count": 6,
-      "characters": 1342,
+      "note_count": 7,
+      "characters": 3032,
       "sources": [
         "IU7/11_faction/人魚王國.md",
         "IU7/11_faction/保守派.md",
         "IU7/11_faction/北部集團.md",
         "IU7/11_faction/南部集團.md",
         "IU7/11_faction/改革派.md",
-        "IU7/11_faction/米迦勒派系.md"
+        "IU7/11_faction/米迦勒派系.md",
+        "IU7/11_faction/舒華澤家.md"
       ]
     },
     {
