@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-07T17:41:02",
+  "generated": "2026-09-10T00:46:20",
   "source_limit": 50,
   "long_note_chars": 10000,
   "output_count": 25,
@@ -113,7 +113,7 @@
       "file": "IU7.md",
       "kind": "category_bundle",
       "note_count": 2,
-      "characters": 5095,
+      "characters": 7447,
       "sources": [
         "IU7/IU7法術.md",
         "IU7/先天性法力系統過激.md"
@@ -147,7 +147,7 @@
       "file": "IU7_01_character.md",
       "kind": "category_bundle",
       "note_count": 75,
-      "characters": 84746,
+      "characters": 84747,
       "sources": [
         "IU7/01_character/117.md",
         "IU7/01_character/Doktorvater.md",
@@ -230,7 +230,7 @@
       "file": "IU7_01_character_main.md",
       "kind": "category_bundle",
       "note_count": 4,
-      "characters": 29307,
+      "characters": 29748,
       "sources": [
         "IU7/01_character/main/可伶．戈蒂埃.md",
         "IU7/01_character/main/李察．蘇利文.md",
@@ -284,7 +284,7 @@
       "file": "IU7_05_srune.md",
       "kind": "category_bundle",
       "note_count": 6,
-      "characters": 7467,
+      "characters": 7647,
       "sources": [
         "IU7/05_srune/三相防禦.md",
         "IU7/05_srune/原初大法術．星降神臨.md",
@@ -298,7 +298,7 @@
       "file": "IU7_06_technology.md",
       "kind": "category_bundle",
       "note_count": 3,
-      "characters": 2256,
+      "characters": 2511,
       "sources": [
         "IU7/06_technology/去特徵化.md",
         "IU7/06_technology/壓縮法力發射.md",
@@ -334,7 +334,7 @@
       "file": "IU7_07_item_03_weapon.md",
       "kind": "category_bundle",
       "note_count": 26,
-      "characters": 10359,
+      "characters": 10485,
       "sources": [
         "IU7/07_item/03_weapon/60毫米蝕刻彈.md",
         "IU7/07_item/03_weapon/A-11D 干擾弩箭.md",
@@ -382,7 +382,7 @@
       "file": "IU7_08_organization.md",
       "kind": "category_bundle",
       "note_count": 24,
-      "characters": 12534,
+      "characters": 12531,
       "sources": [
         "IU7/08_organization/Invisible Link.md",
         "IU7/08_organization/SWI調查事務所.md",
