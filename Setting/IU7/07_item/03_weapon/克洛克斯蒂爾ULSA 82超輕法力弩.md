@@ -16,4 +16,4 @@ Klock-Styr ULSA 82
 ---
 ## 簡介
 
-克洛克斯蒂爾 USA 82 （Ultraleicht Srune Armburst 82）是[[克洛克斯蒂爾SA 68法力弩]]發展而來的輕型法力弩，總長更短、重量更輕，弩身大量採用聚合物，射程80-100米。
+克洛克斯蒂爾 USA 82 （Ultraleicht Sruna Armburst 82）是從[[克洛克斯蒂爾SA 68法力弩]]發展而來的輕型法力弩，總長更短、重量更輕，弩身大量採用聚合物，射程減至42米。
