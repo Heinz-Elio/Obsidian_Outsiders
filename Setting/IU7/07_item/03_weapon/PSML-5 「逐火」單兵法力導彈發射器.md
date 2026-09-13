@@ -5,7 +5,7 @@ name_en: PSML-5 "Fire Chasing" Portable Sruna Missile Launcher
 subtype: weapon
 new: true
 ---
-# PSML-5 「逐火」單兵法力導彈發射器
+# PSML-5「逐火」單兵法力導彈發射器
 
 PSML-5 "Fire Chasing" Portable Sruna Missile Launcher
 

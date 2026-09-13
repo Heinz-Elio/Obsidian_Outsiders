@@ -5,7 +5,7 @@ name_en: LCSA-4 “Swordfish” Low Compression Sruna Artillery
 subtype: weapon
 new: true
 ---
-# LCSA-4 「劍魚」三聯裝壓縮法力砲
+# LCSA-4「劍魚」三聯裝壓縮法力砲
 
 LCSA-4 “Swordfish” Low Compression Sruna Artillery
 

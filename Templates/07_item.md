@@ -5,8 +5,8 @@ data.name_en = await tp.system.prompt("name") || "Unknown";
 data.id = `item_${data.name_en.toLowerCase()}`
 
 data.subtype = await tp.system.suggester(
-  ["weapon", "tool", "machine", "material"],
-  ["weapon", "tool", "machine", "material"]
+  ["weapon", "arrow", "ammunition", "tool", "machine", "material"],
+  ["weapon", "arrow", "ammunition", "tool", "machine", "material"]
 );
 
 data.isNew = await tp.system.suggester(["new","old"],[true,false]);

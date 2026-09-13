@@ -5,7 +5,7 @@ name_en: HCSA-1 “Guardian” High Compresion Sruna Artillery
 subtype: weapon
 new: true
 ---
-# HCSA-1 「守護神」超高壓縮法力砲
+# HCSA-1「守護神」超高壓縮法力砲
 
 HCSA-1 “Guardian” High Compresion Sruna Artillery
 
