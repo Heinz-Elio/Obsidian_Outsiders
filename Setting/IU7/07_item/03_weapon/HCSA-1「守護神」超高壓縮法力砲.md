@@ -11,7 +11,7 @@ HCSA-1 “Guardian” High Compresion Sruna Artillery
 
 ---
 發明者: [[北太平洋王國研究院]]
-發明時間:
+發明時間: 2002年
 
 ---
 ## 簡介
