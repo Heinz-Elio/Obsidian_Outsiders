@@ -1,0 +1,601 @@
+digraph IU7_HOI4 {
+
+    graph [
+        rankdir=LR, bgcolor="#10151c",
+        ranksep=1.15, //Era spacing
+        nodesep=0.42, //Vertical spacing
+        splines=ortho, //HoI-style right angle connectors
+        margin=0.15, pad=0.15,
+        concentrate=false //Do not merge edges
+    ];
+
+    //DEFAULT NODE
+    node [
+        shape=box, 
+        fixedsize=true,
+        width=2.25, 
+        height=0.82,
+        style="rounded, 
+        filled",
+        fontname="Noto Sans CJK TC",
+        fontsize=10,
+        margin="0.06,0.04",
+        penwidth=2
+    ];
+
+    //DEFAULT EDGE
+    edge [
+        color="#9ca3af",
+        penwidth=2.2,
+        arrowsize=0.65,
+        fontname="Noto Sans CJK TC",
+        fontsize=8,
+        fontcolor="#d1d5db"
+    ];
+
+
+    //ERA HEADER
+
+    h0 [
+        label="IU7\nTECHNOLOGY",
+        width=2.25, 
+        height=0.68,
+        fillcolor="#202833",
+        color="#4b5563",
+        fontcolor="#f3f4f6",
+        fontsize=11
+    ];
+
+    h60 [
+        label="1960s",
+        width=2.25,
+        height=0.68,
+        fillcolor="#252d38",
+        color="#667085",
+        fontcolor="#f3f4f6",
+        fontsize=13
+    ];
+
+    h70 [
+        label="1970s",
+        width=2.25,
+        height=0.68,
+        fillcolor="#252d38",
+        color="#667085",
+        fontcolor="#f3f4f6",
+        fontsize=13
+    ];
+
+    h80 [
+        label="1980s",
+        width=2.25,
+        height=0.68,
+        fillcolor="#252d38",
+        color="#667085",
+        fontcolor="#f3f4f6",
+        fontsize=13
+    ];
+
+    h90 [
+        label="1990s",
+        width=2.25,
+        height=0.68,
+        fillcolor="#252d38",
+        color="#667085",
+        fontcolor="#f3f4f6",
+        fontsize=13
+    ];
+
+    h00 [
+        label="2000s",
+        width=2.25,
+        height=0.68,
+        fillcolor="#252d38",
+        color="#667085",
+        fontcolor="#f3f4f6",
+        fontsize=13
+    ];
+
+    hp [
+        label="YEAR\nUNKNOWN",
+        width=2.25,
+        height=0.68,
+        fillcolor="#252833",
+        color="#667085",
+        fontcolor="#f3f4f6",
+        fontsize=11
+    ];
+
+    //FOUNDATION
+    crossbow [
+        label="北冰洋制式弩\n數百年前\n武器",
+
+        fillcolor="#7f1d1d",
+        color="#dc2626",
+        fontcolor="#ffffff"
+    ];
+
+    record [
+        label="紀錄節點\n千萬年前\n工具",
+
+        fillcolor="#065f46",
+        color="#10b981",
+        fontcolor="#ffffff"
+    ];
+
+    //1960s
+    sa68 [
+        label="SA 68\n法力弩\n1968",
+
+        fillcolor="#7f1d1d",
+        color="#ef4444",
+        fontcolor="#ffffff"
+    ];
+
+    sscg69 [
+        label="SSCG 69\n複合狙擊步槍\n1969",
+
+        fillcolor="#7f1d1d",
+        color="#ef4444",
+        fontcolor="#ffffff"
+    ];
+
+    sscg69e [
+        label="SSCG 69E\n複合狙擊步槍\n1969",
+
+        fillcolor="#7f1d1d",
+        color="#ef4444",
+        fontcolor="#ffffff"
+    ];
+
+
+    //1970s
+    m2 [
+        label="M2\n法力弩\n1972",
+
+        fillcolor="#7f1d1d",
+        color="#ef4444",
+        fontcolor="#ffffff"
+    ];
+
+    m3 [
+        label="M3\n狙擊用法力弩\n1973",
+
+        fillcolor="#7f1d1d",
+        color="#ef4444",
+        fontcolor="#ffffff"
+    ];
+
+    portable [
+        label="便攜法術媒介\n1970s\n工具",
+
+        fillcolor="#065f46",
+        color="#10b981",
+        fontcolor="#ffffff"
+    ];
+
+    cspal [
+        label="壓縮法力轉高壓氣體發射\n1979\n技術",
+
+        fillcolor="#1d4ed8",
+        color="#60a5fa",
+        fontcolor="#ffffff"
+    ];
+
+
+    //1980s
+    ulsa [
+        label="ULSA 82\n超輕法力弩\n1982",
+
+        fillcolor="#7f1d1d",
+        color="#ef4444",
+        fontcolor="#ffffff"
+    ];
+
+    m5 [
+        label="M5\n法力步槍\n1983",
+
+        fillcolor="#7f1d1d",
+        color="#ef4444",
+        fontcolor="#ffffff"
+    ];
+
+    bm1 [
+        label="BM-1\n水中用子彈\n1983",
+
+        fillcolor="#5b21b6",
+        color="#a78bfa",
+        fontcolor="#ffffff"
+    ];
+
+    bm3 [
+        label="BM-3\n壓縮法力彈\n1984",
+
+        fillcolor="#5b21b6",
+        color="#a78bfa",
+        fontcolor="#ffffff"
+    ];
+
+    m4a [
+        label="M4A\n60毫米壓縮法力砲\n1985",
+
+        fillcolor="#7f1d1d",
+        color="#ef4444",
+        fontcolor="#ffffff"
+    ];
+
+    ammo60 [
+        label="60毫米蝕刻彈\n1985",
+
+        fillcolor="#5b21b6",
+        color="#a78bfa",
+        fontcolor="#ffffff"
+    ];
+
+    m5a1 [
+        label="M5A1\n法力狙擊步槍\n1987",
+
+        fillcolor="#7f1d1d",
+        color="#ef4444",
+        fontcolor="#ffffff"
+    ];
+
+    bm2 [
+        label="BM-2\n法力助推彈\n1987",
+
+        fillcolor="#5b21b6",
+        color="#a78bfa",
+        fontcolor="#ffffff"
+    ];
+
+    //1990s
+    csmg [
+        label="CSMG-2\n六聯裝壓縮法力機砲\n1990s",
+
+        fillcolor="#7f1d1d",
+        color="#ef4444",
+        fontcolor="#ffffff"
+    ];
+
+    lcsa [
+        label="LCSA-4「劍魚」\n三聯裝壓縮法力砲\n1990s",
+
+        fillcolor="#7f1d1d",
+        color="#ef4444",
+        fontcolor="#ffffff"
+    ];
+
+    fpsa [
+        label="可現場編程\n法力邏輯陣列\n1990s",
+
+        fillcolor="#111827",
+        color="#d1d5db",
+        fontcolor="#ffffff"
+    ];
+
+    secp [
+        label="法力加密\n通訊協定\n1990s",
+
+        fillcolor="#1d4ed8",
+        color="#60a5fa",
+        fontcolor="#ffffff"
+    ];
+
+    seccs [
+        label="法力加密\n戰鬥通訊系統\n1990s",
+
+        fillcolor="#0e7490",
+        color="#22d3ee",
+        fontcolor="#ffffff"
+    ];
+
+    psml [
+        label="PSML-5「逐火」\n單兵法力導彈發射器\n1990s",
+
+        fillcolor="#7f1d1d",
+        color="#ef4444",
+        fontcolor="#ffffff"
+    ];
+
+    interactive [
+        label="可互動紀錄板\n1990s\n工具",
+
+        fillcolor="#065f46",
+        color="#10b981",
+        fontcolor="#ffffff"
+    ];
+
+    //2000s
+
+    chip [
+        label="小型紀錄晶片\n2001\n工具",
+
+        fillcolor="#065f46",
+        color="#10b981",
+        fontcolor="#ffffff"
+    ];
+
+    hcsa [
+        label="HCSA-1「守護神」\n超高壓縮法力砲\n2002",
+
+        fillcolor="#7f1d1d",
+        color="#ef4444",
+        fontcolor="#ffffff"
+    ];
+
+    sscg04 [
+        label="SSCG 04\n複合狙擊步槍\n2004",
+
+        fillcolor="#7f1d1d",
+        color="#ef4444",
+        fontcolor="#ffffff"
+    ];
+
+    //UNKNOWN / FUTURE
+
+    defeature [
+        label="去特徵化\n年份待補\n技術",
+
+        fillcolor="#1d4ed8",
+        color="#60a5fa",
+        fontcolor="#ffffff"
+    ];
+
+    sec [
+        label="基質能－能量轉換器\n年份待補\n機器",
+
+        fillcolor="#0e7490",
+        color="#22d3ee",
+        fontcolor="#ffffff"
+    ];
+
+    smc [
+        label="基質能－物質轉換器\n年份待補\n機器",
+
+        fillcolor="#0e7490",
+        color="#22d3ee",
+        fontcolor="#ffffff"
+    ];
+
+    ct1 [
+        label="CT-1 SMC 工程船\n年份待補\n機器",
+
+        fillcolor="#0e7490",
+        color="#22d3ee",
+        fontcolor="#ffffff"
+    ];
+
+    //ERA COLUMNS - These invisible vertical chains force the columns 
+
+    {
+        rank=same;
+
+        h0;
+        crossbow;
+        record;
+    }
+
+    {
+        rank=same;
+
+        h60;
+        sa68;
+        sscg69;
+        sscg69e;
+    }
+
+    {
+        rank=same;
+
+        h70;
+        m2;
+        m3;
+        portable;
+        cspal;
+    }
+
+    {
+        rank=same;
+
+        h80;
+        ulsa;
+        m5;
+        bm1;
+        bm3;
+        m4a;
+        ammo60;
+        m5a1;
+        bm2;
+    }
+
+    {
+        rank=same;
+
+        h90;
+        csmg;
+        lcsa;
+        fpsa;
+        secp;
+        seccs;
+        psml;
+        interactive;
+    }
+
+    {
+        rank=same;
+
+        h00;
+        chip;
+        hcsa;
+        sscg04;
+    }
+
+    {
+        rank=same;
+
+        hp;
+        defeature;
+        sec;
+        smc;
+        ct1;
+    }
+
+    //HEADER CONNECTION
+
+    edge [
+        style=invis,
+        weight=100
+    ];
+
+    h0 -> h60 -> h70 -> h80 -> h90 -> h00 -> hp;
+
+    //VERTICAL ALIGNMENT CHAINS - Invisible edges are deliberately high-weight.
+
+    h0 -> crossbow -> record;
+
+    h60 -> sa68 -> sscg69 -> sscg69e;
+
+    h70 -> m2 -> m3 -> portable -> cspal;
+
+    h80 -> ulsa -> m5 -> bm1 -> bm3 -> m4a -> ammo60 -> m5a1 -> bm2;
+
+    h90 -> csmg -> lcsa -> fpsa -> secp -> seccs -> psml -> interactive;
+
+    h00 -> chip -> hcsa -> sscg04;
+
+    hp -> defeature -> sec -> smc -> ct1;
+
+    //RESTORE EDGE STYLE
+    edge [
+        style=solid,
+        color="#9ca3af",
+        penwidth=2.2,
+        arrowsize=0.65
+    ];
+
+    //TECHNOLOGY PREREQUISITES
+    
+    //Bow
+    sa68 -> m2;
+    sa68 -> ulsa;
+    m2 -> m3;
+
+	//Sniper
+    sscg69 -> sscg69e;
+    sscg69e -> sscg04;
+
+    //Compression technology
+    m2 -> cspal;
+
+    cspal -> m5;
+    cspal -> m4a;
+    cspal -> csmg;
+    cspal -> lcsa;
+    cspal -> hcsa;
+
+    cspal -> ammo60;
+    cspal -> bm2;
+    cspal -> bm3;
+
+    //Rifle
+    m5 -> m5a1;
+
+    //Ammunition
+    ammo60 -> bm2 [
+        style=dashed,
+        color="#c084fc",
+        label="小型化"
+    ];
+
+    m4a -> ammo60 [
+        style=dashed,
+        color="#c084fc",
+        label="使用"
+    ];
+
+    bm2 -> m5a1 [
+        style=dashed,
+        color="#c084fc",
+        label="專用彈藥"
+    ];
+
+    m5 -> bm1 [
+        style=dashed,
+        color="#c084fc",
+        label="可用彈藥"
+    ];
+
+    //Record device
+    record -> interactive;
+    record -> chip;
+
+    //Missile
+    fpsa -> psml;
+
+    //Communications
+    secp -> seccs;
+
+    //SMC
+    smc -> ct1;
+
+    //LEGEND
+    subgraph cluster_legend {
+
+        label="TECHNOLOGY TYPES";
+        color="#374151";
+        fontcolor="#9ca3af";
+
+        style="rounded,dashed";
+
+        legend_tech [
+            label="TECHNOLOGY",
+            fillcolor="#1d4ed8",
+            color="#60a5fa",
+            fontcolor="white"
+        ];
+
+        legend_weapon [
+            label="WEAPON",
+            fillcolor="#7f1d1d",
+            color="#ef4444",
+            fontcolor="white"
+        ];
+
+        legend_ammo [
+            label="AMMUNITION",
+            fillcolor="#5b21b6",
+            color="#a78bfa",
+            fontcolor="white"
+        ];
+
+        legend_tool [
+            label="TOOL",
+            fillcolor="#065f46",
+            color="#10b981",
+            fontcolor="white"
+        ];
+
+        legend_machine [
+            label="MACHINE",
+            fillcolor="#0e7490",
+            color="#22d3ee",
+            fontcolor="white"
+        ];
+
+        legend_tech -> legend_weapon [
+            style=invis
+        ];
+
+        legend_weapon -> legend_ammo [
+            style=invis
+        ];
+
+        legend_ammo -> legend_tool [
+            style=invis
+        ];
+
+        legend_tool -> legend_machine [
+            style=invis
+        ];
+    }
+}
