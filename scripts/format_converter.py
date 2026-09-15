@@ -39,6 +39,22 @@ CSS_STYLE = r"""
   background-repeat: repeat-x;
   padding-bottom: 0.25em;
 }
+
+.spoiler {
+  background: #222;
+  border-radius: 0.2em;
+  color: transparent;
+  cursor: pointer;
+  padding: 0 0.15em;
+}
+
+.spoiler:hover,
+.spoiler:focus,
+.spoiler:focus-visible {
+  background: transparent;
+  color: inherit;
+  outline: none;
+}
 </style>
 """
 
@@ -84,7 +100,7 @@ def convert_annotation(match: Match[str]) -> str:
 
 
 # Emphasis dot
-DOT_PATTERN = re.compile(r"\{\{dot:(?P<text>[^{}]+)\}\}")
+DOT_PATTERN = re.compile(r"\{\{(?:dot|anno-dot):(?P<text>[^{}]+)\}\}")
 
 def convert_dot(match: Match[str]) -> str:
     text = match.group("text")
@@ -108,9 +124,24 @@ def convert_center(match: Match[str]) -> str:
         "</strong><p>"
     )
 
+
+# Spoiler
+SPOILER_PATTERN = re.compile(r"\|\|(?P<text>[^|\n]+?)\|\|")
+
+
+def convert_spoiler(match: Match[str]) -> str:
+    text = match.group("text")
+
+    return (
+        '<span class="spoiler" tabindex="0" role="button">'
+        f"{html.escape(text)}"
+        "</span>"
+    )
+
 # Rules order matters
 
 RULES = [
+    Rule(SPOILER_PATTERN, convert_spoiler),
     Rule(ANNOTATION_PATTERN, convert_annotation),
     Rule(DOT_PATTERN, convert_dot),
     Rule(CENTER_PATTERN, convert_center),
@@ -160,22 +191,62 @@ def convert_inline(text: str) -> str:
 
 
 # File handling
-def convert_file(source: Path, destination: Path) -> None:
+def convert_file(
+    source: Path,
+    destination: Path,
+    *,
+    prefix: str = "",
+) -> None:
     destination.parent.mkdir(parents=True, exist_ok=True)
     text = source.read_text(encoding="utf-8")
-    destination.write_text(CSS_STYLE + convert_inline(text), encoding="utf-8")
+    destination.write_text(
+        prefix + CSS_STYLE + convert_inline(text),
+        encoding="utf-8",
+    )
+
+
+# Conversion modes
+STARGAZER_FILENAME = "The Outsiders [Vol. Stargazer].md"
+PAGES_INDEX = Path("docs") / "index.md"
+PAGES_FRONT_MATTER = """---
+title: "The Outsiders [Vol. Stargazer]"
+---
+"""
+
+
+def convert_all(project_root: Path) -> None:
+    input_dir = project_root / "Story"
+    output_dir = project_root / "HackMD"
+
+    for source in sorted(input_dir.glob("*.md")):
+        relative = source.relative_to(input_dir)
+        destination = output_dir / relative
+        convert_file(source, destination)
+
+
+def convert_main(project_root: Path) -> None:
+    """Convert the main story to the GitHub Pages entry point."""
+    source = project_root / "Story" / STARGAZER_FILENAME
+    destination = project_root / PAGES_INDEX
+    convert_file(source, destination, prefix=PAGES_FRONT_MATTER)
 
 
 # CLI
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Convert Story Markdown files.")
+    parser.add_argument(
+        "--mode",
+        choices=("all", "standard"),
+        default="all",
+        help="Conversion scope; 'standard' writes the fixed story to docs/index.md.",
+    )
+    args = parser.parse_args()
     project_root = Path(__file__).resolve().parent.parent
-    INPUT_DIR = project_root / "Story"
-    OUTPUT_DIR = project_root / "HackMD"
 
-    for source in sorted(INPUT_DIR.glob("*.md")):
-        relative = source.relative_to(INPUT_DIR)
-        destination = OUTPUT_DIR / relative
-        convert_file(source, destination)
+    if args.mode == "standard":
+        convert_main(project_root)
+    else:
+        convert_all(project_root)
 
 
 if __name__ == "__main__":
