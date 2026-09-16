@@ -124,7 +124,6 @@ flowchart LR
     i_smc --> i_ct1
 
     classDef technology fill:#2563eb,color:#ffffff,stroke:#1e3a8a
-    classDef material fill:#d97706,color:#ffffff,stroke:#92400e
     classDef weapon fill:#b91c1c,color:#ffffff,stroke:#7f1d1d
     classDef ammunition fill:#7c3aed,color:#ffffff,stroke:#4c1d95
     classDef tool fill:#059669,color:#ffffff,stroke:#064e3b
