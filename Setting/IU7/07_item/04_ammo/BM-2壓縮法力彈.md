@@ -1,13 +1,13 @@
 ---
 type: item
-id: item_bm-3 compressed sruna bullet
-name_en: BM-3 Compressed Sruna Bullet
+id: item_bm-2 compressed sruna bullet
+name_en: BM-2 Compressed Sruna Bullet
 subtype: ammunition
 new: true
 ---
-# BM壓縮法力彈
+# BM-2壓縮法力彈
 
-BM-3 Compressed Sruna Bullet
+BM-2 Compressed Sruna Bullet
 
 ---
 發明者: [[北太平洋王國研究院]]

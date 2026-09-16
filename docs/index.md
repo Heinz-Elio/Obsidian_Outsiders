@@ -1,3 +1,7 @@
+---
+layout: default
+title: "The Outsiders [Vol. Stargazer]"
+---
 # The Outsiders [Vol. Stargazer]
 
 ## Operation Siskin
@@ -28,7 +32,7 @@ Soar瞥了一眼手錶，距離上次例行通訊已過了近20分鐘，Kafziel�
 
 耳機裡陸續傳來應答，Soar隨即把注意力放回儀表板，完成例行檢查後看向強行卡在操縱桿上的軍用迷你筆記電腦。
 
-電腦正在播放Kafziel分享出來的畫面——準確來說是在Kafziel的防彈風鏡上顯示的合成畫面——畫面由加載到風鏡的UVAP({{anno-w:通用視覺擴展程式|Universal Vision Augment Program}})根據環境數據實時渲染，亮度會自動調節，不看海拔數字完全看不出這是四千九百多米深的海底。不過受限於電腦的硬體性能，實際輸出的畫質並不高，唯一不用擔心的是畫面扭曲或是丟失，因為訊號並非以物理方式傳輸，不受海中的各種雜訊影響。
+電腦正在播放Kafziel分享出來的畫面——準確來說是在Kafziel的防彈風鏡上顯示的合成畫面——畫面由加載到風鏡的<abbr class="abbr-term" data-key="UVAP" data-zh="通用視覺擴展程式" data-en="Universal Vision Augment Program" title="通用視覺擴展程式 / Universal Vision Augment Program">UVAP</abbr>(<span class="ruby-container"><span class="anno-w">通用視覺擴展程式</span><span>Universal Vision Augment Program</span></span>)根據環境數據實時渲染，亮度會自動調節，不看海拔數字完全看不出這是四千九百多米深的海底。不過受限於電腦的硬體性能，實際輸出的畫質並不高，唯一不用擔心的是畫面扭曲或是丟失，因為訊號並非以物理方式傳輸，不受海中的各種雜訊影響。
 
 此時Kafziel半跪在一堵坍塌的石牆後，防彈風鏡下如同鋼鐵般冷峻的祖母綠色雙眼正全神貫注地監視著前方的廢墟，修剪得極為清爽的深藍色頭髮短到幾乎飄不起來；軍綠色的M-65野戰夾克是二手的剩餘軍品，搭配洗到發白的灰色戰術褲與鞋面脫色的狼棕色戰鬥靴，彷彿久經風霜的退役軍人。
 
@@ -40,7 +44,7 @@ Soar瞥了一眼手錶，距離上次例行通訊已過了近20分鐘，Kafziel�
 
 在一片廢墟之中，完好無缺的噴泉顯得格格不入，彷彿它和周圍的建築根本不在一個時空，不過這只是因為噴泉表面覆蓋了一層強大的防禦法術，而這個防禦法術似乎並未應用在其他地方，所以只有這座噴泉在那場意外中逃過一劫。
 
-根據合作人的說法，這個廢墟過去是一座繁榮的海底王國。從廢墟的面積來看，這個王國的規模大概和一個歐洲小鎮差不多，若非知道這裡變成廢墟的真正原因，他大概會以為是兩國開戰，王宮挨了對方好幾輪炮火轟炸。然而事實上這是王國的前任公主——他們的合作對象——所擁有的珍珠力量失控造成的結果。導致珍珠失控的具體原因合作人並未明言，不過根據目前掌握的信息推斷，可能是感情糾紛導致的嚴重情緒問題帶來的災難性後果。||簡而言之，恐怖情人報社事件。||
+根據合作人的說法，這個廢墟過去是一座繁榮的海底王國。從廢墟的面積來看，這個王國的規模大概和一個歐洲小鎮差不多，若非知道這裡變成廢墟的真正原因，他大概會以為是兩國開戰，王宮挨了對方好幾輪炮火轟炸。然而事實上這是王國的前任公主——他們的合作對象——所擁有的珍珠力量失控造成的結果。導致珍珠失控的具體原因合作人並未明言，不過根據目前掌握的信息推斷，可能是感情糾紛導致的嚴重情緒問題帶來的災難性後果。<span class="spoiler" tabindex="0" role="button">簡而言之，恐怖情人報社事件。</span>
 
 奇怪的是，這個強大的防禦法術只存在於噴泉表面，原本的王國外圍區域反而沒有防護，但「有防護只是被掀了」和「原本就沒有防護」同樣不合理——若不添加任何假設，根本無法解釋為何處於失控的能量中心的人事物完好無損，遠處的防禦法術卻被炸沒了。
 
@@ -122,7 +126,7 @@ Kafziel將目光投向停在噴泉前的人魚，以研究者的目光端詳對�
 
 「這裡是我們人魚最神聖的地方，你們竟然想在這裡隨意踐踏剛剛誕生的純潔生命，絕對不可饒恕！」
 
-義正詞嚴地發表討伐宣言後，少女偶像歌手擺出充滿{{anno-w:羞恥感|青春活力}}的姿勢，以白色的光球為舞台，隨著憑空響起的輕快音樂開始現場演唱。
+義正詞嚴地發表討伐宣言後，少女偶像歌手擺出充滿<span class="ruby-container"><span class="anno-w">羞恥感</span><span>青春活力</span></span>的姿勢，以白色的光球為舞台，隨著憑空響起的輕快音樂開始現場演唱。
 
 「活潑動人歌聲演唱會開始！」
 
@@ -148,9 +152,9 @@ Kafziel將目光投向停在噴泉前的人魚，以研究者的目光端詳對�
 
 伴隨著歌聲而來的，是一股特殊能量。
 
-{{anno-w:Sruna|法力}}。
+<span class="ruby-container"><span class="anno-w">Sruna</span><span>法力</span></span>。
 
-那是這個IU({{anno-w:獨立時空|Independent Universe}})特有的事物，一種能夠驅動法術的能源，也是摧毀這個海底王國的元凶。
+那是這個<abbr class="abbr-term" data-key="IU" data-zh="獨立時空" data-en="Independent Universe" title="獨立時空 / Independent Universe">IU</abbr>(<span class="ruby-container"><span class="anno-w">獨立時空</span><span>Independent Universe</span></span>)特有的事物，一種能夠驅動法術的能源，也是摧毀這個海底王國的元凶。
 
 【愛を伝えるため　命がまた生まれる】
 
@@ -206,7 +210,7 @@ Kafziel向右挪了一下位置，以左手拇指與食指連成的直線作為�
 
 A試圖改變B的狀態，但B傾向維持原有狀態，A對B施加力，B便對A施加對抗的力，就像是作用力與反作用力。世界觀測到對抗的結果——遭到外力強行改變狀態的一方，短暫地阻止了改變的發生，繼而給出「兩股法力相互對抗」這個因。
 
-這是{{anno-w:Outsider|游離者}}的力量，不需要考慮過程，直接決定世界能夠觀測到何種結果，「決定現在」的力量——{{anno-w:Aberrational force|修正力}}。
+這是<span class="ruby-container"><span class="anno-w">Outsider</span><span>游離者</span></span>的力量，不需要考慮過程，直接決定世界能夠觀測到何種結果，「決定現在」的力量——<span class="ruby-container"><span class="anno-w">Aberrational force</span><span>修正力</span></span>。
 
 當淹沒一切的光芒褪去，磚紅色的天空取代了漆黑一片的海底，雲層取代海床成為「地面」，掩埋著難以辨認的建築殘骸，無數DNA光柱向著高處延伸，幾群不知名的魚類圍繞拔地而起的高塔「飄浮」著，游動的姿態僵硬到讓人懷疑那是塑料玩具。
 
@@ -216,7 +220,7 @@ Kafziel瞄了一眼剛好橫亙在身前的弧形斷壁，看起來像是某種�
 
 誓約之泉前，散發著白色光芒的四翼天使懸浮在空中，天使有著淺綠色長髮，淺青色雙眼，穿著一襲單肩白袍，護額、拳頭大的圓圈耳環、頸環、護肩、護臂還有左手的長笛通通都以金製成。物以稀為貴，他這身行頭至少看著比這形同廢墟的空間更切合他自稱的身份——
 
-**{{anno-w:Aquistō|阿奎斯托}}的王，米迦勒。**
+**<span class="ruby-container"><span class="anno-w">Aquistō</span><span>阿奎斯托</span></span>的王，米迦勒。**
 
 “KAFZIEL - THIS IS TWEET - RADIO CHECK - OVER”
 
@@ -630,7 +634,7 @@ Bubo繼續報告，Soar再次拿出電腦，看著螢幕上一個個刷新出來
 
 三角形的標籤是`VPTS`。
 
-PMC({{anno-w:私人軍事公司|Private Military Company}})中的業界龍頭——VPTS({{anno-w:韋斯柏卓越戰術方案|Vespa Premier Tactical Solution}})的僱傭兵正在附近溜達，這已經不是甚麼好消息，但更糟糕的消息是，這些人是衝著他們身邊的女孩來的。
+<abbr class="abbr-term" data-key="PMC" data-zh="私人軍事公司" data-en="Private Military Company" title="私人軍事公司 / Private Military Company">PMC</abbr>(<span class="ruby-container"><span class="anno-w">私人軍事公司</span><span>Private Military Company</span></span>)中的業界龍頭——<abbr class="abbr-term" data-key="VPTS" data-zh="韋斯柏卓越戰術方案" data-en="Vespa Premier Tactical Solution" title="韋斯柏卓越戰術方案 / Vespa Premier Tactical Solution">VPTS</abbr>(<span class="ruby-container"><span class="anno-w">韋斯柏卓越戰術方案</span><span>Vespa Premier Tactical Solution</span></span>)的僱傭兵正在附近溜達，這已經不是甚麼好消息，但更糟糕的消息是，這些人是衝著他們身邊的女孩來的。
 
 以幾個「普通女孩」為目標的僱傭兵，與同樣以她們為目標的四翼天使，如果他們是一伙的，他願意稱之為史上最佳跨界合作，如果不是，那就會演變成~~喜聞樂見的~~三方混戰。
 
@@ -686,7 +690,7 @@ Kafziel取下多功能筆，在電腦屏幕上畫出深藍色的新路線。
 
 “……WTF?”懵逼的Soar一把揪起Kafziel的衣領。「我們帶著兩個小孩！小孩！你是不是很想——」
 
-不管是隊長的特訓還是沙羅的術式他都不想體驗！{{dot:絕對不}}！！！
+不管是隊長的特訓還是沙羅的術式他都不想體驗！<span class="emphasis-dot">絕對不</span>！！！
 
 Kafziel冷靜地拉開Soar的手。
 
@@ -731,7 +735,7 @@ Kafziel冷靜地拉開Soar的手。
 
 睡衣被隨意的丟在床上，通往花園的玻璃門敞開著……所有線索都清楚指向一件事，他親愛的公主殿下——
 
-{{dot:又偷偷溜出去了}}！
+<span class="emphasis-dot">又偷偷溜出去了</span>！
 
 麗奈第一時間給露芝亞打去電話，電話卻提示「您所撥打的電話不在服務區」。
 
@@ -959,7 +963,7 @@ Kafziel冷靜地拉開Soar的手。
 
 ［就算如此，我們也不能輕易相信他們。人與人之間的關係無時無刻不在變化，也許今天還是朋友，明天就變成了敵人，這事誰也說不準。］旁聽了一會兒的尼歌娜放下購物袋，看向希寶。［希寶，你聽說過倫道爾的舒華澤嗎？］
 
-［沒有……彭達拉薩人應該全都被{{anno-w:Aqua Regina|海之女神}}封印在海都的城堡裡了才對……在最後的戰爭之後……］
+［沒有……彭達拉薩人應該全都被<span class="ruby-container"><span class="anno-w">Aqua Regina</span><span>海之女神</span></span>封印在海都的城堡裡了才對……在最後的戰爭之後……］
 
 ［最後的……戰爭？］星羅眨了眨眼睛，總覺得好像在哪裡聽過。
 
@@ -1054,7 +1058,7 @@ Kafziel沒有馬上停車，而是繼續開了500米才停在路邊。直到Kafz
 
 快步走到枝椏末端輕輕一躍，Kafziel穩穩落地，背著行李袋的Acer緊隨其後。
 
-Kafziel按下手錶下方的功能按鈕，防毒面具的護目鏡鏡片上出現由RAS({{anno-w:游騎士輔助系統|Rangers Assist System}})生成的合成畫面。畫面上方從左至右顯示時間、朝向方位和工作模式，這些文字會根據背景光照和顏色動態調整，在任何環境都能維持高可讀性。
+Kafziel按下手錶下方的功能按鈕，防毒面具的護目鏡鏡片上出現由<abbr class="abbr-term" data-key="RAS" data-zh="游騎士輔助系統" data-en="Rangers Assist System" title="游騎士輔助系統 / Rangers Assist System">RAS</abbr>(<span class="ruby-container"><span class="anno-w">游騎士輔助系統</span><span>Rangers Assist System</span></span>)生成的合成畫面。畫面上方從左至右顯示時間、朝向方位和工作模式，這些文字會根據背景光照和顏色動態調整，在任何環境都能維持高可讀性。
 
 轉動錶盤右側的旋鈕，再按一下功能按鈕啟動調查模式，合成畫面改以綠色成像。按下右上角的按鈕啟動錄影功能，工作模式旁邊出現錄影標誌，耳機裡響起一把電腦合成的女聲：
 
@@ -1268,7 +1272,7 @@ Kafziel將硬幣放回原位。雖然無法確定Glove有否監控這個錨點�
 
 Acer一抵步，便發現自己感知不到Kafziel的修正力。她向圓陣伸出手，感受到一股來自圓陣的微弱吸力。
 
-這麼弱的吸力Kafziel感知不到，所以剛才聯絡時他也只是推測是APCS({{anno-w:修正粒子捕獲系統|Aberrantional Particle Capture system}})阻斷了她對游離者的感知。
+這麼弱的吸力Kafziel感知不到，所以剛才聯絡時他也只是推測是<abbr class="abbr-term" data-key="APCS" data-zh="修正粒子捕獲系統" data-en="Aberrantional Particle Capture system" title="修正粒子捕獲系統 / Aberrantional Particle Capture system">APCS</abbr>(<span class="ruby-container"><span class="anno-w">修正粒子捕獲系統</span><span>Aberrantional Particle Capture system</span></span>)阻斷了她對游離者的感知。
 
 修正力感知的原理就跟雷達一樣，把修正粒子發射出去，等修正粒子被反彈回來後分析它的變化，由此判斷修正粒子撞上了甚麼。但若修正粒子不回來，他們並不會知道這是因為修正粒子一路上都沒撞到其他修正力結構，還是因為它被特殊結構捕獲了。只有靠到很近，他們才能感受到這種結構的吸力。
 
@@ -1303,11 +1307,11 @@ Stargazer
 
 在夏威夷小小的私人調查業圈子裡，有一家被戲稱為「退役處」的偵探事務所。該事務所位於商業區邊緣，外表並不起眼，事務所後面就是員工宿舍，包吃包住，不衝業績，員工還有閒情逸致養寵物，而老闆從不出現，彷彿是政府為了補償某些退役單位而開設的養老公司。至於退役的原因，圈內眾說紛紜，有人說是替別人背鍋，有人說是因為某個上級的失誤而在行動中受重傷，有人說是被捲入某場政治陰謀……
 
-對於傳聞中的主角——SWI({{anno-w:夏洛克與華生偵探事務所|Sherlock and Watson Investigations}})的員工來說，這些流言除了拖低他們的業績外沒有任何用處。不過，也許是因為以家喻戶曉的偵探組合為名，他們的業績一直都不差，即使他們不時「任性地」在正常營業時間掛著「休息中」的牌子。
+對於傳聞中的主角——<abbr class="abbr-term" data-key="SWI" data-zh="夏洛克與華生偵探事務所" data-en="Sherlock and Watson Investigations" title="夏洛克與華生偵探事務所 / Sherlock and Watson Investigations">SWI</abbr>(<span class="ruby-container"><span class="anno-w">夏洛克與華生偵探事務所</span><span>Sherlock and Watson Investigations</span></span>)的員工來說，這些流言除了拖低他們的業績外沒有任何用處。不過，也許是因為以家喻戶曉的偵探組合為名，他們的業績一直都不差，即使他們不時「任性地」在正常營業時間掛著「休息中」的牌子。
 
 正好今天就是一個「明明有人在，卻偏不開門做生意」的日子。
 
-不甚寬敞的事務所裡只有一張辦公桌，電腦熒幕旁的卡片盒裡，放著「私人調查員{{anno-w:Leon Aust|里昂．奧斯特}}」的卡片。
+不甚寬敞的事務所裡只有一張辦公桌，電腦熒幕旁的卡片盒裡，放著「私人調查員<span class="ruby-container"><span class="anno-w">Leon Aust</span><span>里昂．奧斯特</span></span>」的卡片。
 
 這是Kafziel在IU7的身份。
 
@@ -1461,7 +1465,7 @@ Kafziel拿出一張弗拉基米爾的證件照，固定在白板的右上方。
 
 但這並不是因為弗拉基米爾有多厲害，而是因為每次都有人（或團隊）給他善後，以至於他根本沒進入過執法單位的視線。善後人的反偵查能力極強，像是專業的情報組織、犯罪集團，每次都將弗拉基米爾留下的痕跡清理得一乾二淨，包括他刻意留下的「簽名」。
 
-雖然弗拉基米爾不是富三代，但他們還是給了這個善後人{{anno-w:Butler|管家}}的代號。社會關係調查顯示弗拉基米爾和誰都不親近，Butler又不是弗拉基米爾身邊的人，完全不知道是從哪裡冒出來的，而弗拉基米爾的作案手法曾經有過一次突然轉變，相較於前期，後期的案件有更多刻意留下的線索，有種發現Butler的存在後向對方叫板的感覺。
+雖然弗拉基米爾不是富三代，但他們還是給了這個善後人<span class="ruby-container"><span class="anno-w">Butler</span><span>管家</span></span>的代號。社會關係調查顯示弗拉基米爾和誰都不親近，Butler又不是弗拉基米爾身邊的人，完全不知道是從哪裡冒出來的，而弗拉基米爾的作案手法曾經有過一次突然轉變，相較於前期，後期的案件有更多刻意留下的線索，有種發現Butler的存在後向對方叫板的感覺。
 
 Butler唯一一次沒有出手，是弗拉基米爾在IU0的最後一次犯罪——他和Glove合作，直播炸掉軍事重地、盜取軍事機密，然後跟著Glove潛逃IU7。
 
@@ -1479,7 +1483,7 @@ Butler唯一一次沒有出手，是弗拉基米爾在IU0的最後一次犯罪�
 
 而極度敏感且無法建立完整證據鏈，意味著他們不能足夠快地結案，只能靠請一批確保沒有利益衝突的外援、交一堆階段性報告勉強維持著「至少不會立刻被要求解散」的狀態，直到關注度消退。
 
-到他報考游騎士的時候，這宗案件已經淡出公眾視野，游騎士的壓力的確是減輕了，但這並不代可以擱置調查，所以SOD-4({{anno-w:第4特別行動組「獵人」|4th Special Operation Detachment “Hetzer”}})依舊在擴編。
+到他報考游騎士的時候，這宗案件已經淡出公眾視野，游騎士的壓力的確是減輕了，但這並不代可以擱置調查，所以<abbr class="abbr-term" data-key="SOD-4" data-zh="第4特別行動組「獵人」" data-en="4th Special Operation Detachment “Hetzer”" title="第4特別行動組「獵人」 / 4th Special Operation Detachment “Hetzer”">SOD-4</abbr>(<span class="ruby-container"><span class="anno-w">第4特別行動組「獵人」</span><span>4th Special Operation Detachment “Hetzer”</span></span>)依舊在擴編。
 
 雖然他的目標是SOD，但他對於SOD內部的想像就是傳統的專案小組，從來沒想過SOD的成員配置居然會是這個樣子，更沒想過「副組長」這個職位會落到自己頭上。不只調查指揮、行動指揮、基建架構和維護全包，還要幫Zephyr看著其他人。
 
@@ -2012,7 +2016,7 @@ Soar不能為了避免這個問題重定義自己的DNA序列，作戰人員必�
 
 「你們不能找人幫忙處理，後果為甚麼要我承擔？」聽到他的話，她皺起眉頭。「你們之前說『作為提供情報的交換，會協助我在陸地生活』，這是你們要想辦法解決的問題。」
 
-「我們說的是{{dot:基本支援}}，提供{{dot:基本}}的食物、衣服、房間，不包括服侍你。」
+「我們說的是<span class="emphasis-dot">基本支援</span>，提供<span class="emphasis-dot">基本</span>的食物、衣服、房間，不包括服侍你。」
 
 「基本不應該是提供能吃的食物、乾淨的衣服和房間嗎？」
 
@@ -2024,7 +2028,7 @@ Soar不能為了避免這個問題重定義自己的DNA序列，作戰人員必�
 
 「東西沒了再補充，這不叫持續，一直都有才叫持續。」
 
-「那我修正我的說法，我們的一直都有是{{dot:每次東西沒了都會補充}}，不是{{dot:一直幫你維持你的東西在全新的狀態}}。」
+「那我修正我的說法，我們的一直都有是<span class="emphasis-dot">每次東西沒了都會補充</span>，不是<span class="emphasis-dot">一直幫你維持你的東西在全新的狀態</span>。」
 
 她吸了口氣。「那我們之前談的合作條件不成立，我答應的是後者。」
 
@@ -2450,7 +2454,7 @@ Soar把背包丟在沙發旁，徑直走向Kafziel，同時頭也不回地吩咐
 Soar接過Kafziel遞來的副本。
 
 ```
-敬愛的{{anno-w:艾登．舒華澤|Ayden Swartze}}少爺：
+敬愛的&#123;&#123;anno-w:艾登．舒華澤|Ayden Swartze&#125;&#125;少爺：
 ```
 
 Soar疑惑地看向Kafziel，Kafziel舉起其中一個證物袋，裡面的信封寫著「給里昂．奧斯特」，信封沒有使用信蠟封口，也沒有寫寄出地址。郵戳上的寄出地區是紐約10001郵政區，蓋印日期是2004年2月29日。
@@ -3289,9 +3293,9 @@ Kafziel在「右美托咪啶／芬太尼」下方的清單勾選出諾愛爾的�
 
 諾愛爾猶豫片刻，最後還是點頭同意。
 
-得到肯定的答覆，Kafziel打開RAS內置的應用，檢索可以用於止嘔的藥，快速瀏覽了一遍簡介與注意事項，然後頭也不抬地向Soar喊道：「給我一盒{{anno-w:Paracetamol|撲熱息痛}}和{{anno-w:Diphenhydramine|苯海拉明}}，還有水。」
+得到肯定的答覆，Kafziel打開RAS內置的應用，檢索可以用於止嘔的藥，快速瀏覽了一遍簡介與注意事項，然後頭也不抬地向Soar喊道：「給我一盒<span class="ruby-container"><span class="anno-w">Paracetamol</span><span>撲熱息痛</span></span>和<span class="ruby-container"><span class="anno-w">Diphenhydramine</span><span>苯海拉明</span></span>，還有水。」
 
-「我沒空，你幫他找。{{anno-w:Acenol|阿斯諾}}和{{anno-w:Benadine|本立定}}。」Soar向車內正在整理毛巾的沙羅說道。
+「我沒空，你幫他找。<span class="ruby-container"><span class="anno-w">Acenol</span><span>阿斯諾</span></span>和<span class="ruby-container"><span class="anno-w">Benadine</span><span>本立定</span></span>。」Soar向車內正在整理毛巾的沙羅說道。
 
 「你鑰匙放哪了？」
 
@@ -3451,7 +3455,7 @@ Soar嘆了口氣，拿出電腦寫下`get them rest`，然後舉起來給後面�
 
 儘管沒有催眠的效果，但只要能讓她們緊繃的神經得以放鬆，也已經比現在好很多。
 
-可可回以一個揮舞麥克風的動作，兩人放緩節奏，唱出那首在人魚王國家喻戶曉的歌曲——{{anno-w:Legend of mermaid|人魚的傳說}}。
+可可回以一個揮舞麥克風的動作，兩人放緩節奏，唱出那首在人魚王國家喻戶曉的歌曲——<span class="ruby-container"><span class="anno-w">Legend of mermaid</span><span>人魚的傳說</span></span>。
 
 曾幾何時，她們會坐在海底山脈的一角，用獨屬於兩人的節奏合唱。放下責任與使命，忘記一切條條框框，盡情地歌唱。
 
