@@ -72,6 +72,10 @@ def test_dot_styles_and_markdown_replacement_are_idempotent() -> None:
 
     assert 'style="solid"' in dot
     assert 'style="dashed"' in dot
+    assert 'n001 -> edge_entry_000' in dot
+    assert 'edge_entry_000 -> n002:w' in dot
+    assert "-> n002:w" in dot
+    assert "-> n004:w" in dot
     assert "// 左下圖例" in dot
 
     markdown = f"```tech-tree\n{SAMPLE}```\n"

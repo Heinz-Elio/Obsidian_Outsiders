@@ -499,7 +499,7 @@ def emit_dot(graph: Graph) -> str:
             '        width="2.25", height="0.82", style="rounded,filled",',
             '        fontsize="10", fontcolor="#FFFFFF", penwidth="2"];',
             f'  edge [fontname="{FONT}", fontsize="8", fontcolor="#D1D5DB",',
-            '        color="#9CA3AF", penwidth="2.0", arrowsize="0.65"];',
+            '        color="#9CA3AF", penwidth="2.0", arrowsize="0.95"];',
             "",
             "  // 時間標題",
         ]
@@ -548,17 +548,35 @@ def emit_dot(graph: Graph) -> str:
         out.append("  }")
 
     out.extend(["", "  // 明示連線；位置不由連線推斷。"])
-    for edge in graph.edges:
-        src = graph.aliases[edge.src].dot_id
-        dst = graph.aliases[edge.dst].dot_id
-        attrs = (
+    incoming_counts = Counter(edge.dst for edge in graph.edges)
+    incoming_seen: dict[str, int] = defaultdict(int)
+    for index, edge in enumerate(graph.edges):
+        src_node = graph.aliases[edge.src]
+        dst_node = graph.aliases[edge.dst]
+        src = src_node.dot_id
+        dst = dst_node.dot_id
+        style_attrs = (
             'style="solid", color="#9CA3AF"'
             if edge.kind == "inheritance"
             else 'style="dashed", color="#C084FC"'
         )
+        target_x, target_y = layout.node_positions[dst]
+        entry_id = f"edge_entry_{index:03d}"
+        entry_slot = incoming_seen[edge.dst]
+        incoming_seen[edge.dst] += 1
+        entry_offset = (entry_slot - (incoming_counts[edge.dst] - 1) / 2) * 4.0
+        # Keep waypoints distinct and clear of adjacent fixed-width nodes.
+        # Their short horizontal edges make Graphviz honour the west port.
+        entry_x = target_x - 95.0 + entry_offset
+        out.append(
+            f'  {entry_id} [shape="point", width="0.01", height="0.01", '
+            f'label="", style="invis", pos="{entry_x:.1f},{target_y:.1f}!"];'
+        )
+        first_attrs = style_attrs + ', arrowhead="none"'
         if edge.label:
-            attrs += f', xlabel="{dot_escape(edge.label)}"'
-        out.append(f"  {src} -> {dst} [{attrs}];")
+            first_attrs += f', xlabel="{dot_escape(edge.label)}"'
+        out.append(f"  {src} -> {entry_id} [{first_attrs}];")
+        out.append(f"  {entry_id} -> {dst}:w [{style_attrs}, arrowsize=\"0.95\"];")
 
     legend_y = layout.legend_y
     out.extend(
