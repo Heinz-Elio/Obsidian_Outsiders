@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
@@ -18,6 +18,8 @@ class Document:
     source_id: str
     entity_names: list[str]
     relation_tags: list[str]
+    # (target, relation) pairs parsed from "- [[target]] #relation" lines.
+    relations: list[tuple[str, str]] = field(default_factory=list)
 
 
 @dataclass

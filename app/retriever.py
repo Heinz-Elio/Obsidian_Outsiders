@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from collections import defaultdict
 from typing import Any, Iterable
 
@@ -11,6 +12,34 @@ from app.store import VectorStore
 
 def _text(value: object) -> str:
     return str(value or "").strip().casefold()
+
+
+NAME_SEPARATORS = re.compile(r"[．·•・\-\s_]+")
+# Queries this short are treated as "name lookups", where a one-character
+# title such as 白 or 藍 may match; longer prose would match too loosely.
+SHORT_QUERY_CHARS = 8
+
+
+def _is_cjk(text: str) -> bool:
+    return bool(re.fullmatch(r"[\u4e00-\u9fff]+", text))
+
+
+def _name_variants(name: str, *, person: bool) -> set[str]:
+    """Return short forms people actually type for a full entity name.
+
+    ``海因茨．萊文斯基-阿斯哈`` -> {海因茨, 萊文斯基, 阿斯哈}
+    ``nanami nikola`` -> {nanami, nikola}
+    ``七海尼歌娜`` -> {尼歌娜} (given-name suffix, character notes only)
+    """
+    variants = set()
+    parts = NAME_SEPARATORS.split(name)
+    if len(parts) > 1:
+        for part in parts:
+            if len(part) >= (2 if _is_cjk(part) else 3):
+                variants.add(part)
+    elif person and len(name) >= 5 and _is_cjk(name):
+        variants.add(name[-3:])
+    return variants
 
 
 class HybridRetriever:
@@ -32,22 +61,38 @@ class HybridRetriever:
     def _lexical_sources(self, query: str, entity: str | None) -> dict[str, float]:
         query_text = _text(query)
         requested = _text(entity)
+        short_query = len(query_text) <= SHORT_QUERY_CHARS
         matches = {}
         for document in self.documents:
             names = {
                 _text(document.title),
                 _text(document.path.stem),
                 *(_text(name) for name in document.entity_names),
+                *(_text(name) for name in document.aliases),
                 _text(document.metadata.get("id")),
             }
             names.discard("")
+            person = document.category == "character"
+            variants = set()
+            for name in names:
+                variants.update(_name_variants(name, person=person))
+            variants -= names
+
             score = 0.0
             if requested and requested in names:
                 score = 1.0
             elif requested and any(requested in name or name in requested for name in names):
                 score = 0.9
+            elif requested and requested in variants:
+                score = 0.8
             elif any(len(name) >= 2 and name in query_text for name in names):
                 score = 0.85
+            elif any(variant in query_text for variant in variants):
+                # Short form such as 尼歌娜 / 海因茨 / nikola.
+                score = 0.7
+            elif short_query and any(len(name) == 1 and name in query_text for name in names):
+                # One-character titles (白, 藍, 紫) only for name-lookup queries.
+                score = 0.6
             if score:
                 matches[document.path.as_posix()] = score
         return matches

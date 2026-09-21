@@ -13,7 +13,17 @@ from app.model import Document
 FRONTMATTER = re.compile(r"\A---\s*\n(.*?)\n---\s*\n?", re.DOTALL)
 WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]")
 HEADING = re.compile(r"^\s{0,3}#{1,6}\s+(.+?)\s*#*\s*$", re.MULTILINE)
+H1 = re.compile(r"^\s{0,3}#\s+(.+?)\s*#*\s*$", re.MULTILINE)
 TAG = re.compile(r"(?<!\w)#([\w-]+)")
+# "- [[target]] #relation #other" lines used in the 關係 section of notes.
+TYPED_RELATION = re.compile(
+    r"^\s*-\s*\[\[([^\]|#]+)(?:[#|][^\]]*)?\]\]\s*((?:#[\w-]+\s*)+)$",
+    re.MULTILINE,
+)
+ALIAS_SPLIT = re.compile(r"\s*[|｜/／,，、]\s*")
+
+# Intermediate NotebookLM exports produced by scripts/mw_converter.py.
+EXCLUDED_SUFFIXES = (".mw.md",)
 
 EXCLUDED_DIRS = {
     ".git",
@@ -88,13 +98,46 @@ def _as_list(value: object) -> list[str]:
     if value is None:
         return []
     if isinstance(value, list):
-        return [str(item) for item in value]
+        return [str(item).strip() for item in value if item is not None and str(item).strip()]
     return [str(value)]
 
 
 def _title(path: Path, text: str) -> str:
     match = HEADING.search(text)
     return match.group(1) if match else path.stem
+
+
+def _body_aliases(text: str) -> list[str]:
+    """Read the reading/romanisation line placed directly under the H1 heading.
+
+    Notes write e.g. ``ななみ　にこら | Nanami Nikola`` on the first non-empty
+    line after ``# 七海尼歌娜``. Anything that looks like markup is ignored.
+    """
+    match = H1.search(text)
+    if not match:
+        return []
+    rest = text[match.end():].lstrip("\n").split("\n", 1)[0].strip()
+    if not rest or len(rest) > 80 or rest[0] in "#-|*>[!`":
+        return []
+    aliases = []
+    for part in ALIAS_SPLIT.split(rest):
+        part = part.strip()
+        if part and part not in aliases:
+            aliases.append(part)
+    return aliases
+
+
+def _typed_relations(text: str) -> list[tuple[str, str]]:
+    relations: list[tuple[str, str]] = []
+    for match in TYPED_RELATION.finditer(text):
+        target = match.group(1).strip()
+        if not target:
+            continue
+        for tag in TAG.findall(match.group(2)):
+            pair = (target, tag.casefold())
+            if pair not in relations:
+                relations.append(pair)
+    return relations
 
 
 def _clean_links(text: str) -> str:
@@ -107,6 +150,8 @@ def source_paths(root: Path) -> Iterable[Path]:
     for path in sorted(root.rglob("*.md")):
         relative = path.relative_to(root)
         if any(part in EXCLUDED_DIRS for part in relative.parts):
+            continue
+        if path.name.lower().endswith(EXCLUDED_SUFFIXES):
             continue
         yield path
 
@@ -126,11 +171,16 @@ def load_document(root: Path, path: Path) -> Document:
     tags.extend(TAG.findall(body))
     links = [match.group(1).strip() for match in WIKILINK.finditer(body)]
     aliases = _as_list(metadata.get("aliases"))
+    title = str(metadata.get("title") or _title(path, body))
+    for alias in _body_aliases(body):
+        if alias != title and alias not in aliases:
+            aliases.append(alias)
+    relations = _typed_relations(body)
     relation_tags = _relation_values(metadata)
     entity_names = sorted(
         {
             path.stem,
-            str(metadata.get("title") or _title(path, body)),
+            title,
             str(metadata.get("name_en") or ""),
             *aliases,
         }
@@ -139,7 +189,7 @@ def load_document(root: Path, path: Path) -> Document:
 
     return Document(
         path=relative,
-        title=str(metadata.get("title") or _title(path, body)),
+        title=title,
         text=_clean_links(body).strip(),
         tags=sorted(set(tags)),
         aliases=aliases,
@@ -151,6 +201,7 @@ def load_document(root: Path, path: Path) -> Document:
         source_id=_source_id(relative),
         entity_names=entity_names,
         relation_tags=relation_tags,
+        relations=relations,
     )
 
 

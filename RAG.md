@@ -188,8 +188,10 @@ authentication or another access-control layer.
 ## MCP tools
 
 - `search_knowledge(query, top_k)`: semantic search with source metadata
-- `query_knowledge(query, scope, entity, top_k)`: high-level setting search with
-  deterministic category routing and source-cited results
+- `query_knowledge(query, scope, entity, top_k, filters)`: high-level setting
+  search with deterministic category routing, optional exact frontmatter
+  filters (e.g. `{"ranger": true}`, `{"importance": "main"}`), and
+  source-cited results
 - `retrieve_evidence(query, scope, entity, max_sources, token_budget)`: hybrid
   entity/vector retrieval, one-hop graph expansion, source diversity, and
   NotebookLM-style primary/related evidence bundles
@@ -205,6 +207,18 @@ authentication or another access-control layer.
 query, it is selected automatically; ambiguous queries search the full vault.
 The search returns `scope_used` together with each result's source path. Use
 `get_document` when the complete note is needed.
+
+`filters` accepts these frontmatter keys: `type`, `importance`, `entity_type`,
+`alive`, `ranger`, `military`, `process_srune`, `have_combat_eq`, `sub_type`,
+`operation`. Filtered searches do not fall back to unfiltered results.
+
+The loader also reads the reading/romanisation line directly under a note's H1
+(`ななみ　にこら | Nanami Nikola`) as aliases, and turns `- [[target]] #tag`
+lines (the `關係` section) into typed graph edges such as `siblings`,
+`supervise`, or `protected_by`; reverse edges are prefixed with `backlink:`.
+Entity lookups also match short forms (`尼歌娜`, `海因茨`, `Nikola`) and, for
+short name-lookup queries, one-character titles such as `白`. Files ending in
+`.mw.md` (NotebookLM exports) are excluded from indexing.
 
 The index stores the category derived from the numbered setting folder and
 selected frontmatter fields (`type`, `importance`, `entity_type`, `alive`,

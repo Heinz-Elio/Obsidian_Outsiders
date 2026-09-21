@@ -37,7 +37,7 @@
     "question_type": "cross_scope_context",
     "query": "世界觀與先天性法力系統過激的關係",
     "expected_sources": [
-      "世界觀.md",
+      "IU7法術.md",
       "IU7/先天性法力系統過激.md"
     ],
     "minimum_recall": 1.0

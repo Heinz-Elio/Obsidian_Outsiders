@@ -6,7 +6,7 @@ import os
 import sys
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Literal, cast
+from typing import Any, Literal, cast
 
 _ROOT = Path(__file__).resolve().parent.parent
 if str(_ROOT) not in sys.path:
@@ -125,29 +125,73 @@ def search_knowledge(query: str, top_k: int | None = None) -> str:
         return _json_error(exc)
 
 
+FILTERABLE_METADATA = {
+    "type",
+    "importance",
+    "entity_type",
+    "alive",
+    "ranger",
+    "military",
+    "process_srune",
+    "have_combat_eq",
+    "sub_type",
+    "operation",
+}
+
+
+def _metadata_filters(filters: dict[str, Any] | None) -> dict[str, Any]:
+    if not filters:
+        return {}
+    unknown = sorted(set(filters) - FILTERABLE_METADATA)
+    if unknown:
+        raise ValueError(
+            f"unsupported filter keys {unknown}; allowed: {sorted(FILTERABLE_METADATA)}"
+        )
+    coerced = {}
+    for key, value in filters.items():
+        if value is None:
+            continue
+        if isinstance(value, str) and value.strip().lower() in {"true", "false"}:
+            value = value.strip().lower() == "true"
+        coerced[key] = value
+    return coerced
+
+
 @mcp.tool()
 def query_knowledge(
     query: str,
     scope: str | None = None,
     entity: str | None = None,
     top_k: int | None = None,
+    filters: dict[str, Any] | None = None,
 ) -> str:
-    """Route a setting query to the most relevant category and return cited passages."""
+    """Route a setting query to the most relevant category and return cited passages.
+
+    ``filters`` matches frontmatter fields exactly, e.g. ``{"ranger": true}``,
+    ``{"importance": "main", "alive": true}``. Allowed keys: type, importance,
+    entity_type, alive, ranger, military, process_srune, have_combat_eq,
+    sub_type, operation. When filters are given, results never fall back to
+    unfiltered search.
+    """
     try:
         runtime = _load_runtime()
         selected_scope = resolve_scope(query, scope)
+        metadata = _metadata_filters(filters)
         search_query = f"{entity} {query}".strip() if entity else query
         limit = max(1, min(top_k or runtime.config.retrieval.top_k, 20))
         results = runtime.store.search(
             runtime.embedder.embed_one(search_query),
             limit,
             category=SCOPE_CATEGORIES.get(selected_scope),
+            metadata=metadata or None,
+            fallback_to_unfiltered=not metadata,
         )
         return json.dumps(
             {
                 "scope_used": selected_scope or "all",
                 "scope_requested": scope,
                 "entity": entity,
+                "filters": metadata,
                 "results": results,
             },
             ensure_ascii=False,

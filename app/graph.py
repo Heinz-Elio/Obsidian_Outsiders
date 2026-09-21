@@ -27,7 +27,7 @@ def _values(value: object) -> list[str]:
     if value is None:
         return []
     if isinstance(value, list):
-        return [str(item) for item in value]
+        return [str(item) for item in value if item is not None]
     return [str(value)]
 
 
@@ -93,7 +93,18 @@ class SourceGraph:
         }
         for document in self.documents:
             source = document.path.as_posix()
+            # "- [[target]] #siblings #protect" lines become one typed edge per
+            # tag; the same target is then not repeated as a plain wikilink.
+            typed_targets = set()
+            for target, relation in document.relations:
+                typed_targets.add(_normalise_name(target))
+                self._add_reference(source, target, relation)
+            seen_links = set()
             for target in document.links:
+                name = _normalise_name(target)
+                if name in typed_targets or name in seen_links:
+                    continue
+                seen_links.add(name)
                 self._add_reference(source, target, "wikilink")
             for field, relation in relation_fields.items():
                 for target in _values(document.metadata.get(field)):
