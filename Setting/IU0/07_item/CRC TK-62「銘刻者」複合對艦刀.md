@@ -5,7 +5,7 @@ name_en: CRC TK-62 Engraver
 subtype: weapon
 new: true
 ---
-# CRC PFG/TK-62 「銘刻者」複合對艦刀
+# CRC PFG/TK-62「銘刻者」複合對艦刀
 
 CRC TK-62 Engraver 
 

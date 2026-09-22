@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-10T00:46:20",
+  "generated": "2026-09-22T22:52:40",
   "source_limit": 50,
   "long_note_chars": 10000,
-  "output_count": 25,
+  "output_count": 28,
   "outputs": [
     {
       "file": "00_大綱索引.md",
@@ -113,10 +113,19 @@
       "file": "IU7.md",
       "kind": "category_bundle",
       "note_count": 2,
-      "characters": 7447,
+      "characters": 7438,
       "sources": [
         "IU7/IU7法術.md",
         "IU7/先天性法力系統過激.md"
+      ]
+    },
+    {
+      "file": "IU7_00_overview.md",
+      "kind": "category_bundle",
+      "note_count": 1,
+      "characters": 809,
+      "sources": [
+        "IU7/00_overview/overview.md"
       ]
     },
     {
@@ -147,7 +156,7 @@
       "file": "IU7_01_character.md",
       "kind": "category_bundle",
       "note_count": 75,
-      "characters": 84747,
+      "characters": 84846,
       "sources": [
         "IU7/01_character/117.md",
         "IU7/01_character/Doktorvater.md",
@@ -230,7 +239,7 @@
       "file": "IU7_01_character_main.md",
       "kind": "category_bundle",
       "note_count": 4,
-      "characters": 29748,
+      "characters": 29763,
       "sources": [
         "IU7/01_character/main/可伶．戈蒂埃.md",
         "IU7/01_character/main/李察．蘇利文.md",
@@ -297,19 +306,20 @@
     {
       "file": "IU7_06_technology.md",
       "kind": "category_bundle",
-      "note_count": 3,
-      "characters": 2511,
+      "note_count": 4,
+      "characters": 4469,
       "sources": [
         "IU7/06_technology/去特徵化.md",
         "IU7/06_technology/壓縮法力發射.md",
-        "IU7/06_technology/法力加密通訊協定.md"
+        "IU7/06_technology/法力加密通訊協定.md",
+        "IU7/06_technology/蝕刻.md"
       ]
     },
     {
       "file": "IU7_07_item_01_material.md",
       "kind": "category_bundle",
       "note_count": 3,
-      "characters": 1935,
+      "characters": 1934,
       "sources": [
         "IU7/07_item/01_material/可現場編程法力邏輯陣列.md",
         "IU7/07_item/01_material/晶核.md",
@@ -319,70 +329,74 @@
     {
       "file": "IU7_07_item_02_tool.md",
       "kind": "category_bundle",
-      "note_count": 6,
-      "characters": 3117,
+      "note_count": 7,
+      "characters": 3359,
       "sources": [
         "IU7/07_item/02_tool/便攜法術媒介.md",
         "IU7/07_item/02_tool/可互動紀錄板.md",
         "IU7/07_item/02_tool/四軸偵察無人機.md",
         "IU7/07_item/02_tool/小型紀錄晶片.md",
         "IU7/07_item/02_tool/紀錄節點.md",
+        "IU7/07_item/02_tool/美人魚占卜卡牌.md",
         "IU7/07_item/02_tool/萬用晶核棒.md"
       ]
     },
     {
       "file": "IU7_07_item_03_weapon.md",
       "kind": "category_bundle",
-      "note_count": 26,
-      "characters": 10485,
+      "note_count": 18,
+      "characters": 10556,
       "sources": [
-        "IU7/07_item/03_weapon/60毫米蝕刻彈.md",
-        "IU7/07_item/03_weapon/A-11D 干擾弩箭.md",
-        "IU7/07_item/03_weapon/A-11L 長程弩箭.md",
-        "IU7/07_item/03_weapon/A-11P 穿甲弩箭.md",
-        "IU7/07_item/03_weapon/BM-1 5.56毫米水中用子彈.md",
-        "IU7/07_item/03_weapon/BM-2 7.62毫米法力助推彈.md",
-        "IU7/07_item/03_weapon/BM-3 5.56毫米壓縮法力子彈.md",
-        "IU7/07_item/03_weapon/CSMG-2 六聯裝壓縮法力機砲.md",
-        "IU7/07_item/03_weapon/HCSA-1 「守護神」超高壓縮法力砲.md",
-        "IU7/07_item/03_weapon/KS A68 複合弩.md",
-        "IU7/07_item/03_weapon/KS A82 超輕法術弩.md",
-        "IU7/07_item/03_weapon/KS SA72 狙擊弩.md",
-        "IU7/07_item/03_weapon/KS SSG04.md",
-        "IU7/07_item/03_weapon/KS SSG69 複合狙擊步槍.md",
-        "IU7/07_item/03_weapon/KS SSG69E 複合狙擊步槍.md",
-        "IU7/07_item/03_weapon/LCSA-4 「劍魚」三聯裝壓縮法力砲.md",
-        "IU7/07_item/03_weapon/M1 晶核軍刀.md",
-        "IU7/07_item/03_weapon/M2 法力弩.md",
-        "IU7/07_item/03_weapon/M3 狙擊用法力弩.md",
+        "IU7/07_item/03_weapon/CSMG-2六聯裝壓縮法力機砲.md",
+        "IU7/07_item/03_weapon/HCSA-1「守護神」超高壓縮法力砲.md",
+        "IU7/07_item/03_weapon/LCSA-4「劍魚」三聯裝壓縮法力砲.md",
+        "IU7/07_item/03_weapon/M1晶核軍刀.md",
+        "IU7/07_item/03_weapon/M2法力弩.md",
+        "IU7/07_item/03_weapon/M3狙擊用法力弩.md",
+        "IU7/07_item/03_weapon/M4 60毫米壓縮法力砲.md",
         "IU7/07_item/03_weapon/M4A 60毫米壓縮法力砲.md",
-        "IU7/07_item/03_weapon/M5 法力步槍.md",
-        "IU7/07_item/03_weapon/M5A1 法力狙擊步槍.md",
-        "IU7/07_item/03_weapon/PSML-5  「逐火」單兵法力導彈發射器.md",
-        "IU7/07_item/03_weapon/北冰洋法力弩.md",
-        "IU7/07_item/03_weapon/晶核長槍.md",
-        "IU7/07_item/03_weapon/蝕刻彈.md"
+        "IU7/07_item/03_weapon/M5A1法力狙擊步槍.md",
+        "IU7/07_item/03_weapon/M5法力步槍.md",
+        "IU7/07_item/03_weapon/PSML-5 「逐火」單兵法力導彈發射器.md",
+        "IU7/07_item/03_weapon/克洛克斯蒂爾SA 68法力弩.md",
+        "IU7/07_item/03_weapon/克洛克斯蒂爾SSCG 04複合狙擊步槍.md",
+        "IU7/07_item/03_weapon/克洛克斯蒂爾SSCG 69E複合狙擊步槍.md",
+        "IU7/07_item/03_weapon/克洛克斯蒂爾SSCG 69複合狙擊步槍.md",
+        "IU7/07_item/03_weapon/克洛克斯蒂爾ULSA 82超輕法力弩.md",
+        "IU7/07_item/03_weapon/北冰洋制式弩.md",
+        "IU7/07_item/03_weapon/晶核長槍.md"
       ]
     },
     {
-      "file": "IU7_07_item_04_machine.md",
+      "file": "IU7_07_item_04_ammo.md",
       "kind": "category_bundle",
-      "note_count": 6,
-      "characters": 2578,
+      "note_count": 4,
+      "characters": 2197,
       "sources": [
-        "IU7/07_item/04_machine/CT-1 SMC 工程船.md",
-        "IU7/07_item/04_machine/基質能-物質轉換器.md",
-        "IU7/07_item/04_machine/基質能-能量轉換器.md",
-        "IU7/07_item/04_machine/法力加密戰鬥通訊系統.md",
-        "IU7/07_item/04_machine/美人魚占卜卡牌.md",
-        "IU7/07_item/04_machine/靈池.md"
+        "IU7/07_item/04_ammo/60毫米蝕刻彈.md",
+        "IU7/07_item/04_ammo/BM-1水中用子彈.md",
+        "IU7/07_item/04_ammo/BM-2壓縮法力彈.md",
+        "IU7/07_item/04_ammo/BM-3法力助推彈.md"
+      ]
+    },
+    {
+      "file": "IU7_07_item_05_machine.md",
+      "kind": "category_bundle",
+      "note_count": 5,
+      "characters": 2296,
+      "sources": [
+        "IU7/07_item/05_machine/CT-1 SMC 工程船.md",
+        "IU7/07_item/05_machine/基質能-物質轉換器.md",
+        "IU7/07_item/05_machine/基質能-能量轉換器.md",
+        "IU7/07_item/05_machine/法力加密戰鬥通訊系統.md",
+        "IU7/07_item/05_machine/靈池.md"
       ]
     },
     {
       "file": "IU7_08_organization.md",
       "kind": "category_bundle",
       "note_count": 24,
-      "characters": 12531,
+      "characters": 12495,
       "sources": [
         "IU7/08_organization/Invisible Link.md",
         "IU7/08_organization/SWI調查事務所.md",
@@ -413,13 +427,10 @@
     {
       "file": "IU7_09_event.md",
       "kind": "category_bundle",
-      "note_count": 19,
-      "characters": 12433,
+      "note_count": 16,
+      "characters": 10277,
       "sources": [
-        "IU7/09_event/Ancient.mw.md",
-        "IU7/09_event/IU7.mw.mw.md",
         "IU7/09_event/Next 計劃.md",
-        "IU7/09_event/Operation.md",
         "IU7/09_event/人偶襲擊.md",
         "IU7/09_event/人魚公主綁架事件.md",
         "IU7/09_event/南太平洋王國滅國.md",
@@ -469,6 +480,15 @@
       "characters": 5552,
       "sources": [
         "世界觀.md"
+      ]
+    },
+    {
+      "file": "standalone_IU7_tech_tree_151d588e.md",
+      "kind": "standalone",
+      "note_count": 1,
+      "characters": 17402,
+      "sources": [
+        "IU7/00_overview/IU7_tech_tree.md"
       ]
     }
   ]

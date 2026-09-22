@@ -1,7 +1,7 @@
-# IU7/07_item/04_machine
+# IU7/07_item/05_machine
 
 ## CT-1 SMC工程船
-Source: IU7/07_item/04_machine/CT-1 SMC 工程船.md
+Source: IU7/07_item/05_machine/CT-1 SMC 工程船.md
 Meta: type=item; id=item_ct-1 smc construction boot; name_en=CT-1 SMC Construction Boot; subtype=machine; new=True
 
 CT-1 SMC Construction Boot
@@ -13,7 +13,7 @@ CT-1 SMC Construction Boot
 ---
 
 ## 基質能-物質轉換器
-Source: IU7/07_item/04_machine/基質能-物質轉換器.md
+Source: IU7/07_item/05_machine/基質能-物質轉換器.md
 Meta: type=item; id=item_substrate-based mass converter; name_en=Substrate-based mass converter; subtype=machine; new=True
 
 Substrate-based mass converter，SMC
@@ -27,7 +27,7 @@ Substrate-based mass converter，SMC
 ---
 
 ## 基質能-能量轉換器
-Source: IU7/07_item/04_machine/基質能-能量轉換器.md
+Source: IU7/07_item/05_machine/基質能-能量轉換器.md
 Meta: type=item; id=item_substrate-based energy converter; name_en=Substrate-based energy converter; subtype=machine
 
 Substrate-based energy converter，SEC
@@ -41,7 +41,7 @@ Substrate-based energy converter，SEC
 ---
 
 ## 法力加密戰鬥通訊系統
-Source: IU7/07_item/04_machine/法力加密戰鬥通訊系統.md
+Source: IU7/07_item/05_machine/法力加密戰鬥通訊系統.md
 Meta: type=item; id=item_sruna encrypted combat communication system; name_en=Sruna Encrypted Combat Communication System; subtype=machine; new=True
 
 Sruna Encrypted Combat Communication System
@@ -56,20 +56,8 @@ Sruna Encrypted Combat Communication System
 
 ---
 
-## 美人魚占卜卡牌
-Source: IU7/07_item/04_machine/美人魚占卜卡牌.md
-Meta: type=item; id=item_mermaid divination card; name_en=Mermaid Divination Card; subtype=tool
-
-Mermaid Divination Card
-
-#### 簡介
-
-阿奎斯托基於人魚王國的占卜學製作的占卜卡牌，以彭達拉薩人（形象為醜陋的深海魚）代表不詳、混亂與不安，海之女神代表和平、穩定，其配置反映了人魚一直在官方敘事中故意醜化、抹黑彭達拉薩人。
-
----
-
 ## 靈池
-Source: IU7/07_item/04_machine/靈池.md
+Source: IU7/07_item/05_machine/靈池.md
 Meta: type=item; id=item_soul pool; name_en=Soul Pool; subtype=machine
 
 Soul Pool

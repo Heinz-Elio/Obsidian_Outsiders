@@ -33,6 +33,7 @@ Meta: type=item; id=item_interactive record pad; name_en=Interactive Record Pad;
 Interactive Record Pad
 
 發明者: 北太平洋王國
+發明時間: 1997年
 
 #### 簡介
 
@@ -40,11 +41,11 @@ Interactive Record Pad
 
 ---
 
-## Kafziel自製四軸偵察無人機
+## 四軸偵察無人機
 Source: IU7/07_item/02_tool/四軸偵察無人機.md
-Meta: type=item; id=item_kafziel_recon_drone; name_en=Kafziel's Custom Recon Drone; subtype=tool; new=True
+Meta: type=item; id=item_recon_drone; name_en=Recon Drone; subtype=tool; new=True
 
-Kafziel's Custom Recon Drone
+Recon Drone
 
 --------------------------------------------------------------------------------
 
@@ -55,13 +56,13 @@ Kafziel's Custom Recon Drone
 
 #### 簡介
 
-由於IU0的原生精密機器無法依 IU7當前的技術水平復現，海因茨遂根據RAS中的無人機設計圖，在IU7尋找替代零件自行組裝而成。該機體外觀較為前衛，雖然硬件性能受限於IU7技術，但透過加載修正力程式大幅補強了運作效率與功能。
+由於IU0精密機器無法以IU7當前的技術復現，海因茨遂根據RAS中的無人機設計圖，在IU7尋找替代零件自行組裝而成。該機體外觀較為前衛，雖然硬件性能受限於IU7技術，但透過加載修正力程式大幅補強了運作效率與功能。
 
 #### 功能
 
 感知模組：掛載高精度氣體檢測儀與多光譜攝影模組。
-環境建模：與游騎士輔助系統連接，能自動掃描建築內部並建立 3D 模型，標記潛在的調查點。
-數據處理：具備 AI 讀唇語功能（需連接 RAS 算力中心），可遠距離監聽目標對話。
+環境建模：與RAS連接，能自動掃描建築內部並建立 3D 模型，標記潛在的調查點。
+數據處理：具備 AI 讀唇語功能（需透過RAS連接IU0的算力中心），可遠距離監聽目標對話。
 操作界面：使用改裝的遊戲主機手柄（由有線改為無線）作為控制器。
 任務同步：可透過RAS終端將行動方案直接傳送到無人機主控板，並實時同步影像至防彈風鏡或軍用筆電。
 #### 局限
@@ -107,6 +108,18 @@ Record Node
 
 - 可互動紀錄板
 - 小型紀錄晶片
+
+---
+
+## 美人魚占卜卡牌
+Source: IU7/07_item/02_tool/美人魚占卜卡牌.md
+Meta: type=item; id=item_mermaid divination card; name_en=Mermaid Divination Card; subtype=tool
+
+Mermaid Divination Card
+
+#### 簡介
+
+阿奎斯托基於人魚王國的占卜學製作的占卜卡牌，以彭達拉薩人（形象為醜陋的深海魚）代表不詳、混亂與不安，海之女神代表和平、穩定，其配置反映人魚一直在官方敘事中刻意醜化、抹黑彭達拉薩人，以鞏固其罪人形象。
 
 ---
 

@@ -33,7 +33,7 @@ Deepsea Crystal Nucleus
 #### 晶核製品
 
 - 晶核長槍
-- M1 晶核軍刀
+- M1晶核軍刀
 - 萬用晶核棒
 
 ---

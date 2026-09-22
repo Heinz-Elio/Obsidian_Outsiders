@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import shutil
 from collections import defaultdict
 from dataclasses import dataclass
 from datetime import datetime
@@ -354,6 +355,13 @@ def build() -> None:
     outputs = build_outputs(notes)
     write_outputs(outputs)
     standalone = sum(output.kind == "standalone" for output in outputs)
+    
+    for file in Path(PROJECT_ROOT/"Story").rglob("*.md"):
+        shutil.copy(file, OUTPUT_DIR)
+
+    for file in Path(PROJECT_ROOT/".cursor/skills").rglob("*.md"):
+        shutil.copy(file, OUTPUT_DIR)
+
     print(
         f"notes={len(notes)} outputs={len(outputs)}/{NOTEBOOKLM_SOURCE_LIMIT} "
         f"standalone={standalone} merged={len(outputs) - standalone}"

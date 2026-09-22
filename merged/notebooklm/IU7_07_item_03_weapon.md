@@ -1,117 +1,7 @@
 # IU7/07_item/03_weapon
 
-## 60毫米[[蝕刻彈]]
-Source: IU7/07_item/03_weapon/60毫米蝕刻彈.md
-Meta: type=item; id=item_60mm etched bullet; name_en=60mm Etched Bullet; subtype=weapon; new=True
-
-### 60毫米蝕刻彈
-
-60mm Etched Bullet
-
-發明者: 北太平洋王國研究院
-發明時間: 1985年
-
-#### 簡介
-
-榴彈口徑的蝕刻彈，由於子彈表面積較大，有足夠面積蝕刻法術迴路（法術效果上限等效於一部對講機尺寸的法術器材），可以蝕刻法術，也能透過添加外置導引元件改造成小口徑導彈。
-
-彈體後部設有法力助推器，出廠時不預填法力，上膛時由M4A 60毫米壓縮法力砲的法力容器填充，出膛後持續推進。這是法力助推器的首個應用，其構想來自人類的氣子彈系統——與其把推進用的壓縮氣源放在槍上，不如將推進單元與彈體結合；研究院把這個想法再推一步，讓氣源隨彈頭一同飛出，使氣體在整段飛行中持續從彈體後方產生。由於法力轉化成氣體不需要氧化劑，助推器在水中同樣有效，亦不會產生尾焰。由於60毫米彈體空間充裕，所以研究院先在60毫米口徑子彈上測試技術可行性，後續再小型化至7.62毫米口徑。
-
-#### 關聯
-
-- BM-2 7.62毫米法力助推彈
-
----
-
-## A-11P穿甲弩箭
-Source: IU7/07_item/03_weapon/A-11D 干擾弩箭.md
-Meta: type=item; id=item_a-11p interfering arrow; name_en=A-11P Interfering Arrow; subtype=weapon; new=True
-
-A-11P Interfering Arrow
-
-發明者: 北太平洋王國
-
-#### 簡介
-
-弩箭內部為干擾粒子容器，發射時解除第一道保險，弩箭停止運動時解除第二道保險，釋放干擾粒子創造小範圍干擾。造價高，因此被設計成可重用，以在使用後回收。
-
----
-
-## A-11L長程弩箭
-Source: IU7/07_item/03_weapon/A-11L 長程弩箭.md
-Meta: type=item; id=item_a-11l long range arrow; name_en=A-11L Long Range Arrow; subtype=weapon; new=True
-
-A-11L Long Range Arrow
-
-發明者: 北太平洋王國
-
-#### 簡介
-
-尾部有微型法力助推器的弩箭，氣膜維持更久，射程可達200米，但有機會被感知並攔截。
-
----
-
-## A-11P穿甲弩箭
-Source: IU7/07_item/03_weapon/A-11P 穿甲弩箭.md
-Meta: type=item; id=item_a-11p armor-piercing arrow; name_en=A-11P Armor-piercing Arrow; subtype=weapon; new=True
-
-A-11P Armor-piercing Arrow
-
-發明者: 北太平洋王國
-
-#### 簡介
-
-改良自克洛克-史蒂爾的海陸兩用弩箭，特化其海底作戰性能，穿透力比傳統的蝕刻弩箭強，但結構更為複雜，生產成本不低。長40公分。
-
----
-
-## BM-1 5.56毫米水中用子彈
-Source: IU7/07_item/03_weapon/BM-1 5.56毫米水中用子彈.md
-Meta: type=item; id=item_bm-1 5.56 under water bullet; name_en=BM-1 5.56 Under Water Bullet; subtype=weapon; new=True
-
-BM-1 5.56 Under Water Bullet
-
-發明者: 北太平洋王國研究院
-
-#### 簡介
-
-水中用子彈，僅有彈頭，沒有彈殼。因為M5採用了北約口徑以便必要時能使用陸地子彈（僅彈頭），所以沿用了口徑。彈體外形經過特殊設計，便於維持發射時由壓縮氣體轉化而成的氣膜。
-
----
-
-## BM-2 7.62毫米法力助推彈
-Source: IU7/07_item/03_weapon/BM-2 7.62毫米法力助推彈.md
-Meta: type=item; id=item_bm-2 7.62 sruna propelled bullet; name_en=BM-2 7.62 Sruna Propelled Bullet; subtype=weapon; new=True
-
-BM-2 7.62 Sruna Propelled Bullet
-
-發明者: 北太平洋王國研究院
-發明時間: 1987年
-
-#### 簡介
-
-BM-1 5.56毫米水中用子彈的增程增傷型，7.62毫米無殼彈，水陸兩用，配合M5A1 法力狙擊步槍的重型機匣與7.62毫米槍管使用。彈頭加長加重，質量增加使其對中度防護目標的殺傷性能更佳，彈頭後方設有空腔式微型法力助推器，出廠時不預填法力，上膛時才由發射器的法力容器填充。助推器是M4A 60毫米壓縮法力砲所用助推器的小型化版本，原本只能塞進60毫米彈體的結構被縮到7.62毫米，是研究院當時最精密的量產法力元件。助推器底部為壓力閥，在膛內時氣壓高於助推器內壓，閥門關閉。出膛後外壓驟降，閥門開啟，助推器內的壓縮法力轉化為氣體排出產生推力，在水中時兼負持續補充氣膜，降低水阻提升射程的任務。因為應用氣膜原理增程，水深越大、水壓越高，增程效果越弱。
-
----
-
-## BM-3 5.56毫米壓縮法力子彈
-Source: IU7/07_item/03_weapon/BM-3 5.56毫米壓縮法力子彈.md
-Meta: type=item; id=item_bm-3 5.56 compressed sruna bullet; name_en=BM-3 5.56 Compressed Sruna Bullet; subtype=weapon; new=True
-
-BM-3 5.56 Compressed Sruna Bullet
-
-發明者: 北太平洋王國研究院
-
-#### 簡介
-
-以中空的法力容器作為彈頭，中央填充壓縮法力的法力殺傷子彈，子彈僅用於將法力快速帶到攻擊點，將飛行過程的法力損失減至最低，質量只是足夠保持穩定飛行。主要用於動能無法提供足夠殺傷，但距離又超過一般法力投射能夠造成有效殺傷的情況。
-
-法力仍由發射器提供，底部的機關會在子彈內壓足夠後閉合，改由彈體維持約束，使壓縮法力保持穩定。命中時的撞擊會先激發容器內少量粒子，引起連鎖反應，容器隨即碎裂並釋放法力爆炸。因為成本考慮，彈體絕緣性能有限，陸地射程只有400-600米。
-
----
-
-## CSMG-2 六聯裝壓縮法力機砲
-Source: IU7/07_item/03_weapon/CSMG-2 六聯裝壓縮法力機砲.md
+## CSMG-2六聯裝壓縮法力機砲
+Source: IU7/07_item/03_weapon/CSMG-2六聯裝壓縮法力機砲.md
 Meta: type=item; id=item_csmg-2; name_en=CSMG-2; subtype=weapon; new=True
 
 CSMG-2
@@ -120,17 +10,18 @@ CSMG-2
 
 #### 簡介
 
-壓縮法力機砲（Compressed Sruna Machine Gun，CSMG），模仿格林機槍設計，利用壓縮法力發射30毫米法力助推彈的武器。有效射程約450至3000米，射速每分鐘1000發。體積不大，可以20毫米的便攜法術媒介將底座固定於運輸船上作為移動火力平台。連續發射時，法力壓縮艙及槍管會因高頻率產生高溫氣體而迅速積熱，並經底座傳到船體，因此安裝在運輸船上時需要降低射速，以免船體過熱。
+壓縮法力機砲（Compressed Sruna Machine Gun ２，CSMG -2），模仿格林機槍設計，利用壓縮法力發射30毫米法力助推彈的武器。有效射程約450至3000米，射速每分鐘1000發。體積不大，可以20毫米的便攜法術媒介將底座固定於運輸船上作為移動火力平台。連續發射時，法力壓縮艙及槍管會因高頻率產生高溫氣體而迅速積熱，並經底座傳到船體，因此安裝在運輸船上時需要降低射速，以免船體過熱。
 
 ---
 
-## HCSA-1 「守護神」超高壓縮法力砲
-Source: IU7/07_item/03_weapon/HCSA-1 「守護神」超高壓縮法力砲.md
+## HCSA-1「守護神」超高壓縮法力砲
+Source: IU7/07_item/03_weapon/HCSA-1「守護神」超高壓縮法力砲.md
 Meta: type=item; id=item_hcsa-1 “guardian” high compresion sruna artillery; name_en=HCSA-1 “Guardian” High Compresion Sruna Artillery; subtype=weapon; new=True
 
 HCSA-1 “Guardian” High Compresion Sruna Artillery
 
 發明者: 北太平洋王國研究院
+發明時間: 2002年
 
 #### 簡介
 
@@ -138,82 +29,8 @@ HCSA-1 “Guardian” High Compresion Sruna Artillery
 
 ---
 
-## KS A68 複合弩
-Source: IU7/07_item/03_weapon/KS A68 複合弩.md
-Meta: type=item; id=item_ks a68 compoud crossbow; name_en=KS A68 Compoud Crossbow; subtype=weapon; new=True
-
-KS A68 Compoud Crossbow
-
-研發: 克洛克斯蒂爾 (克洛克有限責任公司)
-投產: 1968年
-
-#### 簡介
-
-由狩獵用的弩改裝而成，重3.4公斤，弩箭有效射程100-200米，具備機械瞄具與可拆卸的光學瞄具。
-
----
-
-## KS A82 超輕法術弩
-Source: IU7/07_item/03_weapon/KS A82 超輕法術弩.md
-Meta: type=item; id=item_ks a82 ultra light compound crossbow; name_en=KS A82 Ultra Light Compound Crossbow; subtype=weapon; new=True
-
-KS A82 Ultra Light Compound Crossbow
-
-研發: 克洛克斯蒂爾 (克洛克有限責任公司)
-投產: 1982年
-
-#### 簡介
-
-尺寸與衝鋒槍接近的輕型法術弩。弩身大量採用聚合物，射程80-100米。
-
----
-
-## KS SA72 狙擊弩
-Source: IU7/07_item/03_weapon/KS SA72 狙擊弩.md
-Meta: type=item; id=item_ks sa72 sniper crossbow; name_en=KS SA72 Sniper Crossbow; subtype=weapon; new=True
-
-KS SA72 Sniper Crossbow
-
-研發: 克洛克斯蒂爾 (克洛克有限責任公司)
-
----
-
-## KS SSG04
-Source: IU7/07_item/03_weapon/KS SSG04.md
-
----
-
-## KS SSG69 複合狙擊步槍
-Source: IU7/07_item/03_weapon/KS SSG69 複合狙擊步槍.md
-Meta: type=item; id=item_ks ssg69 compoud sniper rifle; name_en=KS SSG69 Compoud Sniper Rifle; subtype=weapon; new=True
-
-KS SSG69 Compoud Sniper Rifle
-
-研發: 克洛克斯蒂爾 (克洛克有限責任公司)
-投產: 1969年，已停產
-
-#### 簡介
-
-克洛克斯蒂爾研製的栓式步槍，以斯蒂爾SSG69為基礎研發，後繼型號為SSG04。採用旋轉後拉式槍機、合成材料槍托，可發射.300溫徹斯特麥林、.308溫徹斯特、.338拉普麥林一般子彈或法術子彈，另外還可安裝法術輔助光學瞄準鏡以及特製的消焰器、抑制器。供彈形式採用5發可拆卸旋轉式彈匣，與旋轉式彈倉一樣是把子彈在彈匣以內旋轉上升進入膛室，但可要求採用10發可拆卸雙排式彈匣的版本。精度0.5MOA。
-
----
-
-## KS SSG69E 複合狙擊步槍
-Source: IU7/07_item/03_weapon/KS SSG69E 複合狙擊步槍.md
-Meta: type=item; id=item_ks ssg69e compoud sniper rifle; name_en=KS SSG69E Compoud Sniper Rifle; subtype=weapon; new=True
-
-KS SSG69E Compoud Sniper Rifle
-
-研發: 克洛克斯蒂爾 (克洛克有限責任公司)
-
-#### 簡介
-
-KS SSG69 複合狙擊步槍的特供版本，不量產，需要透過深海之星訂購。槍身、槍管採用艾方合金，因此空槍重量稍輕於SSG69，但卻更堅固耐用，同時也能將射手自身法力對擊發法術子彈的影響降至最低，不過代價是價格是SSG69的五倍以上。採用10發容量的可拆卸雙排式彈匣，槍托長度可調。此槍首批次為內部銷售批次，全部以優惠價格賣給開發團隊成員等內部人員，編號X-3屬於艾芙蓮，編號X-4屬於勞倫斯．雷丁，編號X-8屬於安潔莉娜。
-
----
-
-## LCSA-4 「劍魚」三聯裝壓縮法力砲
-Source: IU7/07_item/03_weapon/LCSA-4 「劍魚」三聯裝壓縮法力砲.md
+## LCSA-4「劍魚」三聯裝壓縮法力砲
+Source: IU7/07_item/03_weapon/LCSA-4「劍魚」三聯裝壓縮法力砲.md
 Meta: type=item; id=item_lcsa-4 “swordfish” low compression sruna artillery; name_en=LCSA-4 “Swordfish” Low Compression Sruna Artillery; subtype=weapon; new=True
 
 LCSA-4 “Swordfish” Low Compression Sruna Artillery
@@ -226,8 +43,8 @@ LCSA-4 “Swordfish” Low Compression Sruna Artillery
 
 ---
 
-## M1 晶核軍刀
-Source: IU7/07_item/03_weapon/M1 晶核軍刀.md
+## M1晶核軍刀
+Source: IU7/07_item/03_weapon/M1晶核軍刀.md
 Meta: type=item; id=item_m1 crystal nucleus combat knife; name_en=M1 Crystal Nucleus Combat Knife; subtype=weapon; new=True
 
 M1 Crystal Nucleus Combat Knife
@@ -240,33 +57,68 @@ M1 Crystal Nucleus Combat Knife
 
 ---
 
-## M2 法力弩
-Source: IU7/07_item/03_weapon/M2 法力弩.md
+## M2法力弩
+Source: IU7/07_item/03_weapon/M2法力弩.md
 Meta: type=item; id=item_m2 sruna crossbow; name_en=M2 Sruna Crossbow; subtype=weapon; new=True
 
-M2 Srune Crossbow
+M2 Sruna Crossbow
 
-發明者: 克洛克斯蒂爾 (克洛克有限責任公司)
+發明者: 北太平洋王國研究院
+發明時間:1972年
 
 #### 簡介
 
-北太平洋王國衛隊的第一款制式遠程武器，由克洛克斯蒂爾生產，最初是由安潔莉娜等在法力弩開始普及的時期意識到其便利性的術士倡導引入。射程15至80米，初速約200米/秒。外殼為深紅色，外觀較接近步槍。具有可拆卸的弩箭匣，弩箭在弩機內由過度壓縮法力產生的推力發射，並利用法力轉換而成的氣膜在發射後維持空穴效應提升射程。法力壓縮艙的法力由可拆卸的法力容器提供，容器上有刻度顯示法力存量，通常能夠支持50發射擊。弩機上有模式切換撥杆，可切換至直接發射模式，封閉給彈口直接發射壓縮法力。
+北太平洋王國衛隊的第一款制式遠程武器，由北太平洋王國自行研製與生產，結合了氣膜與壓縮氣體發射技術，真正能在深海使用的遠程動能武器。由於之前引入的克洛克斯蒂爾SA 68法力弩並非真正的海底武器，不適合在深海使用，促使北太平洋王國自行研發SA 68的替代品。
+
+嚴格而言是法力轉氣體的氣動魚叉槍，但研究院為了方便推廣仍將其命名為法力弩。弩箭（金屬矛）在弩機內由法力轉換而成的低壓氣體發射，初速能達到約90米每秒，能夠穩定產生空穴，同時從弩管排出的氣體會灌入空穴，讓生成的氣膜能維持更久，從而將水中射程上限提到80米，深海射程上限大幅提高至15米，即使使用比常規更短的600毫米弩箭、弩身總長只有950毫米仍能造成有效殺傷。氣體轉換的法力由可拆卸的法力容器提供，容器上有刻度顯示法力存量，通常能夠支持50發射擊。
 
 #### 改型
 
-- M3 狙擊用法力弩
+- M3狙擊用法力弩
 
 ---
 
 ## M3 狙擊用法力弩
-Source: IU7/07_item/03_weapon/M3 狙擊用法力弩.md
+Source: IU7/07_item/03_weapon/M3狙擊用法力弩.md
 Meta: type=item; id=item_m3 sniper sruna crossbow; name_en=M3 Sniper Sruna Crossbow; subtype=weapon; new=True
 
 M3 Sniper Srune Crossbow
 
+發明者: 北太平洋王國研究院
+發明時間: 1973年
+
 #### 簡介
 
-M2 法力弩的弩機加長型，擁有更大的法力壓縮艙、更長的弩管，配合瞄具能讓使用者攻擊感知範圍外的對象。
+M2法力弩的弩機加長型，刻有更大的氣體轉換迴路，射程更遠。
+
+---
+
+## M4 60毫米壓縮法力砲
+Source: IU7/07_item/03_weapon/M4 60毫米壓縮法力砲.md
+Meta: type=item; id=item_m4 60mm compressed sruna launcher; name_en=M4 60mm Compressed Sruna Launcher; subtype=weapon; new=True
+
+M4 60mm Compressed Sruna Launcher
+
+發明者: 北太平洋王國研究院
+發明時間: 1981年
+
+#### 簡介
+
+壓縮法力轉高壓氣體發射（CS-PAL）的驗證砰台，用於檢驗CS-PAL能否支持大口徑彈的發射，選擇60毫米口徑是因為大彈體有足夠空間容納早期較粗糙的氣體轉換艙，也方便在射擊後拆解觀察迴路的實際情況。只生產了少量試作品供測試用途，並未量產。
+
+#### 表現
+
+陸上砲口初速約200米每秒，彈體動能約20千焦，最大射程1200米，但後座力高達約200牛頓秒，接近同期反器材步槍的五倍，只能架在重型腳架上發射，整套系統重約35公斤，需兩至三人搬運與操作。
+
+M4發射的彈藥沒有持續氣源，在水中時只能靠發射時的氣體灌注出初始空穴。由於60毫米砲管內的海水重量遠超砲彈本身，單是推開這股海水已經令砲彈的水中初速跌至130米每秒，剛好貼著10米水深的空穴門檻 (壓縮法力發射)，所以M4自離膛起全程都落在必須灌氣的一側。而灌氣的耗氣率按口徑平方增長——60毫米彈需要的空穴橫截面是法力弩金屬矛的十倍以上，同樣飛80米所需的氣體比彈體本身更重，一次性灌注根本不可能滿足。氣體用盡後空穴立即崩潰，受阻面積由空化器擴大到整個彈體，數十米內就停住：淺水最大射程約40米，30米以下水深射程不足15米，比十年前的M2法力弩還短。
+
+#### 影響
+
+M4證明了CS-PAL可應用於大口徑武器，同時得到兩個明確的瓶頸：陸上射程受限於速度完全由發射器提供，提升遠射程需要提高膛壓與加長砲管，後座力與重量隨之增加；水中射程受限於初速無法達到形成空穴的門檻，但大口徑彈的氣體量需求無法靠發射時的一次性供氣滿足。兩者指向同一個結論——推進必須在離膛後持續進行。該結果催生了法力助推器的構想，使研究院立項研究60毫米蝕刻彈與對應的發射平台。
+
+#### 後續型號
+
+- M4A 60毫米壓縮法力砲
 
 ---
 
@@ -281,9 +133,11 @@ M4A 60mm Compressed Sruna Launcher
 
 #### 簡介
 
-利用壓縮法力發射60毫米蝕刻彈的長程直射武器。前身M4為純膛內加速設計，後座力大，只能架在重型腳架上，射程亦短得多。M4A改用帶法力助推器的彈藥，發射時只給予溫和的初速，出膛後由助推器持續推進，後座力因此大幅降低，並且能以便攜法術媒介固定架設。與人類的無後座力武器不同，M4A並非靠向後噴氣抵消後座，砲尾沒有危險的尾焰，可在載具上或狹窄空間內發射。
+應用CS-PAL的長程直射武器，發射60毫米蝕刻彈。前身是研究院的技術驗證武器M4 60毫米壓縮法力砲，CS-PAL只應用在砲上，砲彈的速度完全由膛內的高溫高壓氣體提供，後座力大，只能架在重型腳架上；陸上射程短，水中更因無法持續補充氣膜而幾乎沒有實用射程。M4A改用帶法力助推器的彈藥，膛內氣體轉換率降低，發射時只給予彈藥基本初速，出膛後由助推器排出的高溫氣體提供持續推進，大幅降低後座力，使單人發射、使用便攜法術媒介固定架設成為可能。與人類的無後座力武器不同，M4A並非靠向後噴氣抵消後座，砲尾沒有危險的尾焰，可在載具上或狹窄空間內發射。
 
-陸地最大射程3000米，最小射程約50米，50米是助推器啟動與保險解除所需的距離。無導引時直射有效射程約800米，彈藥加裝導引元件後約1500米，由另一名術士或器材進行終端導引則可達最大射程。
+彈藥出膛總重約1公斤，離膛速度只有約25米每秒，助推完成後約300米每秒。因為絕大部分加速在出膛後進行，發射器承受的衝量只有約30牛頓秒，與重型狙擊步槍同級，所以砲身雖然使用60毫米彈藥，仍可肩托發射，連砲身與三發彈藥的全套重量約12公斤，可由一人搬運。彈體最終動能約31千焦，接近14.5毫米反器材子彈的水平。
+
+助推器在出膛後立即啟動，在0.2秒內將彈體加速到200米每秒以上，隨後轉入低推力段，在百餘米內完成加速。陸地最大射程3000米，最小射程約50米（引信保險解除所需的距離）。無導引時直射有效射程約800米，彈藥加裝導引元件後約1500米，由另一名術士或器材進行終端導引則可達最大射程。
 
 扳機上方設有模式切換撥桿。切換至直接發射模式後，給彈口會封閉，氣體轉換迴路亦會被繞過，法力壓縮艙改為直接從砲管投射壓縮法力團；法力團受撞擊、其他法力或控制訊號激發後會形成法力爆炸。由於法力團離膛後不再受約束，粒子間距迅速回復到不足以傳播激發的程度，而且不能再由武器控制，直接發射模式的有效射程不超過50米，主要用於近距離攻擊或彈藥耗盡時應急。
 
@@ -291,26 +145,8 @@ M4A 60mm Compressed Sruna Launcher
 
 ---
 
-## M5 法力步槍
-Source: IU7/07_item/03_weapon/M5 法力步槍.md
-Meta: type=item; id=item_m5 sruna rifle; name_en=M5 Sruna Rifle; subtype=weapon; new=True
-
-M5 Sruna Rifle
-
-發明者: 北太平洋王國研究院
-
-#### 簡介
-
-由於弩匣大且重，弩箭生產成本也不低，因此北太平洋王國研究院在完成突擊弩的改良後馬上開始研製海底用突擊步槍及子彈。M5使用與M2 法力弩相同的原理，因應子彈尺寸縮短了長度，但射程、威力不減，攜彈量增加，加上子彈成本更低，因此很快便取代了法力弩。考慮到陸地使用場景，採用了北約口徑設計，能兼容5.56NATO彈藥的彈頭，因此單憑彈頭無法判斷其是否由法力步槍擊發。
-
-#### 改型
-
-- M5A1 法力狙擊步槍
-
----
-
-## M5A1 法力狙擊步槍
-Source: IU7/07_item/03_weapon/M5A1 法力狙擊步槍.md
+## M5A1法力狙擊步槍
+Source: IU7/07_item/03_weapon/M5A1法力狙擊步槍.md
 Meta: type=item; id=item_m5a1 sruna sniper rifle; name_en=M5A1 Sruna Sniper Rifle; subtype=weapon; new=True
 
 M5A1 Sruna Sniper Rifle
@@ -320,12 +156,54 @@ M5A1 Sruna Sniper Rifle
 
 #### 簡介
 
-換上了法力助推子彈專用的重型機匣及7.62毫米槍管，使用BM-2 7.62毫米法力助推彈，射程更遠。
+換上了法力助推子彈專用的重型法力壓縮艙及大口徑長槍管，使用BM-3法力助推彈，射程更遠。初速仍由膛內轉換提供，重型壓縮艙的作用是在上膛時額外為彈體內的助推器充填法力，因此同一支槍也能發射不帶助推器的彈藥，只是射程回到M5法力步槍的水平。
 
 ---
 
-## PSML-5 「逐火」單兵法力導彈發射器
-Source: IU7/07_item/03_weapon/PSML-5  「逐火」單兵法力導彈發射器.md
+## M5法力步槍
+Source: IU7/07_item/03_weapon/M5法力步槍.md
+Meta: type=item; id=item_m5 sruna rifle; name_en=M5 Sruna Rifle; subtype=weapon; new=True
+
+M5 Sruna Rifle
+
+發明者: 北太平洋王國研究院
+發明時間: 1983年
+
+#### 簡介
+
+由於法力弩難以引入連發機構，弩箭攜行量難以提升，因此北太平洋王國研究院在完成法力弩的改良後馬上開始研製海底用步槍及子彈。M5是首款應用壓縮法力轉高壓氣體發射（CS-PAL）的單兵武器，並結合了M2法力弩的氣膜供氣技術：氣體在壓縮艙內以遠高於法力弩的壓力產生，子彈的初速遠高於金屬矛，更容易維持速度，也能快速連發；攜彈量大幅增加，且子彈成本更低，很快便取代了法力弩。
+
+使用滑膛式槍管，以法力壓縮艙取代槍機，金屬骨架包覆的法力容器作為槍托，更換時整個槍托拆下即可。膛內轉換提供全部初速，M5本身不使用法力助推器。單排彈匣供彈，有20發、30發彈匣，法力容器的容量約是彈匣彈數的90發（以法力中五成為輸出基估算）。採用模組化設計，可以透過更換陸地的膛線槍管發射4.5毫米（.177）、5.5毫米（.22）、6.35毫米（.25）口徑的氣槍彈，法力容器槍托也有幾種可選尺寸。
+
+- 水中用6.35毫米短槍管: 870毫米（34.3吋）
+- 陸地用長槍管: 970毫米（38.2吋）
+
+- 水中用6.35毫米短槍管: 500毫米（19.7吋）
+- 陸地用長槍管: 600毫米（23.6吋）
+
+	- BM-1: 淺水45-55米；100米水深約10-15米
+	- BM-2: 淺水35-45米；100米水深約10米
+	- 5.5毫米（.22）重氣槍彈: 180-220米
+	- 6.35毫米（.25）重氣槍彈: 200-240米
+	- BM-1: 約400米每秒
+	- BM-2: 約450米每秒
+- 陸地: 600米每秒
+
+水中數值以BM-1重約15克、BM-2重約10克、空化器直徑約1毫米估算。500毫米長的6.35毫米槍管進水後含有約15.8克海水，高壓氣體除推動彈體外還要排出這股海水，因此水中初速低於陸地；BM-2較輕，初速較高，但質量較小、減速較快，射程仍短於BM-1。水中射程以空穴崩潰為終點，實際數值隨水深、海水密度與彈體姿態變化。
+
+#### 其他型號
+
+- M5A1法力狙擊步槍
+
+#### 參考
+- https://www.airgundepot.com/benjamin-armada-air-rifle-combo.html
+- https://www.airgundepot.com/sig-sauer-mcx-virtus-air-rifle.html
+- https://myhighpressureair.com/zan-projectiles-elr-slugs-updating/
+
+---
+
+## PSML-5「逐火」單兵法力導彈發射器
+Source: IU7/07_item/03_weapon/PSML-5 「逐火」單兵法力導彈發射器.md
 Meta: type=item; id=item_psml-5 "fire chasing" portable sruna missile launcher; name_en=PSML-5 "Fire Chasing" Portable Sruna Missile Launcher; subtype=weapon; new=True
 
 PSML-5 "Fire Chasing" Portable Sruna Missile Launcher
@@ -338,15 +216,111 @@ PSML-5 "Fire Chasing" Portable Sruna Missile Launcher
 
 ---
 
-## 北冰洋法力弩
-Source: IU7/07_item/03_weapon/北冰洋法力弩.md
-Meta: type=item; id=item_kao srune crossbow; name_en=KAO Srune Crossbow; subtype=weapon
+## 克洛克斯蒂爾SA 68法力弩
+Source: IU7/07_item/03_weapon/克洛克斯蒂爾SA 68法力弩.md
+Meta: type=item; id=item_ks sa 68; name_en=KS SA 68; subtype=weapon; new=True
 
-KAO Srune Crossbow
+Klock-Styr SA68
+
+研發: 克洛克斯蒂爾 (克洛克有限責任公司)
+投產: 1968年
 
 #### 簡介
 
-北冰洋王國自主研發、生產的老式法力弩，使用混合了銅、鐵、矽與艾方的金屬製作弩身。製程較先進，法力轉換效率高於老式法力弩且可連發，是北冰洋王國衛隊近幾百年的制式武器，不過北冰洋王國近年已改為採購北太平洋王國汰換下來的M2 法力弩，庫存的老式法力弩一部分被低價賣給商人，只留下幾十把放在倉庫裡作為備用武器。
+克洛克斯蒂爾SA 68（Sruna Armburst 68）是一種水陸兩用弩，總長約710毫米（28吋），重2.5公斤，陸地射程100-200米，水底射程上限55米，射程隨水壓增加下降。在陸上發射一般弩箭，在水下發射特製的金屬矛，矛頭形狀有助空穴形成，弩臂前端蝕刻將法力轉換為氣體的法術，金屬矛發射時為其提供氣體，填充空穴生成初始氣膜，降低飛行時的水阻。弩身以耐高壓、腐蝕的合金製作，具備機械瞄具與可拆卸的光學瞄具。
+
+---
+
+## 克洛克斯蒂爾SSCG 04複合狙擊步槍
+Source: IU7/07_item/03_weapon/克洛克斯蒂爾SSCG 04複合狙擊步槍.md
+Meta: type=item; id=item_ks sscg 04; name_en=KS SSCG 04; subtype=weapon; new=True
+
+KS SSCG 04
+
+發明者: |克洛克斯蒂爾 (克洛克有限責任公司)
+發明時間: 2004
+
+#### 簡介
+
+克洛克斯蒂爾研製及生產的栓動步槍，SSG 04的法術子彈兼容版，另有艾方合金版SSCG 04E。採用旋轉後拉式槍機、合成材料槍托，提供.308溫徹斯特和.300溫徹斯特馬格南兩種常用口徑選擇，.308溫徹斯特口徑可使用重型槍管或緊湊版重型槍管發射，彈匣容量為10發；.300溫徹斯特馬格南口徑使用重型槍管，彈匣容量為8發。兩種口徑均配備槍口制退器、合成材料槍托（可透過可摺疊的槍托底板調整槍托長度）以及可調式貼腮板。
+
+SSG 04採用安全槍機系統 （SBS）槍機，配備獨特的2+1保險功能，可透過槍托尾部的旋鈕開關進行三檔設定。射擊模式（保險關閉）由一個紅點指示；第一檔保險模式可禁用擊發機構，但允許槍栓循環；第二檔保險模式可鎖定槍栓，此時可將槍栓向下推抵槍托，從而鎖定擊針和擊發機構，使其處於非射擊位置，便於在膛內有彈的情況下安全運輸。只需按下保險釋放按鈕並向前滾動，即可將槍栓重置至保險或射擊位置。機匣頂部配有皮卡汀尼導軌，可安裝光學瞄具、法術輔助光學貓具。
+
+SSG 04的另一個特色是其兩段式彈匣固定機構。第一段鎖定彈匣，但允許在不裝填子彈的情況下操作槍栓，從而使用戶能夠在保持彈匣滿載的情況下進行空擊練習或手動裝填單發子彈。只需向上按壓彈匣底部，​​即可將其固定到第二段，此時即可進行自動裝彈。
+
+- 重型槍管: 4.9公斤
+- 緊湊版重型槍管:4.7公斤
+
+- 重型槍管: 1,175毫米
+- 緊湊版重型槍管: 1,083毫米
+
+- 重型槍管: 600毫米（23.6吋）
+- 緊湊版重型槍管: 508毫米（20吋）
+
+#### 參考
+https://web.archive.org/web/20180813023057/http://steyrarms.com/firearms/sporting-rifles/ssg-04.html
+
+---
+
+## 克洛克斯蒂爾SSCG 69E複合狙擊步槍
+Source: IU7/07_item/03_weapon/克洛克斯蒂爾SSCG 69E複合狙擊步槍.md
+Meta: type=item; id=item_ks sscg 69e; name_en=KS SSCG 69E; subtype=weapon; new=True
+
+Klock-Styr SSCG 69E
+
+研發: 克洛克斯蒂爾 (克洛克有限責任公司)
+投產: 1969年
+
+#### 簡介
+
+SSCG 69的艾方合金版本，不量產，需要透過深海之星訂購。全槍金屬部分皆採用艾方合金，槍托使用合成材料，法力絕緣的槍身能將射手自身法力對擊發法術子彈的影響降至最低，且空槍重量稍輕於SSG 69，但卻更堅固耐用，不過代價是五倍於SSG 69的價格。採用5發旋轉式彈倉，同時配備10發容量的可拆卸雙排式彈匣，槍托長度可調。此槍首批次為內部銷售批次，全部以優惠價格賣給開發團隊成員等內部人員，編號X-3屬於艾芙蓮，編號X-4屬於勞倫斯．雷丁，編號X-8屬於安潔莉娜。
+
+---
+
+## 克洛克斯蒂爾SSCG 69複合狙擊步槍
+Source: IU7/07_item/03_weapon/克洛克斯蒂爾SSCG 69複合狙擊步槍.md
+Meta: type=item; id=item_ks sscg 69; name_en=KS SSCG 69; subtype=weapon; new=True
+
+Klock-Styr SSCG 69
+
+研發: 克洛克斯蒂爾 (克洛克有限責任公司)
+投產: 1969年
+
+#### 簡介
+
+克洛克斯蒂爾研製及生產的栓動步槍，斯蒂爾SSG69的法術子彈兼容版。採用旋轉後拉式槍機、合成材料槍托，可發射7.62×51NATO或同口徑法術子彈。沒有導軌，需要使用專用卡扣安裝瞄準鏡，可以安裝法術輔助光學瞄準鏡以及特製的消焰器、抑制器。供彈形式採用5發可拆卸旋轉式彈匣以令槍托能夠觸地，與旋轉式彈倉一樣是把子彈在彈匣以內旋轉上升進入膛室，但可要求採用10發可拆卸雙排式彈匣的版本，兩種皆使用透明背板。精度0.5MOA。
+
+特殊版本
+- 克洛克斯蒂爾SSCG 69E複合狙擊步槍
+
+---
+
+## 克洛克斯蒂爾ULSA 82超輕法力弩
+Source: IU7/07_item/03_weapon/克洛克斯蒂爾ULSA 82超輕法力弩.md
+Meta: type=item; id=item_ks ulsa 82; name_en=KS ULSA 82; subtype=weapon; new=True
+
+#### 克洛克斯蒂爾ULSA 82超輕法力弩
+
+Klock-Styr ULSA 82
+
+研發: 克洛克斯蒂爾 (克洛克有限責任公司)
+投產: 1982年
+
+#### 簡介
+
+克洛克斯蒂爾 USA 82 （Ultraleicht Sruna Armburst 82）是從克洛克斯蒂爾SA 68法力弩發展而來的輕型法力弩，總長更短、重量更輕，弩身大量採用聚合物，射程減至42米。
+
+---
+
+## 北冰洋制式弩
+Source: IU7/07_item/03_weapon/北冰洋制式弩.md
+Meta: type=item; id=item_kao military crossbow; name_en=KAO Military Crossbow; subtype=weapon
+
+KAO Military Crossbow
+
+#### 簡介
+
+北冰洋王國研製及生產的老式動能武器，發射90厘米的金屬矛，以固定於發射器外側，由彈性動物蛋白加工而成的彈性帶為弩弦，透過法力驅動固定器將弦拉緊並鎖定，然後以扳機解鎖釋放金屬矛。法力轉換效率、弩身材料強度高於傳統弩弓，是北冰洋王國衛隊近幾百年的制式武器，不過北冰洋王國近年已改為採購北太平洋王國汰換下來的M2法力弩，庫存的弩作為優惠抵扣送給了北太平洋王國回收。
 
 ---
 
@@ -359,20 +333,3 @@ Deepsea Crystal Nucleus Spontoon
 #### 簡介
 
 常見晶核武器，標定晶核壽命視乎型號，激發次數由6000-10000次不等，正常產品會配備機械式通量指示，提醒使用者更換核容。槍柄長約半米，槍尖由位於槍柄內部前端的晶核生成，法力入口並非緊貼晶核，而是位於槍柄中段的握持位置。高級型號會在槍柄末端加設法力容器和基質能-能量轉換器，能夠釋放高壓電、雷射，可用作雷射切割。有專門設計的收納包，可隨身攜帶。雖是武器，但只要改變結晶體形狀就能變成其他工具。
-
----
-
-## 蝕刻彈
-Source: IU7/07_item/03_weapon/蝕刻彈.md
-Meta: type=item; id=item_etched_bullet; name_en=Etched Bullet; subtype=weapon; new=True
-
-Etched Bullet
-
-發明者: 北太平洋王國研究院
-
-#### 簡介
-
-一種能夠儲存觸發式法術的子彈，多使用延時觸發，若使用法力濃度觸發則需要額外的離膛前保險，金屬彈體上的特定部分被選擇性地移除作為法術迴路，法術迴路一經刻下無法變更。受到蝕刻技術限制，彈體表面積需要大於400平方厘米才能刻出具實戰價值的法術迴路。
-
-#### 彈種
-- 60毫米蝕刻彈

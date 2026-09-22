@@ -21,7 +21,7 @@ Mermaid Kingdom Faction
 
 ---
 
-## 改革派
+## 保守派
 Source: IU7/11_faction/保守派.md
 Meta: type=faction; id=org_conservative faction; name_en=Conservative Faction
 
