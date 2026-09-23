@@ -68,6 +68,25 @@ def _workbook(path: Path) -> Path:
     actions["A9"] = "印度"
     actions["A10"] = "離開檀香山"
     actions["B10"] = "2, 11:00"
+    actions.merge_cells("C9:D9")
+    actions["C9"] = "日本"
+    actions["C10"] = "2, 14:30"
+    actions["D10"] = "日本事件"
+    actions["F10"] = "*附註"
+    actions["A11"] = "無時間事件"
+    actions["G1"] = 2
+    actions["G3"] = "A"
+    actions["H3"] = "Kafziel"
+    actions["G4"] = "B"
+    actions["H4"] = "Acer"
+    actions.merge_cells("A12:B12")
+    actions["A12"] = "A"
+    actions.merge_cells("C12:D12")
+    actions["C12"] = "B"
+    actions["A13"] = "A組事件"
+    actions["B13"] = "3, 08:00"
+    actions["C13"] = "3, 08:00"
+    actions["D13"] = "B組事件"
 
     expenses = workbook.create_sheet("行動開支")
     expenses.append([None, None, None, "UNIT", "QUANTITY", "TOTAL"])
@@ -86,10 +105,10 @@ def test_outline_uses_merged_context_without_filling_normal_blanks(tmp_path):
     assigned = _generated(documents, "outline_operation_test.md")
     unassigned = _generated(documents, "outline_unassigned.md")
 
-    assert "2004-04-05" in assigned
-    assert "背景（不細寫）" in assigned
-    assert "懸念／功能：核心問題" in assigned
-    assert assigned.index("事件：") < assigned.index("懸念／功能：")
+    assert "## 2004-04-05\n\n- 主要事件\n  - 懸念／功能: 核心問題\n  - 對應集數: 1" in assigned
+    assert "## 2004-04-06\n\n- 背景事件 #背景" in assigned
+    assert assigned.count("主要事件") == 1
+    assert "來源工作表：" not in assigned
     assert "未分篇事件" not in assigned
     assert "未分篇事件" in unassigned
     assert "來源位置：" not in assigned
@@ -105,7 +124,8 @@ def test_transformation_counts_and_monthly_kpi_are_separate(tmp_path):
     rendered = _generated(documents, "transformation_kpi.md")
 
     assert "| 2004-04 | 3 |" in rendered
-    assert "| 2004-04 | 2004-04-05 | Operation Test | 主要事件 | 2 |" in rendered
+    assert "| 2004-04 | 2004-04-05 | Operation Test | 2 |" in rendered
+    assert "主要事件" not in rendered
 
 
 def test_water_demon_colors_become_explicit_semantics(tmp_path):
@@ -115,13 +135,10 @@ def test_water_demon_colors_become_explicit_semantics(tmp_path):
 
     rendered = _generated(documents, "water_demon_actions.md")
 
-    assert "BBS（初登場）" in rendered
-    assert "### 冰塊行動" in rendered
-    assert rendered.index("## Siskin") < rendered.index("### 冰塊行動")
-    assert "### 背景行動" in rendered
-    assert "敘事層級：背景（不細寫）" in rendered
-    assert "### 第7集｜星羅誕生" not in rendered
-    assert "對應原著集數：第7集" in rendered
+    assert "| 星羅誕生 | 7 | BBS #初登場 |" in rendered
+    assert "| 冰塊行動 |  | LB |" in rendered
+    assert rendered.index("## Siskin") < rendered.index("冰塊行動")
+    assert "| 背景行動 #背景 |  | BBS |" in rendered
     assert "來源位置：" not in rendered
 
 
@@ -133,10 +150,18 @@ def test_actions_and_expenses_are_rendered_as_readable_sources(tmp_path):
     action = _generated(documents, "operation_01.md")
     expenses = _generated(documents, "action_expenses.md")
 
-    assert "日期：4月5-7日" in action
-    assert "行動人員：Kafziel, Soar" in action
-    assert "## 印度" in action
-    assert "- 2, 11:00：離開檀香山" in action
+    assert "- 日期: 4月5-7日" in action
+    assert "- 行動人員: Kafziel, Soar" in action
+    assert "## 印度 × 日本" in action
+    assert "| 印度時間 | 印度 | 日本時間 | 日本 | 備註 |" in action
+    assert "| 2日 11:00 | 離開檀香山 | 2日 14:30 | 日本事件 | *附註 |" in action
+    assert "|  | 無時間事件 |  |  |  |" in action
+    assert "A組事件" not in action
+
+    team_action = _generated(documents, "operation_02.md")
+    assert "- 行動人員: A組：Kafziel；B組：Acer" in team_action
+    assert "## A × B" in team_action
+    assert "| 3日 08:00 | A組事件 | 3日 08:00 | B組事件 |" in team_action
     assert "| 機票 | 夏威夷-科契 | PREM | 1790 | 2 | 3580 |" in expenses
 
 
@@ -151,7 +176,8 @@ def test_filenames_are_english_and_indexed_in_source_order(tmp_path):
         "03_transformation_kpi.md",
         "04_water_demon_actions.md",
         "05_operation_01.md",
-        "06_action_expenses.md",
+        "06_operation_02.md",
+        "07_action_expenses.md",
     ]
 
 
@@ -175,7 +201,7 @@ def test_index_refresh_generates_sources_beside_workbook(tmp_path):
 
     _refresh_outline_sources(tmp_path)
 
-    output = tmp_path / "00_大綱索引"
+    output = tmp_path / outline_converter.OUTPUT_SUBDIR
     assert (output / "01_outline_operation_test.md").exists()
     assert outline_converter.write_documents(
         outline_converter.convert_workbook(tmp_path / "大綱及行動.xlsx"),

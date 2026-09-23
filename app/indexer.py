@@ -16,7 +16,7 @@ from app.manifest import (
     source_hash,
 )
 from app.store import VectorStore
-from app.outline_converter import convert_workbook, write_documents
+from app.outline_converter import OUTPUT_SUBDIR, convert_workbook, write_documents
 
 
 def _refresh_outline_sources(vault: Path) -> None:
@@ -24,7 +24,7 @@ def _refresh_outline_sources(vault: Path) -> None:
     if not source.exists():
         return
 
-    output = vault / "00_大綱索引"
+    output = vault / OUTPUT_SUBDIR
     documents = convert_workbook(source)
     unchanged = write_documents(documents, output)
     status = "unchanged" if unchanged else "updated"

@@ -19,11 +19,37 @@ data.entity_type = await tp.system.suggester(
   ["outsider", "blueprint", "normal"]
 );
 
+data.origin = await tp.system.suggester(
+  ["native", "unknown"],
+  ["native", "unknown"]
+);
+
+data.timeline = await tp.system.suggester(
+  ["current", "predecessor"],
+  ["current", "predecessor"]
+);
+
 data.isAlive = await tp.system.suggester(["alive","dead"],[true,false]);
 data.isRanger = await tp.system.suggester(["ranger","no"],[true,false]);
 data.isMilitary = await tp.system.suggester(["military","no"],[true,false]);
 data.isCombat_eq = await tp.system.suggester(["combat_eq","no"],[true,false]);
 data.isSrune = await tp.system.suggester(["srune","no"],[true,false]);
+
+data.hasOtherIdentity = false;
+if (data.origin === "native") {
+  data.hasOtherIdentity = await tp.system.suggester(
+    ["other IU identity", "no"],
+    [true, false]
+  );
+}
+
+data.hasLegacy = false;
+if (data.timeline === "predecessor") {
+  data.hasLegacy = await tp.system.suggester(
+    ["legacy", "no"],
+    [true, false]
+  );
+}
 
 -%>
 ---
@@ -32,37 +58,53 @@ id: <% data.id %>
 importance: <% data.importance %>
 name_en: <% data.name_en %>
 entity_type: <% data.entity_type %>
+origin: <% data.origin %>
+timeline: <% data.timeline %>
 alive: <% data.isAlive %>
 ranger: <% data.isRanger %>
 military: <% data.isMilitary %>
 have_combat_eq: <% data.isCombat_eq %>
 process_srune: <% data.isSrune %>
+<%* if (data.timeline === "predecessor") { -%>
+legacy: <% data.hasLegacy %>
+<%* } -%>
 
 ---
 # 
 
  | <% data.name_en %>
+<%* if (data.timeline === "predecessor") { -%>
+
+稱號: 
+<%* } else { -%>
  
 ## 無
+<%* } -%>
 
 ---
 ## 基本資訊
 
 種族: 
+<%* if (data.origin === "native") { -%>
 國籍: 
+<%* } -%>
 <%* if (data.importance !== "normal") { -%>
 身高: 公分
 體重: 公斤
-出生: 年月日 | 
+出生: <% data.origin === "unknown" ? "不明" : "年月日 | " %>
 <%* if (!data.isAlive) { -%>
 逝世: 年月日 | 
 <%* } -%>
 <%* } -%>
-<%* if (data.entity_type === "outsider") { -%>
+<%* if (data.origin === "unknown" || data.hasOtherIdentity) { -%>
 
 ---
 ## 相對合理存在
 
+所在: 
+<%* if (data.origin === "unknown") { -%>
+使用情況: 使用時間最長、最多人知道
+<%* } -%>
 名字: |
 出生: 年月日 | 
 國籍: 
@@ -101,12 +143,18 @@ process_srune: <% data.isSrune %>
 所屬: 
 職級: 
 單位: 
+<%* if (data.timeline === "predecessor") { -%>
+服役年份: 
+指揮: 
+參與戰役: 
+- 
+<%* } else { -%>
 職務: 
+<%* } -%>
 <%* } -%>
 
 ---
 ## 關係
-
 
 - [[]] #
 ---
@@ -125,13 +173,14 @@ process_srune: <% data.isSrune %>
 
 ---
 ## 經歷
+<%* if (data.timeline !== "predecessor") { -%>
 
 ### 童年
 
 
 ### 青年
 
-
+<%* } -%>
 <%* } -%>
 <%* if (data.entity_type === "outsider") { -%>
 
@@ -148,6 +197,14 @@ process_srune: <% data.isSrune %>
 | --- | --- |
 |     |     |
 <%* } -%>
+<%* if (data.hasLegacy) { -%>
+
+---
+## 技術成就
+
+參與研發:
+- 
+<%* } -%>
 <%* if (data.isCombat_eq){ -%>
 
 ---
@@ -155,7 +212,11 @@ process_srune: <% data.isSrune %>
 
 ### 風格
 
+<%* if (data.timeline === "predecessor") { -%>
 
+### 常用機體
+
+<%* } else { -%>
 
 ### 裝備
 
@@ -166,6 +227,7 @@ process_srune: <% data.isSrune %>
 | 戰鬥褲 |     |     |
 | 戰鬥靴 |     |     |
 | 手套  |     |     |
+<%* } -%>
 <%* if (data.isSrune){ -%>
 
 ---

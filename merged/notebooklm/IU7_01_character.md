@@ -524,7 +524,7 @@ Kier Cochran
 - 紗夏．密茨凱維奇 (星羅) #child
 - 威托德．密茨凱維奇 #in_law #friend
 - 伊絲塔．密茨凱維奇 #in_law #friend
-- 弗拉基米爾．萊文斯基 #relaives
+- 弗拉基米爾．萊文斯基 #relatives
 #### 簡介
 
 酒吧老闆，紗夏的外祖父，育有一子一女。前保守派殺手，處理過無數試圖逃離王國的人魚以及反對派學者，辦事效率極高，因而獲得「魚鷹（The Opsrey）」的外號。本名奧德斯．法哈利（Aldous Farharri，奧德斯意為「古老」，法哈利意為「榮耀」），亦即那個被弗拉基米爾盜用身份在深海之星登記的「失蹤族人」。因為血統不純，法力又沒有彭達拉薩人常見的共振特性而遭到排擠，6歲時跟著母親離開，兩人相依為命，後來基耶爾為了生活成為保守派的殺手。某次閒逛時遇到身受重傷，卻仍然掙扎求生的伊絲塔。因為威托德勸說他脫離保守派，對自己的生存之道的看法開始改變的基耶爾，認為伊絲塔或許能告訴他答案，於是指引她前往深海之星的據點。後來改當護衛，與伊絲塔、威托德一起行動，為免引來保守派注意一改戰鬥風格，變得大開大合。厭倦戰鬥回到陸地，認識了現在的妻子並跟著她到英國生活。
@@ -563,7 +563,7 @@ Meta: type=character; id=domoto_001; name_en=Domoto Kaito; entity_type=normal; a
 
 - 堂本薰 #parents
 - 海都 #siblings
-- 七海露芝亞 #love_intrest
+- 七海露芝亞 #love_interest
 #### 簡介
 
 海都的雙胞胎弟弟，彭達拉薩一族的王子，實際年齡超過一百萬歲，但因為封印的關係生長速度大幅減慢，在離開城堡時仍是嬰兒。
@@ -719,7 +719,7 @@ Meta: type=character; id=amagi_002; name_en=Amagi Mikaru; entity_type=normal; al
 #### ## 關係
 
 - 天城博敏 #parents
-- 堂本海斗 #love_intrest
+- 堂本海斗 #love_interest
 - 七海露芝亞 #hate
 - 海因茨．萊文斯基-阿斯哈 #hire
 - 米迦勒 #same
@@ -1104,15 +1104,15 @@ Tristan Heisenberg
 
 #### 關係
 
-- 莉古絲．古蘭爾（原型） #relaives
-- 煌．大和 #relaives
-- 弗雷德里希．萊文斯基 #relaives
-- 海因里希．萊文斯基 #relaives
-- 恩斯特．萊文斯基 #relaives #cowork
-- 海因茨．萊文斯基-阿斯哈 #relaives #student
+- 莉古絲．古蘭爾（原型） #relatives
+- 煌．大和 #relatives
+- 弗雷德里希．萊文斯基 #relatives
+- 海因里希．萊文斯基 #relatives
+- 恩斯特．萊文斯基 #relatives #cowork
+- 海因茨．萊文斯基-阿斯哈 #relatives #student
 - 李察．蘇利文 #student
 - 奎森 #student
-- 弗拉基米爾．萊文斯基 #relaives #student
+- 弗拉基米爾．萊文斯基 #relatives #student
 - 克洛德 #coop
 - 杜溫 #coop
 - 艾芙蓮 #ex-cowork
@@ -1241,13 +1241,13 @@ Invisible Link 提供的合理存在，與堂本薰、維克多．史特萊斯�
 #### 關係
 
 - 恩斯特．萊文斯基 #parents #hate
-- 海因茨．萊文斯基-阿斯哈 #relaives #hate
+- 海因茨．萊文斯基-阿斯哈 #relatives #hate
 - 海因里希．萊文斯基 #parents #hate #victim
 - 安娜斯塔西亞．萊文斯基 #victim
 - 阿拉拉 #friend #coop
 - 烏蘇拉 #coop
-- 基耶爾．科克倫 #relaives
-- 星羅 #relaives
+- 基耶爾．科克倫 #relatives
+- 星羅 #relatives
 - 堂本薰 #kill
 #### 簡介
 
@@ -1360,7 +1360,7 @@ Zhang Rui
 
 - 天城博敏 #ex-cowork
 - 名護 #ex-cowork
-- 愛麗卡．甘迺迪 #love_intrest
+- 愛麗卡．甘迺迪 #love_interest
 #### 簡介
 
 南極考察團成員之一，古生物學家。在造假風波後被迫辭去教職，失業多時後被清道夫吸納。1995年偽造身份加入遠古生物及文明研究所，調查其創立人孫天烺與終端機的聯繫，在愛麗卡操作下發現了終端機過去武力奪取清道夫的研究所後留下的被遺忘紀錄，離開時暗中帶走了相關文件，並與主動投懷送抱的愛麗卡發展成地下情人關係，但並非完全信任愛麗卡，始終懷疑其為終端機成員。離開研究所後在史密森尼國家自然歷史博物館謀得高級研究員職位，行事低調。多番嘗試探愛麗卡無果後開始降低警惕。有配戴領帶夾的習慣，之前一直戴著妻子送的銀色領帶夾，弄丟後愛麗卡在他生日當天送了新的領帶夾，張睿便一直戴著，並對秘書謊稱是妻子所送，但新領帶夾款式與之前樸素低調的領帶夾實在差太多，還是引起了秘書注意。由於終端機提供給VPTS的目標背景資訊造假，誤以為諾愛爾與考察團隊成員存在秘密聯繫，甚至是其情報人員，在愛麗卡刻意引導下認為諾愛爾與終端機有關而答應與諾愛爾等人會面，藉機摸清諾愛爾的底細。然而在會面開始後不久張睿便意識到情報有誤，VPTS提供的諾愛爾背景訊息有問題。知道當年丟失的化石再次出現，懷疑諾愛爾前來拜訪的真實意圖，加上道爾游離者的身份，。將自己私自複製、天城博敏妻子家族傳承下來的日記副本交給三人，並告知日記的後半部分以不明語言寫成，當年只有考察隊的古語顧問能夠解讀，但翻譯紀錄已與日記正本一同被盜。
@@ -1402,7 +1402,7 @@ Arnold Ernst Lewinsky
 - 茱莉．吳．尼恩 #parents
 - 阿斯翠德．萊文斯基 (阿斯翠德．費嘉．萊文斯基) #siblings
 - 阿嘉特．麥克阿瑟 (阿嘉特．哈洛．萊文斯基．麥克阿瑟) #siblings
-- 雷明希爾．休斯 (雷明希爾．高文．休斯) #relaives
+- 雷明希爾．休斯 (雷明希爾．高文．休斯) #relatives
 - 崔斯坦．海森堡 #under_command
 #### 簡介
 
@@ -1533,11 +1533,11 @@ Meta: type=character; id=seira_001; importance=important; name_en=Seira; entity_
 
 #### 關係
 
-- 威托德．密茨凱維奇 #relaives
-- 伊絲塔．密茨凱維奇 #relaives
-- 基耶爾．科克倫 #relaives
-- 海因茨．萊文斯基-阿斯哈 #relaives
-- 弗拉基米爾．萊文斯基 #relaives
+- 威托德．密茨凱維奇 #relatives
+- 伊絲塔．密茨凱維奇 #relatives
+- 基耶爾．科克倫 #relatives
+- 海因茨．萊文斯基-阿斯哈 #relatives
+- 弗拉基米爾．萊文斯基 #relatives
 #### 簡介
 
 新任印度洋王國人魚公主，因塞雷亞安排尼歌娜為其監護人而跟著她以七海（ななみ，Nanami）為姓。本名紗夏．密茨凱維奇（Sasha Mickiewicz），祖母是前印度洋王國長老候補，祖父擁有四分之一的阿奎斯托血統，外祖父則是彭達拉薩人與人類混血，因而擁有至少四個種族的血統。母語是德語，英語流利，但有點蘇格蘭腔，所以不太容易聽懂；會基本的阿奎斯托語，因此起初露芝亞只是以為她年紀小無法理解一些比較複雜的詞彙，而沒有想過阿奎斯托語根本不是她的母語。
@@ -1757,7 +1757,7 @@ Meta: type=character; id=mitsuki_001; name_en=Mitsuki Tarou; entity_type=normal;
 #### 關係
 
 - 海月志音 (李察．蘇利文) #siblings
-- 沙羅 #love_intrest
+- 沙羅 #love_interest
 - 波音 #student
 - 七海露芝亞 #student
 - 麗奈 #student
@@ -1785,7 +1785,7 @@ Meta: type=character; id=gaito_001; name_en=Gaito; entity_type=normal; alive=Tru
 #### 關係
 
 - 堂本海斗 #siblings
-- 沙羅 #love_intrest
+- 沙羅 #love_interest
 - 杜溫 #supervise_by #protected_by
 #### 簡介
 

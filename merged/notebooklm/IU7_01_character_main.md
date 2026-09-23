@@ -19,7 +19,7 @@ Karine Gauthier
 - 諾愛爾．戈蒂埃 #siblings
 - 艾芙蓮 #parents
 - 伊恩．戈蒂埃 #parents
-- 阿德萊德 #relaives
+- 阿德萊德 #relatives
 - 麗奈 #friend
 - 可可 #friend
 - 七海尼歌娜 #supervise_by #protected_by
@@ -265,7 +265,7 @@ SWI調查事務所私人調查員，因為SWI真正的老闆切爾西從不出�
 
 #### 關係
 
-- 諾愛爾．戈蒂埃 #protect #coop #love_intrest
+- 諾愛爾．戈蒂埃 #protect #coop #love_interest
 - 可伶．戈蒂埃 #protect #coop
 - 李察．蘇利文 #command
 - 奎森 #command
@@ -274,27 +274,27 @@ SWI調查事務所私人調查員，因為SWI真正的老闆切爾西從不出�
 - 麥迪文 #command
 - 季直 #under_command
 - 可可 #protect
-- 星羅 #protect #relaives
+- 星羅 #protect #relatives
 - 七海露芝亞 #protect
 - 波音 #protect
 - 麗奈 #protect
 - 七海尼歌娜 #coop
 - 柏西菲卡．萊文斯基-阿斯哈 #parents
 - 基斯．萊文斯基 (斐迪南．基斯．萊文斯基) #parents
-- 安娜斯塔西亞．萊文斯基 #relaives
-- 海因里希．萊文斯基 #relaives
-- 茱莉．吳．尼恩 #relaives
-- 亞斯蘭．察拉 #relaives
-- 卡嘉蓮．尤拉．阿斯哈 #relaives
-- 阿嘉特．麥克阿瑟 (阿嘉特．哈洛．萊文斯基．麥克阿瑟) #relaives
-- 雷明希爾．休斯 (雷明希爾．高文．休斯) #relaives
-- 阿斯翠德．萊文斯基 (阿斯翠德．費嘉．萊文斯基) #relaives
-- 赫爾曼．阿斯哈 (赫爾曼．肯恩．阿斯哈) #relaives
-- 阿朗佐．那拉．阿斯哈 #relaives
-- 亞德琳．阿斯哈 (佐拉．亞德琳．阿斯哈) #relaives
-- 恩斯特．萊文斯基 #relaives
-- 弗拉基米爾．萊文斯基 #relaives
-- 崔斯坦．海森堡 #relaives #teacher
+- 安娜斯塔西亞．萊文斯基 #relatives
+- 海因里希．萊文斯基 #relatives
+- 茱莉．吳．尼恩 #relatives
+- 亞斯蘭．察拉 #relatives
+- 卡嘉蓮．尤拉．阿斯哈 #relatives
+- 阿嘉特．麥克阿瑟 (阿嘉特．哈洛．萊文斯基．麥克阿瑟) #relatives
+- 雷明希爾．休斯 (雷明希爾．高文．休斯) #relatives
+- 阿斯翠德．萊文斯基 (阿斯翠德．費嘉．萊文斯基) #relatives
+- 赫爾曼．阿斯哈 (赫爾曼．肯恩．阿斯哈) #relatives
+- 阿朗佐．那拉．阿斯哈 #relatives
+- 亞德琳．阿斯哈 (佐拉．亞德琳．阿斯哈) #relatives
+- 恩斯特．萊文斯基 #relatives
+- 弗拉基米爾．萊文斯基 #relatives
+- 崔斯坦．海森堡 #relatives #teacher
 游騎士行動本部第4特別行動組副組長，負責指揮針對弗拉基米爾．萊文斯基的調查工作與作戰行動，並為特別行動組提供修正力工程支援。
 
 #### 名字
@@ -421,7 +421,7 @@ Noёl Gauthier
 
 #### 關係
 
-- 海因茨．萊文斯基-阿斯哈 #protected_by #coop #love_intrest
+- 海因茨．萊文斯基-阿斯哈 #protected_by #coop #love_interest
 - 可伶．戈蒂埃 #siblings
 - 艾芙蓮 #parents
 - 伊恩．戈蒂埃 #parents
