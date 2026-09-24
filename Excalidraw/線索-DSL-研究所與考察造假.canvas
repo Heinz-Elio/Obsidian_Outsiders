@@ -1,69 +1,645 @@
 {
-	"nodes":[
-		{"id":"891803f5f7adc05c","type":"group","label":"傭兵襲擊","x":1968,"y":60,"width":972,"height":152},
-		{"id":"15b656be28fbb5d6","type":"group","label":"南極考察造假事件","x":2964,"y":60,"width":640,"height":701},
-		{"id":"9590a700eb3a40e9","type":"group","label":"廢棄研究所","x":7288,"y":60,"width":1636,"height":331},
-		{"id":"b503d9bb1f55ecce","type":"group","label":"遠古生物及文明研究所","x":3612,"y":8,"width":3652,"height":943},
-		{"id":"83a056d93f512c5f","type":"group","label":"化石","x":4632,"y":72,"width":640,"height":498},
-		{"id":"6eca50fefd90742f","type":"group","label":"天城博敏","x":3636,"y":60,"width":972,"height":343},
-		{"id":"a19268416bb74cc2","type":"group","label":"張睿","x":5296,"y":60,"width":640,"height":152},
-		{"id":"54446d7342cadeac","type":"group","label":"澤井陽基","x":5960,"y":72,"width":308,"height":856},
-		{"id":"f728a344dcb8e070","type":"group","label":"衣著","x":6292,"y":60,"width":308,"height":152},
-		{"id":"2cb1c8c85bd09e32","type":"text","text":"廢棄研究所重新啟用","x":0,"y":314,"width":260,"height":52},
-		{"id":"342f48ffa2edbd00","type":"text","text":"找回文件","x":332,"y":123,"width":260,"height":52},
-		{"id":"b79c221ad88c3037","type":"text","text":"實驗參與者轉移文件","x":0,"y":123,"width":260,"height":52},
-		{"id":"41622d5c07446a65","type":"text","text":"美喜留記憶中父親帶自己去治療的地方","x":664,"y":111,"width":260,"height":76},
-		{"id":"691cadaa243b1b1b","type":"text","text":"放任遠古生物及文明研究所進行研究","x":996,"y":111,"width":260,"height":76},
-		{"id":"f6bb303572fca4f1","type":"text","text":"深海之星支持研究所運作","x":1328,"y":123,"width":260,"height":52},
-		{"id":"58d596608dd1f42c","type":"text","text":"奧德斯欺騙天城博敏其女之病無法治療","x":1660,"y":111,"width":260,"height":76},
-		{"id":"ab6988deff3d0692","type":"text","text":"屍體有VPTS的識別章","x":1992,"y":123,"width":260,"height":52},
-		{"id":"be3847f68294742f","type":"text","text":"事前沒有發現VPTS在附近活動的跡象","x":2324,"y":111,"width":260,"height":76},
-		{"id":"50fa40d5cabe6cff","type":"text","text":"長期監視著研究所周邊活動","x":2656,"y":123,"width":260,"height":52},
-		{"id":"4585fa11f12791c3","type":"text","text":"奧德斯．法哈利","x":3320,"y":493,"width":260,"height":52},
-		{"id":"4a96918fd907d657","type":"text","text":"資料十年未更新，聯繫方式已失效","x":2988,"y":660,"width":260,"height":76},
-		{"id":"0eac5987d51c0a43","type":"text","text":"斯普魯恩斯為保密盜去化石並用媒體炒作為學術詐騙","x":2988,"y":111,"width":260,"height":76},
-		{"id":"f4234ef19d4c7749","type":"text","text":"考察所得化石確屬海之住民","x":3154,"y":314,"width":260,"height":52},
-		{"id":"128b46d0355ed13f","type":"text","text":"法哈利為彭達拉薩人","x":3320,"y":672,"width":260,"height":52},
-		{"id":"2d752bec8152ebe9","type":"text","text":"神殿附近有一塊內容未解明的石板","x":3320,"y":111,"width":260,"height":76},
-		{"id":"d6f576e92bd40734","type":"text","text":"有彈殼、榴彈碎片","x":7312,"y":123,"width":260,"height":52},
-		{"id":"e260651af2d2327e","type":"text","text":"曾發生激烈戰鬥","x":7312,"y":314,"width":260,"height":52},
-		{"id":"dda54e22555a1e1a","type":"text","text":"不只是帶走研究資料","x":7644,"y":123,"width":260,"height":52},
-		{"id":"c296eed19c3d557e","type":"text","text":"從事生物研究","x":7976,"y":123,"width":260,"height":52},
-		{"id":"984f784028745547","type":"text","text":"地點極為偏僻","x":8308,"y":123,"width":260,"height":52},
-		{"id":"dc06ca1ad02234a1","type":"text","text":"發生多人死傷也無人發現","x":8308,"y":314,"width":260,"height":52},
-		{"id":"1dc49a07fdb89315","type":"text","text":"研究所與外界幾近隔絕，所有人起居飲食全在研究所內","x":8640,"y":111,"width":260,"height":76},
-		{"id":"9bb9a62fc18c03a9","type":"text","text":"研究古代生物存在文明的可能性","x":6648,"y":123,"width":260,"height":52},
-		{"id":"ba88258947ec298b","type":"text","text":"張睿離職時暗中帶走有關廢棄研究所的文件調查","x":6980,"y":111,"width":260,"height":76},
-		{"id":"35048cbd8b8d8420","type":"text","text":"人頭鳥身，高約30CM","x":4656,"y":314,"width":260,"height":52},
-		{"id":"3b6c8f2bfcc888c6","type":"text","text":"發現於南極一處山洞的神殿外","x":4656,"y":123,"width":260,"height":52},
-		{"id":"d92d1e1da8641f13","type":"text","text":"已滅絕的海之住民","x":4656,"y":493,"width":260,"height":52},
-		{"id":"ff451469f9f063b9","type":"text","text":"生活於八十至一百萬年前","x":4988,"y":123,"width":260,"height":52},
-		{"id":"28911dce1c66fdcc","type":"text","text":"基質稀薄期，海之住民大滅絕","x":4988,"y":314,"width":260,"height":52},
-		{"id":"5fdfb5122b33a24a","type":"text","text":"妻子是彭達拉薩人，祖上是深海之星成員","x":3660,"y":111,"width":260,"height":76},
-		{"id":"4718968a7a05e418","type":"text","text":"透過深海之星聯繫上其他彭達拉薩成員","x":3660,"y":302,"width":260,"height":76},
-		{"id":"be571f04b584257b","type":"text","text":"女兒天城美嘉留患有先天性疾病","x":3992,"y":123,"width":260,"height":52},
-		{"id":"ed86ab0ea57ebd99","type":"text","text":"化石被盜後下落不明","x":4324,"y":123,"width":260,"height":52},
-		{"id":"8d2d279709b72b47","type":"text","text":"天城博敏大學同事","x":5320,"y":123,"width":260,"height":52},
-		{"id":"8748c9cda5ac0bd8","type":"text","text":"事件平息後離職，之後轉至私人研究機構，五年前回到大學任職","x":5652,"y":111,"width":260,"height":76},
-		{"id":"111a52139afedb65","type":"text","text":"天城博敏找來的古代語顧問，協助破譯航海日誌","x":5984,"y":660,"width":260,"height":76},
-		{"id":"7ad7686009ef76aa","type":"text","text":"考察後失聯","x":5984,"y":123,"width":260,"height":52},
-		{"id":"6a82c00ada58d745","type":"text","text":"最清楚日誌內容","x":5984,"y":851,"width":260,"height":52},
-		{"id":"e00c753698b82fd0","type":"text","text":"至少有研究員、保全、外來人員三種","x":6316,"y":111,"width":260,"height":76}
-	],
-	"edges":[
-		{"id":"4fd4502a11a6272e","fromNode":"b79c221ad88c3037","fromSide":"bottom","toNode":"2cb1c8c85bd09e32","toSide":"top","color":"#94A3B8"},
-		{"id":"5b2944619fd5e287","fromNode":"111a52139afedb65","fromSide":"bottom","toNode":"6a82c00ada58d745","toSide":"top","color":"#94A3B8"},
-		{"id":"7e96405ccf426e60","fromNode":"4585fa11f12791c3","fromSide":"left","toNode":"4a96918fd907d657","toSide":"right","color":"#94A3B8"},
-		{"id":"a4883e82b9aa0b12","fromNode":"4585fa11f12791c3","fromSide":"right","toNode":"111a52139afedb65","toSide":"left","color":"#94A3B8"},
-		{"id":"612e9ac32dfc9138","fromNode":"5fdfb5122b33a24a","fromSide":"bottom","toNode":"4718968a7a05e418","toSide":"top","color":"#94A3B8"},
-		{"id":"043ebe95834c0bbe","fromNode":"0eac5987d51c0a43","fromSide":"bottom","toNode":"f4234ef19d4c7749","toSide":"top","color":"#94A3B8"},
-		{"id":"17a8df2ae138254a","fromNode":"4718968a7a05e418","fromSide":"left","toNode":"4585fa11f12791c3","toSide":"right","color":"#94A3B8"},
-		{"id":"3c34a4cf37ea9db4","fromNode":"35048cbd8b8d8420","fromSide":"bottom","toNode":"d92d1e1da8641f13","toSide":"top","color":"#94A3B8"},
-		{"id":"d3cb310f7f7167de","fromNode":"ff451469f9f063b9","fromSide":"bottom","toNode":"28911dce1c66fdcc","toSide":"top","color":"#94A3B8"},
-		{"id":"c6ea11c3a36a097d","fromNode":"28911dce1c66fdcc","fromSide":"left","toNode":"d92d1e1da8641f13","toSide":"right","color":"#94A3B8"},
-		{"id":"2305b2777cc5134e","fromNode":"f4234ef19d4c7749","fromSide":"bottom","toNode":"d92d1e1da8641f13","toSide":"left","color":"#94A3B8"},
-		{"id":"64c40ae8f11133b9","fromNode":"4585fa11f12791c3","fromSide":"bottom","toNode":"128b46d0355ed13f","toSide":"top","color":"#94A3B8"},
-		{"id":"c2f412074c81bace","fromNode":"d6f576e92bd40734","fromSide":"bottom","toNode":"e260651af2d2327e","toSide":"top","color":"#94A3B8"},
-		{"id":"dae7871be6cb2b91","fromNode":"984f784028745547","fromSide":"bottom","toNode":"dc06ca1ad02234a1","toSide":"top","color":"#94A3B8"}
-	]
+ "nodes": [
+  {
+   "id": "891803f5f7adc05c",
+   "type": "group",
+   "label": "傭兵襲擊",
+   "x": 1968,
+   "y": 60,
+   "width": 972,
+   "height": 152
+  },
+  {
+   "id": "15b656be28fbb5d6",
+   "type": "group",
+   "label": "南極考察造假事件",
+   "x": 2964,
+   "y": 60,
+   "width": 640,
+   "height": 845
+  },
+  {
+   "id": "9590a700eb3a40e9",
+   "type": "group",
+   "label": "廢棄研究所",
+   "x": 7288,
+   "y": 60,
+   "width": 1636,
+   "height": 378
+  },
+  {
+   "id": "b503d9bb1f55ecce",
+   "type": "group",
+   "label": "張睿案背景",
+   "x": 8940,
+   "y": 36,
+   "width": 640,
+   "height": 677
+  },
+  {
+   "id": "83a056d93f512c5f",
+   "type": "group",
+   "label": "遠古生物及文明研究所",
+   "x": 3612,
+   "y": 8,
+   "width": 3652,
+   "height": 1087
+  },
+  {
+   "id": "6eca50fefd90742f",
+   "type": "group",
+   "label": "化石",
+   "x": 4632,
+   "y": 72,
+   "width": 640,
+   "height": 605
+  },
+  {
+   "id": "a19268416bb74cc2",
+   "type": "group",
+   "label": "天城博敏",
+   "x": 3636,
+   "y": 60,
+   "width": 972,
+   "height": 391
+  },
+  {
+   "id": "54446d7342cadeac",
+   "type": "group",
+   "label": "張睿",
+   "x": 5296,
+   "y": 60,
+   "width": 640,
+   "height": 152
+  },
+  {
+   "id": "f728a344dcb8e070",
+   "type": "group",
+   "label": "澤井陽基",
+   "x": 5960,
+   "y": 72,
+   "width": 308,
+   "height": 1000
+  },
+  {
+   "id": "d77fd7bd519e2317",
+   "type": "group",
+   "label": "衣著",
+   "x": 6292,
+   "y": 60,
+   "width": 308,
+   "height": 152
+  },
+  {
+   "id": "2cb1c8c85bd09e32",
+   "type": "text",
+   "text": "廢棄研究所重新啟用",
+   "x": 0,
+   "y": 362,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "342f48ffa2edbd00",
+   "type": "text",
+   "text": "找回文件",
+   "x": 332,
+   "y": 123,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "b79c221ad88c3037",
+   "type": "text",
+   "text": "實驗參與者轉移文件",
+   "x": 0,
+   "y": 123,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "41622d5c07446a65",
+   "type": "text",
+   "text": "美喜留記憶中父親帶自己去治療的地方",
+   "x": 664,
+   "y": 111,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "691cadaa243b1b1b",
+   "type": "text",
+   "text": "放任遠古生物及文明研究所進行研究",
+   "x": 996,
+   "y": 111,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "f6bb303572fca4f1",
+   "type": "text",
+   "text": "深海之星支持研究所運作",
+   "x": 1328,
+   "y": 123,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "58d596608dd1f42c",
+   "type": "text",
+   "text": "奧德斯欺騙天城博敏其女之病無法治療",
+   "x": 1660,
+   "y": 111,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "ab6988deff3d0692",
+   "type": "text",
+   "text": "屍體有VPTS的識別章",
+   "x": 1992,
+   "y": 123,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "be3847f68294742f",
+   "type": "text",
+   "text": "事前沒有發現VPTS在附近活動的跡象",
+   "x": 2324,
+   "y": 111,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "50fa40d5cabe6cff",
+   "type": "text",
+   "text": "長期監視著研究所周邊活動",
+   "x": 2656,
+   "y": 123,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "4585fa11f12791c3",
+   "type": "text",
+   "text": "奧德斯．法哈利",
+   "x": 3320,
+   "y": 601,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "4a96918fd907d657",
+   "type": "text",
+   "text": "資料十年未更新，聯繫方式已失效",
+   "x": 2988,
+   "y": 804,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "0eac5987d51c0a43",
+   "type": "text",
+   "text": "斯普魯恩斯為保密盜去化石並用媒體炒作為學術詐騙",
+   "x": 2988,
+   "y": 111,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "f4234ef19d4c7749",
+   "type": "text",
+   "text": "考察所得化石確屬海之住民",
+   "x": 3154,
+   "y": 362,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "128b46d0355ed13f",
+   "type": "text",
+   "text": "法哈利為彭達拉薩人",
+   "x": 3320,
+   "y": 816,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "2d752bec8152ebe9",
+   "type": "text",
+   "text": "神殿附近有一塊內容未解明的石板",
+   "x": 3320,
+   "y": 111,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "d6f576e92bd40734",
+   "type": "text",
+   "text": "有彈殼、榴彈碎片",
+   "x": 7312,
+   "y": 123,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "e260651af2d2327e",
+   "type": "text",
+   "text": "曾發生激烈戰鬥",
+   "x": 7312,
+   "y": 362,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "dda54e22555a1e1a",
+   "type": "text",
+   "text": "不只是帶走研究資料",
+   "x": 7644,
+   "y": 123,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "c296eed19c3d557e",
+   "type": "text",
+   "text": "從事生物研究",
+   "x": 7976,
+   "y": 123,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "984f784028745547",
+   "type": "text",
+   "text": "地點極為偏僻",
+   "x": 8308,
+   "y": 123,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "dc06ca1ad02234a1",
+   "type": "text",
+   "text": "發生多人死傷也無人發現",
+   "x": 8308,
+   "y": 362,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "1dc49a07fdb89315",
+   "type": "text",
+   "text": "研究所與外界幾近隔絕，所有人起居飲食全在研究所內",
+   "x": 8640,
+   "y": 111,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "92660f24ad026355",
+   "type": "text",
+   "text": "**同一研究所**\n\n天城博敏、張睿曾在同一研究所工作",
+   "x": 9134,
+   "y": 87,
+   "width": 260,
+   "height": 124
+  },
+  {
+   "id": "b53f8b0b4224f702",
+   "type": "text",
+   "text": "**研究所治療**\n\n天城博敏曾帶天城美嘉留前往研究所治療",
+   "x": 8964,
+   "y": 326,
+   "width": 260,
+   "height": 124
+  },
+  {
+   "id": "0f857268cea0423c",
+   "type": "text",
+   "text": "**天城博敏二次失蹤**\n\n天城博敏本答應完成收尾工作就回家，但再次失去聯絡",
+   "x": 8964,
+   "y": 565,
+   "width": 260,
+   "height": 124
+  },
+  {
+   "id": "fd9492892ec84f46",
+   "type": "text",
+   "text": "**南極考察與化石**\n\n研究可能與阿奎斯托、化石有關",
+   "x": 9296,
+   "y": 577,
+   "width": 260,
+   "height": 100
+  },
+  {
+   "id": "bb4e1a3483a0638c",
+   "type": "text",
+   "text": "**澤井引薦**\n\n澤井陽基是天城博敏的引薦人",
+   "x": 9296,
+   "y": 338,
+   "width": 260,
+   "height": 100
+  },
+  {
+   "id": "9bb9a62fc18c03a9",
+   "type": "text",
+   "text": "研究古代生物存在文明的可能性",
+   "x": 6648,
+   "y": 123,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "ba88258947ec298b",
+   "type": "text",
+   "text": "張睿離職時暗中帶走有關廢棄研究所的文件調查",
+   "x": 6980,
+   "y": 111,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "35048cbd8b8d8420",
+   "type": "text",
+   "text": "人頭鳥身，高約30CM",
+   "x": 4656,
+   "y": 362,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "3b6c8f2bfcc888c6",
+   "type": "text",
+   "text": "發現於南極一處山洞的神殿外",
+   "x": 4656,
+   "y": 123,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "d92d1e1da8641f13",
+   "type": "text",
+   "text": "已滅絕的海之住民",
+   "x": 4656,
+   "y": 601,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "ff451469f9f063b9",
+   "type": "text",
+   "text": "生活於八十至一百萬年前",
+   "x": 4988,
+   "y": 123,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "28911dce1c66fdcc",
+   "type": "text",
+   "text": "基質稀薄期，海之住民大滅絕",
+   "x": 4988,
+   "y": 362,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "5fdfb5122b33a24a",
+   "type": "text",
+   "text": "妻子是彭達拉薩人，祖上是深海之星成員",
+   "x": 3660,
+   "y": 111,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "4718968a7a05e418",
+   "type": "text",
+   "text": "透過深海之星聯繫上其他彭達拉薩成員",
+   "x": 3660,
+   "y": 350,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "be571f04b584257b",
+   "type": "text",
+   "text": "女兒天城美嘉留患有先天性疾病",
+   "x": 3992,
+   "y": 123,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "ed86ab0ea57ebd99",
+   "type": "text",
+   "text": "化石被盜後下落不明",
+   "x": 4324,
+   "y": 123,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "8d2d279709b72b47",
+   "type": "text",
+   "text": "天城博敏大學同事",
+   "x": 5320,
+   "y": 123,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "8748c9cda5ac0bd8",
+   "type": "text",
+   "text": "事件平息後離職，之後轉至私人研究機構，五年前回到大學任職",
+   "x": 5652,
+   "y": 111,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "111a52139afedb65",
+   "type": "text",
+   "text": "天城博敏找來的古代語顧問，協助破譯航海日誌",
+   "x": 5984,
+   "y": 804,
+   "width": 260,
+   "height": 76
+  },
+  {
+   "id": "7ad7686009ef76aa",
+   "type": "text",
+   "text": "考察後失聯",
+   "x": 5984,
+   "y": 123,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "6a82c00ada58d745",
+   "type": "text",
+   "text": "最清楚日誌內容",
+   "x": 5984,
+   "y": 995,
+   "width": 260,
+   "height": 52
+  },
+  {
+   "id": "e00c753698b82fd0",
+   "type": "text",
+   "text": "至少有研究員、保全、外來人員三種",
+   "x": 6316,
+   "y": 111,
+   "width": 260,
+   "height": 76
+  }
+ ],
+ "edges": [
+  {
+   "id": "77d52ab5aba7a2b4",
+   "fromNode": "92660f24ad026355",
+   "fromSide": "bottom",
+   "toNode": "b53f8b0b4224f702",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "a038c642546b5528",
+   "fromNode": "b53f8b0b4224f702",
+   "fromSide": "bottom",
+   "toNode": "0f857268cea0423c",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "18e3c3798234c852",
+   "fromNode": "b53f8b0b4224f702",
+   "fromSide": "right",
+   "toNode": "fd9492892ec84f46",
+   "toSide": "left",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "e68d2f33655cfc16",
+   "fromNode": "92660f24ad026355",
+   "fromSide": "bottom",
+   "toNode": "bb4e1a3483a0638c",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "c4321e61f1d3ca5c",
+   "fromNode": "b79c221ad88c3037",
+   "fromSide": "bottom",
+   "toNode": "2cb1c8c85bd09e32",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "d7aa792af3bc927d",
+   "fromNode": "111a52139afedb65",
+   "fromSide": "bottom",
+   "toNode": "6a82c00ada58d745",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "77594530533eda91",
+   "fromNode": "4585fa11f12791c3",
+   "fromSide": "left",
+   "toNode": "4a96918fd907d657",
+   "toSide": "right",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "04a13d9f577a4fae",
+   "fromNode": "4585fa11f12791c3",
+   "fromSide": "right",
+   "toNode": "111a52139afedb65",
+   "toSide": "left",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "7f32b94fc10ce259",
+   "fromNode": "5fdfb5122b33a24a",
+   "fromSide": "bottom",
+   "toNode": "4718968a7a05e418",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "b8277a8886f8ccc4",
+   "fromNode": "0eac5987d51c0a43",
+   "fromSide": "bottom",
+   "toNode": "f4234ef19d4c7749",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "9a9e315c567114d6",
+   "fromNode": "4718968a7a05e418",
+   "fromSide": "left",
+   "toNode": "4585fa11f12791c3",
+   "toSide": "right",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "a2ee9d8af4e04286",
+   "fromNode": "35048cbd8b8d8420",
+   "fromSide": "bottom",
+   "toNode": "d92d1e1da8641f13",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "c8bac143bf5d4290",
+   "fromNode": "ff451469f9f063b9",
+   "fromSide": "bottom",
+   "toNode": "28911dce1c66fdcc",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "0b9b4bf1a01f34f7",
+   "fromNode": "28911dce1c66fdcc",
+   "fromSide": "left",
+   "toNode": "d92d1e1da8641f13",
+   "toSide": "right",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "3c9ea650212ffbec",
+   "fromNode": "f4234ef19d4c7749",
+   "fromSide": "right",
+   "toNode": "d92d1e1da8641f13",
+   "toSide": "bottom",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "2593c2fd03635801",
+   "fromNode": "4585fa11f12791c3",
+   "fromSide": "bottom",
+   "toNode": "128b46d0355ed13f",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "a1f6c2d9c3bd3e8c",
+   "fromNode": "d6f576e92bd40734",
+   "fromSide": "bottom",
+   "toNode": "e260651af2d2327e",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "9aa5986f7f8e197f",
+   "fromNode": "984f784028745547",
+   "fromSide": "bottom",
+   "toNode": "dc06ca1ad02234a1",
+   "toSide": "top",
+   "color": "#94A3B8"
+  }
+ ]
 }

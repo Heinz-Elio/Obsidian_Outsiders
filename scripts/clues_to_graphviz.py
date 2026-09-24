@@ -2,16 +2,19 @@
 
 Layout is delegated entirely to Graphviz; the author only writes content.
 
-DSL, one statement per line:
+DSL, one statement per line (full reference: Excalidraw/線索-DSL-寫法.md):
 
-    標題: 改革派策略              directive (標題 / 方向 TB|LR / 時序 a, b, c)
+    標題: 改革派策略              directive (標題 / 方向 TB|LR / 時序 a, b, c / 輸出 dot|svg)
     # 群組名                     cluster; more '#' = nested cluster
-    證據 內容 = 別名 @時點 #狀態  node; only 類型 and 內容 are required
-    A -支持-> B | C              edge; relation optional ("A -> B"); '|' = many targets
+    證據 短鍵 : 細節 = 別名 @時點 #狀態
+                                 node; only 類型 and 短鍵 are required. The graph shows
+                                 the key; the detail goes to tooltips and Canvas cards
+    A -支持-> B | C -> D         edge chain; relation optional; '|' = fan-out/fan-in;
+                                 a group title is a valid endpoint
     // 註解
 
 類型: 證據 事件 實體 假設 未決 矛盾 未分類  (aliases below)
-狀態: 已確認 預定 推論 補丁
+狀態: 已確認 預定 推論 補丁 採信 排除
 關係: 支持 導致 推導 矛盾 時序 屬於 (others are printed as edge labels)
 """
 
@@ -61,7 +64,13 @@ STATUS_STYLE = {
     "預定": ("1.0", "", 1),
     "推論": ("1.2", "dashed", 1),
     "補丁": ("2.6", "", 1),
+    "採信": ("2.4", "", 2),
+    "排除": ("1.0", "dashed", 1),
 }
+# (fill, stroke, font) replacing the type colours, so ruled-out hypotheses recede
+FADED = ("#F8FAFC", "#CBD5E1", "#94A3B8")
+# types whose isolation or missing support means the reasoning is unfinished
+LINT_TYPES = {"證據", "事件", "假設", "矛盾"}
 # relation -> attributes
 RELATION_STYLE = {
     "支持": 'color="#1F2937"',
@@ -74,9 +83,10 @@ RELATION_STYLE = {
 UNDEFINED_RELATION = 'color="#94A3B8", style="dashed"'
 
 NODE_RE = re.compile(r"^(?P<type>\S+)\s+(?P<rest>.+)$")
-EDGE_RE = re.compile(r"^(?P<src>.+?)\s+-(?P<rel>[^\s>]*?)-?>\s+(?P<dst>.+)$")
+ARROW_RE = re.compile(r"(?:^|\s+)-([^\s>]*?)-?>(?:\s+|$)")
 TAIL_RE = re.compile(r"\s+(?:#(?P<status>\S+)|@(?P<time>\S+)|=\s*(?P<alias>\S+))$")
-DIRECTIVE_RE = re.compile(r"^(?P<key>標題|方向|時序)[:：]\s*(?P<value>.+)$")
+DIRECTIVE_RE = re.compile(r"^(?P<key>標題|方向|時序|輸出)[:：]\s*(?P<value>.+)$")
+DETAIL_SEP = " : "   # labels already use full-width ： and times like 19:00
 HEADING_RE = re.compile(r"^(?P<level>#+)\s+(?P<title>.+)$")
 
 
@@ -89,6 +99,7 @@ class Node:
     cluster: tuple[str, ...]
     dot_id: str
     line: int
+    detail: str = ""
 
 
 @dataclass
@@ -103,10 +114,12 @@ class Edge:
 class Graph:
     title: str = ""
     rankdir: str = "TB"
+    output: str = "dot"
     time_order: list[str] = field(default_factory=list)
     nodes: dict[str, Node] = field(default_factory=dict)
     aliases: dict[str, str] = field(default_factory=dict)
     clusters: dict[tuple[str, ...], list[str]] = field(default_factory=dict)
+    group_refs: dict[str, tuple[str, ...]] = field(default_factory=dict)
     edges: list[Edge] = field(default_factory=list)
     audit: list[str] = field(default_factory=list)
 
@@ -124,6 +137,8 @@ def parse(text: str) -> Graph:
                 graph.title = value
             elif key == "方向":
                 graph.rankdir = "LR" if value.upper() == "LR" else "TB"
+            elif key == "輸出":
+                graph.output = "svg" if value.lower() == "svg" else "dot"
             else:
                 graph.time_order = [t.strip() for t in re.split(r"[,，、]", value) if t.strip()]
             continue
@@ -133,10 +148,16 @@ def parse(text: str) -> Graph:
             stack.append(m["title"].strip())
             graph.clusters.setdefault(tuple(stack), [])
             continue
-        if m := EDGE_RE.match(line):
-            targets = [t.strip() for t in m["dst"].split("|") if t.strip()]
-            for target in targets:
-                graph.edges.append(Edge(m["src"].strip(), target, m["rel"], line_no))
+        if ARROW_RE.search(line):
+            parts = ARROW_RE.split(line)
+            groups = [[t.strip() for t in part.split("|") if t.strip()] for part in parts[0::2]]
+            if not all(groups):
+                graph.audit.append(f"第 {line_no} 行：連線缺少端點：{line}")
+                continue
+            for relation, sources, targets in zip(parts[1::2], groups, groups[1:]):
+                for source in sources:
+                    for target in targets:
+                        graph.edges.append(Edge(source, target, relation, line_no))
             continue
         if m := NODE_RE.match(line):
             type_name = TYPE_ALIASES.get(m["type"])
@@ -150,7 +171,8 @@ def parse(text: str) -> Graph:
                 time = tail["time"] or time
                 alias = tail["alias"] or alias
                 rest = rest[: tail.start()].rstrip()
-            label = rest
+            label, _, detail = rest.partition(DETAIL_SEP)
+            label, detail = label.strip(), detail.strip()
             if not label:
                 graph.audit.append(f"第 {line_no} 行：節點沒有內容")
                 continue
@@ -168,6 +190,7 @@ def parse(text: str) -> Graph:
                 cluster=tuple(stack),
                 dot_id=f"n{len(graph.nodes) + 1:03d}",
                 line=line_no,
+                detail=detail,
             )
             graph.nodes[label] = node
             if alias and alias != label:
@@ -179,14 +202,27 @@ def parse(text: str) -> Graph:
             continue
         graph.audit.append(f"第 {line_no} 行：無法解析：{line}")
     resolve_edges(graph)
+    lint(graph)
     return graph
 
 
 def resolve_edges(graph: Graph) -> None:
+    titles: dict[str, tuple[str, ...]] = {}
+    duplicated: set[str] = set()
+    for path in graph.clusters:
+        if path:
+            if path[-1] in titles:
+                duplicated.add(path[-1])
+            titles.setdefault(path[-1], path)
     for edge in graph.edges:
         for attr in ("src", "dst"):
             name = getattr(edge, attr)
             label = graph.aliases.get(name, name)
+            if label not in graph.nodes and name in titles:
+                if name in duplicated:
+                    graph.audit.append(f"第 {edge.line} 行：群組名稱「{name}」重複，連線接到第一個")
+                graph.group_refs[name] = titles[name]
+                continue
             if label not in graph.nodes:
                 graph.audit.append(f"第 {edge.line} 行：「{name}」未定義，已自動加入為未決節點")
                 graph.nodes[label] = Node(
@@ -197,6 +233,41 @@ def resolve_edges(graph: Graph) -> None:
             setattr(edge, attr, label)
         if edge.relation and edge.relation not in RELATION_STYLE:
             graph.audit.append(f"第 {edge.line} 行：關係「{edge.relation}」不在預設表中，僅作文字標籤")
+
+
+def lint(graph: Graph) -> None:
+    """Layer grammar: 證據 -支持/矛盾-> 推論, 推論 -推導-> 推論, 事件 -> 問題群組."""
+    touched: set[str] = set()
+    incoming: set[str] = set()
+    for edge in graph.edges:
+        touched |= {edge.src, edge.dst}
+        incoming.add(edge.dst)
+        src, dst = graph.nodes.get(edge.src), graph.nodes.get(edge.dst)
+        if src and dst and src.type == dst.type == "證據" and edge.relation not in ("時序", "屬於"):
+            graph.audit.append(f"第 {edge.line} 行：證據「{edge.src}」直接連到證據「{edge.dst}」，應經由推論")
+        for node, group in ((src, edge.dst), (dst, edge.src)):
+            path = graph.group_refs.get(group) if node else None
+            if path and node.cluster[: len(path)] == path:
+                graph.audit.append(f"第 {edge.line} 行：「{node.label}」本身就在群組「{group}」內，連線無法接到群組框")
+    for node in graph.nodes.values():
+        if node.type not in LINT_TYPES:
+            continue
+        if node.label not in touched:
+            graph.audit.append(f"第 {node.line} 行：「{node.label}」沒有任何連線")
+        elif node.type == "假設" and node.label not in incoming and node.status != "排除":
+            graph.audit.append(f"第 {node.line} 行：推論「{node.label}」沒有證據或推論連入")
+
+
+def cluster_ids(graph: Graph) -> dict[tuple[str, ...], str]:
+    return {path: f"cluster_{i:02d}" for i, path in enumerate(sorted(graph.clusters)) if path}
+
+
+def endpoint(graph: Graph, ids: dict[tuple[str, ...], str], name: str) -> tuple[str, str | None]:
+    """DOT node id for an edge end, plus the cluster id when the end is a group."""
+    if name in graph.nodes:
+        return graph.nodes[name].dot_id, None
+    cluster = ids[graph.group_refs[name]]
+    return f"{cluster}_anchor", cluster
 
 
 def wrap(label: str) -> str:
@@ -214,12 +285,19 @@ def node_attrs(node: Node) -> str:
         f'label="{dot_escape(wrap(node.label))}"',
         f'shape="{shape}"',
         f'style="{",".join(styles)}"',
+    ]
+    if node.status == "排除":
+        fill, stroke, font = FADED
+        attrs.append(f'fontcolor="{font}"')
+    attrs += [
         f'fillcolor="{fill}"',
         f'color="{stroke}"',
         f'penwidth="{penwidth}"',
     ]
     if peripheries != 1:
         attrs.append(f'peripheries="{peripheries}"')
+    if node.detail:
+        attrs.append(f'tooltip="{dot_escape(node.detail)}"')
     return ", ".join(attrs)
 
 
@@ -240,12 +318,13 @@ def emit_dot(graph: Graph) -> str:
         "",
     ]
 
-    cluster_ids = {path: f"cluster_{i:02d}" for i, path in enumerate(sorted(graph.clusters)) if path}
+    ids = cluster_ids(graph)
+    referenced = set(graph.group_refs.values())
 
     def emit_cluster(path: tuple[str, ...], indent: str) -> None:
         if path:
             out.extend([
-                f"{indent}subgraph {cluster_ids[path]} {{",
+                f"{indent}subgraph {ids[path]} {{",
                 f'{indent}  label="{dot_escape(path[-1])}"; color="#CBD5E1"; fillcolor="#FAFAFA";',
                 f'{indent}  fontcolor="#1F2937"; fontsize="11"; style="filled,rounded";',
             ])
@@ -253,6 +332,8 @@ def emit_dot(graph: Graph) -> str:
         for label in graph.clusters.get(path, []):
             node = graph.nodes[label]
             out.append(f"{indent}{node.dot_id} [{node_attrs(node)}];")
+        if path in referenced:
+            out.append(f'{indent}{ids[path]}_anchor [shape="point", style="invis", width="0.01", height="0.01", label=""];')
         for child in sorted(p for p in graph.clusters if len(p) == len(path) + 1 and p[: len(path)] == path):
             emit_cluster(child, indent)
         if path:
@@ -261,13 +342,18 @@ def emit_dot(graph: Graph) -> str:
     emit_cluster((), "  ")
     out.append("")
     for edge in graph.edges:
-        src, dst = graph.nodes[edge.src].dot_id, graph.nodes[edge.dst].dot_id
+        src, tail_cluster = endpoint(graph, ids, edge.src)
+        dst, head_cluster = endpoint(graph, ids, edge.dst)
         if edge.relation in RELATION_STYLE:
             attrs = RELATION_STYLE[edge.relation]
         elif edge.relation:
             attrs = f'{UNDEFINED_RELATION}, label="{dot_escape(edge.relation)}"'
         else:
             attrs = UNDEFINED_RELATION
+        if tail_cluster:
+            attrs += f', ltail="{tail_cluster}"'
+        if head_cluster:
+            attrs += f', lhead="{head_cluster}"'
         out.append(f"  {src} -> {dst} [{attrs}];")
 
     times = [t for t in graph.time_order]
@@ -288,11 +374,12 @@ def emit_dot(graph: Graph) -> str:
     return "\n".join(out)
 
 
-def render_markdown(text: str) -> tuple[str, list[str], list[str]]:
+def render_markdown(text: str, stem: str = "clues") -> tuple[str, list[str], list[tuple[str, str | None]]]:
+    """Returns the updated note, report lines, and (dot, svg file name or None) per block."""
     lines = text.splitlines()
     result: list[str] = []
     messages: list[str] = []
-    dots: list[str] = []
+    outputs: list[tuple[str, str | None]] = []
     i = 0
     while i < len(lines):
         if lines[i].strip() != "```clues":
@@ -308,11 +395,13 @@ def render_markdown(text: str) -> tuple[str, list[str], list[str]]:
         i += 1
         graph = parse("\n".join(block))
         dot = emit_dot(graph)
-        dots.append(dot)
+        svg_name = f"{stem}.svg" if not outputs else f"{stem}-{len(outputs) + 1}.svg"
+        embed = f"![[{svg_name}]]"
         messages.append(
             f"{graph.title or '（無標題）'}：{len(graph.nodes)} 節點、{len(graph.edges)} 連線、{len(graph.audit)} 稽核"
         )
         messages.extend(f"  - {item}" for item in graph.audit)
+        # drop whatever this block generated last time, in either output mode
         j = i
         while j < len(lines) and not lines[j].strip():
             j += 1
@@ -321,24 +410,39 @@ def render_markdown(text: str) -> tuple[str, list[str], list[str]]:
             while k < len(lines) and lines[k].strip() != "```":
                 k += 1
             i = k + 1
-        result += ["", "```dot", dot, "```"]
-    return "\n".join(result) + ("\n" if text.endswith("\n") else ""), messages, dots
+        elif j < len(lines) and lines[j].strip() == embed:
+            i = j + 1
+        if graph.output == "svg":
+            outputs.append((dot, svg_name))
+            result += ["", embed]
+        else:
+            outputs.append((dot, None))
+            result += ["", "```dot", dot, "```"]
+    return "\n".join(result) + ("\n" if text.endswith("\n") else ""), messages, outputs
 
 
-def check_dot(dot: str) -> str:
+def render_svg(dot: str) -> tuple[bytes, str]:
     """Run dot -Tsvg and insist on real output; an empty SVG means nothing was drawn."""
     import shutil
     import subprocess
 
     executable = shutil.which("dot") or str(Path("Graphviz/bin/dot.exe"))
     if not Path(executable).exists():
-        return "找不到 dot；已略過驗證"
+        raise FileNotFoundError("找不到 dot")
     result = subprocess.run([executable, "-Tsvg"], input=dot.encode("utf-8"), capture_output=True)
     stderr = result.stderr.decode("utf-8", "replace").strip()
     if result.returncode != 0:
         raise RuntimeError(f"Graphviz 驗證失敗：{stderr}")
     if b"<svg" not in result.stdout:
         raise RuntimeError("Graphviz 沒有輸出任何圖形")
+    return result.stdout, stderr
+
+
+def check_dot(dot: str) -> str:
+    try:
+        _, stderr = render_svg(dot)
+    except FileNotFoundError:
+        return "找不到 dot；已略過驗證"
     return "Graphviz DOT 驗證通過" + (f"（警告：{stderr}）" if stderr else "")
 
 
@@ -350,19 +454,23 @@ def main() -> int:
     status = 0
     for note in args.notes:
         original = note.read_text(encoding="utf-8")
-        updated, messages, dots = render_markdown(original)
+        updated, messages, outputs = render_markdown(original, note.stem)
         if updated != original:
             note.write_text(updated, encoding="utf-8", newline="\n")
         print(f"{note}：{'已更新' if updated != original else '無變更'}")
         for message in messages:
             print("  " + message)
-        if args.check:
-            for dot in dots:
-                try:
+        for dot, svg_name in outputs:
+            try:
+                if svg_name:
+                    svg, stderr = render_svg(dot)
+                    (note.parent / svg_name).write_bytes(svg)
+                    print(f"  已輸出 {svg_name}" + (f"（警告：{stderr}）" if stderr else ""))
+                elif args.check:
                     print("  " + check_dot(dot))
-                except RuntimeError as error:
-                    print(f"  {error}")
-                    status = 1
+            except (RuntimeError, FileNotFoundError) as error:
+                print(f"  {error}")
+                status = 1
     return status
 
 

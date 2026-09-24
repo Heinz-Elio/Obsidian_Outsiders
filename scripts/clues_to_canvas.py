@@ -20,11 +20,15 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from clues_to_graphviz import (  # noqa: E402
     DEFAULT_STATUS,
+    FADED,
     FONT,
     RELATION_STYLE,
     TYPE_STYLE,
     Graph,
+    Node,
+    cluster_ids,
     dot_escape,
+    endpoint,
     parse,
     wrap,
 )
@@ -51,8 +55,17 @@ def cid(*parts: str) -> str:
     return hashlib.md5("|".join(parts).encode("utf-8")).hexdigest()[:16]
 
 
-def node_box(label: str) -> tuple[int, int]:
-    lines = wrap(label).count("\n") + 1
+def card_text(node: Node) -> str:
+    text = f"**{node.label}**\n\n{node.detail}" if node.detail else node.label
+    if node.status != DEFAULT_STATUS[node.type]:
+        text += f"\n\n`{node.status}`"
+    return text
+
+
+def node_box(node: Node) -> tuple[int, int]:
+    lines = wrap(node.label).count("\n") + 1
+    if node.detail:
+        lines += wrap(node.detail).count("\n") + 2
     return NODE_WIDTH, lines * LINE_HEIGHT + NODE_PADDING
 
 
@@ -63,16 +76,19 @@ def layout_dot(graph: Graph) -> str:
         f'  graph [rankdir="{graph.rankdir}", newrank="true", nodesep="1.00", ranksep="1.60", fontname="{FONT}"];',
         '  node [shape="box", fixedsize="true", label=""];',
     ]
-    cluster_ids = {p: f"cluster_{i:02d}" for i, p in enumerate(sorted(graph.clusters)) if p}
+    ids = cluster_ids(graph)
+    referenced = set(graph.group_refs.values())
 
     def emit(path: tuple[str, ...], indent: str) -> None:
         if path:
-            out.append(f'{indent}subgraph {cluster_ids[path]} {{ label="{dot_escape(path[-1])}"; margin="24";')
+            out.append(f'{indent}subgraph {ids[path]} {{ label="{dot_escape(path[-1])}"; margin="24";')
             indent += "  "
         for label in graph.clusters.get(path, []):
             node = graph.nodes[label]
-            w, h = node_box(label)
+            w, h = node_box(node)
             out.append(f'{indent}{node.dot_id} [width="{w / 72:.3f}", height="{h / 72:.3f}"];')
+        if path in referenced:
+            out.append(f'{indent}{ids[path]}_anchor [width="0.1", height="0.1", style="invis"];')
         for child in sorted(p for p in graph.clusters if len(p) == len(path) + 1 and p[: len(path)] == path):
             emit(child, indent)
         if path:
@@ -80,7 +96,7 @@ def layout_dot(graph: Graph) -> str:
 
     emit((), "  ")
     for edge in graph.edges:
-        out.append(f"  {graph.nodes[edge.src].dot_id} -> {graph.nodes[edge.dst].dot_id};")
+        out.append(f"  {endpoint(graph, ids, edge.src)[0]} -> {endpoint(graph, ids, edge.dst)[0]};")
 
     times = list(graph.time_order)
     for node in graph.nodes.values():
@@ -181,40 +197,49 @@ def build_canvas(graph: Graph) -> dict:
     layout = run_dot(layout_dot(graph))
     _, _, _, total_h = (float(v) for v in layout["bb"].split(","))
     by_dot_id = {n.dot_id: n for n in graph.nodes.values()}
+    ids = cluster_ids(graph)
     nodes: list[dict] = []
     rects: dict[str, tuple[float, float, float, float]] = {}
+    group_rects: dict[str, tuple[float, float, float, float]] = {}
 
     for obj in layout["objects"]:
         name = obj["name"]
         if "bb" in obj and name.startswith("cluster_"):
             x0, y0, x1, y1 = (float(v) for v in obj["bb"].split(","))
-            nodes.append({
+            group = {
                 "id": cid("group", name),
                 "type": "group",
                 "label": obj.get("label", ""),
                 "x": round(x0), "y": round(total_h - y1),
                 "width": round(x1 - x0), "height": round(y1 - y0),
-            })
+            }
+            group_rects[name] = (group["x"], group["y"], group["width"], group["height"])
+            nodes.append(group)
             continue
         node = by_dot_id.get(name)
         if node is None:
             continue
         cx, cy = (float(v) for v in obj["pos"].split(","))
-        w, h = node_box(node.label)
+        w, h = node_box(node)
         x, y = round(cx - w / 2), round((total_h - cy) - h / 2)
         rects[node.label] = (x, y, w, h)
-        text = node.label
-        if node.status != DEFAULT_STATUS[node.type]:
-            text += f"\n\n`{node.status}`"
         entry = {
             "id": cid("node", node.label),
             "type": "text",
-            "text": text,
+            "text": card_text(node),
             "x": x, "y": y, "width": w, "height": h,
         }
-        if node.type != "未分類":
+        if node.status == "排除":
+            entry["color"] = FADED[1]
+        elif node.type != "未分類":
             entry["color"] = TYPE_STYLE[node.type][1]
         nodes.append(entry)
+
+    def card(name: str) -> tuple[str, tuple[float, float, float, float]]:
+        if name in graph.nodes:
+            return cid("node", name), rects[name]
+        cluster = ids[graph.group_refs[name]]
+        return cid("group", cluster), group_rects[cluster]
 
     obstacles = {
         label: (x + CLEARANCE, y + CLEARANCE, x + w - CLEARANCE, y + h - CLEARANCE)
@@ -222,11 +247,12 @@ def build_canvas(graph: Graph) -> dict:
     }
     edges: list[dict] = []
     for i, edge in enumerate(graph.edges):
-        from_side, to_side = route(rects[edge.src], rects[edge.dst], list(obstacles.values()))
+        (src_id, src_rect), (dst_id, dst_rect) = card(edge.src), card(edge.dst)
+        from_side, to_side = route(src_rect, dst_rect, list(obstacles.values()))
         entry = {
             "id": cid("edge", str(i), edge.src, edge.dst),
-            "fromNode": cid("node", edge.src), "fromSide": from_side,
-            "toNode": cid("node", edge.dst), "toSide": to_side,
+            "fromNode": src_id, "fromSide": from_side,
+            "toNode": dst_id, "toSide": to_side,
             "color": EDGE_COLOR.get(edge.relation, UNDEFINED_EDGE_COLOR),
         }
         if edge.relation:

@@ -78,6 +78,17 @@ cssclasses:
 ## 衣著
 未分類 至少有研究員、保全、外來人員三種
 
+# 張睿案背景
+// 自 [[線索-DSL-張睿案]] 移入；該篇以「研究所背景」接口節點連回
+未分類 同一研究所 : 天城博敏、張睿曾在同一研究所工作
+未分類 研究所治療 : 天城博敏曾帶天城美嘉留前往研究所治療
+未分類 天城博敏二次失蹤 : 天城博敏本答應完成收尾工作就回家，但再次失去聯絡
+未分類 南極考察與化石 : 研究可能與阿奎斯托、化石有關
+未分類 澤井引薦 : 澤井陽基是天城博敏的引薦人
+
+同一研究所 -> 研究所治療 -> 天城博敏二次失蹤 | 南極考察與化石
+同一研究所 -> 澤井引薦
+
 
 實驗參與者轉移文件 -> 廢棄研究所重新啟用
 天城博敏找來的古代語顧問，協助破譯航海日誌 -> 最清楚日誌內容
@@ -149,11 +160,20 @@ digraph clues {
     n023 [label="研究所與外界幾近隔絕，所有人\n起居飲食全在研究所內", shape="box", style="filled,dashed", fillcolor="#FFFFFF", color="#94A3B8", penwidth="1.2"];
   }
   subgraph cluster_04 {
+    label="張睿案背景"; color="#CBD5E1"; fillcolor="#FAFAFA";
+    fontcolor="#1F2937"; fontsize="11"; style="filled,rounded";
+    n041 [label="同一研究所", shape="box", style="filled,dashed", fillcolor="#FFFFFF", color="#94A3B8", penwidth="1.2", tooltip="天城博敏、張睿曾在同一研究所工作"];
+    n042 [label="研究所治療", shape="box", style="filled,dashed", fillcolor="#FFFFFF", color="#94A3B8", penwidth="1.2", tooltip="天城博敏曾帶天城美嘉留前往研究所治療"];
+    n043 [label="天城博敏二次失蹤", shape="box", style="filled,dashed", fillcolor="#FFFFFF", color="#94A3B8", penwidth="1.2", tooltip="天城博敏本答應完成收尾工作就回家，但再次失去聯絡"];
+    n044 [label="南極考察與化石", shape="box", style="filled,dashed", fillcolor="#FFFFFF", color="#94A3B8", penwidth="1.2", tooltip="研究可能與阿奎斯托、化石有關"];
+    n045 [label="澤井引薦", shape="box", style="filled,dashed", fillcolor="#FFFFFF", color="#94A3B8", penwidth="1.2", tooltip="澤井陽基是天城博敏的引薦人"];
+  }
+  subgraph cluster_05 {
     label="遠古生物及文明研究所"; color="#CBD5E1"; fillcolor="#FAFAFA";
     fontcolor="#1F2937"; fontsize="11"; style="filled,rounded";
     n024 [label="研究古代生物存在文明的可能性", shape="box", style="filled,dashed", fillcolor="#FFFFFF", color="#94A3B8", penwidth="1.2"];
     n025 [label="張睿離職時暗中帶走有關廢棄研\n究所的文件調查", shape="box", style="filled,dashed", fillcolor="#FFFFFF", color="#94A3B8", penwidth="1.2"];
-    subgraph cluster_05 {
+    subgraph cluster_06 {
       label="化石"; color="#CBD5E1"; fillcolor="#FAFAFA";
       fontcolor="#1F2937"; fontsize="11"; style="filled,rounded";
       n026 [label="人頭鳥身，高約30CM", shape="box", style="filled,dashed", fillcolor="#FFFFFF", color="#94A3B8", penwidth="1.2"];
@@ -162,7 +182,7 @@ digraph clues {
       n029 [label="生活於八十至一百萬年前", shape="box", style="filled,dashed", fillcolor="#FFFFFF", color="#94A3B8", penwidth="1.2"];
       n030 [label="基質稀薄期，海之住民大滅絕", shape="box", style="filled,dashed", fillcolor="#FFFFFF", color="#94A3B8", penwidth="1.2"];
     }
-    subgraph cluster_06 {
+    subgraph cluster_07 {
       label="天城博敏"; color="#CBD5E1"; fillcolor="#FAFAFA";
       fontcolor="#1F2937"; fontsize="11"; style="filled,rounded";
       n031 [label="妻子是彭達拉薩人，祖上是深海\n之星成員", shape="box", style="filled,dashed", fillcolor="#FFFFFF", color="#94A3B8", penwidth="1.2"];
@@ -170,26 +190,30 @@ digraph clues {
       n033 [label="女兒天城美嘉留患有先天性疾病", shape="box", style="filled,dashed", fillcolor="#FFFFFF", color="#94A3B8", penwidth="1.2"];
       n034 [label="化石被盜後下落不明", shape="box", style="filled,dashed", fillcolor="#FFFFFF", color="#94A3B8", penwidth="1.2"];
     }
-    subgraph cluster_07 {
+    subgraph cluster_08 {
       label="張睿"; color="#CBD5E1"; fillcolor="#FAFAFA";
       fontcolor="#1F2937"; fontsize="11"; style="filled,rounded";
       n035 [label="天城博敏大學同事", shape="box", style="filled,dashed", fillcolor="#FFFFFF", color="#94A3B8", penwidth="1.2"];
       n036 [label="事件平息後離職，之後轉至私人\n研究機構，五年前回到大學任職", shape="box", style="filled,dashed", fillcolor="#FFFFFF", color="#94A3B8", penwidth="1.2"];
     }
-    subgraph cluster_08 {
+    subgraph cluster_09 {
       label="澤井陽基"; color="#CBD5E1"; fillcolor="#FAFAFA";
       fontcolor="#1F2937"; fontsize="11"; style="filled,rounded";
       n037 [label="天城博敏找來的古代語顧問，協\n助破譯航海日誌", shape="box", style="filled,dashed", fillcolor="#FFFFFF", color="#94A3B8", penwidth="1.2"];
       n038 [label="考察後失聯", shape="box", style="filled,dashed", fillcolor="#FFFFFF", color="#94A3B8", penwidth="1.2"];
       n039 [label="最清楚日誌內容", shape="box", style="filled,dashed", fillcolor="#FFFFFF", color="#94A3B8", penwidth="1.2"];
     }
-    subgraph cluster_09 {
+    subgraph cluster_10 {
       label="衣著"; color="#CBD5E1"; fillcolor="#FAFAFA";
       fontcolor="#1F2937"; fontsize="11"; style="filled,rounded";
       n040 [label="至少有研究員、保全、外來人員\n三種", shape="box", style="filled,dashed", fillcolor="#FFFFFF", color="#94A3B8", penwidth="1.2"];
     }
   }
 
+  n041 -> n042 [color="#94A3B8", style="dashed"];
+  n042 -> n043 [color="#94A3B8", style="dashed"];
+  n042 -> n044 [color="#94A3B8", style="dashed"];
+  n041 -> n045 [color="#94A3B8", style="dashed"];
   n003 -> n001 [color="#94A3B8", style="dashed"];
   n037 -> n039 [color="#94A3B8", style="dashed"];
   n011 -> n012 [color="#94A3B8", style="dashed"];
