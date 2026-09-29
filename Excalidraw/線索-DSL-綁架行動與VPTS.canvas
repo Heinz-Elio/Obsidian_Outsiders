@@ -1,77 +1,649 @@
 {
-	"nodes":[
-		{"id":"891803f5f7adc05c","type":"group","label":"VPTS綁架行動","x":284,"y":99,"width":972,"height":546},
-		{"id":"15b656be28fbb5d6","type":"group","label":"暗殺委託人","x":1264,"y":99,"width":972,"height":928},
-		{"id":"9590a700eb3a40e9","type":"group","label":"第三次綁架行動","x":2924,"y":111,"width":308,"height":330},
-		{"id":"b503d9bb1f55ecce","type":"group","label":"第二張門票","x":3588,"y":111,"width":308,"height":343},
-		{"id":"83a056d93f512c5f","type":"group","label":"護照","x":3904,"y":8,"width":1684,"height":876},
-		{"id":"6eca50fefd90742f","type":"group","label":"第三方人員","x":3928,"y":60,"width":996,"height":800},
-		{"id":"a19268416bb74cc2","type":"group","label":"未爆彈","x":3952,"y":111,"width":308,"height":725},
-		{"id":"cad237245f8656f7","type":"text","text":"必須經印度才能在時限內打開保險櫃","x":0,"y":151,"width":260,"height":76},
-		{"id":"700fc2acfe34d9e8","type":"text","text":"清道夫開始核查諾愛爾背景","x":2284,"y":163,"width":260,"height":52},
-		{"id":"173862b6c0790d79","type":"text","text":"清道夫試圖誤導終端機文件尚未交出","x":2616,"y":151,"width":260,"height":76},
-		{"id":"cb8f5bac85a2d6cf","type":"text","text":"發現之前收到的是假報告後馬上洗機並更換聯繫方式，無法繼續追查","x":308,"y":736,"width":260,"height":100},
-		{"id":"06ea8665b0f7151c","type":"text","text":"積極調查SWI","x":3280,"y":366,"width":260,"height":52},
-		{"id":"dd8159da2edc0131","type":"text","text":"董事長黑克勒認識的一名前軍方高層投資了遠古生物及文明研究所","x":640,"y":736,"width":260,"height":100},
-		{"id":"aa8f73b993d1a006","type":"text","text":"派遣O-117前往和歌山","x":3280,"y":557,"width":260,"height":52},
-		{"id":"31831dd00e322fc5","type":"text","text":"VPTS掌握所有人魚公主的行蹤，並據此策劃連串行動","x":644,"y":151,"width":260,"height":76},
-		{"id":"f617631cc2d4bcd3","type":"text","text":"V是真正的委託人","x":972,"y":557,"width":260,"height":52},
-		{"id":"3e5de404bb6da3be","type":"text","text":"委託人由中介組織僱用，情報由其他人提供","x":640,"y":354,"width":260,"height":76},
-		{"id":"6684b6022887c200","type":"text","text":"以電郵聯繫，但其電腦只用作與單一對象聯繫，位址在法國","x":308,"y":545,"width":260,"height":76},
-		{"id":"0278b5ded7b33a42","type":"text","text":"只有V知道人魚公主必然會經印度回國","x":972,"y":354,"width":260,"height":76},
-		{"id":"7f84b671bf64bfd6","type":"text","text":"實際上是秘密交易，委託只是形式","x":640,"y":545,"width":260,"height":76},
-		{"id":"fcc104a650351310","type":"text","text":"有財力聘用更好的傭兵達成目標","x":1288,"y":163,"width":260,"height":52},
-		{"id":"cd8d5f11fad7c24b","type":"text","text":"行事謹慎，熟知地下商業的運作","x":1873,"y":366,"width":260,"height":52},
-		{"id":"5629e025676749ac","type":"text","text":"能夠判斷TI能力不足以完成委託","x":1470,"y":545,"width":260,"height":76},
-		{"id":"01f197b1ad07fdc8","type":"text","text":"經中介找人與TI接洽","x":1952,"y":163,"width":260,"height":52},
-		{"id":"83aa0d80f36cd77b","type":"text","text":"VPTS失敗的保險","x":1379,"y":760,"width":260,"height":52},
-		{"id":"d439df2c3da65893","type":"text","text":"TI失敗後仍繼續委託，直到TI全滅","x":1620,"y":151,"width":260,"height":76},
-		{"id":"812c98a6e557c9e7","type":"text","text":"非情報來源，情報提供方式與VPTS的委託人相同","x":1711,"y":748,"width":260,"height":76},
-		{"id":"863c25db391b7a26","type":"text","text":"專業情報人員","x":1499,"y":951,"width":260,"height":52},
-		{"id":"46f413fe317db797","type":"text","text":"委託人想借TI消耗VPTS的力量","x":1383,"y":354,"width":260,"height":76},
-		{"id":"413dccc1213026b6","type":"text","text":"VPTS發現屍體失蹤","x":2948,"y":163,"width":260,"height":52},
-		{"id":"d7201a6a018cad6d","type":"text","text":"事後調查被列為機密","x":2948,"y":366,"width":260,"height":52},
-		{"id":"f90b513e26d702be","type":"text","text":"準點傳送至保險箱","x":3612,"y":163,"width":260,"height":52},
-		{"id":"c467cb1e3241b440","type":"text","text":"V事前曾親自或派人到印度確認座標","x":3612,"y":354,"width":260,"height":76},
-		{"id":"e740ebc7d7311a0c","type":"text","text":"諾愛爾與可伶為法國籍，可可卻是日本籍","x":4972,"y":151,"width":260,"height":76},
-		{"id":"7d9dd6e7c9087e62","type":"text","text":"根據簽發日期與入境紀錄，諾愛爾在拿到護照後便馬上前往加拿大","x":5304,"y":139,"width":260,"height":100},
-		{"id":"a58e79ae64d3e8eb","type":"text","text":"兩人本來就擁有法國國籍","x":4960,"y":366,"width":260,"height":52},
-		{"id":"e94b93680d3ed1f4","type":"text","text":"兩人需辦理工作簽證","x":5292,"y":366,"width":260,"height":52},
-		{"id":"4bc04a25cb07f60d","type":"text","text":"全套防護裝備、隱匿術式","x":4308,"y":163,"width":260,"height":52},
-		{"id":"30326601b9f9ec8d","type":"text","text":"預期會與其他人交鋒","x":4308,"y":366,"width":260,"height":52},
-		{"id":"90c458bc87bea597","type":"text","text":"隸屬TI，公司核心成員是游離者","x":4640,"y":151,"width":260,"height":76},
-		{"id":"e9ed591a8e76df73","type":"text","text":"明明可以在對手行動前直接在遠處狙殺，卻選擇正面交鋒","x":4308,"y":545,"width":260,"height":76},
-		{"id":"1584de20c1502691","type":"text","text":"故意使用未爆彈測試SWI","x":3976,"y":163,"width":260,"height":52},
-		{"id":"77f52be0097a2bcd","type":"text","text":"不知道是未爆彈，意圖殺害人魚公主","x":3976,"y":545,"width":260,"height":76},
-		{"id":"f310345b8a206fce","type":"text","text":"策劃者欠缺判斷能力","x":3976,"y":760,"width":260,"height":52},
-		{"id":"3aa14b4f41a8b341","type":"text","text":"客戶要求","x":3976,"y":366,"width":260,"height":52}
-	],
-	"edges":[
-		{"id":"7d5918379cc8125e","fromNode":"7f84b671bf64bfd6","fromSide":"bottom","toNode":"dd8159da2edc0131","toSide":"top","color":"#94A3B8"},
-		{"id":"5573d3850f052f30","fromNode":"3e5de404bb6da3be","fromSide":"left","toNode":"6684b6022887c200","toSide":"right","color":"#94A3B8"},
-		{"id":"70f95f0abf13c080","fromNode":"3e5de404bb6da3be","fromSide":"right","toNode":"f617631cc2d4bcd3","toSide":"left","color":"#94A3B8"},
-		{"id":"b0b10b6bd0c45d29","fromNode":"0278b5ded7b33a42","fromSide":"bottom","toNode":"f617631cc2d4bcd3","toSide":"top","color":"#94A3B8"},
-		{"id":"81217d2dcaf56766","fromNode":"3e5de404bb6da3be","fromSide":"bottom","toNode":"7f84b671bf64bfd6","toSide":"top","color":"#94A3B8"},
-		{"id":"451c49e5f2d372b1","fromNode":"f90b513e26d702be","fromSide":"bottom","toNode":"c467cb1e3241b440","toSide":"top","color":"#94A3B8"},
-		{"id":"0bb2cc8b37c7d305","fromNode":"413dccc1213026b6","fromSide":"bottom","toNode":"d7201a6a018cad6d","toSide":"top","color":"#94A3B8"},
-		{"id":"67301391830087b5","fromNode":"4bc04a25cb07f60d","fromSide":"bottom","toNode":"30326601b9f9ec8d","toSide":"top","color":"#94A3B8"},
-		{"id":"aec31ff4a3d6985a","fromNode":"30326601b9f9ec8d","fromSide":"bottom","toNode":"e9ed591a8e76df73","toSide":"top","color":"#94A3B8"},
-		{"id":"da59304390f5ecd3","fromNode":"1584de20c1502691","fromSide":"bottom","toNode":"3aa14b4f41a8b341","toSide":"top","color":"#94A3B8"},
-		{"id":"e168a8aa0a55d957","fromNode":"77f52be0097a2bcd","fromSide":"bottom","toNode":"f310345b8a206fce","toSide":"top","color":"#94A3B8"},
-		{"id":"6f7607183c3323b0","fromNode":"e9ed591a8e76df73","fromSide":"left","toNode":"f310345b8a206fce","toSide":"right","color":"#94A3B8"},
-		{"id":"3d6bd0f2bdb3e448","fromNode":"e740ebc7d7311a0c","fromSide":"bottom","toNode":"a58e79ae64d3e8eb","toSide":"top","color":"#94A3B8"},
-		{"id":"3f161a22dfdd6200","fromNode":"e740ebc7d7311a0c","fromSide":"right","toNode":"e94b93680d3ed1f4","toSide":"left","color":"#94A3B8"},
-		{"id":"651b4b83d90032dd","fromNode":"6684b6022887c200","fromSide":"bottom","toNode":"cb8f5bac85a2d6cf","toSide":"top","color":"#94A3B8"},
-		{"id":"dcda2a2ee10de1eb","fromNode":"fcc104a650351310","fromSide":"bottom","toNode":"46f413fe317db797","toSide":"top","color":"#94A3B8"},
-		{"id":"3adf636ed406c5fa","fromNode":"01f197b1ad07fdc8","fromSide":"bottom","toNode":"cd8d5f11fad7c24b","toSide":"top","color":"#94A3B8"},
-		{"id":"c3e1d914eb020d6a","fromNode":"cd8d5f11fad7c24b","fromSide":"left","toNode":"5629e025676749ac","toSide":"right","color":"#94A3B8"},
-		{"id":"bb4d0ddc49c566ab","fromNode":"5629e025676749ac","fromSide":"bottom","toNode":"83aa0d80f36cd77b","toSide":"top","color":"#94A3B8"},
-		{"id":"f596aa453a5ceefb","fromNode":"d439df2c3da65893","fromSide":"left","toNode":"46f413fe317db797","toSide":"right","color":"#94A3B8"},
-		{"id":"dcb1e7d72fc812a6","fromNode":"812c98a6e557c9e7","fromSide":"left","toNode":"863c25db391b7a26","toSide":"right","color":"#94A3B8"},
-		{"id":"bb2bc35d506184f5","fromNode":"863c25db391b7a26","fromSide":"right","toNode":"863c25db391b7a26","toSide":"right","color":"#94A3B8"},
-		{"id":"b73b4d9bd6a438d0","fromNode":"06ea8665b0f7151c","fromSide":"bottom","toNode":"aa8f73b993d1a006","toSide":"top","color":"#94A3B8"},
-		{"id":"a9eb5edcbfe2ac7c","fromNode":"413dccc1213026b6","fromSide":"right","toNode":"06ea8665b0f7151c","toSide":"left","color":"#94A3B8"},
-		{"id":"12285c8b6322fad9","fromNode":"cb8f5bac85a2d6cf","fromSide":"bottom","toNode":"863c25db391b7a26","toSide":"bottom","color":"#94A3B8"},
-		{"id":"396af34d87a32198","fromNode":"cad237245f8656f7","fromSide":"top","toNode":"0278b5ded7b33a42","toSide":"top","color":"#94A3B8"}
-	]
+ "nodes": [
+  {
+   "id": "891803f5f7adc05c",
+   "type": "group",
+   "label": "VPTS綁架行動",
+   "x": 284,
+   "y": 139,
+   "width": 972,
+   "height": 742
+  },
+  {
+   "id": "15b656be28fbb5d6",
+   "type": "group",
+   "label": "暗殺委託人",
+   "x": 1264,
+   "y": 151,
+   "width": 972,
+   "height": 1184
+  },
+  {
+   "id": "9590a700eb3a40e9",
+   "type": "group",
+   "label": "第三次綁架行動",
+   "x": 2924,
+   "y": 187,
+   "width": 308,
+   "height": 383
+  },
+  {
+   "id": "b503d9bb1f55ecce",
+   "type": "group",
+   "label": "第二張門票",
+   "x": 3588,
+   "y": 187,
+   "width": 308,
+   "height": 419
+  },
+  {
+   "id": "83a056d93f512c5f",
+   "type": "group",
+   "label": "護照",
+   "x": 3904,
+   "y": 46,
+   "width": 1684,
+   "height": 1110
+  },
+  {
+   "id": "6eca50fefd90742f",
+   "type": "group",
+   "label": "第三方人員",
+   "x": 3928,
+   "y": 116,
+   "width": 996,
+   "height": 1015
+  },
+  {
+   "id": "a19268416bb74cc2",
+   "type": "group",
+   "label": "未爆彈",
+   "x": 3952,
+   "y": 187,
+   "width": 308,
+   "height": 921
+  },
+  {
+   "id": "e8057dece4d196be",
+   "type": "text",
+   "text": "**必須經印度才能在時限內開櫃**\n\n必須經印度才能在時限內打開保險櫃",
+   "x": 0,
+   "y": 183,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "700fc2acfe34d9e8",
+   "type": "text",
+   "text": "清道夫開始核查諾愛爾背景",
+   "x": 2284,
+   "y": 219,
+   "width": 260,
+   "height": 52,
+   "color": "#EA580C"
+  },
+  {
+   "id": "ff2f37acfb19bc9b",
+   "type": "text",
+   "text": "**清道夫試圖誤導終端機文件未交**\n\n清道夫試圖誤導終端機文件尚未交出",
+   "x": 2616,
+   "y": 183,
+   "width": 260,
+   "height": 124,
+   "color": "#EA580C"
+  },
+  {
+   "id": "c09a7ac1fda9c5be",
+   "type": "text",
+   "text": "**發現假報告後洗機換聯繫方式**\n\n發現之前收到的是假報告後馬上洗機並更換聯繫方式，無法繼續追查",
+   "x": 308,
+   "y": 984,
+   "width": 260,
+   "height": 148,
+   "color": "#EA580C"
+  },
+  {
+   "id": "06ea8665b0f7151c",
+   "type": "text",
+   "text": "積極調查SWI",
+   "x": 3280,
+   "y": 494,
+   "width": 260,
+   "height": 52,
+   "color": "#EA580C"
+  },
+  {
+   "id": "1506c94704243dbf",
+   "type": "text",
+   "text": "**黑克勒認識前軍方高層投資研究所**\n\n董事長黑克勒認識的一名前軍方高層投資了遠古生物及文明研究所",
+   "x": 640,
+   "y": 972,
+   "width": 260,
+   "height": 172,
+   "color": "#2563EB"
+  },
+  {
+   "id": "aa8f73b993d1a006",
+   "type": "text",
+   "text": "派遣O-117前往和歌山",
+   "x": 3280,
+   "y": 757,
+   "width": 260,
+   "height": 52,
+   "color": "#EA580C"
+  },
+  {
+   "id": "dfe29cda9dd3fe39",
+   "type": "text",
+   "text": "**VPTS掌握所有公主行蹤並策劃行動**\n\nVPTS掌握所有人魚公主的行蹤，並據此策劃連串行動",
+   "x": 644,
+   "y": 171,
+   "width": 260,
+   "height": 148,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "f617631cc2d4bcd3",
+   "type": "text",
+   "text": "V是真正的委託人",
+   "x": 972,
+   "y": 757,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "ba6ec46039028437",
+   "type": "text",
+   "text": "**委託人由中介僱用情報由他人提供**\n\n委託人由中介組織僱用，情報由其他人提供",
+   "x": 640,
+   "y": 446,
+   "width": 260,
+   "height": 148,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "93d515d87ab09254",
+   "type": "text",
+   "text": "**電郵聯繫電腦僅對單一對象位址在法國**\n\n以電郵聯繫，但其電腦只用作與單一對象聯繫，位址在法國",
+   "x": 308,
+   "y": 709,
+   "width": 260,
+   "height": 148,
+   "color": "#2563EB"
+  },
+  {
+   "id": "b4727d52b6b4fae7",
+   "type": "text",
+   "text": "**只有V知道公主必然經印度回國**\n\n只有V知道人魚公主必然會經印度回國",
+   "x": 972,
+   "y": 458,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "e972059731b9b67b",
+   "type": "text",
+   "text": "**實際上是秘密交易委託只是形式**\n\n實際上是秘密交易，委託只是形式",
+   "x": 640,
+   "y": 721,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "c721df82790e91d6",
+   "type": "text",
+   "text": "**有財力聘用更好傭兵達成目標**\n\n有財力聘用更好的傭兵達成目標",
+   "x": 1288,
+   "y": 195,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "b0d012bd03a57538",
+   "type": "text",
+   "text": "**行事謹慎熟知地下商業運作**\n\n行事謹慎，熟知地下商業的運作",
+   "x": 1873,
+   "y": 470,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "289d14bbd04fdd73",
+   "type": "text",
+   "text": "**能判斷TI能力不足以完成委託**\n\n能夠判斷TI能力不足以完成委託",
+   "x": 1470,
+   "y": 721,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "01f197b1ad07fdc8",
+   "type": "text",
+   "text": "經中介找人與TI接洽",
+   "x": 1952,
+   "y": 219,
+   "width": 260,
+   "height": 52,
+   "color": "#EA580C"
+  },
+  {
+   "id": "83aa0d80f36cd77b",
+   "type": "text",
+   "text": "VPTS失敗的保險",
+   "x": 1379,
+   "y": 1032,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "c52d9293a2558ce3",
+   "type": "text",
+   "text": "**TI失敗後仍繼續委託直到全滅**\n\nTI失敗後仍繼續委託，直到TI全滅",
+   "x": 1620,
+   "y": 183,
+   "width": 260,
+   "height": 124,
+   "color": "#EA580C"
+  },
+  {
+   "id": "b9c17e5a7f9ba06d",
+   "type": "text",
+   "text": "**非情報來源提供方式與VPTS委託人相同**\n\n非情報來源，情報提供方式與VPTS的委託人相同",
+   "x": 1711,
+   "y": 984,
+   "width": 260,
+   "height": 148,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "863c25db391b7a26",
+   "type": "text",
+   "text": "專業情報人員",
+   "x": 1499,
+   "y": 1259,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "fec35ea9996da3f8",
+   "type": "text",
+   "text": "**委託人想借TI消耗VPTS力量**\n\n委託人想借TI消耗VPTS的力量",
+   "x": 1383,
+   "y": 446,
+   "width": 260,
+   "height": 148,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "413dccc1213026b6",
+   "type": "text",
+   "text": "VPTS發現屍體失蹤",
+   "x": 2948,
+   "y": 219,
+   "width": 260,
+   "height": 52,
+   "color": "#EA580C"
+  },
+  {
+   "id": "d7201a6a018cad6d",
+   "type": "text",
+   "text": "事後調查被列為機密",
+   "x": 2948,
+   "y": 494,
+   "width": 260,
+   "height": 52,
+   "color": "#EA580C"
+  },
+  {
+   "id": "f90b513e26d702be",
+   "type": "text",
+   "text": "準點傳送至保險箱",
+   "x": 3612,
+   "y": 219,
+   "width": 260,
+   "height": 52,
+   "color": "#EA580C"
+  },
+  {
+   "id": "dab4888910661001",
+   "type": "text",
+   "text": "**V事前曾確認印度座標**\n\nV事前曾親自或派人到印度確認座標",
+   "x": 3612,
+   "y": 458,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "1405407d24a76c85",
+   "type": "text",
+   "text": "**諾愛爾可伶法國籍可可卻是日本籍**\n\n諾愛爾與可伶為法國籍，可可卻是日本籍",
+   "x": 4972,
+   "y": 171,
+   "width": 260,
+   "height": 148,
+   "color": "#2563EB"
+  },
+  {
+   "id": "c67f0861f63ee44e",
+   "type": "text",
+   "text": "**諾愛爾拿到護照後馬上前往加拿大**\n\n根據簽發日期與入境紀錄，諾愛爾在拿到護照後便馬上前往加拿大",
+   "x": 5304,
+   "y": 159,
+   "width": 260,
+   "height": 172,
+   "color": "#2563EB"
+  },
+  {
+   "id": "a58e79ae64d3e8eb",
+   "type": "text",
+   "text": "兩人本來就擁有法國國籍",
+   "x": 4960,
+   "y": 494,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "e94b93680d3ed1f4",
+   "type": "text",
+   "text": "兩人需辦理工作簽證",
+   "x": 5292,
+   "y": 494,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "00790f402a8a3ff8",
+   "type": "text",
+   "text": "**全套防護裝備與隱匿術式**\n\n全套防護裝備、隱匿術式",
+   "x": 4308,
+   "y": 195,
+   "width": 260,
+   "height": 100,
+   "color": "#2563EB"
+  },
+  {
+   "id": "30326601b9f9ec8d",
+   "type": "text",
+   "text": "預期會與其他人交鋒",
+   "x": 4308,
+   "y": 494,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "de2a4d6026fd1db4",
+   "type": "text",
+   "text": "**隸屬TI核心成員是游離者**\n\n隸屬TI，公司核心成員是游離者",
+   "x": 4640,
+   "y": 183,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "3b643c0e85b2b5b8",
+   "type": "text",
+   "text": "**可遠距狙殺卻選擇正面交鋒**\n\n明明可以在對手行動前直接在遠處狙殺，卻選擇正面交鋒",
+   "x": 4308,
+   "y": 721,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "1584de20c1502691",
+   "type": "text",
+   "text": "故意使用未爆彈測試SWI",
+   "x": 3976,
+   "y": 219,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "229b422761e61ef7",
+   "type": "text",
+   "text": "**不知是未爆彈意圖殺害公主**\n\n不知道是未爆彈，意圖殺害人魚公主",
+   "x": 3976,
+   "y": 721,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "f310345b8a206fce",
+   "type": "text",
+   "text": "策劃者欠缺判斷能力",
+   "x": 3976,
+   "y": 1032,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "3aa14b4f41a8b341",
+   "type": "text",
+   "text": "客戶要求",
+   "x": 3976,
+   "y": 494,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  }
+ ],
+ "edges": [
+  {
+   "id": "ed3c3e19e99b1453",
+   "fromNode": "e972059731b9b67b",
+   "fromSide": "bottom",
+   "toNode": "1506c94704243dbf",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "4fa21c0ac13a3697",
+   "fromNode": "ba6ec46039028437",
+   "fromSide": "bottom",
+   "toNode": "93d515d87ab09254",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "ad60128091cb2dcf",
+   "fromNode": "ba6ec46039028437",
+   "fromSide": "bottom",
+   "toNode": "f617631cc2d4bcd3",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "26907d2d4e458574",
+   "fromNode": "b4727d52b6b4fae7",
+   "fromSide": "bottom",
+   "toNode": "f617631cc2d4bcd3",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "8742f102971e2e65",
+   "fromNode": "ba6ec46039028437",
+   "fromSide": "bottom",
+   "toNode": "e972059731b9b67b",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "1341db9543f19e8c",
+   "fromNode": "f90b513e26d702be",
+   "fromSide": "bottom",
+   "toNode": "dab4888910661001",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "0bb2cc8b37c7d305",
+   "fromNode": "413dccc1213026b6",
+   "fromSide": "bottom",
+   "toNode": "d7201a6a018cad6d",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "fd1b57735ce1ee26",
+   "fromNode": "00790f402a8a3ff8",
+   "fromSide": "bottom",
+   "toNode": "30326601b9f9ec8d",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "ca986b63199bf27e",
+   "fromNode": "30326601b9f9ec8d",
+   "fromSide": "bottom",
+   "toNode": "3b643c0e85b2b5b8",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "da59304390f5ecd3",
+   "fromNode": "1584de20c1502691",
+   "fromSide": "bottom",
+   "toNode": "3aa14b4f41a8b341",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "35d4dfc506797768",
+   "fromNode": "229b422761e61ef7",
+   "fromSide": "bottom",
+   "toNode": "f310345b8a206fce",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "b0fe7b9346fdc74a",
+   "fromNode": "3b643c0e85b2b5b8",
+   "fromSide": "bottom",
+   "toNode": "f310345b8a206fce",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "5b6f9390921892fd",
+   "fromNode": "1405407d24a76c85",
+   "fromSide": "bottom",
+   "toNode": "a58e79ae64d3e8eb",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "7263697bd4950a7b",
+   "fromNode": "1405407d24a76c85",
+   "fromSide": "bottom",
+   "toNode": "e94b93680d3ed1f4",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "010368aa9f8f7757",
+   "fromNode": "93d515d87ab09254",
+   "fromSide": "bottom",
+   "toNode": "c09a7ac1fda9c5be",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "c60faf770496d201",
+   "fromNode": "c721df82790e91d6",
+   "fromSide": "bottom",
+   "toNode": "fec35ea9996da3f8",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "62bfd10d74e113a6",
+   "fromNode": "01f197b1ad07fdc8",
+   "fromSide": "bottom",
+   "toNode": "b0d012bd03a57538",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "a01f4975411c35e3",
+   "fromNode": "b0d012bd03a57538",
+   "fromSide": "bottom",
+   "toNode": "289d14bbd04fdd73",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "db4b91ef3da79e1b",
+   "fromNode": "289d14bbd04fdd73",
+   "fromSide": "bottom",
+   "toNode": "83aa0d80f36cd77b",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "afc5720158bd9c91",
+   "fromNode": "c52d9293a2558ce3",
+   "fromSide": "bottom",
+   "toNode": "fec35ea9996da3f8",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "8d565ae62cd0a0f5",
+   "fromNode": "b9c17e5a7f9ba06d",
+   "fromSide": "bottom",
+   "toNode": "863c25db391b7a26",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "fd1c871322d6b0b2",
+   "fromNode": "06ea8665b0f7151c",
+   "fromSide": "bottom",
+   "toNode": "aa8f73b993d1a006",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "22aef9c2b5a8d216",
+   "fromNode": "413dccc1213026b6",
+   "fromSide": "bottom",
+   "toNode": "06ea8665b0f7151c",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "95632fcd160c1d88",
+   "fromNode": "c09a7ac1fda9c5be",
+   "fromSide": "bottom",
+   "toNode": "863c25db391b7a26",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "ef1c261b46eeccea",
+   "fromNode": "e8057dece4d196be",
+   "fromSide": "bottom",
+   "toNode": "b4727d52b6b4fae7",
+   "toSide": "top",
+   "color": "#94A3B8"
+  }
+ ]
 }

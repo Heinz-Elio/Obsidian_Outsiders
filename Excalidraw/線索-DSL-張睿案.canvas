@@ -1,94 +1,807 @@
 {
-	"nodes":[
-		{"id":"891803f5f7adc05c","type":"group","label":"事件","x":2316,"y":60,"width":972,"height":977},
-		{"id":"15b656be28fbb5d6","type":"group","label":"假秘書是誰？","x":8,"y":311,"width":1636,"height":702},
-		{"id":"9590a700eb3a40e9","type":"group","label":"兇手是誰？","x":4382,"y":8,"width":2608,"height":1150},
-		{"id":"b503d9bb1f55ecce","type":"group","label":"接載張睿的司機","x":5022,"y":60,"width":640,"height":392},
-		{"id":"83a056d93f512c5f","type":"group","label":"文件交給誰？","x":3312,"y":48,"width":1046,"height":1111},
-		{"id":"6eca50fefd90742f","type":"group","label":"真相","x":7014,"y":48,"width":640,"height":224},
-		{"id":"a19268416bb74cc2","type":"group","label":"誰在引導調查？","x":1668,"y":574,"width":640,"height":176},
-		{"id":"a90fcd2caf91ce6d","type":"text","text":"**研究所背景**\n\n天城博敏曾帶天城美嘉留前往研究所治療，見 [[線索-DSL-研究所與考察造假]]","x":696,"y":99,"width":260,"height":148,"color":"#64748B"},
-		{"id":"86cfd225caebe52a","type":"text","text":"**首次會面要求遭拒**\n\nIN聯絡研究團隊成員表示希望見面，第一次全部遭拒","x":3004,"y":111,"width":260,"height":124,"color":"#EA580C"},
-		{"id":"6170bff06e0e2e48","type":"text","text":"**二次聯絡回覆可約見**\n\n秘書稱第一次拒絕是因為張睿正在公幹","x":3004,"y":362,"width":260,"height":124,"color":"#EA580C"},
-		{"id":"dd37a059b4ebb639","type":"text","text":"會面時假秘書旁聽","x":2514,"y":649,"width":260,"height":52,"color":"#EA580C"},
-		{"id":"8692f36e9bc92790","type":"text","text":"**遇害**\n\n會面後數天，張睿接到電話後匆忙離開辦公室，同日在小巷被槍殺，翌日被流浪漢發現並報案","x":3004,"y":864,"width":260,"height":148,"color":"#EA580C"},
-		{"id":"077db597c3210d79","type":"text","text":"案發時三人已離境","x":2672,"y":398,"width":260,"height":52,"color":"#EA580C"},
-		{"id":"5fed12d6323590b4","type":"text","text":"**真秘書證詞**\n\n真秘書向警察透露曾有人想約見張睿，詢問造假事件","x":2340,"y":362,"width":260,"height":124,"color":"#EA580C"},
-		{"id":"4796962dd2569200","type":"text","text":"**警方懷疑Kafziel**\n\n警察懷疑可能受過相關訓練的Kafziel，但因其身份而謹慎處理","x":3004,"y":601,"width":260,"height":148,"color":"#EA580C"},
-		{"id":"601ae0ee9f1a09f5","type":"text","text":"**秘書送美嘉留**\n\n秘書是當年送天城美嘉留回家的人","x":696,"y":362,"width":260,"height":124},
-		{"id":"f177fdadec1e55db","type":"text","text":"**某人模仿真秘書**\n\n某人刻意模仿真秘書說話方式，令情報人員未有察覺接聽者不同\n\n`採信`","x":32,"y":613,"width":260,"height":124,"color":"#7C3AED"},
-		{"id":"437f2e9502f8b7bf","type":"text","text":"**赴法旅遊**\n\n實際上張睿請假與假秘書到法國旅遊","x":696,"y":613,"width":260,"height":124,"color":"#2563EB"},
-		{"id":"ab15a133aff217e1","type":"text","text":"**行程說法不一**\n\n真秘書的說法是張睿當時放假與妻子外遊，妻子的說法是張睿外出公幹，兩人都沒有和張睿出國","x":364,"y":601,"width":260,"height":148,"color":"#2563EB"},
-		{"id":"9bd6f420b2e5588b","type":"text","text":"**無人知道情婦**\n\n假秘書甚少露臉，張睿亦不曾場向他人提及，所以張睿身邊的人都不知其存在","x":1028,"y":601,"width":260,"height":148,"color":"#2563EB"},
-		{"id":"3f34f41495205566","type":"text","text":"暗中調查","x":490,"y":912,"width":260,"height":52,"color":"#7C3AED"},
-		{"id":"d37538ed55b76d53","type":"text","text":"**出軌對象**\n\n秘書是張睿的出軌對象\n\n`排除`","x":948,"y":888,"width":260,"height":100,"color":"#CBD5E1"},
-		{"id":"6c2f68aa30dd1299","type":"text","text":"**幽會不合理**\n\n選擇有人拜訪時幽會不合理","x":1360,"y":625,"width":260,"height":100,"color":"#DC2626"},
-		{"id":"4064e16a5e656499","type":"text","text":"**監視誤導**\n\n監視張睿、誤導調查\n\n`採信`","x":1280,"y":888,"width":260,"height":100,"color":"#7C3AED"},
-		{"id":"9b44a79ee9544821","type":"text","text":"財物消失","x":4738,"y":398,"width":260,"height":52,"color":"#2563EB"},
-		{"id":"dab594825dceb8d5","type":"text","text":"劫殺\n\n`排除`","x":4668,"y":649,"width":260,"height":52,"color":"#CBD5E1"},
-		{"id":"82ac046e55550477","type":"text","text":"**約見某人後被殺**\n\n張睿與某人相約見面，之後遭殺害，兇手偽裝成隨機劫殺","x":4406,"y":362,"width":260,"height":124,"color":"#7C3AED"},
-		{"id":"6c6c3ed5b0f8b005","type":"text","text":"**無目擊者**\n\n現場附近人跡罕至，沒有目擊者","x":4714,"y":123,"width":260,"height":100,"color":"#2563EB"},
-		{"id":"d159580d0900739e","type":"text","text":"**死亡時間**\n\n死亡時間在掛上電話後一段時間","x":5710,"y":123,"width":260,"height":100,"color":"#2563EB"},
-		{"id":"3b25ce6cb56d98d0","type":"text","text":"**消失的領帶夾**\n\n張睿稱是妻子所送","x":6042,"y":123,"width":260,"height":100,"color":"#2563EB"},
-		{"id":"adb83bc7c7d0b9d3","type":"text","text":"妻子不認得領帶夾","x":6374,"y":147,"width":260,"height":52,"color":"#2563EB"},
-		{"id":"ff6f3146fdea2e34","type":"text","text":"假秘書所送","x":6208,"y":398,"width":260,"height":52,"color":"#7C3AED"},
-		{"id":"0700b292fc630944","type":"text","text":"兇手是約見方","x":5686,"y":398,"width":260,"height":52,"color":"#7C3AED"},
-		{"id":"a7225671ec4431de","type":"text","text":"**約見方滅口**\n\n約見方出現在小巷滅口","x":6706,"y":123,"width":260,"height":100,"color":"#7C3AED"},
-		{"id":"0d062f0fa3876322","type":"text","text":"**兇手非約見方**\n\n約見方並未出現在小巷","x":4406,"y":888,"width":260,"height":100,"color":"#7C3AED"},
-		{"id":"5f234c0a63a75b25","type":"text","text":"兇手是假秘書","x":6208,"y":649,"width":260,"height":52,"color":"#7C3AED"},
-		{"id":"fbadbd5fb62f760c","type":"text","text":"**下車後接電話**\n\n張睿下車後沒有馬上走進巷子，而是在路邊接電話","x":5046,"y":111,"width":260,"height":124,"color":"#2563EB"},
-		{"id":"b7e70f1363ebb84b","type":"text","text":"**15分鐘後巨響**\n\n落客至少15分鐘後聽到巨響，但因怕麻煩未有回頭查看","x":5378,"y":111,"width":260,"height":124,"color":"#2563EB"},
-		{"id":"082a38041e1d6a5a","type":"text","text":"空公文包","x":4074,"y":398,"width":260,"height":52,"color":"#2563EB"},
-		{"id":"dc8efc2b0580fdd9","type":"text","text":"**文件已交出**\n\n文件實際已交出，張睿是在偽裝準備交收","x":4074,"y":613,"width":260,"height":124,"color":"#7C3AED"},
-		{"id":"82c2f490312e2627","type":"text","text":"**情報人員交接**\n\n張睿與約見方皆為情報人員，擔心被跟蹤","x":3742,"y":613,"width":260,"height":124,"color":"#7C3AED"},
-		{"id":"da9a2d573d32d1fa","type":"text","text":"**多次換乘前通話**\n\n張睿死前與單一號碼多次通話，通話結束後張睿下車換線或換交通工具","x":3769,"y":99,"width":260,"height":148,"color":"#2563EB"},
-		{"id":"ebb16c2e5588e148","type":"text","text":"**私人電話**\n\n約見者有張睿私人電話，不會經秘書聯絡","x":3668,"y":362,"width":260,"height":124,"color":"#7C3AED"},
-		{"id":"6749e29f640e7c04","type":"text","text":"**反偵察訓練**\n\n約見方受過反偵察訓練","x":3336,"y":374,"width":260,"height":100,"color":"#7C3AED"},
-		{"id":"8ad99dc004de616a","type":"text","text":"**真相**\n\n見 [[張睿案-真相]]","x":7038,"y":123,"width":260,"height":100,"color":"#64748B"},
-		{"id":"660b3be031931c41","type":"text","text":"**地鐵調包**\n\n事先安排與張睿身材接近的人接應，在擠迫的地鐵上貼著站，與張睿交換裝有文件的公事包","x":7370,"y":99,"width":260,"height":148},
-		{"id":"a434f54bd2061064","type":"text","text":"誤導警方調查","x":1692,"y":649,"width":260,"height":52,"color":"#7C3AED"},
-		{"id":"ffcb932410c00efe","type":"text","text":"**引導調查**\n\n引導他們調查教授之死","x":2024,"y":625,"width":260,"height":100,"color":"#7C3AED"}
-	],
-	"edges":[
-		{"id":"1a6a683c71cacb6a","fromNode":"86cfd225caebe52a","fromSide":"bottom","toNode":"6170bff06e0e2e48","toSide":"top","color":"#94A3B8","label":"時序"},
-		{"id":"051f90a6d633c7ae","fromNode":"6170bff06e0e2e48","fromSide":"left","toNode":"dd37a059b4ebb639","toSide":"right","color":"#94A3B8","label":"時序"},
-		{"id":"2332f424b2eb4d9e","fromNode":"dd37a059b4ebb639","fromSide":"right","toNode":"8692f36e9bc92790","toSide":"left","color":"#94A3B8","label":"時序"},
-		{"id":"a6c1bd149eeaefea","fromNode":"dd37a059b4ebb639","fromSide":"bottom","toNode":"15b656be28fbb5d6","toSide":"bottom","color":"#EA580C","label":"導致"},
-		{"id":"90d0d874f44d5691","fromNode":"8692f36e9bc92790","fromSide":"bottom","toNode":"9590a700eb3a40e9","toSide":"bottom","color":"#EA580C","label":"導致"},
-		{"id":"4f117a11fc7bb4ec","fromNode":"8692f36e9bc92790","fromSide":"right","toNode":"83a056d93f512c5f","toSide":"left","color":"#EA580C","label":"導致"},
-		{"id":"3de40997fa9bb1a6","fromNode":"a90fcd2caf91ce6d","fromSide":"bottom","toNode":"601ae0ee9f1a09f5","toSide":"top","color":"#94A3B8"},
-		{"id":"4d27f60183ca4b21","fromNode":"6170bff06e0e2e48","fromSide":"bottom","toNode":"f177fdadec1e55db","toSide":"bottom","color":"#1F2937","label":"支持"},
-		{"id":"43354d5dfd914678","fromNode":"dd37a059b4ebb639","fromSide":"bottom","toNode":"4064e16a5e656499","toSide":"bottom","color":"#1F2937","label":"支持"},
-		{"id":"693314794a15b022","fromNode":"6c2f68aa30dd1299","fromSide":"bottom","toNode":"4064e16a5e656499","toSide":"top","color":"#1F2937","label":"支持"},
-		{"id":"63c56d41e2a0e33d","fromNode":"ab15a133aff217e1","fromSide":"bottom","toNode":"3f34f41495205566","toSide":"top","color":"#1F2937","label":"支持"},
-		{"id":"ce9e0fd4772d1987","fromNode":"437f2e9502f8b7bf","fromSide":"bottom","toNode":"3f34f41495205566","toSide":"top","color":"#1F2937","label":"支持"},
-		{"id":"f71a8f40e76adcba","fromNode":"437f2e9502f8b7bf","fromSide":"bottom","toNode":"d37538ed55b76d53","toSide":"top","color":"#1F2937","label":"支持"},
-		{"id":"555aaabfd0426c60","fromNode":"9bd6f420b2e5588b","fromSide":"bottom","toNode":"d37538ed55b76d53","toSide":"top","color":"#1F2937","label":"支持"},
-		{"id":"b6476fb86a693d3a","fromNode":"6c2f68aa30dd1299","fromSide":"left","toNode":"d37538ed55b76d53","toSide":"right","color":"#DC2626","label":"矛盾"},
-		{"id":"34dedb28e5b85744","fromNode":"9b44a79ee9544821","fromSide":"bottom","toNode":"dab594825dceb8d5","toSide":"top","color":"#1F2937","label":"支持"},
-		{"id":"6085dc413c87845b","fromNode":"82ac046e55550477","fromSide":"right","toNode":"dab594825dceb8d5","toSide":"left","color":"#DC2626","label":"矛盾"},
-		{"id":"a188b785f44b51ba","fromNode":"da9a2d573d32d1fa","fromSide":"bottom","toNode":"82ac046e55550477","toSide":"bottom","color":"#1F2937","label":"支持"},
-		{"id":"ce89720b52feccb9","fromNode":"fbadbd5fb62f760c","fromSide":"bottom","toNode":"0700b292fc630944","toSide":"bottom","color":"#1F2937","label":"支持"},
-		{"id":"49cde36da89126eb","fromNode":"b7e70f1363ebb84b","fromSide":"right","toNode":"0700b292fc630944","toSide":"left","color":"#1F2937","label":"支持"},
-		{"id":"810c869d3896866b","fromNode":"d159580d0900739e","fromSide":"bottom","toNode":"0700b292fc630944","toSide":"top","color":"#1F2937","label":"支持"},
-		{"id":"2a03cf10e234fee7","fromNode":"3b25ce6cb56d98d0","fromSide":"bottom","toNode":"ff6f3146fdea2e34","toSide":"top","color":"#1F2937","label":"支持"},
-		{"id":"1ba195a5b0606b0a","fromNode":"adb83bc7c7d0b9d3","fromSide":"bottom","toNode":"ff6f3146fdea2e34","toSide":"top","color":"#1F2937","label":"支持"},
-		{"id":"af51949a061c36e9","fromNode":"ff6f3146fdea2e34","fromSide":"bottom","toNode":"5f234c0a63a75b25","toSide":"top","color":"#64748B","label":"推導"},
-		{"id":"03ff5f988dba15ef","fromNode":"6c6c3ed5b0f8b005","fromSide":"right","toNode":"b503d9bb1f55ecce","toSide":"left","color":"#94A3B8"},
-		{"id":"382229c0ecd710a0","fromNode":"082a38041e1d6a5a","fromSide":"bottom","toNode":"dc8efc2b0580fdd9","toSide":"top","color":"#1F2937","label":"支持"},
-		{"id":"b3f8f0089c503879","fromNode":"082a38041e1d6a5a","fromSide":"left","toNode":"82c2f490312e2627","toSide":"right","color":"#1F2937","label":"支持"},
-		{"id":"d687892940582407","fromNode":"082a38041e1d6a5a","fromSide":"left","toNode":"0d062f0fa3876322","toSide":"left","color":"#1F2937","label":"支持"},
-		{"id":"cbef40ca3e723709","fromNode":"dc8efc2b0580fdd9","fromSide":"right","toNode":"0d062f0fa3876322","toSide":"left","color":"#64748B","label":"推導"},
-		{"id":"06fa0fa0b3d67b98","fromNode":"82c2f490312e2627","fromSide":"bottom","toNode":"0d062f0fa3876322","toSide":"bottom","color":"#64748B","label":"推導"},
-		{"id":"27a9303dd9d508d2","fromNode":"da9a2d573d32d1fa","fromSide":"left","toNode":"82c2f490312e2627","toSide":"left","color":"#1F2937","label":"支持"},
-		{"id":"a9beb28915da6d43","fromNode":"da9a2d573d32d1fa","fromSide":"bottom","toNode":"ebb16c2e5588e148","toSide":"top","color":"#1F2937","label":"支持"},
-		{"id":"854ec140f1c5ce78","fromNode":"da9a2d573d32d1fa","fromSide":"left","toNode":"6749e29f640e7c04","toSide":"right","color":"#1F2937","label":"支持"},
-		{"id":"d9a5fabc939d1a5f","fromNode":"ebb16c2e5588e148","fromSide":"bottom","toNode":"82c2f490312e2627","toSide":"top","color":"#64748B","label":"推導"},
-		{"id":"529da0abe390b41b","fromNode":"6749e29f640e7c04","fromSide":"right","toNode":"82c2f490312e2627","toSide":"left","color":"#64748B","label":"推導"},
-		{"id":"224247557f4a36ad","fromNode":"6749e29f640e7c04","fromSide":"left","toNode":"4796962dd2569200","toSide":"right","color":"#1F2937","label":"支持"},
-		{"id":"43e5feb9a8f384b3","fromNode":"077db597c3210d79","fromSide":"top","toNode":"a434f54bd2061064","toSide":"top","color":"#1F2937","label":"支持"},
-		{"id":"3b494daaa48545d8","fromNode":"5fed12d6323590b4","fromSide":"bottom","toNode":"a434f54bd2061064","toSide":"bottom","color":"#1F2937","label":"支持"},
-		{"id":"6003a61e692f2867","fromNode":"077db597c3210d79","fromSide":"top","toNode":"ffcb932410c00efe","toSide":"top","color":"#1F2937","label":"支持"},
-		{"id":"a27f28540ef8d64a","fromNode":"6170bff06e0e2e48","fromSide":"left","toNode":"ffcb932410c00efe","toSide":"bottom","color":"#1F2937","label":"支持"}
-	]
+ "nodes": [
+  {
+   "id": "891803f5f7adc05c",
+   "type": "group",
+   "label": "事件",
+   "x": 2843,
+   "y": 116,
+   "width": 1030,
+   "height": 1362
+  },
+  {
+   "id": "15b656be28fbb5d6",
+   "type": "group",
+   "label": "假秘書是誰？",
+   "x": 8,
+   "y": 92,
+   "width": 2113,
+   "height": 1362
+  },
+  {
+   "id": "9590a700eb3a40e9",
+   "type": "group",
+   "label": "兇手是誰？",
+   "x": 5067,
+   "y": 46,
+   "width": 3196,
+   "height": 1670
+  },
+  {
+   "id": "b503d9bb1f55ecce",
+   "type": "group",
+   "label": "接載張睿的司機",
+   "x": 6150,
+   "y": 116,
+   "width": 669,
+   "height": 524
+  },
+  {
+   "id": "83a056d93f512c5f",
+   "type": "group",
+   "label": "文件交給誰？",
+   "x": 3926,
+   "y": 104,
+   "width": 1133,
+   "height": 1611
+  },
+  {
+   "id": "6eca50fefd90742f",
+   "type": "group",
+   "label": "真相",
+   "x": 8316,
+   "y": 92,
+   "width": 669,
+   "height": 228
+  },
+  {
+   "id": "a19268416bb74cc2",
+   "type": "group",
+   "label": "誰在引導調查？",
+   "x": 2166,
+   "y": 920,
+   "width": 669,
+   "height": 156
+  },
+  {
+   "id": "a90fcd2caf91ce6d",
+   "type": "text",
+   "text": "**研究所背景**\n\n天城博敏曾帶天城美嘉留前往研究所治療，見 [[線索-DSL-研究所與考察造假]]",
+   "x": 2559,
+   "y": 136,
+   "width": 260,
+   "height": 148,
+   "color": "#64748B"
+  },
+  {
+   "id": "437f2e9502f8b7bf",
+   "type": "text",
+   "text": "赴法旅遊",
+   "x": 2198,
+   "y": 184,
+   "width": 260,
+   "height": 52,
+   "color": "#64748B"
+  },
+  {
+   "id": "86cfd225caebe52a",
+   "type": "text",
+   "text": "**首次會面要求遭拒**\n\nIN聯絡研究團隊成員表示希望見面，第一次全部遭拒",
+   "x": 3589,
+   "y": 148,
+   "width": 260,
+   "height": 124,
+   "color": "#EA580C"
+  },
+  {
+   "id": "6170bff06e0e2e48",
+   "type": "text",
+   "text": "二次聯絡回覆可約見",
+   "x": 3589,
+   "y": 586,
+   "width": 260,
+   "height": 52,
+   "color": "#EA580C"
+  },
+  {
+   "id": "dd37a059b4ebb639",
+   "type": "text",
+   "text": "**會面時假秘書旁聽**\n\n假秘書沒有表明身份，張睿默許其旁聽",
+   "x": 3070,
+   "y": 941,
+   "width": 260,
+   "height": 124,
+   "color": "#EA580C"
+  },
+  {
+   "id": "896b8047aa1ecba7",
+   "type": "text",
+   "text": "**張睿遇害**\n\n會面後數天，張睿接到電話後匆忙離開辦公室，同日在小巷被槍殺，翌日被流浪漢發現並報案",
+   "x": 3589,
+   "y": 1307,
+   "width": 260,
+   "height": 148,
+   "color": "#EA580C"
+  },
+  {
+   "id": "077db597c3210d79",
+   "type": "text",
+   "text": "案發時三人已離境",
+   "x": 3228,
+   "y": 586,
+   "width": 260,
+   "height": 52,
+   "color": "#EA580C"
+  },
+  {
+   "id": "bc9a50a89c822001",
+   "type": "text",
+   "text": "**警察調查真秘書**\n\n真秘書表示曾有人想約見張睿，詢問造假事件，她因張睿正在旅遊拒絕，沒有接到第二次約見電話",
+   "x": 2867,
+   "y": 526,
+   "width": 260,
+   "height": 172,
+   "color": "#EA580C"
+  },
+  {
+   "id": "4796962dd2569200",
+   "type": "text",
+   "text": "**警方懷疑Kafziel**\n\n警察懷疑可能受過反偵察訓練的Kafziel就是張睿約見的人，但因其身份而謹慎處理",
+   "x": 3589,
+   "y": 929,
+   "width": 260,
+   "height": 148,
+   "color": "#EA580C"
+  },
+  {
+   "id": "601ae0ee9f1a09f5",
+   "type": "text",
+   "text": "**秘書送美嘉留**\n\n秘書是當年送天城美嘉留回家的人",
+   "x": 1837,
+   "y": 550,
+   "width": 260,
+   "height": 124
+  },
+  {
+   "id": "9feb0c54c3880e5b",
+   "type": "text",
+   "text": "真秘書不知道第二次約見",
+   "x": 32,
+   "y": 184,
+   "width": 260,
+   "height": 52,
+   "color": "#2563EB"
+  },
+  {
+   "id": "bc18e976104afd16",
+   "type": "text",
+   "text": "**此人模仿真秘書**\n\n此人刻意模仿真秘書說話方式，令情報人員未有察覺接聽者不同\n\n`採信`",
+   "x": 1829,
+   "y": 941,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "2c04c31866276f28",
+   "type": "text",
+   "text": "**張睿赴法旅遊**\n\n出入境紀錄顯示張睿請假期間到法國旅遊",
+   "x": 393,
+   "y": 148,
+   "width": 260,
+   "height": 124,
+   "color": "#2563EB"
+  },
+  {
+   "id": "ab15a133aff217e1",
+   "type": "text",
+   "text": "**行程說法不一**\n\n真秘書的說法是張睿當時放假與妻子外遊，妻子的說法是張睿外出公幹，兩人都沒有和張睿出國，也不知道目的地是法國",
+   "x": 754,
+   "y": 124,
+   "width": 260,
+   "height": 172,
+   "color": "#2563EB"
+  },
+  {
+   "id": "9bd6f420b2e5588b",
+   "type": "text",
+   "text": "**無人知道情婦**\n\n張睿從未提及，其身邊的人都不知道情婦存在",
+   "x": 1115,
+   "y": 148,
+   "width": 260,
+   "height": 124,
+   "color": "#2563EB"
+  },
+  {
+   "id": "d37538ed55b76d53",
+   "type": "text",
+   "text": "**出軌對象**\n\n秘書是張睿的出軌對象\n\n`採信`",
+   "x": 1115,
+   "y": 562,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "226c0ce869eaca59",
+   "type": "text",
+   "text": "**辦公室幽會**\n\n張睿與假秘書於會面當天在辦公室幽會\n\n`排除`",
+   "x": 1476,
+   "y": 148,
+   "width": 260,
+   "height": 124,
+   "color": "#CBD5E1"
+  },
+  {
+   "id": "fb817876c8dabdfb",
+   "type": "text",
+   "text": "選擇有人拜訪時幽會不合理",
+   "x": 1837,
+   "y": 184,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "4064e16a5e656499",
+   "type": "text",
+   "text": "**監視誤導**\n\n監視張睿、誤導調查\n\n`採信`",
+   "x": 1837,
+   "y": 1331,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "9b44a79ee9544821",
+   "type": "text",
+   "text": "財物消失",
+   "x": 5091,
+   "y": 184,
+   "width": 260,
+   "height": 52,
+   "color": "#2563EB"
+  },
+  {
+   "id": "dab594825dceb8d5",
+   "type": "text",
+   "text": "劫殺\n\n`排除`",
+   "x": 5294,
+   "y": 586,
+   "width": 260,
+   "height": 52,
+   "color": "#CBD5E1"
+  },
+  {
+   "id": "82ac046e55550477",
+   "type": "text",
+   "text": "**約見某人後被殺**\n\n張睿與某人相約見面，之後遭殺害，兇手偽裝成隨機劫殺",
+   "x": 5452,
+   "y": 148,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "6c6c3ed5b0f8b005",
+   "type": "text",
+   "text": "**無目擊者**\n\n現場附近人跡罕至，沒有目擊者",
+   "x": 5813,
+   "y": 160,
+   "width": 260,
+   "height": 100,
+   "color": "#2563EB"
+  },
+  {
+   "id": "d159580d0900739e",
+   "type": "text",
+   "text": "**死亡時間**\n\n死亡時間在掛上電話後一段時間",
+   "x": 6896,
+   "y": 160,
+   "width": 260,
+   "height": 100,
+   "color": "#2563EB"
+  },
+  {
+   "id": "3b25ce6cb56d98d0",
+   "type": "text",
+   "text": "**消失的領帶夾**\n\n真秘書指張睿稱是妻子所送",
+   "x": 7257,
+   "y": 160,
+   "width": 260,
+   "height": 100,
+   "color": "#2563EB"
+  },
+  {
+   "id": "adb83bc7c7d0b9d3",
+   "type": "text",
+   "text": "妻子不認得領帶夾",
+   "x": 7618,
+   "y": 184,
+   "width": 260,
+   "height": 52,
+   "color": "#2563EB"
+  },
+  {
+   "id": "ff6f3146fdea2e34",
+   "type": "text",
+   "text": "假秘書所送",
+   "x": 7437,
+   "y": 586,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "0700b292fc630944",
+   "type": "text",
+   "text": "兇手是約見方",
+   "x": 6843,
+   "y": 586,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "a7225671ec4431de",
+   "type": "text",
+   "text": "**約見方滅口**\n\n約見方取得文件後滅口",
+   "x": 7979,
+   "y": 160,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "0d062f0fa3876322",
+   "type": "text",
+   "text": "**兇手非約見方**\n\n約見方並未出現在小巷",
+   "x": 5091,
+   "y": 1331,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "5f234c0a63a75b25",
+   "type": "text",
+   "text": "兇手是假秘書",
+   "x": 7437,
+   "y": 977,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "fbadbd5fb62f760c",
+   "type": "text",
+   "text": "**下車後接電話**\n\n張睿下車後沒有馬上走進巷子，而是在路邊接電話",
+   "x": 6174,
+   "y": 148,
+   "width": 260,
+   "height": 124,
+   "color": "#2563EB"
+  },
+  {
+   "id": "b7e70f1363ebb84b",
+   "type": "text",
+   "text": "**15分鐘後巨響**\n\n落客至少15分鐘後聽到巨響，但因怕麻煩未有回頭查看",
+   "x": 6535,
+   "y": 148,
+   "width": 260,
+   "height": 124,
+   "color": "#2563EB"
+  },
+  {
+   "id": "082a38041e1d6a5a",
+   "type": "text",
+   "text": "空公文包",
+   "x": 4775,
+   "y": 586,
+   "width": 260,
+   "height": 52,
+   "color": "#2563EB"
+  },
+  {
+   "id": "dc8efc2b0580fdd9",
+   "type": "text",
+   "text": "**文件已交出**\n\n文件實際已交出，張睿是在偽裝準備交收",
+   "x": 4775,
+   "y": 941,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "82c2f490312e2627",
+   "type": "text",
+   "text": "**情報人員交接**\n\n張睿與約見方皆為情報人員，擔心被跟蹤",
+   "x": 4414,
+   "y": 941,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "da9a2d573d32d1fa",
+   "type": "text",
+   "text": "**多次換乘前通話**\n\n張睿死前與單一號碼多次通話，通話結束後張睿下車換線或換交通工具",
+   "x": 4311,
+   "y": 136,
+   "width": 260,
+   "height": 148,
+   "color": "#2563EB"
+  },
+  {
+   "id": "ebb16c2e5588e148",
+   "type": "text",
+   "text": "**私人電話**\n\n約見者有張睿私人電話，不會經秘書聯絡",
+   "x": 4311,
+   "y": 550,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "6749e29f640e7c04",
+   "type": "text",
+   "text": "**反偵察訓練**\n\n約見方受過反偵察訓練",
+   "x": 3950,
+   "y": 562,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "8ad99dc004de616a",
+   "type": "text",
+   "text": "**真相**\n\n見 [[張睿案-真相]]",
+   "x": 8340,
+   "y": 160,
+   "width": 260,
+   "height": 100,
+   "color": "#64748B"
+  },
+  {
+   "id": "660b3be031931c41",
+   "type": "text",
+   "text": "**地鐵調包**\n\n取文件方事先安排與張睿身材接近的人接應，在擠迫的地鐵上貼著站，與張睿交換裝有文件的公事包",
+   "x": 8701,
+   "y": 124,
+   "width": 260,
+   "height": 172
+  },
+  {
+   "id": "a434f54bd2061064",
+   "type": "text",
+   "text": "誤導警方調查",
+   "x": 2190,
+   "y": 977,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "ffcb932410c00efe",
+   "type": "text",
+   "text": "**引導調查**\n\n引導他們調查教授之死",
+   "x": 2551,
+   "y": 953,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  }
+ ],
+ "edges": [
+  {
+   "id": "1a6a683c71cacb6a",
+   "fromNode": "86cfd225caebe52a",
+   "fromSide": "bottom",
+   "toNode": "6170bff06e0e2e48",
+   "toSide": "top",
+   "color": "#94A3B8",
+   "label": "時序"
+  },
+  {
+   "id": "051f90a6d633c7ae",
+   "fromNode": "6170bff06e0e2e48",
+   "fromSide": "bottom",
+   "toNode": "dd37a059b4ebb639",
+   "toSide": "top",
+   "color": "#94A3B8",
+   "label": "時序"
+  },
+  {
+   "id": "3bb1655530532dd6",
+   "fromNode": "dd37a059b4ebb639",
+   "fromSide": "bottom",
+   "toNode": "896b8047aa1ecba7",
+   "toSide": "top",
+   "color": "#94A3B8",
+   "label": "時序"
+  },
+  {
+   "id": "a6c1bd149eeaefea",
+   "fromNode": "dd37a059b4ebb639",
+   "fromSide": "left",
+   "toNode": "15b656be28fbb5d6",
+   "toSide": "right",
+   "color": "#EA580C",
+   "label": "導致"
+  },
+  {
+   "id": "b5698835c6fbaeb5",
+   "fromNode": "896b8047aa1ecba7",
+   "fromSide": "right",
+   "toNode": "9590a700eb3a40e9",
+   "toSide": "left",
+   "color": "#EA580C",
+   "label": "導致"
+  },
+  {
+   "id": "fa921be317e9a58a",
+   "fromNode": "896b8047aa1ecba7",
+   "fromSide": "right",
+   "toNode": "83a056d93f512c5f",
+   "toSide": "left",
+   "color": "#EA580C"
+  },
+  {
+   "id": "3de40997fa9bb1a6",
+   "fromNode": "a90fcd2caf91ce6d",
+   "fromSide": "bottom",
+   "toNode": "601ae0ee9f1a09f5",
+   "toSide": "top",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "bb0b9b6977f3b2e4",
+   "fromNode": "6170bff06e0e2e48",
+   "fromSide": "bottom",
+   "toNode": "bc18e976104afd16",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "43354d5dfd914678",
+   "fromNode": "dd37a059b4ebb639",
+   "fromSide": "bottom",
+   "toNode": "4064e16a5e656499",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "35d8c43910eaf20d",
+   "fromNode": "ab15a133aff217e1",
+   "fromSide": "bottom",
+   "toNode": "d37538ed55b76d53",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "504a64676155c0ac",
+   "fromNode": "437f2e9502f8b7bf",
+   "fromSide": "bottom",
+   "toNode": "d37538ed55b76d53",
+   "toSide": "top",
+   "color": "#1F2937"
+  },
+  {
+   "id": "0e1454a76aa0b56d",
+   "fromNode": "9bd6f420b2e5588b",
+   "fromSide": "bottom",
+   "toNode": "d37538ed55b76d53",
+   "toSide": "top",
+   "color": "#DC2626",
+   "label": "矛盾"
+  },
+  {
+   "id": "9d8632a0c2290216",
+   "fromNode": "9b44a79ee9544821",
+   "fromSide": "bottom",
+   "toNode": "dab594825dceb8d5",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "2164cb2a91574ffc",
+   "fromNode": "82ac046e55550477",
+   "fromSide": "bottom",
+   "toNode": "dab594825dceb8d5",
+   "toSide": "top",
+   "color": "#DC2626",
+   "label": "矛盾"
+  },
+  {
+   "id": "f6e8f3bbdf331ff4",
+   "fromNode": "fbadbd5fb62f760c",
+   "fromSide": "bottom",
+   "toNode": "0700b292fc630944",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "346af57fea3872c0",
+   "fromNode": "b7e70f1363ebb84b",
+   "fromSide": "bottom",
+   "toNode": "0700b292fc630944",
+   "toSide": "top",
+   "color": "#1F2937"
+  },
+  {
+   "id": "a4bb0df636271bdc",
+   "fromNode": "d159580d0900739e",
+   "fromSide": "bottom",
+   "toNode": "0700b292fc630944",
+   "toSide": "top",
+   "color": "#1F2937"
+  },
+  {
+   "id": "cfac0ee4bacd7242",
+   "fromNode": "3b25ce6cb56d98d0",
+   "fromSide": "bottom",
+   "toNode": "ff6f3146fdea2e34",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "06089641dd6ede9a",
+   "fromNode": "adb83bc7c7d0b9d3",
+   "fromSide": "bottom",
+   "toNode": "ff6f3146fdea2e34",
+   "toSide": "top",
+   "color": "#1F2937"
+  },
+  {
+   "id": "6ae6cbf2dcfa0e33",
+   "fromNode": "ff6f3146fdea2e34",
+   "fromSide": "bottom",
+   "toNode": "5f234c0a63a75b25",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "74f27925d1fd5232",
+   "fromNode": "6c6c3ed5b0f8b005",
+   "fromSide": "right",
+   "toNode": "b503d9bb1f55ecce",
+   "toSide": "left",
+   "color": "#94A3B8"
+  },
+  {
+   "id": "349a3935434576a6",
+   "fromNode": "082a38041e1d6a5a",
+   "fromSide": "bottom",
+   "toNode": "dc8efc2b0580fdd9",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "e9f5af7537bda1c6",
+   "fromNode": "082a38041e1d6a5a",
+   "fromSide": "bottom",
+   "toNode": "82c2f490312e2627",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "3a7b26d1ca4d3745",
+   "fromNode": "082a38041e1d6a5a",
+   "fromSide": "bottom",
+   "toNode": "0d062f0fa3876322",
+   "toSide": "top",
+   "color": "#1F2937"
+  },
+  {
+   "id": "12e671836b1ae321",
+   "fromNode": "dc8efc2b0580fdd9",
+   "fromSide": "bottom",
+   "toNode": "0d062f0fa3876322",
+   "toSide": "top",
+   "color": "#64748B"
+  },
+  {
+   "id": "bf007bad6690e55b",
+   "fromNode": "82c2f490312e2627",
+   "fromSide": "bottom",
+   "toNode": "0d062f0fa3876322",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "e0317f234dbfa8b2",
+   "fromNode": "da9a2d573d32d1fa",
+   "fromSide": "bottom",
+   "toNode": "82c2f490312e2627",
+   "toSide": "top",
+   "color": "#1F2937"
+  },
+  {
+   "id": "80f00858bff82bbf",
+   "fromNode": "da9a2d573d32d1fa",
+   "fromSide": "bottom",
+   "toNode": "ebb16c2e5588e148",
+   "toSide": "top",
+   "color": "#1F2937"
+  },
+  {
+   "id": "159e8db0a649c830",
+   "fromNode": "da9a2d573d32d1fa",
+   "fromSide": "bottom",
+   "toNode": "6749e29f640e7c04",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "6ceed3adb655d977",
+   "fromNode": "ebb16c2e5588e148",
+   "fromSide": "bottom",
+   "toNode": "82c2f490312e2627",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "e3f390ce118ef202",
+   "fromNode": "6749e29f640e7c04",
+   "fromSide": "bottom",
+   "toNode": "82c2f490312e2627",
+   "toSide": "top",
+   "color": "#64748B"
+  },
+  {
+   "id": "69f7c74ff3bdadfe",
+   "fromNode": "6749e29f640e7c04",
+   "fromSide": "bottom",
+   "toNode": "4796962dd2569200",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "a30b47a5b1176559",
+   "fromNode": "077db597c3210d79",
+   "fromSide": "bottom",
+   "toNode": "a434f54bd2061064",
+   "toSide": "top",
+   "color": "#1F2937"
+  },
+  {
+   "id": "9bc9083cd6e70ba8",
+   "fromNode": "bc9a50a89c822001",
+   "fromSide": "bottom",
+   "toNode": "a434f54bd2061064",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "455883971abdee4a",
+   "fromNode": "077db597c3210d79",
+   "fromSide": "bottom",
+   "toNode": "ffcb932410c00efe",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "1f8df37c02dffc5c",
+   "fromNode": "6170bff06e0e2e48",
+   "fromSide": "bottom",
+   "toNode": "ffcb932410c00efe",
+   "toSide": "top",
+   "color": "#1F2937"
+  }
+ ]
 }

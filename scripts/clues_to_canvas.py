@@ -9,7 +9,6 @@ from __future__ import annotations
 
 import argparse
 import hashlib
-import itertools
 import json
 import math
 from pathlib import Path
@@ -37,8 +36,13 @@ NODE_WIDTH = 260          # px; fits ~14 CJK chars per line at Canvas default fo
 LINE_HEIGHT = 24
 NODE_PADDING = 28
 CLEARANCE = 6             # px kept between a connection and a node box
-CURVE_SAMPLES = 24
-CURVE_MARGIN = 3          # samples skipped at each end, where the line touches its own node
+CURVE_SAMPLES = 48
+CURVE_MARGIN = 6          # samples skipped at each end, where the line touches its own node
+# (nodesep, ranksep) in inches, tried tight to loose until nothing collides
+SPACINGS = [(1.00, 1.60), (1.00, 2.40), (1.40, 2.40), (1.40, 3.20), (1.80, 4.00)]
+GROUP_LABEL_FONT = 28     # sizes the band Graphviz reserves; Obsidian draws the group label above the box
+EDGE_LABEL_CHAR = 16      # px per CJK character of an Obsidian edge label
+EDGE_LABEL_PAD = (16, 28) # extra width, total height of an edge label
 SIDE_NORMAL = {"top": (0, -1), "bottom": (0, 1), "left": (-1, 0), "right": (1, 0)}
 EDGE_COLOR = {
     "支持": "#1F2937",
@@ -69,11 +73,11 @@ def node_box(node: Node) -> tuple[int, int]:
     return NODE_WIDTH, lines * LINE_HEIGHT + NODE_PADDING
 
 
-def layout_dot(graph: Graph) -> str:
+def layout_dot(graph: Graph, nodesep: float, ranksep: float) -> str:
     """DOT used only for coordinates: fixed node sizes in Canvas pixels (72 px = 1 in)."""
     out = [
         "digraph layout {",
-        f'  graph [rankdir="{graph.rankdir}", newrank="true", nodesep="1.00", ranksep="1.60", fontname="{FONT}"];',
+        f'  graph [rankdir="{graph.rankdir}", newrank="true", nodesep="{nodesep:.2f}", ranksep="{ranksep:.2f}", fontname="{FONT}"];',
         '  node [shape="box", fixedsize="true", label=""];',
     ]
     ids = cluster_ids(graph)
@@ -81,7 +85,10 @@ def layout_dot(graph: Graph) -> str:
 
     def emit(path: tuple[str, ...], indent: str) -> None:
         if path:
-            out.append(f'{indent}subgraph {ids[path]} {{ label="{dot_escape(path[-1])}"; margin="24";')
+            out.append(
+                f'{indent}subgraph {ids[path]} {{ label="{dot_escape(path[-1])}"; labelloc="t"; '
+                f'fontsize="{GROUP_LABEL_FONT}"; margin="24";'
+            )
             indent += "  "
         for label in graph.clusters.get(path, []):
             node = graph.nodes[label]
@@ -130,6 +137,9 @@ def anchor(rect: tuple[float, float, float, float], side: str) -> tuple[float, f
     }[side]
 
 
+Rect = tuple[float, float, float, float]   # x, y, width, height
+
+
 def curve(start: tuple[float, float], from_side: str, end: tuple[float, float], to_side: str) -> list[tuple[float, float]]:
     """Approximates the cubic bezier Obsidian draws between two node sides."""
     reach = max(30.0, math.dist(start, end) * 0.4)
@@ -146,21 +156,25 @@ def curve(start: tuple[float, float], from_side: str, end: tuple[float, float], 
     return points
 
 
-def side_candidates(dx: float, dy: float) -> list[tuple[str, str]]:
-    """Straight-through pair first, then detours through a side gutter, then the rest."""
-    if abs(dy) >= abs(dx):
-        out_side, in_side = ("bottom", "top") if dy > 0 else ("top", "bottom")
-        near, far = ("right", "left") if dx >= 0 else ("left", "right")
-    else:
-        out_side, in_side = ("right", "left") if dx > 0 else ("left", "right")
-        near, far = ("bottom", "top") if dy >= 0 else ("top", "bottom")
-    preferred = [
-        (out_side, in_side),
-        (near, near), (far, far),
-        (near, in_side), (out_side, near),
-        (far, in_side), (out_side, far),
-    ]
-    return preferred + [p for p in itertools.product(SIDE_NORMAL, repeat=2) if p not in preferred]
+def fixed_sides(src: Rect, dst: Rect, horizontal_first: bool) -> tuple[str, str]:
+    """Leave and enter on the facing sides: a source on the left enters the target's left side."""
+    sx, sy, sw, sh = src
+    dx, dy, dw, dh = dst
+    horizontal = ("right", "left") if sx + sw <= dx else ("left", "right") if dx + dw <= sx else None
+    vertical = ("bottom", "top") if sy + sh <= dy else ("top", "bottom") if dy + dh <= sy else None
+    first, second = (horizontal, vertical) if horizontal_first else (vertical, horizontal)
+    if first or second:
+        return first or second
+    # boxes overlap on both axes (e.g. a group and a node near it): use the centre offset
+    ox, oy = (dx + dw / 2) - (sx + sw / 2), (dy + dh / 2) - (sy + sh / 2)
+    if abs(ox) >= abs(oy):
+        return ("right", "left") if ox >= 0 else ("left", "right")
+    return ("bottom", "top") if oy >= 0 else ("top", "bottom")
+
+
+def overlaps(a: tuple[float, float, float, float], b: tuple[float, float, float, float]) -> bool:
+    """Corner boxes (x0, y0, x1, y1)."""
+    return a[0] < b[2] and b[0] < a[2] and a[1] < b[3] and b[1] < a[3]
 
 
 def blocked(points: list[tuple[float, float]], boxes: list[tuple[float, float, float, float]]) -> int:
@@ -175,45 +189,45 @@ def blocked(points: list[tuple[float, float]], boxes: list[tuple[float, float, f
     return count
 
 
-def route(
-    src: tuple[float, float, float, float],
-    dst: tuple[float, float, float, float],
-    boxes: list[tuple[float, float, float, float]],
-) -> tuple[str, str]:
-    dx = (dst[0] + dst[2] / 2) - (src[0] + src[2] / 2)
-    dy = (dst[1] + dst[3] / 2) - (src[1] + src[3] / 2)
-    best: tuple[int, str, str] | None = None
-    for from_side, to_side in side_candidates(dx, dy):
-        points = curve(anchor(src, from_side), from_side, anchor(dst, to_side), to_side)
-        hits = blocked(points[CURVE_MARGIN:-CURVE_MARGIN], boxes)
-        if hits == 0:
-            return from_side, to_side
-        if best is None or hits < best[0]:
-            best = (hits, from_side, to_side)
+def build_canvas(graph: Graph) -> tuple[dict, dict[str, int]]:
+    """Tries SPACINGS tight to loose; returns the first collision-free canvas, else the least colliding."""
+    best: tuple[int, dict, dict[str, int]] | None = None
+    for nodesep, ranksep in SPACINGS:
+        canvas, conflicts = place(graph, nodesep, ranksep)
+        score = sum(conflicts.values())
+        if best is None or score < best[0]:
+            best = (score, canvas, conflicts)
+        if score == 0:
+            break
     return best[1], best[2]
 
 
-def build_canvas(graph: Graph) -> dict:
-    layout = run_dot(layout_dot(graph))
+def place(graph: Graph, nodesep: float, ranksep: float) -> tuple[dict, dict[str, int]]:
+    layout = run_dot(layout_dot(graph, nodesep, ranksep))
     _, _, _, total_h = (float(v) for v in layout["bb"].split(","))
     by_dot_id = {n.dot_id: n for n in graph.nodes.values()}
     ids = cluster_ids(graph)
     nodes: list[dict] = []
     rects: dict[str, tuple[float, float, float, float]] = {}
     group_rects: dict[str, tuple[float, float, float, float]] = {}
+    group_labels: list[tuple[float, float, float, float]] = []
 
     for obj in layout["objects"]:
         name = obj["name"]
         if "bb" in obj and name.startswith("cluster_"):
             x0, y0, x1, y1 = (float(v) for v in obj["bb"].split(","))
+            # Graphviz keeps the label band inside the cluster; Obsidian draws the label above the
+            # box, so the box starts below the band and the label lands in space nobody else uses
+            band = float(obj.get("lheight", 0)) * 72
             group = {
                 "id": cid("group", name),
                 "type": "group",
                 "label": obj.get("label", ""),
-                "x": round(x0), "y": round(total_h - y1),
-                "width": round(x1 - x0), "height": round(y1 - y0),
+                "x": round(x0), "y": round(total_h - y1 + band),
+                "width": round(x1 - x0), "height": round(y1 - y0 - band),
             }
             group_rects[name] = (group["x"], group["y"], group["width"], group["height"])
+            group_labels.append((x0, group["y"] - band, x0 + float(obj.get("lwidth", 0)) * 72, group["y"]))
             nodes.append(group)
             continue
         node = by_dot_id.get(name)
@@ -245,10 +259,21 @@ def build_canvas(graph: Graph) -> dict:
         label: (x + CLEARANCE, y + CLEARANCE, x + w - CLEARANCE, y + h - CLEARANCE)
         for label, (x, y, w, h) in rects.items()
     }
+    horizontal_first = graph.rankdir in ("LR", "RL")
     edges: list[dict] = []
+    paths: list[list[tuple[float, float]]] = []
+    fan_in: dict[tuple[str, str, str], list[int]] = {}
+    fan_out: dict[tuple[str, str, str], list[int]] = {}
+    through_cards = 0
     for i, edge in enumerate(graph.edges):
         (src_id, src_rect), (dst_id, dst_rect) = card(edge.src), card(edge.dst)
-        from_side, to_side = route(src_rect, dst_rect, list(obstacles.values()))
+        from_side, to_side = fixed_sides(src_rect, dst_rect, horizontal_first)
+        points = curve(anchor(src_rect, from_side), from_side, anchor(dst_rect, to_side), to_side)
+        through_cards += blocked(points[CURVE_MARGIN:-CURVE_MARGIN], list(obstacles.values()))
+        paths.append(points)
+        if edge.relation:
+            fan_in.setdefault((edge.dst, edge.relation, to_side), []).append(i)
+            fan_out.setdefault((edge.src, edge.relation, from_side), []).append(i)
         entry = {
             "id": cid("edge", str(i), edge.src, edge.dst),
             "fromNode": src_id, "fromSide": from_side,
@@ -261,9 +286,47 @@ def build_canvas(graph: Graph) -> dict:
             entry["toEnd"] = "none"
         edges.append(entry)
 
+    cards = [(x, y, x + w, y + h) for x, y, w, h in rects.values()]
+
+    def label_box(i: int) -> tuple[float, float, float, float]:
+        mx, my = paths[i][CURVE_SAMPLES // 2]   # Obsidian puts the label at the curve midpoint
+        half_w = (len(graph.edges[i].relation) * EDGE_LABEL_CHAR + EDGE_LABEL_PAD[0]) / 2
+        return (mx - half_w, my - EDGE_LABEL_PAD[1] / 2, mx + half_w, my + EDGE_LABEL_PAD[1] / 2)
+
+    def label_collisions(i: int, placed: list[tuple[float, float, float, float]]) -> int:
+        box = label_box(i)
+        crossed = sum(
+            1 for j, path in enumerate(paths) if j != i
+            if any(box[0] <= px <= box[2] and box[1] <= py <= box[3] for px, py in path[CURVE_MARGIN:-CURVE_MARGIN])
+        )
+        return crossed + sum(overlaps(box, c) for c in cards) + sum(overlaps(box, b) for b in placed)
+
+    # Edges in a fan share a side anchor, so their labels pile up no matter the spacing:
+    # label the fan once, on the member whose label collides least
+    fans = [m for m in fan_in.values() if len(m) > 1]
+    fanned = {i for m in fans for i in m}
+    fans += [kept for m in fan_out.values() if (kept := [i for i in m if i not in fanned])]
+    placed: list[tuple[float, float, float, float]] = []
+    label_hits = 0
+    for members in fans:
+        best = min(members, key=lambda i: label_collisions(i, placed))
+        label_hits += label_collisions(best, placed) > 0
+        placed.append(label_box(best))
+        for i in members:
+            if i != best:
+                edges[i].pop("label", None)
+    groups = [(x, y, x + w, y + h) for x, y, w, h in group_rects.values()]
+    group_label_hits = sum(
+        1 for band in group_labels
+        if any(overlaps(band, c) for c in cards)
+        or any(overlaps(band, g) and not (g[0] <= band[0] and g[1] <= band[1] and band[2] <= g[2] and band[3] <= g[3])
+               for g in groups)
+    )
+
     # groups first so Obsidian draws them underneath
     nodes.sort(key=lambda n: 0 if n["type"] == "group" else 1)
-    return {"nodes": nodes, "edges": edges}
+    conflicts = {"連線穿過卡片": through_cards, "關係文字重疊": label_hits, "群組標題壓到別的框": group_label_hits}
+    return {"nodes": nodes, "edges": edges}, conflicts
 
 
 def clues_blocks(text: str) -> list[str]:
@@ -288,12 +351,15 @@ def main() -> int:
         blocks = clues_blocks(note.read_text(encoding="utf-8"))
         for index, block in enumerate(blocks, 1):
             graph = parse(block)
-            canvas = build_canvas(graph)
+            canvas, conflicts = build_canvas(graph)
             suffix = "" if len(blocks) == 1 else f"-{index}"
             target = (args.out_dir or note.parent) / f"{note.stem}{suffix}.canvas"
             target.write_text(json.dumps(canvas, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
             groups = sum(1 for n in canvas["nodes"] if n["type"] == "group")
             print(f"{target}：{len(canvas['nodes']) - groups} 節點、{groups} 群組、{len(canvas['edges'])} 連線")
+            remaining = "、".join(f"{k} {v}" for k, v in conflicts.items() if v)
+            if remaining:
+                print(f"  ! 仍有：{remaining}")
             for item in graph.audit:
                 print(f"  - {item}")
     return 0
