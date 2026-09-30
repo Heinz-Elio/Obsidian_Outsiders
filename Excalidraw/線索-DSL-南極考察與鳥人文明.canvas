@@ -1,58 +1,329 @@
 {
  "nodes": [
   {
+   "id": "d75ae21741a94d91",
+   "type": "group",
+   "label": "事件",
+   "x": 5878,
+   "y": 46,
+   "width": 1916,
+   "height": 2842
+  },
+  {
    "id": "891803f5f7adc05c",
    "type": "group",
-   "label": "南極考察點",
-   "x": 674,
-   "y": 106,
-   "width": 3170,
-   "height": 4456
+   "label": "南極考察",
+   "x": 5952,
+   "y": 1000,
+   "width": 698,
+   "height": 1864
   },
   {
    "id": "15b656be28fbb5d6",
    "type": "group",
-   "label": "孫天烺",
-   "x": 3852,
-   "y": 106,
-   "width": 308,
-   "height": 108
+   "label": "海之住民化石再現",
+   "x": 5902,
+   "y": 116,
+   "width": 1868,
+   "height": 640
   },
   {
    "id": "9590a700eb3a40e9",
    "type": "group",
-   "label": "海之住民化石再現",
-   "x": 4242,
-   "y": 46,
-   "width": 1868,
-   "height": 1524
+   "label": "信使是什麼？",
+   "x": 1494,
+   "y": 140,
+   "width": 1088,
+   "height": 992
   },
   {
-   "id": "c2b12e33e5e0ffab",
+   "id": "b503d9bb1f55ecce",
+   "type": "group",
+   "label": "化石為何再現？",
+   "x": 8972,
+   "y": 140,
+   "width": 308,
+   "height": 1028
+  },
+  {
+   "id": "83a056d93f512c5f",
+   "type": "group",
+   "label": "南極考察點",
+   "x": 2590,
+   "y": 612,
+   "width": 1088,
+   "height": 544
+  },
+  {
+   "id": "6eca50fefd90742f",
+   "type": "group",
+   "label": "星降神臨在做什麼？",
+   "x": 4392,
+   "y": 152,
+   "width": 698,
+   "height": 568
+  },
+  {
+   "id": "a19268416bb74cc2",
+   "type": "group",
+   "label": "深海之星知道什麼？",
+   "x": 7802,
+   "y": 576,
+   "width": 1088,
+   "height": 580
+  },
+  {
+   "id": "54446d7342cadeac",
+   "type": "group",
+   "label": "米迦勒從何而來？",
+   "x": 8,
+   "y": 152,
+   "width": 1478,
+   "height": 3124
+  },
+  {
+   "id": "f728a344dcb8e070",
+   "type": "group",
+   "label": "誰撕走日誌？",
+   "x": 9362,
+   "y": 128,
+   "width": 308,
+   "height": 1004
+  },
+  {
+   "id": "d77fd7bd519e2317",
+   "type": "group",
+   "label": "誰進過神殿？",
+   "x": 3686,
+   "y": 588,
+   "width": 698,
+   "height": 956
+  },
+  {
+   "id": "51bf28efe2999b05",
+   "type": "group",
+   "label": "鳥人文明發生了什麼？",
+   "x": 5172,
+   "y": 176,
+   "width": 698,
+   "height": 2652
+  },
+  {
+   "id": "aae2f427b2d4652c",
    "type": "text",
-   "text": "研究將生物改造成MS",
-   "x": 195,
-   "y": 586,
+   "text": "**孫天烺投資考察**\n\n投資南極考察",
+   "x": 5976,
+   "y": 1032,
+   "width": 260,
+   "height": 100,
+   "color": "#EA580C"
+  },
+  {
+   "id": "8788182f348228eb",
+   "type": "text",
+   "text": "**大門打開喚醒信使**\n\n大門打開，信使與怪物被喚醒，澤井陽基控制信使、天城博敏",
+   "x": 5976,
+   "y": 1432,
+   "width": 260,
+   "height": 124,
+   "color": "#EA580C"
+  },
+  {
+   "id": "2c1d52af8dbc8b80",
+   "type": "text",
+   "text": "**天城博敏下落不明**\n\n天城博敏中止考察，回到美國完成論文後與化石先後下落不明",
+   "x": 5976,
+   "y": 1844,
+   "width": 260,
+   "height": 124,
+   "color": "#EA580C"
+  },
+  {
+   "id": "b0f0b17ce83156d6",
+   "type": "text",
+   "text": "官方認定考察成果造假",
+   "x": 5976,
+   "y": 2316,
+   "width": 260,
+   "height": 52,
+   "color": "#EA580C"
+  },
+  {
+   "id": "245110a3f185ca61",
+   "type": "text",
+   "text": "**美嘉留被帶走送回**\n\n突然出現帶走美嘉留，不久後美嘉留被送回家",
+   "x": 5976,
+   "y": 2716,
+   "width": 260,
+   "height": 124,
+   "color": "#EA580C"
+  },
+  {
+   "id": "7f3cc09e8dfb714d",
+   "type": "text",
+   "text": "**澤井考察後失蹤**\n\n在南極考察後失蹤",
+   "x": 6366,
+   "y": 1444,
+   "width": 260,
+   "height": 100,
+   "color": "#EA580C"
+  },
+  {
+   "id": "d7510084d4f30d74",
+   "type": "text",
+   "text": "**深海之星派人鑑定**\n\n深海之星派斯普魯恩斯確認化石真實性，鑑定報告證明化石確屬海之住民，需回收以保密海之住民存在",
+   "x": 5926,
+   "y": 148,
+   "width": 260,
+   "height": 172,
+   "color": "#EA580C"
+  },
+  {
+   "id": "5fe73754bdc89535",
+   "type": "text",
+   "text": "**斯普魯恩斯收手**\n\n斯普魯恩斯追上水妖並短暫交手，因人魚公主出現而收手",
+   "x": 6316,
+   "y": 172,
+   "width": 260,
+   "height": 124,
+   "color": "#EA580C"
+  },
+  {
+   "id": "c3848fc21923aac7",
+   "type": "text",
+   "text": "**斯普魯恩斯回收化石**\n\n斯普魯恩斯在人魚公主擊敗水妖後回收化石",
+   "x": 6316,
+   "y": 608,
+   "width": 260,
+   "height": 124,
+   "color": "#EA580C"
+  },
+  {
+   "id": "2d78c6748e96597d",
+   "type": "text",
+   "text": "LB奉命搶奪化石",
+   "x": 7486,
+   "y": 208,
+   "width": 260,
+   "height": 52,
+   "color": "#EA580C"
+  },
+  {
+   "id": "27c093668e0c1504",
+   "type": "text",
+   "text": "**美嘉參觀展覽**\n\n美嘉收到信件，在海斗陪同下參觀展覽",
+   "x": 7096,
+   "y": 172,
+   "width": 260,
+   "height": 124,
+   "color": "#EA580C"
+  },
+  {
+   "id": "7790d3da7fd4a641",
+   "type": "text",
+   "text": "**要求塞雷亞申請**\n\n斯普魯恩斯無法提供詳細訊息予非成員，要求塞雷亞向深海之星提交查詢申請",
+   "x": 6706,
+   "y": 160,
+   "width": 260,
+   "height": 148,
+   "color": "#EA580C"
+  },
+  {
+   "id": "4e5f5be5792a1310",
+   "type": "text",
+   "text": "**器具建築不合人型**\n\n器具、建築設計不適合人型生物使用",
+   "x": 1908,
+   "y": 172,
+   "width": 260,
+   "height": 124,
+   "color": "#2563EB"
+  },
+  {
+   "id": "e65edcd4dae0432a",
+   "type": "text",
+   "text": "**人頭鳥身有光環**\n\n人頭鳥身，其中一隻有光環",
+   "x": 2298,
+   "y": 184,
+   "width": 260,
+   "height": 100,
+   "color": "#2563EB"
+  },
+  {
+   "id": "fee406f3838bb244",
+   "type": "text",
+   "text": "完整化石不足半米高",
+   "x": 1518,
+   "y": 208,
+   "width": 260,
+   "height": 52,
+   "color": "#2563EB"
+  },
+  {
+   "id": "109abb1fc82ce8f2",
+   "type": "text",
+   "text": "信使是鳥人原生樣貌",
+   "x": 1572,
+   "y": 644,
    "width": 260,
    "height": 52,
    "color": "#7C3AED"
   },
   {
-   "id": "f28899cb3dd032da",
+   "id": "4d07e8d2bb77c097",
    "type": "text",
-   "text": "**星降神臨核心功能是改造生物**\n\n星降神臨的核心功能是改造生物",
-   "x": 0,
-   "y": 114,
+   "text": "光環是特殊象徵",
+   "x": 1962,
+   "y": 644,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "69b3e3bfeeaa2e26",
+   "type": "text",
+   "text": "信使是王的複製品",
+   "x": 1962,
+   "y": 1056,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "9581db5db3b8e335",
+   "type": "text",
+   "text": "**化石與米迦勒利害**\n\n化石對米迦勒有用/不利",
+   "x": 8996,
+   "y": 620,
    "width": 260,
    "height": 100,
    "color": "#7C3AED"
   },
   {
-   "id": "5634dd283cdce7d9",
+   "id": "2445559453bc420c",
    "type": "text",
-   "text": "MS資料",
-   "x": 390,
-   "y": 138,
+   "text": "**內部人員賣化石**\n\n化石已回收封存，應是內部人員賣至黑市",
+   "x": 8996,
+   "y": 1020,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "279f504267d1b93b",
+   "type": "text",
+   "text": "**南極化石關乎米迦勒**\n\n化石來自南極，可能伴有遺跡，與米迦勒身份相關",
+   "x": 8996,
+   "y": 172,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "340d24d346e2125b",
+   "type": "text",
+   "text": "傳家寶",
+   "x": 3320,
+   "y": 1056,
    "width": 260,
    "height": 52,
    "color": "#2563EB"
@@ -61,8 +332,8 @@
    "id": "7bf7394a80750656",
    "type": "text",
    "text": "航海日誌",
-   "x": 1575,
-   "y": 586,
+   "x": 3394,
+   "y": 644,
    "width": 260,
    "height": 52,
    "color": "#2563EB"
@@ -71,8 +342,8 @@
    "id": "b629c28b6ab81412",
    "type": "text",
    "text": "地圖",
-   "x": 1965,
-   "y": 586,
+   "x": 3004,
+   "y": 644,
    "width": 260,
    "height": 52,
    "color": "#2563EB"
@@ -81,508 +352,68 @@
    "id": "7043d938b4d8fc6a",
    "type": "text",
    "text": "**南極山洞深處神殿遺跡**\n\n南極一山洞深處的神殿遺跡",
-   "x": 2063,
-   "y": 1022,
+   "x": 2930,
+   "y": 1032,
    "width": 260,
    "height": 100,
    "color": "#2563EB"
-  },
-  {
-   "id": "a1c3d3bf984d1484",
-   "type": "text",
-   "text": "恐懼使人瘋狂",
-   "x": 1088,
-   "y": 1494,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "63cfe89b74f44089",
-   "type": "text",
-   "text": "未知語言",
-   "x": 1088,
-   "y": 1046,
-   "width": 260,
-   "height": 52,
-   "color": "#2563EB"
-  },
-  {
-   "id": "51c67c390e1533e0",
-   "type": "text",
-   "text": "製造出信使實行計劃",
-   "x": 1088,
-   "y": 1906,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "8c5a3a7098bb81b8",
-   "type": "text",
-   "text": "**器具建築不適合人型生物**\n\n器具、建築設計不適合人型生物使用",
-   "x": 2258,
-   "y": 1458,
-   "width": 260,
-   "height": 124,
-   "color": "#2563EB"
-  },
-  {
-   "id": "d324ef0c90caa157",
-   "type": "text",
-   "text": "**種族衰落研究復興之法**\n\n種族因不明原因步向衰落，族人研究復興種族之法",
-   "x": 698,
-   "y": 1870,
-   "width": 260,
-   "height": 124,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "9435461df2110d14",
-   "type": "text",
-   "text": "**張睿稱神殿大門關閉**\n\n張睿稱神殿大門處於關閉狀態",
-   "x": 2648,
-   "y": 1470,
-   "width": 260,
-   "height": 100,
-   "color": "#2563EB"
-  },
-  {
-   "id": "e79a7d91dc612ca1",
-   "type": "text",
-   "text": "**天城博敏中止考察後下落不明**\n\n天城博敏中止考察，回到美國完成論文後與化石先後下落不明",
-   "x": 1771,
-   "y": 2694,
-   "width": 260,
-   "height": 124,
-   "color": "#EA580C"
-  },
-  {
-   "id": "340d24d346e2125b",
-   "type": "text",
-   "text": "傳家寶",
-   "x": 1770,
-   "y": 138,
-   "width": 260,
-   "height": 52,
-   "color": "#2563EB"
-  },
-  {
-   "id": "aa4557a1c3e90b26",
-   "type": "text",
-   "text": "警告石碑",
-   "x": 1868,
-   "y": 1494,
-   "width": 260,
-   "height": 52,
-   "color": "#2563EB"
-  },
-  {
-   "id": "80f5ea82c3c689f0",
-   "type": "text",
-   "text": "星降神臨長期收集基質",
-   "x": 698,
-   "y": 1494,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "a1ba2cf7dc901126",
-   "type": "text",
-   "text": "**以奴隸DNA製造容器實驗**\n\n以奴隸之DNA進行製造容器實驗",
-   "x": 698,
-   "y": 2694,
-   "width": 260,
-   "height": 124,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "87f7b30671f1a7c7",
-   "type": "text",
-   "text": "**捨棄肉體保留靈魂轉移容器**\n\n捨棄肉體保留靈魂，將來轉移至新容器",
-   "x": 698,
-   "y": 2282,
-   "width": 260,
-   "height": 124,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "109abb1fc82ce8f2",
-   "type": "text",
-   "text": "信使是鳥人原生樣貌",
-   "x": 2064,
-   "y": 2318,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "5f3b6e8f1e2e81ea",
-   "type": "text",
-   "text": "**米迦勒由奴隸DNA植入美嘉留產生**\n\n米迦勒：將奴隸DNA植入美嘉留產生",
-   "x": 1867,
-   "y": 4390,
-   "width": 260,
-   "height": 148,
-   "color": "#7C3AED"
   },
   {
    "id": "cb4ca9e88ca40c60",
    "type": "text",
    "text": "壁畫",
-   "x": 3038,
-   "y": 1494,
+   "x": 2614,
+   "y": 644,
    "width": 260,
    "height": 52,
    "color": "#2563EB"
   },
   {
-   "id": "fee406f3838bb244",
+   "id": "5634dd283cdce7d9",
    "type": "text",
-   "text": "完整化石不足半米高",
-   "x": 1868,
-   "y": 1906,
+   "text": "MS資料",
+   "x": 4416,
+   "y": 208,
    "width": 260,
    "height": 52,
    "color": "#2563EB"
   },
   {
-   "id": "69b3e3bfeeaa2e26",
+   "id": "c2b12e33e5e0ffab",
    "type": "text",
-   "text": "信使是王的複製品",
-   "x": 2454,
-   "y": 2730,
+   "text": "研究將生物改造成MS",
+   "x": 4416,
+   "y": 644,
    "width": 260,
    "height": 52,
    "color": "#7C3AED"
   },
   {
-   "id": "8437ed18337defbd",
+   "id": "fa5bdb224ceb6183",
    "type": "text",
-   "text": "**人頭鳥身其中一隻有光環**\n\n人頭鳥身，其中一隻有光環",
-   "x": 2390,
-   "y": 1882,
-   "width": 260,
-   "height": 100,
-   "color": "#2563EB"
-  },
-  {
-   "id": "4d07e8d2bb77c097",
-   "type": "text",
-   "text": "光環是特殊象徵",
-   "x": 2454,
-   "y": 2318,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "bb9c2f1f28ef8732",
-   "type": "text",
-   "text": "美嘉留擁有彭達拉薩血統",
-   "x": 2969,
-   "y": 138,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "a675a2aa4c7315d7",
-   "type": "text",
-   "text": "現代人類會對DNA產生排斥",
-   "x": 698,
-   "y": 3178,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "dd1e477319368b3d",
-   "type": "text",
-   "text": "**古代血統者不排斥但人格無法控制宿主**\n\n帶有古代人類血統的人不會排斥DNA，但僅能重現人格，且人格無法控制宿主，反而會受美嘉留影響",
-   "x": 1088,
-   "y": 3106,
-   "width": 260,
-   "height": 196,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "2a765a8ebc1548c9",
-   "type": "text",
-   "text": "**出現意外裝置變成怪物**\n\n出現意外，裝置變成怪物",
-   "x": 1283,
-   "y": 2706,
-   "width": 260,
-   "height": 100,
-   "color": "#EA580C"
-  },
-  {
-   "id": "b617501d46db67ac",
-   "type": "text",
-   "text": "**正本失蹤副本僅抵達前部分被撕**\n\n正本失蹤，副本只有抵達前的部分，抵達後（以未知語言寫成）的部分被撕走",
-   "x": 1478,
-   "y": 998,
-   "width": 260,
-   "height": 148,
-   "color": "#2563EB"
-  },
-  {
-   "id": "8e39317ecdc980a3",
-   "type": "text",
-   "text": "看懂的人想要隱瞞",
-   "x": 1478,
-   "y": 1494,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "c64ab21ca8b98132",
-   "type": "text",
-   "text": "美嘉留與米迦勒氣息相似",
-   "x": 1998,
-   "y": 4026,
-   "width": 260,
-   "height": 52,
-   "color": "#2563EB"
-  },
-  {
-   "id": "b5ba78147892a1a4",
-   "type": "text",
-   "text": "米迦勒出現時美嘉留衰弱",
-   "x": 1282,
-   "y": 4026,
-   "width": 260,
-   "height": 52,
-   "color": "#2563EB"
-  },
-  {
-   "id": "3768a8c7942ab797",
-   "type": "text",
-   "text": "**大門打開信使與怪物被喚醒**\n\n大門打開，信使與怪物被喚醒，澤井陽基控制信使、天城博敏",
-   "x": 1088,
-   "y": 2282,
-   "width": 260,
-   "height": 124,
-   "color": "#EA580C"
-  },
-  {
-   "id": "bfa8b6cc13e12cda",
-   "type": "text",
-   "text": "**突然帶走美嘉留後送回家**\n\n突然出現帶走美嘉留，不久後美嘉留被送回家",
-   "x": 1868,
-   "y": 3590,
-   "width": 260,
-   "height": 124,
-   "color": "#EA580C"
-  },
-  {
-   "id": "e3f8bf1c627ac5e9",
-   "type": "text",
-   "text": "**船員打開大門與怪物戰鬥後脫逃**\n\n不信邪的船員打開大門，船員與怪物戰鬥，暫時停止其行動後脫逃",
-   "x": 1478,
-   "y": 3130,
-   "width": 260,
-   "height": 148,
-   "color": "#EA580C"
-  },
-  {
-   "id": "91f230eaaf5d0da9",
-   "type": "text",
-   "text": "澤井陽基解封",
-   "x": 1478,
-   "y": 3626,
-   "width": 260,
-   "height": 52,
-   "color": "#EA580C"
-  },
-  {
-   "id": "14b58415dc5b8da8",
-   "type": "text",
-   "text": "**依靠美嘉留力量顯現**\n\n依靠美嘉留的力量顯現",
-   "x": 1088,
-   "y": 3602,
+   "text": "**星降神臨改造生物**\n\n星降神臨的核心功能是改造生物",
+   "x": 4806,
+   "y": 184,
    "width": 260,
    "height": 100,
    "color": "#7C3AED"
   },
   {
-   "id": "7dc2720792249e10",
+   "id": "80f5ea82c3c689f0",
    "type": "text",
-   "text": "考察隊離開後有人進入神殿",
-   "x": 3170,
-   "y": 1906,
+   "text": "星降神臨長期收集基質",
+   "x": 4806,
+   "y": 644,
    "width": 260,
    "height": 52,
    "color": "#7C3AED"
-  },
-  {
-   "id": "2a38f4799ded0ff7",
-   "type": "text",
-   "text": "**大門以人類力氣無法推開**\n\n大門以人類的力氣無法推開",
-   "x": 2780,
-   "y": 1882,
-   "width": 260,
-   "height": 100,
-   "color": "#2563EB"
-  },
-  {
-   "id": "0985f8fd90121ce3",
-   "type": "text",
-   "text": "米迦勒空間裡的城堡",
-   "x": 3560,
-   "y": 1906,
-   "width": 260,
-   "height": 52,
-   "color": "#2563EB"
-  },
-  {
-   "id": "f3b5471265fe9e03",
-   "type": "text",
-   "text": "米迦勒與鳥人一族有關",
-   "x": 3560,
-   "y": 2318,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "a3e62c60212bda03",
-   "type": "text",
-   "text": "澤井陽基",
-   "x": 1478,
-   "y": 1906,
-   "width": 260,
-   "height": 52,
-   "color": "#16A34A"
-  },
-  {
-   "id": "27524bea823570a5",
-   "type": "text",
-   "text": "在南極考察後失蹤",
-   "x": 1478,
-   "y": 2318,
-   "width": 260,
-   "height": 52,
-   "color": "#EA580C"
-  },
-  {
-   "id": "b0f0b17ce83156d6",
-   "type": "text",
-   "text": "官方認定考察成果造假",
-   "x": 1868,
-   "y": 3178,
-   "width": 260,
-   "height": 52,
-   "color": "#EA580C"
-  },
-  {
-   "id": "ccce5f02753f8c93",
-   "type": "text",
-   "text": "海之住民不會自稱海之住民",
-   "x": 2388,
-   "y": 3178,
-   "width": 260,
-   "height": 52,
-   "color": "#2563EB"
-  },
-  {
-   "id": "bdb3831f6519e01a",
-   "type": "text",
-   "text": "米迦勒的自稱是現代人告訴他的",
-   "x": 2388,
-   "y": 3626,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "e591cf42d996c0cc",
-   "type": "text",
-   "text": "**有人喚醒或復活米迦勒**\n\n有人喚醒/復活米迦勒",
-   "x": 2388,
-   "y": 4002,
-   "width": 260,
-   "height": 100,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "4559b45a95724e06",
-   "type": "text",
-   "text": "使用法術",
-   "x": 2975,
-   "y": 2318,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "dfdd68eb501a0562",
-   "type": "text",
-   "text": "投資南極考察",
-   "x": 3876,
-   "y": 138,
-   "width": 260,
-   "height": 52,
-   "color": "#EA580C"
-  },
-  {
-   "id": "2d78c6748e96597d",
-   "type": "text",
-   "text": "LB奉命搶奪化石",
-   "x": 4266,
-   "y": 138,
-   "width": 260,
-   "height": 52,
-   "color": "#EA580C"
-  },
-  {
-   "id": "1a8d6edd3d139c68",
-   "type": "text",
-   "text": "**化石對米迦勒有用或不利**\n\n化石對米迦勒有用/不利",
-   "x": 4266,
-   "y": 562,
-   "width": 260,
-   "height": 100,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "ec63f641d530b69b",
-   "type": "text",
-   "text": "**斯普魯恩斯在人魚擊敗水妖後回收化石**\n\n斯普魯恩斯在人魚公主擊敗水妖後回收化石",
-   "x": 4656,
-   "y": 538,
-   "width": 260,
-   "height": 148,
-   "color": "#EA580C"
-  },
-  {
-   "id": "27d15f2a0276f977",
-   "type": "text",
-   "text": "**深海之星派斯普魯恩斯確認化石真實性**\n\n深海之星派斯普魯恩斯確認化石真實性，鑑定報告證明化石確屬海之住民，需回收以保密海之住民存在",
-   "x": 4363,
-   "y": 974,
-   "width": 260,
-   "height": 196,
-   "color": "#EA580C"
-  },
-  {
-   "id": "210f747fc0213c12",
-   "type": "text",
-   "text": "**斯普魯恩斯追上水妖短暫交手後收手**\n\n斯普魯恩斯追上水妖並短暫交手，因人魚公主出現而收手",
-   "x": 4656,
-   "y": 90,
-   "width": 260,
-   "height": 148,
-   "color": "#EA580C"
   },
   {
    "id": "3f1010709d797684",
    "type": "text",
    "text": "刻意讓人魚公主解決",
-   "x": 5046,
-   "y": 586,
+   "x": 8216,
+   "y": 644,
    "width": 260,
    "height": 52,
    "color": "#7C3AED"
@@ -591,140 +422,407 @@
    "id": "d973953c1da4c8ed",
    "type": "text",
    "text": "塞雷亞有保密義務",
-   "x": 4363,
-   "y": 1494,
+   "x": 7826,
+   "y": 644,
    "width": 260,
    "height": 52,
    "color": "#7C3AED"
   },
   {
-   "id": "6071e02fbe6defee",
+   "id": "800d548291223225",
    "type": "text",
-   "text": "**美嘉收到信件在海斗陪同下參觀展覽**\n\n美嘉收到信件，在海斗陪同下參觀展覽",
-   "x": 5046,
-   "y": 90,
+   "text": "**斯普魯恩斯冷漠**\n\n斯普魯恩斯對米迦勒事件態度冷漠",
+   "x": 8606,
+   "y": 608,
    "width": 260,
-   "height": 148,
-   "color": "#EA580C"
+   "height": 124,
+   "color": "#7C3AED"
   },
   {
-   "id": "73a720af88a2d3a9",
+   "id": "40ad1231ca584ea2",
    "type": "text",
-   "text": "**斯普魯恩斯要求塞雷亞向深海之星申請**\n\n斯普魯恩斯無法提供詳細訊息予非成員，要求塞雷亞向深海之星提交查詢申請",
-   "x": 5436,
-   "y": 78,
+   "text": "**深海之星知真相**\n\n深海之星知道人魚公主的真相",
+   "x": 8411,
+   "y": 1032,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "bd56e05068d27bfb",
+   "type": "text",
+   "text": "**米迦勒氣息似美嘉留**\n\n美嘉留與米迦勒氣息相似",
+   "x": 683,
+   "y": 2728,
+   "width": 260,
+   "height": 100,
+   "color": "#2563EB"
+  },
+  {
+   "id": "dd1de8e54f66d6d8",
+   "type": "text",
+   "text": "**美嘉留衰弱**\n\n米迦勒出現時美嘉留衰弱",
+   "x": 422,
+   "y": 2292,
+   "width": 260,
+   "height": 100,
+   "color": "#2563EB"
+  },
+  {
+   "id": "f8fc986183cd6074",
+   "type": "text",
+   "text": "**海之住民不自稱**\n\n海之住民不會自稱海之住民",
+   "x": 32,
+   "y": 1856,
+   "width": 260,
+   "height": 100,
+   "color": "#2563EB"
+  },
+  {
+   "id": "0985f8fd90121ce3",
+   "type": "text",
+   "text": "米迦勒空間裡的城堡",
+   "x": 1182,
+   "y": 644,
+   "width": 260,
+   "height": 52,
+   "color": "#2563EB"
+  },
+  {
+   "id": "5e2a16404349dfa3",
+   "type": "text",
+   "text": "**植入產生米迦勒**\n\n米迦勒：將奴隸DNA植入美嘉留產生",
+   "x": 552,
+   "y": 3128,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "46e82b7f1c818ca1",
+   "type": "text",
+   "text": "**現代人排斥DNA**\n\n現代人類會對DNA產生排斥",
+   "x": 812,
+   "y": 2292,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "87efa66703570a6d",
+   "type": "text",
+   "text": "**古代血統者不排斥**\n\n帶有古代人類血統的人不會排斥DNA，但僅能重現人格，且人格無法控制宿主，反而會受美嘉留影響",
+   "x": 1202,
+   "y": 2256,
    "width": 260,
    "height": 172,
-   "color": "#EA580C"
-  },
-  {
-   "id": "02c5fd8a88b8cfca",
-   "type": "text",
-   "text": "斯普魯恩斯對米迦勒事件態度冷漠",
-   "x": 5436,
-   "y": 574,
-   "width": 260,
-   "height": 76,
    "color": "#7C3AED"
   },
   {
-   "id": "d1be5c2a2922f724",
+   "id": "cefa09474cc7827b",
    "type": "text",
-   "text": "深海之星知道人魚公主的真相",
-   "x": 5338,
-   "y": 1046,
+   "text": "**美嘉留彭達拉薩血統**\n\n美嘉留擁有彭達拉薩血統",
+   "x": 580,
+   "y": 184,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "14b58415dc5b8da8",
+   "type": "text",
+   "text": "**依靠美嘉留力量顯現**\n\n依靠美嘉留的力量顯現",
+   "x": 1137,
+   "y": 2728,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "d761aa1c4c5fa985",
+   "type": "text",
+   "text": "**自稱由現代人告知**\n\n米迦勒的自稱是現代人告訴他的",
+   "x": 32,
+   "y": 2292,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "e591cf42d996c0cc",
+   "type": "text",
+   "text": "**有人喚醒或復活米迦勒**\n\n有人喚醒/復活米迦勒",
+   "x": 97,
+   "y": 2728,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "f3b5471265fe9e03",
+   "type": "text",
+   "text": "米迦勒與鳥人一族有關",
+   "x": 1192,
+   "y": 1056,
    "width": 260,
    "height": 52,
    "color": "#7C3AED"
   },
   {
-   "id": "fcb5287b05eb474e",
+   "id": "8b1580762774e235",
    "type": "text",
-   "text": "**化石已回收封存應是內部人員賣至黑市**\n\n化石已回收封存，應是內部人員賣至黑市",
-   "x": 4753,
-   "y": 998,
+   "text": "**正本失蹤副本被撕**\n\n正本失蹤，副本只有抵達前的部分，抵達後（以未知語言寫成）的部分被撕走",
+   "x": 9386,
+   "y": 160,
    "width": 260,
    "height": 148,
+   "color": "#2563EB"
+  },
+  {
+   "id": "8e39317ecdc980a3",
+   "type": "text",
+   "text": "看懂的人想要隱瞞",
+   "x": 9386,
+   "y": 644,
+   "width": 260,
+   "height": 52,
    "color": "#7C3AED"
   },
   {
-   "id": "e7a007f0f563e9dc",
+   "id": "a3e62c60212bda03",
    "type": "text",
-   "text": "**化石來自南極可能伴有遺跡與米迦勒相關**\n\n化石來自南極，可能伴有遺跡，與米迦勒身份相關",
-   "x": 5826,
-   "y": 90,
+   "text": "澤井陽基",
+   "x": 9386,
+   "y": 1056,
+   "width": 260,
+   "height": 52,
+   "color": "#16A34A"
+  },
+  {
+   "id": "9435461df2110d14",
+   "type": "text",
+   "text": "**張睿稱神殿大門關閉**\n\n張睿稱神殿大門處於關閉狀態",
+   "x": 3784,
+   "y": 620,
+   "width": 260,
+   "height": 100,
+   "color": "#2563EB"
+  },
+  {
+   "id": "73a51a9510de1f37",
+   "type": "text",
+   "text": "**大門人力推不開**\n\n大門以人類的力氣無法推開",
+   "x": 4100,
+   "y": 1032,
+   "width": 260,
+   "height": 100,
+   "color": "#2563EB"
+  },
+  {
+   "id": "fddc5f9a48616572",
+   "type": "text",
+   "text": "**考察隊走後有人進入**\n\n考察隊離開後有人進入神殿",
+   "x": 3710,
+   "y": 1032,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "4559b45a95724e06",
+   "type": "text",
+   "text": "使用法術",
+   "x": 3905,
+   "y": 1468,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "63cfe89b74f44089",
+   "type": "text",
+   "text": "未知語言",
+   "x": 5366,
+   "y": 208,
+   "width": 260,
+   "height": 52,
+   "color": "#2563EB"
+  },
+  {
+   "id": "aa4557a1c3e90b26",
+   "type": "text",
+   "text": "警告石碑",
+   "x": 5196,
+   "y": 644,
+   "width": 260,
+   "height": 52,
+   "color": "#2563EB"
+  },
+  {
+   "id": "a1c3d3bf984d1484",
+   "type": "text",
+   "text": "恐懼使人瘋狂",
+   "x": 5586,
+   "y": 644,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "51c67c390e1533e0",
+   "type": "text",
+   "text": "製造出信使實行計劃",
+   "x": 5586,
+   "y": 1056,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "d324ef0c90caa157",
+   "type": "text",
+   "text": "**種族衰落研究復興之法**\n\n種族因不明原因步向衰落，族人研究復興種族之法",
+   "x": 5196,
+   "y": 1020,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "02583b1049563ac4",
+   "type": "text",
+   "text": "**捨棄肉體保留靈魂**\n\n捨棄肉體保留靈魂，將來轉移至新容器",
+   "x": 5196,
+   "y": 1432,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "b3548a308f99dbd1",
+   "type": "text",
+   "text": "**奴隸DNA容器實驗**\n\n以奴隸之DNA進行製造容器實驗",
+   "x": 5196,
+   "y": 1844,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "2a765a8ebc1548c9",
+   "type": "text",
+   "text": "**出現意外裝置變成怪物**\n\n出現意外，裝置變成怪物",
+   "x": 5586,
+   "y": 1856,
+   "width": 260,
+   "height": 100,
+   "color": "#EA580C"
+  },
+  {
+   "id": "27adb1856d350663",
+   "type": "text",
+   "text": "**船員開門戰怪物**\n\n不信邪的船員打開大門，船員與怪物戰鬥，暫時停止其行動後脫逃",
+   "x": 5586,
+   "y": 2268,
    "width": 260,
    "height": 148,
-   "color": "#7C3AED"
+   "color": "#EA580C"
+  },
+  {
+   "id": "91f230eaaf5d0da9",
+   "type": "text",
+   "text": "澤井陽基解封",
+   "x": 5586,
+   "y": 2752,
+   "width": 260,
+   "height": 52,
+   "color": "#EA580C"
   }
  ],
  "edges": [
   {
-   "id": "70036bfa4b1b67d9",
-   "fromNode": "8c5a3a7098bb81b8",
+   "id": "c94191f086565800",
+   "fromNode": "aae2f427b2d4652c",
    "fromSide": "bottom",
-   "toNode": "109abb1fc82ce8f2",
+   "toNode": "8788182f348228eb",
+   "toSide": "top",
+   "color": "#94A3B8",
+   "label": "時序"
+  },
+  {
+   "id": "f988ea034a750701",
+   "fromNode": "8788182f348228eb",
+   "fromSide": "bottom",
+   "toNode": "2c1d52af8dbc8b80",
+   "toSide": "top",
+   "color": "#EA580C",
+   "label": "導致"
+  },
+  {
+   "id": "72f877bced96d659",
+   "fromNode": "2c1d52af8dbc8b80",
+   "fromSide": "bottom",
+   "toNode": "b0f0b17ce83156d6",
+   "toSide": "top",
+   "color": "#EA580C",
+   "label": "導致"
+  },
+  {
+   "id": "ae71d0e7d70c1bc2",
+   "fromNode": "b0f0b17ce83156d6",
+   "fromSide": "bottom",
+   "toNode": "245110a3f185ca61",
+   "toSide": "top",
+   "color": "#94A3B8",
+   "label": "時序"
+  },
+  {
+   "id": "f9f0a1a3e6414ff9",
+   "fromNode": "a3e62c60212bda03",
+   "fromSide": "bottom",
+   "toNode": "7f3cc09e8dfb714d",
    "toSide": "top",
    "color": "#94A3B8"
   },
   {
-   "id": "09de178b297660df",
-   "fromNode": "8437ed18337defbd",
+   "id": "33252a00a2ab1f2e",
+   "fromNode": "d7510084d4f30d74",
    "fromSide": "bottom",
-   "toNode": "109abb1fc82ce8f2",
+   "toNode": "c3848fc21923aac7",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#EA580C",
+   "label": "導致"
   },
   {
-   "id": "0756da52d4b9b5d0",
-   "fromNode": "bfa8b6cc13e12cda",
+   "id": "f2b977a2029fd090",
+   "fromNode": "5fe73754bdc89535",
    "fromSide": "bottom",
-   "toNode": "5f3b6e8f1e2e81ea",
+   "toNode": "c3848fc21923aac7",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#94A3B8",
+   "label": "時序"
   },
   {
-   "id": "bc7720dc7d33b25b",
-   "fromNode": "b5ba78147892a1a4",
-   "fromSide": "bottom",
-   "toNode": "5f3b6e8f1e2e81ea",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "0cad5ec46e073324",
-   "fromNode": "e591cf42d996c0cc",
-   "fromSide": "bottom",
-   "toNode": "5f3b6e8f1e2e81ea",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "57439b561bdcf333",
-   "fromNode": "f28899cb3dd032da",
-   "fromSide": "bottom",
-   "toNode": "c2b12e33e5e0ffab",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "9dc12e7a4c169216",
-   "fromNode": "5634dd283cdce7d9",
-   "fromSide": "bottom",
-   "toNode": "c2b12e33e5e0ffab",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "6dd3000a3914d352",
+   "id": "af5c7cb8ffb8cb14",
    "fromNode": "7bf7394a80750656",
    "fromSide": "bottom",
-   "toNode": "b617501d46db67ac",
+   "toNode": "340d24d346e2125b",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#94A3B8",
+   "label": "屬於",
+   "toEnd": "none"
   },
   {
-   "id": "3c68ff623b7cff24",
+   "id": "88aeb54d7a426875",
+   "fromNode": "b629c28b6ab81412",
+   "fromSide": "bottom",
+   "toNode": "340d24d346e2125b",
+   "toSide": "top",
+   "color": "#94A3B8",
+   "toEnd": "none"
+  },
+  {
+   "id": "28f41aebe9768ad6",
    "fromNode": "7bf7394a80750656",
    "fromSide": "bottom",
    "toNode": "7043d938b4d8fc6a",
@@ -732,404 +830,448 @@
    "color": "#94A3B8"
   },
   {
-   "id": "ca0bc5e493d58aba",
+   "id": "2a7716463d55ef29",
    "fromNode": "b629c28b6ab81412",
    "fromSide": "bottom",
    "toNode": "7043d938b4d8fc6a",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#94A3B8",
+   "label": "時序"
   },
   {
-   "id": "466cced7a1998c16",
-   "fromNode": "63cfe89b74f44089",
+   "id": "803b4ea1faf6d907",
+   "fromNode": "4e5f5be5792a1310",
    "fromSide": "bottom",
-   "toNode": "a1c3d3bf984d1484",
+   "toNode": "7043d938b4d8fc6a",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#94A3B8",
+   "label": "屬於",
+   "toEnd": "none"
   },
   {
-   "id": "0594f9f34311ca9a",
-   "fromNode": "7bf7394a80750656",
+   "id": "dc7b8cde41f60247",
+   "fromNode": "aa4557a1c3e90b26",
    "fromSide": "bottom",
-   "toNode": "63cfe89b74f44089",
+   "toNode": "7043d938b4d8fc6a",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#94A3B8",
+   "toEnd": "none"
   },
   {
-   "id": "7072aceb3ff3c5ff",
-   "fromNode": "a1c3d3bf984d1484",
+   "id": "113df8714d6bf11e",
+   "fromNode": "cb4ca9e88ca40c60",
    "fromSide": "bottom",
-   "toNode": "51c67c390e1533e0",
+   "toNode": "7043d938b4d8fc6a",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#94A3B8",
+   "toEnd": "none"
   },
   {
-   "id": "56fdf0e46d55abb4",
-   "fromNode": "7043d938b4d8fc6a",
-   "fromSide": "bottom",
-   "toNode": "8c5a3a7098bb81b8",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "9f5e92955948108e",
-   "fromNode": "d324ef0c90caa157",
-   "fromSide": "bottom",
-   "toNode": "87f7b30671f1a7c7",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "fe8a4b9717624137",
-   "fromNode": "a1c3d3bf984d1484",
-   "fromSide": "bottom",
-   "toNode": "d324ef0c90caa157",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "ededf186af83fac1",
+   "id": "5eee323e848c9b48",
    "fromNode": "9435461df2110d14",
    "fromSide": "bottom",
-   "toNode": "7dc2720792249e10",
+   "toNode": "7043d938b4d8fc6a",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#94A3B8",
+   "toEnd": "none"
   },
   {
-   "id": "d2e411ca9858906f",
-   "fromNode": "7043d938b4d8fc6a",
-   "fromSide": "bottom",
-   "toNode": "9435461df2110d14",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "9480fcc49adde6dc",
-   "fromNode": "b0f0b17ce83156d6",
-   "fromSide": "bottom",
-   "toNode": "bfa8b6cc13e12cda",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "9c9aad397eb8df0c",
-   "fromNode": "3768a8c7942ab797",
-   "fromSide": "bottom",
-   "toNode": "e79a7d91dc612ca1",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "18f2d936524a7b5d",
-   "fromNode": "340d24d346e2125b",
+   "id": "0d02172ca183c620",
+   "fromNode": "63cfe89b74f44089",
    "fromSide": "bottom",
    "toNode": "7bf7394a80750656",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#94A3B8",
+   "label": "屬於",
+   "toEnd": "none"
   },
   {
-   "id": "16b13ada3c9794cb",
-   "fromNode": "340d24d346e2125b",
+   "id": "8390d03d302e6c10",
+   "fromNode": "8b1580762774e235",
    "fromSide": "bottom",
-   "toNode": "b629c28b6ab81412",
+   "toNode": "7bf7394a80750656",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#94A3B8",
+   "toEnd": "none"
   },
   {
-   "id": "d14077581656883f",
-   "fromNode": "aa4557a1c3e90b26",
-   "fromSide": "bottom",
-   "toNode": "51c67c390e1533e0",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "bac8bba5a877aa89",
-   "fromNode": "7043d938b4d8fc6a",
-   "fromSide": "bottom",
-   "toNode": "aa4557a1c3e90b26",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "a2fd10b980ccbcfe",
-   "fromNode": "80f5ea82c3c689f0",
-   "fromSide": "bottom",
-   "toNode": "d324ef0c90caa157",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "c3219f13cc1d8a54",
-   "fromNode": "87f7b30671f1a7c7",
-   "fromSide": "bottom",
-   "toNode": "2a765a8ebc1548c9",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "b258a6918583752e",
-   "fromNode": "87f7b30671f1a7c7",
-   "fromSide": "bottom",
-   "toNode": "a1ba2cf7dc901126",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "e56234bb34bcbbb1",
-   "fromNode": "cb4ca9e88ca40c60",
-   "fromSide": "bottom",
-   "toNode": "0985f8fd90121ce3",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "a6aee1f3981cbdee",
-   "fromNode": "7043d938b4d8fc6a",
+   "id": "def8ec711d41cebd",
+   "fromNode": "e65edcd4dae0432a",
    "fromSide": "bottom",
    "toNode": "cb4ca9e88ca40c60",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#94A3B8",
+   "label": "屬於",
+   "toEnd": "none"
   },
   {
-   "id": "1d9f351f87a9aacc",
+   "id": "04ce10a00175b775",
+   "fromNode": "4e5f5be5792a1310",
+   "fromSide": "bottom",
+   "toNode": "109abb1fc82ce8f2",
+   "toSide": "top",
+   "color": "#1F2937"
+  },
+  {
+   "id": "c9c3e838eeabe4da",
+   "fromNode": "e65edcd4dae0432a",
+   "fromSide": "bottom",
+   "toNode": "109abb1fc82ce8f2",
+   "toSide": "top",
+   "color": "#1F2937"
+  },
+  {
+   "id": "1100943f7989c770",
    "fromNode": "fee406f3838bb244",
    "fromSide": "bottom",
    "toNode": "109abb1fc82ce8f2",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "f1fffca621856e67",
-   "fromNode": "cb4ca9e88ca40c60",
-   "fromSide": "bottom",
-   "toNode": "8437ed18337defbd",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "8b20f884e73a0155",
-   "fromNode": "8437ed18337defbd",
+   "id": "3740580e0ea0668c",
+   "fromNode": "e65edcd4dae0432a",
    "fromSide": "bottom",
    "toNode": "4d07e8d2bb77c097",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "86ca7e8148cd8052",
+   "id": "82c067287a6849ad",
    "fromNode": "4d07e8d2bb77c097",
    "fromSide": "bottom",
    "toNode": "69b3e3bfeeaa2e26",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B",
+   "label": "推導"
   },
   {
-   "id": "2ae495eef835f125",
-   "fromNode": "a1ba2cf7dc901126",
+   "id": "55016f9e0b58b85e",
+   "fromNode": "63cfe89b74f44089",
    "fromSide": "bottom",
-   "toNode": "a675a2aa4c7315d7",
+   "toNode": "a1c3d3bf984d1484",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "58add7e76f714157",
-   "fromNode": "dd1e477319368b3d",
+   "id": "7ef4a2bb6f8ed6ca",
+   "fromNode": "a1c3d3bf984d1484",
    "fromSide": "bottom",
-   "toNode": "14b58415dc5b8da8",
+   "toNode": "51c67c390e1533e0",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B",
+   "label": "推導"
   },
   {
-   "id": "a5a33ad4326bfbb0",
-   "fromNode": "a1ba2cf7dc901126",
+   "id": "6b561763124bcc47",
+   "fromNode": "a1c3d3bf984d1484",
    "fromSide": "bottom",
-   "toNode": "dd1e477319368b3d",
+   "toNode": "d324ef0c90caa157",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B"
   },
   {
-   "id": "3c8549b2b457929d",
-   "fromNode": "b617501d46db67ac",
+   "id": "ae9e9176d72e7872",
+   "fromNode": "aa4557a1c3e90b26",
+   "fromSide": "bottom",
+   "toNode": "51c67c390e1533e0",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "e91d31c24cc7434b",
+   "fromNode": "51c67c390e1533e0",
+   "fromSide": "bottom",
+   "toNode": "8788182f348228eb",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "e9e5080a6c707c5a",
+   "fromNode": "80f5ea82c3c689f0",
+   "fromSide": "bottom",
+   "toNode": "d324ef0c90caa157",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "bc6e30bda4cefabd",
+   "fromNode": "d324ef0c90caa157",
+   "fromSide": "bottom",
+   "toNode": "02583b1049563ac4",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "52aef3468d073dca",
+   "fromNode": "02583b1049563ac4",
+   "fromSide": "bottom",
+   "toNode": "2a765a8ebc1548c9",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "e27ff7ec3b705b4b",
+   "fromNode": "02583b1049563ac4",
+   "fromSide": "bottom",
+   "toNode": "b3548a308f99dbd1",
+   "toSide": "top",
+   "color": "#64748B"
+  },
+  {
+   "id": "93057e89ed4827bf",
+   "fromNode": "2a765a8ebc1548c9",
+   "fromSide": "bottom",
+   "toNode": "27adb1856d350663",
+   "toSide": "top",
+   "color": "#94A3B8",
+   "label": "時序"
+  },
+  {
+   "id": "eeb60c829ec9b8bb",
+   "fromNode": "27adb1856d350663",
+   "fromSide": "bottom",
+   "toNode": "91f230eaaf5d0da9",
+   "toSide": "top",
+   "color": "#94A3B8",
+   "label": "時序"
+  },
+  {
+   "id": "724745e7272e8c29",
+   "fromNode": "9435461df2110d14",
+   "fromSide": "bottom",
+   "toNode": "fddc5f9a48616572",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "2a89b6fb84e1f4c4",
+   "fromNode": "fddc5f9a48616572",
+   "fromSide": "bottom",
+   "toNode": "4559b45a95724e06",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "ee2922730c647532",
+   "fromNode": "73a51a9510de1f37",
+   "fromSide": "bottom",
+   "toNode": "4559b45a95724e06",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "49bdc84100cc0cda",
+   "fromNode": "8b1580762774e235",
    "fromSide": "bottom",
    "toNode": "8e39317ecdc980a3",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "790ec07796566ae5",
+   "id": "b77df5471e0dcb70",
    "fromNode": "8e39317ecdc980a3",
    "fromSide": "bottom",
    "toNode": "a3e62c60212bda03",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B",
+   "label": "推導"
   },
   {
-   "id": "017ab9d1535ad2b6",
-   "fromNode": "c64ab21ca8b98132",
+   "id": "dade983042231004",
+   "fromNode": "b3548a308f99dbd1",
    "fromSide": "bottom",
-   "toNode": "5f3b6e8f1e2e81ea",
+   "toNode": "46e82b7f1c818ca1",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B",
+   "label": "推導"
   },
   {
-   "id": "223a49e6ea5ae0c6",
-   "fromNode": "51c67c390e1533e0",
+   "id": "874eaabb5ce9ad1a",
+   "fromNode": "b3548a308f99dbd1",
    "fromSide": "bottom",
-   "toNode": "3768a8c7942ab797",
+   "toNode": "87efa66703570a6d",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B"
   },
   {
-   "id": "fbbde2ae35ce0a53",
-   "fromNode": "2a765a8ebc1548c9",
+   "id": "d657132dc41eb327",
+   "fromNode": "87efa66703570a6d",
    "fromSide": "bottom",
-   "toNode": "e3f8bf1c627ac5e9",
+   "toNode": "14b58415dc5b8da8",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B",
+   "label": "推導"
   },
   {
-   "id": "fc9176cbf59b647c",
-   "fromNode": "e3f8bf1c627ac5e9",
+   "id": "07d68bec151b7e42",
+   "fromNode": "dd1de8e54f66d6d8",
    "fromSide": "bottom",
-   "toNode": "91f230eaaf5d0da9",
+   "toNode": "14b58415dc5b8da8",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "8a4858a627633108",
-   "fromNode": "14b58415dc5b8da8",
+   "id": "85c0a2f8fc5cb98a",
+   "fromNode": "245110a3f185ca61",
    "fromSide": "bottom",
-   "toNode": "b5ba78147892a1a4",
+   "toNode": "5e2a16404349dfa3",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "e0613b72daac24ff",
-   "fromNode": "7dc2720792249e10",
+   "id": "5d3c4185bd0c6658",
+   "fromNode": "dd1de8e54f66d6d8",
    "fromSide": "bottom",
-   "toNode": "4559b45a95724e06",
+   "toNode": "5e2a16404349dfa3",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937"
   },
   {
-   "id": "2058d098b2e4cdd8",
-   "fromNode": "2a38f4799ded0ff7",
+   "id": "2d220f069dd3ff39",
+   "fromNode": "bd56e05068d27bfb",
    "fromSide": "bottom",
-   "toNode": "4559b45a95724e06",
+   "toNode": "5e2a16404349dfa3",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937"
   },
   {
-   "id": "2c16dd21d7796b2f",
+   "id": "85ad3700c75946f5",
+   "fromNode": "f8fc986183cd6074",
+   "fromSide": "bottom",
+   "toNode": "d761aa1c4c5fa985",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "6c8be7e81f579d2c",
+   "fromNode": "d761aa1c4c5fa985",
+   "fromSide": "bottom",
+   "toNode": "e591cf42d996c0cc",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "68584b37bcbe85f9",
+   "fromNode": "e591cf42d996c0cc",
+   "fromSide": "bottom",
+   "toNode": "5e2a16404349dfa3",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "9555482dabadc36f",
    "fromNode": "0985f8fd90121ce3",
    "fromSide": "bottom",
    "toNode": "f3b5471265fe9e03",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "bb71f772a683c15b",
-   "fromNode": "a3e62c60212bda03",
+   "id": "86acb2672e49ab6c",
+   "fromNode": "cb4ca9e88ca40c60",
    "fromSide": "bottom",
-   "toNode": "27524bea823570a5",
+   "toNode": "f3b5471265fe9e03",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937"
   },
   {
-   "id": "fde6026293426c80",
-   "fromNode": "e79a7d91dc612ca1",
+   "id": "1415587d0ae9350c",
+   "fromNode": "fa5bdb224ceb6183",
    "fromSide": "bottom",
-   "toNode": "b0f0b17ce83156d6",
+   "toNode": "c2b12e33e5e0ffab",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B",
+   "label": "推導"
   },
   {
-   "id": "0e93b350dbb5f2b1",
-   "fromNode": "ccce5f02753f8c93",
+   "id": "0cb9352e1cced432",
+   "fromNode": "5634dd283cdce7d9",
    "fromSide": "bottom",
-   "toNode": "bdb3831f6519e01a",
+   "toNode": "c2b12e33e5e0ffab",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "6c1b0cb8bda391c0",
-   "fromNode": "bdb3831f6519e01a",
-   "fromSide": "bottom",
-   "toNode": "e591cf42d996c0cc",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "25fe659726b2d4e5",
+   "id": "ebce1f975751687f",
    "fromNode": "2d78c6748e96597d",
    "fromSide": "bottom",
-   "toNode": "1a8d6edd3d139c68",
+   "toNode": "9581db5db3b8e335",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "a9e1c28abd3fc199",
-   "fromNode": "ec63f641d530b69b",
+   "id": "5c579cfd2afd9734",
+   "fromNode": "c3848fc21923aac7",
    "fromSide": "bottom",
-   "toNode": "fcb5287b05eb474e",
+   "toNode": "2445559453bc420c",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "af0b6912c7f1be9e",
-   "fromNode": "ec63f641d530b69b",
-   "fromSide": "bottom",
-   "toNode": "27d15f2a0276f977",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "f2d795d04426beec",
-   "fromNode": "210f747fc0213c12",
+   "id": "d754e1049f8012ef",
+   "fromNode": "5fe73754bdc89535",
    "fromSide": "bottom",
    "toNode": "3f1010709d797684",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "dc9f19eae7ae67fe",
-   "fromNode": "210f747fc0213c12",
-   "fromSide": "bottom",
-   "toNode": "ec63f641d530b69b",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "29fe2948ff14b399",
+   "id": "5de9521c31a1a07d",
    "fromNode": "3f1010709d797684",
    "fromSide": "bottom",
-   "toNode": "d1be5c2a2922f724",
+   "toNode": "40ad1231ca584ea2",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B",
+   "label": "推導"
   },
   {
-   "id": "57f449fa147c0419",
-   "fromNode": "27d15f2a0276f977",
+   "id": "aff74c467b4899d7",
+   "fromNode": "7790d3da7fd4a641",
+   "fromSide": "bottom",
+   "toNode": "800d548291223225",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "f3b07f487beae324",
+   "fromNode": "800d548291223225",
+   "fromSide": "bottom",
+   "toNode": "40ad1231ca584ea2",
+   "toSide": "top",
+   "color": "#64748B"
+  },
+  {
+   "id": "ddde55f11c5be6e1",
+   "fromNode": "d7510084d4f30d74",
    "fromSide": "bottom",
    "toNode": "d973953c1da4c8ed",
    "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "53aa59d2c0155d66",
-   "fromNode": "73a720af88a2d3a9",
-   "fromSide": "bottom",
-   "toNode": "02c5fd8a88b8cfca",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "3ad94362839e88ba",
-   "fromNode": "02c5fd8a88b8cfca",
-   "fromSide": "bottom",
-   "toNode": "d1be5c2a2922f724",
-   "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   }
  ]
 }

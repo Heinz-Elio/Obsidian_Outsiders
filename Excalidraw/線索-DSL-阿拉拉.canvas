@@ -3,137 +3,86 @@
   {
    "id": "d75ae21741a94d91",
    "type": "group",
-   "label": "阿拉拉",
-   "x": 8,
-   "y": 46,
-   "width": 1660,
-   "height": 943
+   "label": "事件",
+   "x": 1242,
+   "y": 70,
+   "width": 1088,
+   "height": 568
   },
   {
    "id": "891803f5f7adc05c",
    "type": "group",
-   "label": "南極埋伏",
-   "x": 32,
-   "y": 116,
-   "width": 640,
-   "height": 658
+   "label": "南極埋伏：誰的安排？",
+   "x": 2412,
+   "y": 46,
+   "width": 836,
+   "height": 1004
   },
   {
-   "id": "84786329245df7b7",
-   "type": "text",
-   "text": "**以明星身份推歌吸引注意**\n\n成為明星推出人魚公主平常唱的歌吸引人魚公主注意，引導她們懷疑長老",
-   "x": 720,
-   "y": 125,
-   "width": 260,
-   "height": 148,
-   "color": "#7C3AED"
+   "id": "15b656be28fbb5d6",
+   "type": "group",
+   "label": "阿拉拉的立場？",
+   "x": 8,
+   "y": 46,
+   "width": 1226,
+   "height": 1392
   },
   {
-   "id": "8e4c7cd77cf19474",
+   "id": "5d17d71f7d706c02",
    "type": "text",
-   "text": "背後有完整團隊",
-   "x": 720,
-   "y": 424,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "d382994c64069a96",
-   "type": "text",
-   "text": "**告知米迦勒海因茨為舒華澤人**\n\n告訴米迦勒海因茨是舒華澤的人，且知道舒華澤的人法力沒有共振特性",
-   "x": 1052,
-   "y": 125,
+   "text": "**明星推歌**\n\n成為明星推出人魚公主平常唱的歌吸引人魚公主注意，引導她們懷疑長老",
+   "x": 1266,
+   "y": 466,
    "width": 260,
    "height": 148,
    "color": "#EA580C"
   },
   {
-   "id": "08d099a62ef6cecb",
+   "id": "1120d807603af17c",
    "type": "text",
-   "text": "**警告海因茨人魚比米迦勒更危險**\n\n警告海因茨人魚公主比米迦勒更危險",
-   "x": 1052,
-   "y": 388,
+   "text": "**揭海因茨身份**\n\n告訴米迦勒海因茨是舒華澤的人，且知道舒華澤的人法力沒有共振特性",
+   "x": 1656,
+   "y": 466,
    "width": 260,
-   "height": 124,
+   "height": 148,
    "color": "#EA580C"
   },
   {
-   "id": "21a7c05f00ef7236",
+   "id": "a1b0b1f6b72cba1e",
    "type": "text",
-   "text": "態度不像米迦勒手下",
-   "x": 720,
-   "y": 662,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "80ca8c497655eba2",
-   "type": "text",
-   "text": "真正的幕後黑手",
-   "x": 554,
-   "y": 889,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "05e873c1f5f1945b",
-   "type": "text",
-   "text": "**可能知道人魚公主秘密**\n\n可能知道人魚公主的秘密",
-   "x": 1052,
-   "y": 865,
-   "width": 260,
-   "height": 100,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "66561b131f2af130",
-   "type": "text",
-   "text": "**視人魚為危險屬異常想法**\n\n認為人魚公主危險是不尋常的想法",
-   "x": 1052,
-   "y": 626,
+   "text": "**警告海因茨**\n\n警告海因茨人魚公主比米迦勒更危險",
+   "x": 2046,
+   "y": 478,
    "width": 260,
    "height": 124,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "321af78cab019d90",
-   "type": "text",
-   "text": "**加深監視者對海因茨懷疑**\n\n使監視者對海因茨懷疑加深",
-   "x": 1384,
-   "y": 149,
-   "width": 260,
-   "height": 100,
-   "color": "#7C3AED"
+   "color": "#EA580C"
   },
   {
    "id": "50031a31825703fc",
    "type": "text",
    "text": "在神殿出口埋伏",
-   "x": 56,
-   "y": 173,
+   "x": 2046,
+   "y": 102,
    "width": 260,
    "height": 52,
    "color": "#EA580C"
   },
   {
-   "id": "4e3119ee278a883d",
+   "id": "a49ca66e5d6b1bc3",
    "type": "text",
-   "text": "**米迦勒預料神殿出口離開**\n\n米迦勒料到人魚公主會到神殿調查並從海底的隱藏出口離開",
-   "x": 56,
-   "y": 388,
+   "text": "**米迦勒預料出口**\n\n米迦勒料到人魚公主會到神殿調查並從海底的隱藏出口離開",
+   "x": 2964,
+   "y": 478,
    "width": 260,
    "height": 124,
    "color": "#7C3AED"
   },
   {
-   "id": "e1316ab204412ab9",
+   "id": "193d944d39b3627a",
    "type": "text",
-   "text": "**自行埋伏引導懷疑叛徒**\n\n自行前往埋伏，引導人魚公主懷疑己方存在叛徒",
-   "x": 388,
-   "y": 388,
+   "text": "**故意引導捉人**\n\n米迦勒故意引導人魚公主調查，好趁人魚公主落單時捉走",
+   "x": 2964,
+   "y": 902,
    "width": 260,
    "height": 124,
    "color": "#7C3AED"
@@ -142,28 +91,88 @@
    "id": "69729dc0dc383d46",
    "type": "text",
    "text": "**米迦勒不知神殿存在**\n\n米迦勒不知道神殿的存在",
-   "x": 388,
-   "y": 149,
+   "x": 2769,
+   "y": 78,
    "width": 260,
    "height": 100,
    "color": "#7C3AED"
   },
   {
-   "id": "6b76245178166a0b",
+   "id": "d7c5b6ec15df4538",
    "type": "text",
-   "text": "**米迦勒故意引導以便捉走**\n\n米迦勒故意引導人魚公主調查，好趁人魚公主落單時捉走",
-   "x": 56,
-   "y": 626,
+   "text": "**自行埋伏**\n\n自行前往埋伏，引導人魚公主懷疑己方存在叛徒",
+   "x": 2574,
+   "y": 478,
    "width": 260,
    "height": 124,
    "color": "#7C3AED"
   },
   {
-   "id": "9d69d2954bc4e24e",
+   "id": "97738d7e358fe29a",
    "type": "text",
-   "text": "**知神殿構造不受米迦勒指揮**\n\n知道神殿構造、不受米迦勒指揮",
-   "x": 388,
-   "y": 638,
+   "text": "**不受米迦勒指揮**\n\n知道神殿構造、不受米迦勒指揮",
+   "x": 2505,
+   "y": 914,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "8e4c7cd77cf19474",
+   "type": "text",
+   "text": "背後有完整團隊",
+   "x": 32,
+   "y": 938,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "21a7c05f00ef7236",
+   "type": "text",
+   "text": "態度不像米迦勒手下",
+   "x": 950,
+   "y": 938,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "80ca8c497655eba2",
+   "type": "text",
+   "text": "真正的幕後黑手",
+   "x": 950,
+   "y": 1338,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "8c21fdede7064ded",
+   "type": "text",
+   "text": "**知人魚秘密**\n\n可能知道人魚公主的秘密",
+   "x": 560,
+   "y": 1314,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "1becfa18361fc861",
+   "type": "text",
+   "text": "**視人魚危險異常**\n\n認為人魚公主危險是不尋常的想法",
+   "x": 560,
+   "y": 902,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "b31a54394c2ffdca",
+   "type": "text",
+   "text": "**加深監視懷疑**\n\n使監視者對海因茨懷疑加深",
+   "x": 491,
+   "y": 78,
    "width": 260,
    "height": 100,
    "color": "#7C3AED"
@@ -171,92 +180,143 @@
  ],
  "edges": [
   {
-   "id": "93db3095f9c5350c",
-   "fromNode": "84786329245df7b7",
+   "id": "ec989a91bf381e33",
+   "fromNode": "5d17d71f7d706c02",
+   "fromSide": "left",
+   "toNode": "15b656be28fbb5d6",
+   "toSide": "right",
+   "color": "#EA580C",
+   "label": "導致"
+  },
+  {
+   "id": "ba05135df08df5ef",
+   "fromNode": "1120d807603af17c",
+   "fromSide": "left",
+   "toNode": "15b656be28fbb5d6",
+   "toSide": "right",
+   "color": "#EA580C"
+  },
+  {
+   "id": "956980ea7588eeed",
+   "fromNode": "a1b0b1f6b72cba1e",
+   "fromSide": "left",
+   "toNode": "15b656be28fbb5d6",
+   "toSide": "right",
+   "color": "#EA580C"
+  },
+  {
+   "id": "d7ae38dc13817034",
+   "fromNode": "50031a31825703fc",
+   "fromSide": "right",
+   "toNode": "891803f5f7adc05c",
+   "toSide": "left",
+   "color": "#EA580C",
+   "label": "導致"
+  },
+  {
+   "id": "6ff15d482327fde9",
+   "fromNode": "5d17d71f7d706c02",
    "fromSide": "bottom",
    "toNode": "8e4c7cd77cf19474",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "32b3384497f13427",
-   "fromNode": "e1316ab204412ab9",
-   "fromSide": "bottom",
-   "toNode": "9d69d2954bc4e24e",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "007e038b14f6637f",
-   "fromNode": "50031a31825703fc",
-   "fromSide": "bottom",
-   "toNode": "4e3119ee278a883d",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "49e3ce2b58be0b16",
-   "fromNode": "50031a31825703fc",
-   "fromSide": "bottom",
-   "toNode": "e1316ab204412ab9",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "2a750fdecd73fe45",
-   "fromNode": "69729dc0dc383d46",
-   "fromSide": "bottom",
-   "toNode": "e1316ab204412ab9",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "db3edd47f2bfccc9",
-   "fromNode": "4e3119ee278a883d",
-   "fromSide": "bottom",
-   "toNode": "6b76245178166a0b",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "3fd0d4d37aebe55b",
-   "fromNode": "08d099a62ef6cecb",
+   "id": "15c382c4ae40340e",
+   "fromNode": "a1b0b1f6b72cba1e",
    "fromSide": "bottom",
    "toNode": "21a7c05f00ef7236",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "762a7d344ee6ac3d",
-   "fromNode": "08d099a62ef6cecb",
+   "id": "9b44ecfad70100c2",
+   "fromNode": "a1b0b1f6b72cba1e",
    "fromSide": "bottom",
-   "toNode": "66561b131f2af130",
+   "toNode": "1becfa18361fc861",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937"
   },
   {
-   "id": "fc0329a1798135ac",
+   "id": "a049a7368730bac3",
    "fromNode": "21a7c05f00ef7236",
    "fromSide": "bottom",
    "toNode": "80ca8c497655eba2",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B",
+   "label": "推導"
   },
   {
-   "id": "90961cafa903a540",
-   "fromNode": "66561b131f2af130",
+   "id": "7b939d3836bb1ed4",
+   "fromNode": "1becfa18361fc861",
    "fromSide": "bottom",
-   "toNode": "05e873c1f5f1945b",
+   "toNode": "8c21fdede7064ded",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B",
+   "label": "推導"
   },
   {
-   "id": "3b3c137569039cc3",
-   "fromNode": "9d69d2954bc4e24e",
+   "id": "fadb01b5126e8dd7",
+   "fromNode": "50031a31825703fc",
+   "fromSide": "bottom",
+   "toNode": "a49ca66e5d6b1bc3",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "25f91c5a8f90b7c6",
+   "fromNode": "50031a31825703fc",
+   "fromSide": "bottom",
+   "toNode": "d7c5b6ec15df4538",
+   "toSide": "top",
+   "color": "#1F2937"
+  },
+  {
+   "id": "b490699c70f75328",
+   "fromNode": "a49ca66e5d6b1bc3",
+   "fromSide": "bottom",
+   "toNode": "193d944d39b3627a",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "cb9f4d11a6ed8d5d",
+   "fromNode": "69729dc0dc383d46",
+   "fromSide": "bottom",
+   "toNode": "a49ca66e5d6b1bc3",
+   "toSide": "top",
+   "color": "#DC2626",
+   "label": "矛盾"
+  },
+  {
+   "id": "2c777205a74433d5",
+   "fromNode": "69729dc0dc383d46",
+   "fromSide": "bottom",
+   "toNode": "d7c5b6ec15df4538",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "978cca5c11b683bb",
+   "fromNode": "d7c5b6ec15df4538",
+   "fromSide": "bottom",
+   "toNode": "97738d7e358fe29a",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "22834748c0f55b6f",
+   "fromNode": "97738d7e358fe29a",
    "fromSide": "bottom",
    "toNode": "80ca8c497655eba2",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B"
   }
  ]
 }

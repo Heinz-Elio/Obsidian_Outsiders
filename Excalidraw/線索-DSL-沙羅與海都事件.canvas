@@ -1,258 +1,225 @@
 {
  "nodes": [
   {
+   "id": "d75ae21741a94d91",
+   "type": "group",
+   "label": "事件",
+   "x": 8,
+   "y": 116,
+   "width": 308,
+   "height": 407
+  },
+  {
    "id": "891803f5f7adc05c",
    "type": "group",
-   "label": "印度洋王國廢墟",
-   "x": 1612,
-   "y": 46,
-   "width": 2324,
-   "height": 752
+   "label": "克洛德是否幕後主使？",
+   "x": 340,
+   "y": 116,
+   "width": 640,
+   "height": 1064
   },
   {
    "id": "15b656be28fbb5d6",
    "type": "group",
+   "label": "印度洋王國廢墟",
+   "x": 988,
+   "y": 46,
+   "width": 1992,
+   "height": 716
+  },
+  {
+   "id": "9590a700eb3a40e9",
+   "type": "group",
    "label": "防禦法術",
-   "x": 1636,
+   "x": 1012,
    "y": 116,
    "width": 308,
-   "height": 658
+   "height": 622
   },
   {
-   "id": "ede39216ce9770a3",
-   "type": "text",
-   "text": "**沙羅記起曾被迪莉亞處以星盡**\n\n沙羅記起自已被迪莉亞處以星盡",
-   "x": 0,
-   "y": 424,
-   "width": 260,
-   "height": 100,
-   "color": "#7C3AED"
+   "id": "b503d9bb1f55ecce",
+   "type": "group",
+   "label": "沙羅是誰？",
+   "x": 3004,
+   "y": 128,
+   "width": 972,
+   "height": 873
   },
   {
-   "id": "f43a41561b1ef5ae",
+   "id": "7cd06267e3772795",
    "type": "text",
-   "text": "信使暗示沙羅已死過一次",
-   "x": 0,
-   "y": 184,
-   "width": 260,
-   "height": 52,
-   "color": "#2563EB"
-  },
-  {
-   "id": "a26d9c5d3d762c1b",
-   "type": "text",
-   "text": "**塞雷亞達姬懷疑沙羅是冒牌貨**\n\n塞雷亞、達姬懷疑沙羅是冒牌貨",
-   "x": 332,
-   "y": 424,
-   "width": 260,
-   "height": 100,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "d1bf385512b9a0ac",
-   "type": "text",
-   "text": "**現任公主死後新任才能誕生**\n\n現任人魚公主死亡後新任公主才能誕生",
-   "x": 166,
-   "y": 663,
-   "width": 260,
-   "height": 124,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "fd208d3be9e015e0",
-   "type": "text",
-   "text": "沙羅找到並解封埃爾確",
-   "x": 996,
-   "y": 448,
-   "width": 260,
-   "height": 52,
-   "color": "#EA580C"
-  },
-  {
-   "id": "c4174283a8349f2e",
-   "type": "text",
-   "text": "**法力失控爆炸使長老團混亂**\n\n法力失控導致的爆炸使長老團陷入混亂，未能追回沙羅",
-   "x": 664,
+   "text": "**法力失控爆炸**\n\n法力失控導致的爆炸使長老團陷入混亂，未能追回沙羅",
+   "x": 32,
    "y": 148,
    "width": 260,
    "height": 124,
    "color": "#EA580C"
   },
   {
-   "id": "84c12c364dc2e4d4",
+   "id": "ae9f2da770f2c345",
    "type": "text",
-   "text": "**北太平洋在海都事件無大得益**\n\n北太平洋王國在海都事件沒有大得益",
-   "x": 1328,
-   "y": 902,
+   "text": "**解封埃爾確**\n\n沙羅找到並解封埃爾確",
+   "x": 32,
+   "y": 399,
+   "width": 260,
+   "height": 100,
+   "color": "#EA580C"
+  },
+  {
+   "id": "f715b58c51a49031",
+   "type": "text",
+   "text": "**保守派地盤無滲透**\n\n印度洋是保守派的勢力範圍，且未發現被克洛德滲透的跡象",
+   "x": 364,
+   "y": 148,
+   "width": 260,
+   "height": 124,
+   "color": "#2563EB"
+  },
+  {
+   "id": "2856648159321aaa",
+   "type": "text",
+   "text": "**解封非克洛德指使**\n\n沙羅找到並解封埃爾確並非克洛德指使",
+   "x": 364,
+   "y": 387,
    "width": 260,
    "height": 124,
    "color": "#7C3AED"
   },
   {
-   "id": "178df8a398eb92ba",
+   "id": "48ccaa79c2d21a5b",
    "type": "text",
-   "text": "**海都襲擊是否克洛德自編自導**\n\n無法確定海都襲擊北太平洋王國是否克洛德自編自導",
-   "x": 1328,
+   "text": "**克洛德自編自導？**\n\n無法確定海都襲擊北太平洋王國是否克洛德自編自導",
+   "x": 696,
    "y": 148,
    "width": 260,
    "height": 124,
    "color": "#64748B"
   },
   {
-   "id": "cf8ec0be22d63103",
+   "id": "5abfcd53ee0add86",
    "type": "text",
-   "text": "**證明自衛力量重要性衛隊合法化**\n\n證明自衛力量的重要性，衛隊得以明正言順存在",
-   "x": 1328,
-   "y": 412,
+   "text": "**衛隊合法化**\n\n證明自衛力量的重要性，衛隊得以明正言順存在",
+   "x": 696,
+   "y": 387,
    "width": 260,
    "height": 124,
    "color": "#7C3AED"
   },
   {
-   "id": "218c6b2aa178748c",
+   "id": "26504d8c3be950c4",
    "type": "text",
-   "text": "**印度洋是保守派勢力且無克洛德滲透**\n\n印度洋是保守派的勢力範圍，且未發現被克洛德滲透的跡象",
-   "x": 996,
-   "y": 136,
+   "text": "**內戰無好處**\n\n內戰對北太平洋沒有好處",
+   "x": 696,
+   "y": 638,
    "width": 260,
-   "height": 148,
-   "color": "#2563EB"
+   "height": 100,
+   "color": "#7C3AED"
   },
   {
-   "id": "d86c64b98be1de3b",
+   "id": "33952db1df1f8eec",
    "type": "text",
-   "text": "內戰對北太平洋沒有好處",
-   "x": 1328,
-   "y": 699,
+   "text": "**北太無大得益**\n\n北太平洋王國在海都事件沒有大得益",
+   "x": 696,
+   "y": 865,
    "width": 260,
-   "height": 52,
+   "height": 124,
    "color": "#7C3AED"
   },
   {
    "id": "50d362dfe898286f",
    "type": "text",
    "text": "動機不明確",
-   "x": 1328,
-   "y": 1141,
+   "x": 696,
+   "y": 1104,
    "width": 260,
    "height": 52,
    "color": "#64748B"
   },
   {
-   "id": "ee4a57862f45e041",
-   "type": "text",
-   "text": "**SWI不確定露芝亞如何前往印度洋**\n\nSWI不確定露芝亞如何前往印度洋、不知道是「沙羅」讓她去",
-   "x": 664,
-   "y": 400,
-   "width": 260,
-   "height": 148,
-   "color": "#2563EB"
-  },
-  {
-   "id": "9b0027fdad469e16",
-   "type": "text",
-   "text": "**SWI與沙羅並非同伴**\n\nSWI與「沙羅」並非同伴",
-   "x": 581,
-   "y": 675,
-   "width": 260,
-   "height": 100,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "54ce6054bfb46e44",
-   "type": "text",
-   "text": "**沙羅是長老的傀儡**\n\n「沙羅」是長老的傀儡",
-   "x": 581,
-   "y": 914,
-   "width": 260,
-   "height": 100,
-   "color": "#7C3AED"
-  },
-  {
    "id": "6030e4d84a6ee3d9",
    "type": "text",
    "text": "印度洋公主誕生",
-   "x": 2324,
+   "x": 1368,
    "y": 184,
    "width": 260,
    "height": 52,
    "color": "#EA580C"
-  },
-  {
-   "id": "9e959e892be79b14",
-   "type": "text",
-   "text": "**廢墟下與米迦勒術式相同的修正力**\n\n廢墟下與米迦勒身上術式相同的修正力",
-   "x": 1992,
-   "y": 136,
-   "width": 260,
-   "height": 148,
-   "color": "#2563EB"
-  },
-  {
-   "id": "1a9270e7faf6d27b",
-   "type": "text",
-   "text": "**米迦勒與施術者有關V關係不明**\n\n米迦勒與施術者有關，V與兩者關係不明",
-   "x": 1992,
-   "y": 412,
-   "width": 260,
-   "height": 124,
-   "color": "#7C3AED"
   },
   {
    "id": "defb10ad7c0cfff7",
    "type": "text",
    "text": "米迦勒襲擊",
-   "x": 2656,
+   "x": 1700,
    "y": 184,
    "width": 260,
    "height": 52,
    "color": "#EA580C"
-  },
-  {
-   "id": "f12c27372bbf89d2",
-   "type": "text",
-   "text": "**為游騎士介入提供契機**\n\n為游騎士（彭達拉薩人）介入提供契機",
-   "x": 2656,
-   "y": 412,
-   "width": 260,
-   "height": 124,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "019a298e6be1afa2",
-   "type": "text",
-   "text": "**米迦勒與V都知道公主誕生時點**\n\n米迦勒與V都知道印度洋公主將於何時誕生",
-   "x": 2324,
-   "y": 412,
-   "width": 260,
-   "height": 124,
-   "color": "#7C3AED"
   },
   {
    "id": "9690876eebeb54bc",
    "type": "text",
    "text": "露芝亞高調出現",
-   "x": 2988,
+   "x": 2032,
    "y": 184,
    "width": 260,
    "height": 52,
    "color": "#EA580C"
   },
   {
+   "id": "f1f3e00c6c4d309a",
+   "type": "text",
+   "text": "**廢墟修正力**\n\n廢墟下與米迦勒身上術式相同的修正力",
+   "x": 2364,
+   "y": 148,
+   "width": 260,
+   "height": 124,
+   "color": "#2563EB"
+  },
+  {
+   "id": "cfb02b135aaf30d0",
+   "type": "text",
+   "text": "**米迦勒與施術者有關**\n\n米迦勒與施術者有關，V與兩者關係不明",
+   "x": 2364,
+   "y": 387,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "85eea47ec1ffa025",
+   "type": "text",
+   "text": "**游騎士介入契機**\n\n為游騎士（彭達拉薩人）介入提供契機",
+   "x": 1700,
+   "y": 387,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "7ef2002224cfc099",
+   "type": "text",
+   "text": "**知悉誕生時點**\n\n米迦勒與V都知道印度洋公主將於何時誕生",
+   "x": 1368,
+   "y": 387,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
    "id": "17a750d8d85888a6",
    "type": "text",
-   "text": "**得知目標抵達**\n\n遇知目標抵達",
-   "x": 2988,
-   "y": 424,
+   "text": "得知目標抵達",
+   "x": 2032,
+   "y": 423,
    "width": 260,
-   "height": 100,
+   "height": 52,
    "color": "#7C3AED"
   },
   {
    "id": "ffe1deeae7749b2e",
    "type": "text",
    "text": "海洋生物無法靠近",
-   "x": 3320,
+   "x": 2696,
    "y": 184,
    "width": 260,
    "height": 52,
@@ -262,17 +229,17 @@
    "id": "055e0438bb8dfc1d",
    "type": "text",
    "text": "空間的篩選邏輯",
-   "x": 3652,
-   "y": 184,
+   "x": 2696,
+   "y": 423,
    "width": 260,
    "height": 52,
    "color": "#7C3AED"
   },
   {
-   "id": "f079e03c7234363a",
+   "id": "0313228b551b1eaf",
    "type": "text",
-   "text": "**只剩保護誓約之泉部分運作**\n\n只剩下保護誓約之泉的部分仍在運作",
-   "x": 1660,
+   "text": "**誓約之泉仍運作**\n\n只剩下保護誓約之泉的部分仍在運作",
+   "x": 1036,
    "y": 148,
    "width": 260,
    "height": 124,
@@ -282,8 +249,8 @@
    "id": "91f0bae38a311745",
    "type": "text",
    "text": "能量供給充足",
-   "x": 1660,
-   "y": 448,
+   "x": 1036,
+   "y": 423,
    "width": 260,
    "height": 52,
    "color": "#7C3AED"
@@ -292,165 +259,270 @@
    "id": "6cbaba9ff238f3d9",
    "type": "text",
    "text": "集成了環境能量收集",
-   "x": 1660,
-   "y": 699,
+   "x": 1036,
+   "y": 662,
    "width": 260,
    "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "f46938bebf5bfda8",
+   "type": "text",
+   "text": "**信使暗示已死**\n\n信使暗示沙羅已死過一次",
+   "x": 3028,
+   "y": 160,
+   "width": 260,
+   "height": 100,
+   "color": "#2563EB"
+  },
+  {
+   "id": "9c407f90aff56d2c",
+   "type": "text",
+   "text": "**沙羅記起星盡**\n\n沙羅記起自己被迪莉亞處以星盡",
+   "x": 3028,
+   "y": 399,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "278f6f73bace155e",
+   "type": "text",
+   "text": "**懷疑冒牌貨**\n\n塞雷亞、達姬懷疑沙羅是冒牌貨",
+   "x": 3360,
+   "y": 399,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "4155e288ed17e8ff",
+   "type": "text",
+   "text": "**死後才有新任**\n\n現任人魚公主死亡後新任公主才能誕生",
+   "x": 3111,
+   "y": 626,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "c70d9fc84aeda8de",
+   "type": "text",
+   "text": "**SWI不知露芝亞行程**\n\nSWI不確定露芝亞如何前往印度洋、不知道是「沙羅」讓她去",
+   "x": 3692,
+   "y": 387,
+   "width": 260,
+   "height": 124,
+   "color": "#2563EB"
+  },
+  {
+   "id": "48ddfff6e701b4fc",
+   "type": "text",
+   "text": "**SWI非沙羅同伴**\n\nSWI與「沙羅」並非同伴",
+   "x": 3526,
+   "y": 638,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "54ce6054bfb46e44",
+   "type": "text",
+   "text": "**沙羅是長老的傀儡**\n\n「沙羅」是長老的傀儡",
+   "x": 3526,
+   "y": 877,
+   "width": 260,
+   "height": 100,
    "color": "#7C3AED"
   }
  ],
  "edges": [
   {
-   "id": "c2d6d97d7a60f7d7",
-   "fromNode": "ede39216ce9770a3",
+   "id": "16d8248429f12ef6",
+   "fromNode": "7cd06267e3772795",
    "fromSide": "bottom",
-   "toNode": "d1bf385512b9a0ac",
+   "toNode": "ae9f2da770f2c345",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#EA580C",
+   "label": "導致"
   },
   {
-   "id": "4c59fd9e16a59e30",
-   "fromNode": "f43a41561b1ef5ae",
-   "fromSide": "bottom",
-   "toNode": "ede39216ce9770a3",
-   "toSide": "top",
-   "color": "#94A3B8"
+   "id": "f97e30226535fe69",
+   "fromNode": "ae9f2da770f2c345",
+   "fromSide": "right",
+   "toNode": "891803f5f7adc05c",
+   "toSide": "left",
+   "color": "#EA580C",
+   "label": "導致"
   },
   {
-   "id": "5a6ed11721c554b0",
-   "fromNode": "a26d9c5d3d762c1b",
+   "id": "7191c5240ae4bb05",
+   "fromNode": "f46938bebf5bfda8",
    "fromSide": "bottom",
-   "toNode": "d1bf385512b9a0ac",
+   "toNode": "9c407f90aff56d2c",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "0d150a944923146a",
-   "fromNode": "a26d9c5d3d762c1b",
+   "id": "bbf2a7314b9dd654",
+   "fromNode": "9c407f90aff56d2c",
    "fromSide": "bottom",
-   "toNode": "9b0027fdad469e16",
+   "toNode": "4155e288ed17e8ff",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B",
+   "label": "推導"
   },
   {
-   "id": "ada9c8168006c7e6",
-   "fromNode": "c4174283a8349f2e",
+   "id": "0aa2deebaf729c01",
+   "fromNode": "278f6f73bace155e",
    "fromSide": "bottom",
-   "toNode": "fd208d3be9e015e0",
+   "toNode": "4155e288ed17e8ff",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B"
   },
   {
-   "id": "05f53a0576490f98",
-   "fromNode": "84c12c364dc2e4d4",
+   "id": "ffe5f2c4adbed4cb",
+   "fromNode": "278f6f73bace155e",
    "fromSide": "bottom",
-   "toNode": "50d362dfe898286f",
+   "toNode": "48ddfff6e701b4fc",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B",
+   "label": "推導"
   },
   {
-   "id": "8cd83f854f636bb1",
-   "fromNode": "178df8a398eb92ba",
+   "id": "2f865d8a6ca93845",
+   "fromNode": "c70d9fc84aeda8de",
    "fromSide": "bottom",
-   "toNode": "cf8ec0be22d63103",
+   "toNode": "48ddfff6e701b4fc",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "2d0224985bb0d720",
-   "fromNode": "d86c64b98be1de3b",
-   "fromSide": "bottom",
-   "toNode": "84c12c364dc2e4d4",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "059b2d2761b9807d",
-   "fromNode": "218c6b2aa178748c",
-   "fromSide": "bottom",
-   "toNode": "fd208d3be9e015e0",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "7388f5d5ae4b0bba",
-   "fromNode": "cf8ec0be22d63103",
-   "fromSide": "bottom",
-   "toNode": "d86c64b98be1de3b",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "05dd3e2c22fdeaf9",
-   "fromNode": "ee4a57862f45e041",
-   "fromSide": "bottom",
-   "toNode": "9b0027fdad469e16",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "462811aeb9e0389e",
-   "fromNode": "9b0027fdad469e16",
+   "id": "c58d5ce4ed8fecb1",
+   "fromNode": "48ddfff6e701b4fc",
    "fromSide": "bottom",
    "toNode": "54ce6054bfb46e44",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B",
+   "label": "推導"
   },
   {
-   "id": "7999bc4903cd7b15",
+   "id": "0ec912ac288a6bb7",
+   "fromNode": "f715b58c51a49031",
+   "fromSide": "bottom",
+   "toNode": "2856648159321aaa",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "9a235f7e1bfcc6bf",
+   "fromNode": "48ccaa79c2d21a5b",
+   "fromSide": "bottom",
+   "toNode": "5abfcd53ee0add86",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "4a5b3e31ba502f3c",
+   "fromNode": "5abfcd53ee0add86",
+   "fromSide": "bottom",
+   "toNode": "26504d8c3be950c4",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "a4021d3b239bd5f2",
+   "fromNode": "26504d8c3be950c4",
+   "fromSide": "bottom",
+   "toNode": "33952db1df1f8eec",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "8a0af5532383c31f",
+   "fromNode": "33952db1df1f8eec",
+   "fromSide": "bottom",
+   "toNode": "50d362dfe898286f",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "f170cf2d678f774f",
    "fromNode": "6030e4d84a6ee3d9",
    "fromSide": "bottom",
-   "toNode": "019a298e6be1afa2",
+   "toNode": "7ef2002224cfc099",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "4a2fc8260d35dbe4",
-   "fromNode": "9e959e892be79b14",
-   "fromSide": "bottom",
-   "toNode": "1a9270e7faf6d27b",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "52c4bcb2fd37ee22",
+   "id": "992f5a18dba8bba0",
    "fromNode": "defb10ad7c0cfff7",
    "fromSide": "bottom",
-   "toNode": "f12c27372bbf89d2",
+   "toNode": "7ef2002224cfc099",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937"
   },
   {
-   "id": "b64772f06f59390f",
-   "fromNode": "f079e03c7234363a",
-   "fromSide": "bottom",
-   "toNode": "91f0bae38a311745",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "8bd3da2a8730d548",
-   "fromNode": "91f0bae38a311745",
-   "fromSide": "bottom",
-   "toNode": "6cbaba9ff238f3d9",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "d01f2d091a8ddc8f",
+   "id": "6ee34ae8df8d9e91",
    "fromNode": "defb10ad7c0cfff7",
    "fromSide": "bottom",
-   "toNode": "019a298e6be1afa2",
+   "toNode": "85eea47ec1ffa025",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "56fd4290cbca874b",
+   "id": "d583594179c0b06e",
+   "fromNode": "f1f3e00c6c4d309a",
+   "fromSide": "bottom",
+   "toNode": "cfb02b135aaf30d0",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "d067552bd6302546",
    "fromNode": "9690876eebeb54bc",
    "fromSide": "bottom",
    "toNode": "17a750d8d85888a6",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "339b42ffdbd3c2c3",
+   "fromNode": "ffe1deeae7749b2e",
+   "fromSide": "bottom",
+   "toNode": "055e0438bb8dfc1d",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "29f4c42ea6c6f292",
+   "fromNode": "0313228b551b1eaf",
+   "fromSide": "bottom",
+   "toNode": "91f0bae38a311745",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "862af4398895d13d",
+   "fromNode": "91f0bae38a311745",
+   "fromSide": "bottom",
+   "toNode": "6cbaba9ff238f3d9",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
   }
  ]
 }

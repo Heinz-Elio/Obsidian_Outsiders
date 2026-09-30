@@ -4,44 +4,44 @@
    "id": "d75ae21741a94d91",
    "type": "group",
    "label": "公主脫離控制",
-   "x": 672,
-   "y": 901,
+   "x": 3596,
+   "y": 949,
    "width": 640,
-   "height": 1047
+   "height": 999
   },
   {
    "id": "891803f5f7adc05c",
    "type": "group",
    "label": "對克洛德的懷疑",
-   "x": 1336,
-   "y": 889,
+   "x": 988,
+   "y": 937,
    "width": 640,
-   "height": 1368
+   "height": 1023
   },
   {
    "id": "15b656be28fbb5d6",
    "type": "group",
    "label": "接觸人類與彭達拉薩人",
-   "x": 2000,
-   "y": 889,
-   "width": 382,
-   "height": 1641
+   "x": 1636,
+   "y": 355,
+   "width": 640,
+   "height": 762
   },
   {
    "id": "9590a700eb3a40e9",
    "type": "group",
    "label": "海底危機與陸地集結",
-   "x": 2406,
-   "y": 901,
-   "width": 972,
-   "height": 1344
+   "x": 2284,
+   "y": 46,
+   "width": 1304,
+   "height": 1059
   },
   {
    "id": "b503d9bb1f55ecce",
    "type": "group",
    "label": "目標與觸發",
-   "x": 1502,
-   "y": 46,
+   "x": 1810,
+   "y": 2077,
    "width": 640,
    "height": 726
   },
@@ -50,16 +50,16 @@
    "type": "group",
    "label": "阿德萊德支線",
    "x": 8,
-   "y": 604,
-   "width": 640,
-   "height": 1059
+   "y": 1780,
+   "width": 972,
+   "height": 750
   },
   {
    "id": "ffc792f432bf4380",
    "type": "text",
    "text": "**脫離控制**\n\n認為人魚公主脫離控制",
-   "x": 1028,
-   "y": 933,
+   "x": 3620,
+   "y": 1824,
    "width": 260,
    "height": 100,
    "color": "#7C3AED"
@@ -68,8 +68,8 @@
    "id": "5b6580cf82607b68",
    "type": "text",
    "text": "**違抗**\n\n人魚公主違抗命令",
-   "x": 696,
-   "y": 1230,
+   "x": 3620,
+   "y": 1539,
    "width": 260,
    "height": 100,
    "color": "#2563EB"
@@ -78,8 +78,8 @@
    "id": "77ffb598d785d81a",
    "type": "text",
    "text": "**懷疑長老**\n\n人魚公主對長老有所懷疑",
-   "x": 696,
-   "y": 1527,
+   "x": 3620,
+   "y": 1266,
    "width": 260,
    "height": 100,
    "color": "#7C3AED"
@@ -87,19 +87,19 @@
   {
    "id": "8ec9182e8cd9ba9e",
    "type": "text",
-   "text": "**暗示真相**\n\n暗示人魚公主的真相",
-   "x": 696,
-   "y": 1824,
+   "text": "**暗示真相**\n\n暗示人魚公主的真相\n\n`推論`",
+   "x": 3620,
+   "y": 981,
    "width": 260,
    "height": 100,
-   "color": "#7C3AED"
+   "color": "#EA580C"
   },
   {
    "id": "e4c510474b9492d8",
    "type": "text",
    "text": "**未報告**\n\n可伶未有按時報告",
-   "x": 1028,
-   "y": 1230,
+   "x": 3952,
+   "y": 1539,
    "width": 260,
    "height": 100,
    "color": "#2563EB"
@@ -108,8 +108,8 @@
    "id": "689a30e345be6206",
    "type": "text",
    "text": "**截報告**\n\n烏蘇拉截下報告",
-   "x": 1028,
-   "y": 1527,
+   "x": 3952,
+   "y": 1266,
    "width": 260,
    "height": 100,
    "color": "#EA580C"
@@ -118,8 +118,8 @@
    "id": "d421e099c9c0d546",
    "type": "text",
    "text": "**懷疑克洛德**\n\n對克洛德懷疑加劇，想收回控制權",
-   "x": 1526,
-   "y": 921,
+   "x": 1012,
+   "y": 1812,
    "width": 260,
    "height": 124,
    "color": "#7C3AED"
@@ -128,8 +128,8 @@
    "id": "dafe5e0874b5f5d8",
    "type": "text",
    "text": "**疑海都**\n\n懷疑與海都事件有關",
-   "x": 1526,
-   "y": 1230,
+   "x": 1344,
+   "y": 1539,
    "width": 260,
    "height": 100,
    "color": "#7C3AED"
@@ -138,8 +138,8 @@
    "id": "a36131bd420716af",
    "type": "text",
    "text": "**水妖知行蹤**\n\n水妖掌握人魚公主行蹤",
-   "x": 1360,
-   "y": 1527,
+   "x": 1344,
+   "y": 1266,
    "width": 260,
    "height": 100,
    "color": "#7C3AED"
@@ -148,8 +148,8 @@
    "id": "0c0956784dbc968b",
    "type": "text",
    "text": "**星羅誕生**\n\n星羅誕生時水妖與彭達拉薩人出現",
-   "x": 1526,
-   "y": 2109,
+   "x": 1344,
+   "y": 969,
    "width": 260,
    "height": 124,
    "color": "#EA580C"
@@ -158,8 +158,8 @@
    "id": "e5921a5b1d1d653b",
    "type": "text",
    "text": "**沙羅解封**\n\n沙羅找到並解封埃爾確",
-   "x": 1692,
-   "y": 1527,
+   "x": 1344,
+   "y": 1824,
    "width": 260,
    "height": 100,
    "color": "#64748B"
@@ -168,8 +168,8 @@
    "id": "f7f2c82dc194c84d",
    "type": "text",
    "text": "**過於親近**\n\n人魚公主與人類、彭達拉薩人過於親近",
-   "x": 2024,
-   "y": 921,
+   "x": 1834,
+   "y": 969,
    "width": 260,
    "height": 124,
    "color": "#2563EB"
@@ -178,8 +178,8 @@
    "id": "483d82411412d24f",
    "type": "text",
    "text": "**達姬放任**\n\n達姬放任人魚公主與他們接觸",
-   "x": 2024,
-   "y": 1230,
+   "x": 1660,
+   "y": 684,
    "width": 260,
    "height": 100,
    "color": "#7C3AED"
@@ -188,8 +188,8 @@
    "id": "33bb915ec34aeee2",
    "type": "text",
    "text": "**一同行動**\n\n與諾愛爾、可伶一同行動",
-   "x": 2024,
-   "y": 1527,
+   "x": 1660,
+   "y": 387,
    "width": 260,
    "height": 100,
    "color": "#EA580C"
@@ -198,8 +198,8 @@
    "id": "943f6184fb9df18d",
    "type": "text",
    "text": "**介入者**\n\n彭達拉薩族介入者",
-   "x": 2098,
-   "y": 2406,
+   "x": 1992,
+   "y": 684,
    "width": 260,
    "height": 100,
    "color": "#16A34A"
@@ -208,8 +208,8 @@
    "id": "09ac1a0cd2f1da34",
    "type": "text",
    "text": "**留陸地**\n\n長時間留在陸地",
-   "x": 2596,
-   "y": 933,
+   "x": 2723,
+   "y": 981,
    "width": 260,
    "height": 100,
    "color": "#2563EB"
@@ -218,8 +218,8 @@
    "id": "fc68c7bfbb960c36",
    "type": "text",
    "text": "**海底不安全**\n\n海底不安全，需要留在陸地",
-   "x": 2596,
-   "y": 1230,
+   "x": 2723,
+   "y": 684,
    "width": 260,
    "height": 100,
    "color": "#7C3AED"
@@ -228,8 +228,8 @@
    "id": "e870cc403ff7d1d8",
    "type": "text",
    "text": "**只有埃爾確**\n\n只有埃爾確有能力與動機製造這樣的危機",
-   "x": 2430,
-   "y": 1515,
+   "x": 2640,
+   "y": 375,
    "width": 260,
    "height": 124,
    "color": "#DC2626"
@@ -238,8 +238,8 @@
    "id": "05778d32ed7baeee",
    "type": "text",
    "text": "**海都襲擊**\n\n埃爾確解封，海都襲擊人魚王國",
-   "x": 2430,
-   "y": 1824,
+   "x": 2640,
+   "y": 90,
    "width": 260,
    "height": 100,
    "color": "#EA580C"
@@ -248,8 +248,8 @@
    "id": "defb10ad7c0cfff7",
    "type": "text",
    "text": "**米迦勒襲擊**\n\n米迦勒襲擊人魚公主",
-   "x": 2762,
-   "y": 1527,
+   "x": 2972,
+   "y": 387,
    "width": 260,
    "height": 100,
    "color": "#EA580C"
@@ -258,8 +258,8 @@
    "id": "c114a4b0858cff78",
    "type": "text",
    "text": "**仰賴北太平洋**\n\n營造必須仰賴北太平洋王國的局面",
-   "x": 3011,
-   "y": 1218,
+   "x": 3221,
+   "y": 672,
    "width": 260,
    "height": 124,
    "color": "#7C3AED"
@@ -268,8 +268,8 @@
    "id": "f2fac71113714670",
    "type": "text",
    "text": "**陸地集結**\n\n迫使人魚公主在陸地集結，貿然分開回到王國反而危險",
-   "x": 3094,
-   "y": 1515,
+   "x": 3304,
+   "y": 375,
    "width": 260,
    "height": 124,
    "color": "#7C3AED"
@@ -278,8 +278,8 @@
    "id": "a48b49bac2d440f5",
    "type": "text",
    "text": "**VPTS綁架**\n\nVPTS企圖綁架",
-   "x": 2762,
-   "y": 1824,
+   "x": 2308,
+   "y": 90,
    "width": 260,
    "height": 100,
    "color": "#EA580C"
@@ -288,8 +288,8 @@
    "id": "eaff456bc8ab00ac",
    "type": "text",
    "text": "**阻止VPTS**\n\n需要有人阻止VPTS成功",
-   "x": 2596,
-   "y": 2121,
+   "x": 2308,
+   "y": 387,
    "width": 260,
    "height": 100,
    "color": "#7C3AED"
@@ -298,8 +298,8 @@
    "id": "3267b3486bce5899",
    "type": "text",
    "text": "**魅影帶到陸地**\n\n魅影小隊將逃亡的人魚公主帶到陸地",
-   "x": 3094,
-   "y": 1812,
+   "x": 3304,
+   "y": 78,
    "width": 260,
    "height": 124,
    "color": "#64748B"
@@ -308,8 +308,8 @@
    "id": "a7a342aac612be85",
    "type": "text",
    "text": "**崩壞**\n\n星降神臨崩壞",
-   "x": 1692,
-   "y": 78,
+   "x": 2000,
+   "y": 2679,
    "width": 260,
    "height": 100,
    "color": "#7C3AED"
@@ -318,8 +318,8 @@
    "id": "2a96f8219a050efe",
    "type": "text",
    "text": "**星盡**\n\n諾愛爾、可伶被處以星盡\n\n`推論`",
-   "x": 1526,
-   "y": 351,
+   "x": 1834,
+   "y": 2406,
    "width": 260,
    "height": 100,
    "color": "#EA580C"
@@ -328,8 +328,8 @@
    "id": "070bb9002e4e2ac6",
    "type": "text",
    "text": "**削弱**\n\n削弱星降神臨力量",
-   "x": 1858,
-   "y": 351,
+   "x": 2166,
+   "y": 2406,
    "width": 260,
    "height": 100,
    "color": "#7C3AED"
@@ -338,8 +338,8 @@
    "id": "b48b7225caac7b34",
    "type": "text",
    "text": "**水妖襲擊**\n\n水妖不斷襲擊人魚公主，使干擾反覆解除\n\n`推論`",
-   "x": 1858,
-   "y": 624,
+   "x": 2166,
+   "y": 2109,
    "width": 260,
    "height": 124,
    "color": "#EA580C"
@@ -348,8 +348,8 @@
    "id": "19b6ec96060594ad",
    "type": "text",
    "text": "**不滿峰值**\n\n康士坦絲的不滿與懷疑達至峰值",
-   "x": 1526,
-   "y": 636,
+   "x": 1834,
+   "y": 2121,
    "width": 260,
    "height": 100,
    "color": "#7C3AED"
@@ -358,8 +358,8 @@
    "id": "610f17dca9759752",
    "type": "text",
    "text": "**五長老**\n\n星盡需要五位大長老",
-   "x": 364,
-   "y": 636,
+   "x": 696,
+   "y": 2121,
    "width": 260,
    "height": 100,
    "color": "#2563EB"
@@ -369,7 +369,7 @@
    "type": "text",
    "text": "**迫下台**\n\n迫阿德萊德下台",
    "x": 364,
-   "y": 933,
+   "y": 2406,
    "width": 260,
    "height": 100,
    "color": "#7C3AED"
@@ -379,7 +379,7 @@
    "type": "text",
    "text": "**對阿不滿**\n\n康士坦絲對阿德萊德產生不滿",
    "x": 32,
-   "y": 1230,
+   "y": 2121,
    "width": 260,
    "height": 100,
    "color": "#7C3AED"
@@ -389,7 +389,7 @@
    "type": "text",
    "text": "**送陸地**\n\n塞雷亞策劃送兩人到陸地，阿德萊德以管不住諾愛爾解釋",
    "x": 32,
-   "y": 1515,
+   "y": 1812,
    "width": 260,
    "height": 124,
    "color": "#EA580C"
@@ -399,7 +399,7 @@
    "type": "text",
    "text": "**叛變證據**\n\n阿德萊德叛變證據",
    "x": 364,
-   "y": 1230,
+   "y": 2121,
    "width": 260,
    "height": 100,
    "color": "#2563EB"
@@ -407,44 +407,49 @@
  ],
  "edges": [
   {
-   "id": "14045ab3d20d2a68",
-   "fromNode": "a7a342aac612be85",
+   "id": "cebe9a6d7306e369",
+   "fromNode": "19b6ec96060594ad",
    "fromSide": "bottom",
    "toNode": "2a96f8219a050efe",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#EA580C",
+   "label": "導致"
   },
   {
-   "id": "ad6ef9346f966fb6",
-   "fromNode": "a7a342aac612be85",
+   "id": "cc748405351d4368",
+   "fromNode": "2a96f8219a050efe",
+   "fromSide": "bottom",
+   "toNode": "a7a342aac612be85",
+   "toSide": "top",
+   "color": "#EA580C",
+   "label": "導致"
+  },
+  {
+   "id": "8cf47293e2553a78",
+   "fromNode": "b48b7225caac7b34",
    "fromSide": "bottom",
    "toNode": "070bb9002e4e2ac6",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#EA580C",
+   "label": "導致"
   },
   {
-   "id": "c1d54ae332f4285d",
-   "fromNode": "2a96f8219a050efe",
-   "fromSide": "bottom",
-   "toNode": "19b6ec96060594ad",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "73b6f288ae4b0a96",
-   "fromNode": "2a96f8219a050efe",
-   "fromSide": "bottom",
-   "toNode": "610f17dca9759752",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "1e4a60a7b53d0e0c",
+   "id": "0953b63d39938947",
    "fromNode": "070bb9002e4e2ac6",
    "fromSide": "bottom",
-   "toNode": "b48b7225caac7b34",
+   "toNode": "a7a342aac612be85",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#EA580C"
+  },
+  {
+   "id": "d4b26727131eddae",
+   "fromNode": "610f17dca9759752",
+   "fromSide": "bottom",
+   "toNode": "2a96f8219a050efe",
+   "toSide": "top",
+   "color": "#94A3B8",
+   "label": "屬於",
+   "toEnd": "none"
   },
   {
    "id": "7e9cf33c55f0eb70",
@@ -452,247 +457,272 @@
    "fromSide": "bottom",
    "toNode": "d3f729d38ebb12ae",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "a6fa444b5a3cd1d6",
-   "fromNode": "d3f729d38ebb12ae",
+   "id": "6a1a4378e1784cf3",
+   "fromNode": "bdaefcd9e289b02a",
+   "fromSide": "bottom",
+   "toNode": "d3f729d38ebb12ae",
+   "toSide": "top",
+   "color": "#1F2937"
+  },
+  {
+   "id": "51df09aecbdc908e",
+   "fromNode": "5d9c3e05e9152c11",
    "fromSide": "bottom",
    "toNode": "ca3163593e704901",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#EA580C",
+   "label": "導致"
   },
   {
-   "id": "beae77aae4c39561",
-   "fromNode": "d3f729d38ebb12ae",
-   "fromSide": "bottom",
-   "toNode": "bdaefcd9e289b02a",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "9b25e3b9887f89e5",
+   "id": "0e486de32ab106e1",
    "fromNode": "ca3163593e704901",
    "fromSide": "bottom",
-   "toNode": "5d9c3e05e9152c11",
+   "toNode": "d3f729d38ebb12ae",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#EA580C",
+   "label": "導致"
   },
   {
-   "id": "6c9b7dfb34170390",
-   "fromNode": "19b6ec96060594ad",
+   "id": "33da4368382f7115",
+   "fromNode": "f7f2c82dc194c84d",
    "fromSide": "bottom",
-   "toNode": "f7f2c82dc194c84d",
+   "toNode": "19b6ec96060594ad",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "17450dd745c383dd",
-   "fromNode": "19b6ec96060594ad",
+   "id": "b745a2dd6497467f",
+   "fromNode": "09ac1a0cd2f1da34",
    "fromSide": "bottom",
-   "toNode": "d421e099c9c0d546",
+   "toNode": "19b6ec96060594ad",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937"
   },
   {
-   "id": "36b60036cb359f3f",
-   "fromNode": "19b6ec96060594ad",
+   "id": "3cb44e1d5eb85cdc",
+   "fromNode": "d421e099c9c0d546",
    "fromSide": "bottom",
-   "toNode": "09ac1a0cd2f1da34",
+   "toNode": "19b6ec96060594ad",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#EA580C",
+   "label": "導致"
   },
   {
-   "id": "2f2e5f3f28b471ac",
-   "fromNode": "19b6ec96060594ad",
+   "id": "a16c64a48a49463e",
+   "fromNode": "ffc792f432bf4380",
+   "fromSide": "bottom",
+   "toNode": "19b6ec96060594ad",
+   "toSide": "top",
+   "color": "#EA580C"
+  },
+  {
+   "id": "d8848f2e813cc797",
+   "fromNode": "e4c510474b9492d8",
    "fromSide": "bottom",
    "toNode": "ffc792f432bf4380",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "4550f50089d4b8e0",
-   "fromNode": "f7f2c82dc194c84d",
+   "id": "c81bf4a2654a1ea7",
+   "fromNode": "5b6580cf82607b68",
    "fromSide": "bottom",
-   "toNode": "483d82411412d24f",
+   "toNode": "ffc792f432bf4380",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937"
   },
   {
-   "id": "c9aba0e1d6093dc7",
-   "fromNode": "f7f2c82dc194c84d",
-   "fromSide": "bottom",
-   "toNode": "943f6184fb9df18d",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "3b4f23e4cb523fab",
-   "fromNode": "483d82411412d24f",
-   "fromSide": "bottom",
-   "toNode": "33bb915ec34aeee2",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "43035f3cb18ddde8",
-   "fromNode": "d421e099c9c0d546",
-   "fromSide": "bottom",
-   "toNode": "dafe5e0874b5f5d8",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "8887d4beb3cde875",
-   "fromNode": "dafe5e0874b5f5d8",
-   "fromSide": "bottom",
-   "toNode": "a36131bd420716af",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "ef07c98e95bb38db",
-   "fromNode": "a36131bd420716af",
-   "fromSide": "bottom",
-   "toNode": "0c0956784dbc968b",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "57cda444331b1f1b",
-   "fromNode": "0c0956784dbc968b",
-   "fromSide": "bottom",
-   "toNode": "943f6184fb9df18d",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "f397b0fbb0df81ba",
-   "fromNode": "09ac1a0cd2f1da34",
-   "fromSide": "bottom",
-   "toNode": "fc68c7bfbb960c36",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "4c1652576c6185ed",
-   "fromNode": "09ac1a0cd2f1da34",
-   "fromSide": "bottom",
-   "toNode": "c114a4b0858cff78",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "4a6cf974b42d560d",
-   "fromNode": "fc68c7bfbb960c36",
-   "fromSide": "bottom",
-   "toNode": "e870cc403ff7d1d8",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "8cd03b23dab2412c",
-   "fromNode": "fc68c7bfbb960c36",
-   "fromSide": "bottom",
-   "toNode": "defb10ad7c0cfff7",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "8be25b87f4c68640",
-   "fromNode": "e870cc403ff7d1d8",
-   "fromSide": "bottom",
-   "toNode": "05778d32ed7baeee",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "d259a5d469facb0b",
-   "fromNode": "c114a4b0858cff78",
-   "fromSide": "bottom",
-   "toNode": "f2fac71113714670",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "7b8d977dd74d8db3",
-   "fromNode": "f2fac71113714670",
-   "fromSide": "bottom",
-   "toNode": "a48b49bac2d440f5",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "a5e58fbad919a152",
-   "fromNode": "f2fac71113714670",
-   "fromSide": "bottom",
-   "toNode": "3267b3486bce5899",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "630921da400cb562",
-   "fromNode": "a48b49bac2d440f5",
-   "fromSide": "bottom",
-   "toNode": "eaff456bc8ab00ac",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "65974fbb58eb7c87",
-   "fromNode": "eaff456bc8ab00ac",
-   "fromSide": "bottom",
-   "toNode": "943f6184fb9df18d",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "d197cf1b49d8bf4a",
-   "fromNode": "ffc792f432bf4380",
+   "id": "c7132ddb3b558ef7",
+   "fromNode": "689a30e345be6206",
    "fromSide": "bottom",
    "toNode": "e4c510474b9492d8",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#EA580C",
+   "label": "導致"
   },
   {
-   "id": "d8c64cd7a9778d8d",
-   "fromNode": "ffc792f432bf4380",
-   "fromSide": "bottom",
-   "toNode": "5b6580cf82607b68",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "8568f68c5216a927",
-   "fromNode": "e4c510474b9492d8",
-   "fromSide": "bottom",
-   "toNode": "689a30e345be6206",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "994d406248dc41ff",
-   "fromNode": "5b6580cf82607b68",
+   "id": "b4882e9d2ca9332a",
+   "fromNode": "8ec9182e8cd9ba9e",
    "fromSide": "bottom",
    "toNode": "77ffb598d785d81a",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#EA580C",
+   "label": "導致"
   },
   {
-   "id": "43d3dc3252c4e9c7",
+   "id": "eca7ea5007ec4c8e",
    "fromNode": "77ffb598d785d81a",
    "fromSide": "bottom",
-   "toNode": "8ec9182e8cd9ba9e",
+   "toNode": "5b6580cf82607b68",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#EA580C",
+   "label": "導致"
   },
   {
-   "id": "3a2030779535925d",
+   "id": "99795e9a76325b3b",
+   "fromNode": "33bb915ec34aeee2",
+   "fromSide": "bottom",
+   "toNode": "483d82411412d24f",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "9ad240a9a2a5742f",
+   "fromNode": "483d82411412d24f",
+   "fromSide": "bottom",
+   "toNode": "f7f2c82dc194c84d",
+   "toSide": "top",
+   "color": "#EA580C",
+   "label": "導致"
+  },
+  {
+   "id": "37a89745444e294f",
+   "fromNode": "943f6184fb9df18d",
+   "fromSide": "bottom",
+   "toNode": "f7f2c82dc194c84d",
+   "toSide": "top",
+   "color": "#94A3B8",
+   "toEnd": "none"
+  },
+  {
+   "id": "e015097df3d05e8b",
+   "fromNode": "943f6184fb9df18d",
+   "fromSide": "bottom",
+   "toNode": "0c0956784dbc968b",
+   "toSide": "top",
+   "color": "#94A3B8",
+   "label": "屬於",
+   "toEnd": "none"
+  },
+  {
+   "id": "e7d4d8cca64edc88",
+   "fromNode": "0c0956784dbc968b",
+   "fromSide": "bottom",
+   "toNode": "a36131bd420716af",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "1fa2ce2dfa008538",
+   "fromNode": "a36131bd420716af",
+   "fromSide": "bottom",
+   "toNode": "dafe5e0874b5f5d8",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "a5fea2923171c151",
+   "fromNode": "dafe5e0874b5f5d8",
+   "fromSide": "bottom",
+   "toNode": "d421e099c9c0d546",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "c65fce332c975858",
    "fromNode": "dafe5e0874b5f5d8",
    "fromSide": "bottom",
    "toNode": "e5921a5b1d1d653b",
    "toSide": "top",
    "color": "#94A3B8"
+  },
+  {
+   "id": "87b92a119f437653",
+   "fromNode": "05778d32ed7baeee",
+   "fromSide": "bottom",
+   "toNode": "e870cc403ff7d1d8",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "269f19c806ba6a5c",
+   "fromNode": "e870cc403ff7d1d8",
+   "fromSide": "bottom",
+   "toNode": "fc68c7bfbb960c36",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "41de4e9aab5fb77e",
+   "fromNode": "defb10ad7c0cfff7",
+   "fromSide": "bottom",
+   "toNode": "fc68c7bfbb960c36",
+   "toSide": "top",
+   "color": "#EA580C",
+   "label": "導致"
+  },
+  {
+   "id": "535a60dbc7f6fc96",
+   "fromNode": "fc68c7bfbb960c36",
+   "fromSide": "bottom",
+   "toNode": "09ac1a0cd2f1da34",
+   "toSide": "top",
+   "color": "#EA580C",
+   "label": "導致"
+  },
+  {
+   "id": "2004ad886757ff20",
+   "fromNode": "c114a4b0858cff78",
+   "fromSide": "bottom",
+   "toNode": "09ac1a0cd2f1da34",
+   "toSide": "top",
+   "color": "#EA580C"
+  },
+  {
+   "id": "31798ddb706d589e",
+   "fromNode": "a48b49bac2d440f5",
+   "fromSide": "bottom",
+   "toNode": "f2fac71113714670",
+   "toSide": "top",
+   "color": "#EA580C",
+   "label": "導致"
+  },
+  {
+   "id": "49a26acb76fb1d5c",
+   "fromNode": "3267b3486bce5899",
+   "fromSide": "bottom",
+   "toNode": "f2fac71113714670",
+   "toSide": "top",
+   "color": "#EA580C"
+  },
+  {
+   "id": "039c09542dab42e1",
+   "fromNode": "f2fac71113714670",
+   "fromSide": "bottom",
+   "toNode": "c114a4b0858cff78",
+   "toSide": "top",
+   "color": "#EA580C",
+   "label": "導致"
+  },
+  {
+   "id": "4ff9229cae5aa127",
+   "fromNode": "a48b49bac2d440f5",
+   "fromSide": "bottom",
+   "toNode": "eaff456bc8ab00ac",
+   "toSide": "top",
+   "color": "#EA580C",
+   "label": "導致"
+  },
+  {
+   "id": "61e0eccc8db69fd6",
+   "fromNode": "eaff456bc8ab00ac",
+   "fromSide": "bottom",
+   "toNode": "943f6184fb9df18d",
+   "toSide": "top",
+   "color": "#EA580C",
+   "label": "導致"
   }
  ]
 }

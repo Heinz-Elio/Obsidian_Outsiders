@@ -1,312 +1,256 @@
 {
  "nodes": [
   {
+   "id": "d75ae21741a94d91",
+   "type": "group",
+   "label": "事件",
+   "x": 2873,
+   "y": 199,
+   "width": 698,
+   "height": 156
+  },
+  {
    "id": "891803f5f7adc05c",
    "type": "group",
-   "label": "天城理人音樂會現場",
-   "x": 308,
-   "y": 223,
-   "width": 972,
-   "height": 1792
+   "label": "內部矛盾如何激化？",
+   "x": 2362,
+   "y": 693,
+   "width": 308,
+   "height": 1370
   },
   {
    "id": "15b656be28fbb5d6",
    "type": "group",
-   "label": "廢棄孤兒院",
-   "x": 1288,
-   "y": 46,
-   "width": 4008,
-   "height": 632
+   "label": "其他筆記",
+   "x": 8720,
+   "y": 623,
+   "width": 1868,
+   "height": 628
   },
   {
    "id": "9590a700eb3a40e9",
    "type": "group",
+   "label": "孤兒院留下了什麼？",
+   "x": 4480,
+   "y": 46,
+   "width": 4232,
+   "height": 781
+  },
+  {
+   "id": "b503d9bb1f55ecce",
+   "type": "group",
    "label": "Hangman 謎題",
-   "x": 1312,
+   "x": 4504,
    "y": 223,
    "width": 308,
    "height": 108
   },
   {
-   "id": "b503d9bb1f55ecce",
-   "type": "group",
-   "label": "地下室",
-   "x": 1644,
-   "y": 116,
-   "width": 2656,
-   "height": 525
-  },
-  {
    "id": "83a056d93f512c5f",
    "type": "group",
-   "label": "沙羅",
-   "x": 1668,
-   "y": 223,
-   "width": 308,
-   "height": 395
+   "label": "地下室",
+   "x": 4870,
+   "y": 116,
+   "width": 3086,
+   "height": 686
   },
   {
    "id": "6eca50fefd90742f",
    "type": "group",
-   "label": "第一張門票",
-   "x": 2000,
+   "label": "沙羅",
+   "x": 4894,
    "y": 199,
-   "width": 640,
-   "height": 156
+   "width": 308,
+   "height": 580
   },
   {
    "id": "a19268416bb74cc2",
    "type": "group",
-   "label": "第二封信件",
-   "x": 2664,
-   "y": 187,
-   "width": 1304,
-   "height": 431
+   "label": "第一張門票",
+   "x": 7234,
+   "y": 199,
+   "width": 698,
+   "height": 156
   },
   {
    "id": "54446d7342cadeac",
    "type": "group",
+   "label": "第二封信件",
+   "x": 5674,
+   "y": 187,
+   "width": 1478,
+   "height": 592
+  },
+  {
+   "id": "f728a344dcb8e070",
+   "type": "group",
+   "label": "尼歌娜與達姬為何反常？",
+   "x": 8,
+   "y": 116,
+   "width": 1502,
+   "height": 1512
+  },
+  {
+   "id": "d77fd7bd519e2317",
+   "type": "group",
    "label": "尼歌娜",
-   "x": 4324,
+   "x": 32,
    "y": 187,
    "width": 308,
-   "height": 467
+   "height": 1418
   },
   {
-   "id": "d9162b012ce923e5",
+   "id": "51bf28efe2999b05",
+   "type": "group",
+   "label": "米迦勒的真正目的？",
+   "x": 2678,
+   "y": 693,
+   "width": 698,
+   "height": 2158
+  },
+  {
+   "id": "ca08367c299ad4af",
+   "type": "group",
+   "label": "誰向VPTS洩密？",
+   "x": 3384,
+   "y": 693,
+   "width": 1088,
+   "height": 2838
+  },
+  {
+   "id": "6fb622ce7dd3e898",
+   "type": "group",
+   "label": "誰在監視公主？",
+   "x": 1518,
+   "y": 175,
+   "width": 836,
+   "height": 1064
+  },
+  {
+   "id": "defd2731e6fc8580",
    "type": "text",
-   "text": "塞雷亞清楚人魚公主行蹤",
-   "x": 0,
-   "y": 1605,
+   "text": "**音樂會現場**\n\n天城理人音樂會現場",
+   "x": 2897,
+   "y": 231,
    "width": 260,
-   "height": 52,
+   "height": 100,
+   "color": "#EA580C"
+  },
+  {
+   "id": "4c1d5a421b71251d",
+   "type": "text",
+   "text": "**孤兒院現場**\n\n廢棄孤兒院",
+   "x": 3287,
+   "y": 231,
+   "width": 260,
+   "height": 100,
+   "color": "#EA580C"
+  },
+  {
+   "id": "6402d76eceda0fe7",
+   "type": "text",
+   "text": "**改革保守矛盾**\n\n改革派與保守派矛盾",
+   "x": 2386,
+   "y": 1115,
+   "width": 260,
+   "height": 100,
    "color": "#7C3AED"
   },
   {
-   "id": "fe6cadab6973e968",
+   "id": "e0c20cb6c4527aca",
    "type": "text",
-   "text": "**達姬與尼歌娜大致理解其他王國狀況**\n\n達姬與尼歌娜都大致理解其他王國的狀況",
-   "x": 5344,
-   "y": 207,
-   "width": 260,
-   "height": 148,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "07347c080b654fd3",
-   "type": "text",
-   "text": "**尼歌娜管束公主達姬鼓勵享受**\n\n尼歌姬會管束公主，達姬則鼓勵公主享受",
-   "x": 5676,
-   "y": 219,
+   "text": "**彭達拉薩激化**\n\n彭達拉薩人的存在十分敏感，會激化人魚內部矛盾",
+   "x": 2386,
+   "y": 1515,
    "width": 260,
    "height": 124,
    "color": "#7C3AED"
   },
   {
-   "id": "35b723befabebd4d",
+   "id": "7c3529ffe65fdb6c",
    "type": "text",
-   "text": "**尼歌娜達姬角色與身份閱歷不符**\n\n尼歌娜和達姬的角色與各自的身份閱歷不符，達姬理應比尼歌娜更清楚犯錯的後果以及帶來的外交問題",
-   "x": 5676,
-   "y": 482,
-   "width": 260,
-   "height": 172,
-   "color": "#DC2626"
-  },
-  {
-   "id": "8d6f560b41cd2b70",
-   "type": "text",
-   "text": "**其他王國十分重視規矩犯規嚴懲**\n\n其他王國十分重視規矩，犯規會被嚴懲",
-   "x": 6008,
-   "y": 219,
-   "width": 260,
-   "height": 124,
-   "color": "#2563EB"
-  },
-  {
-   "id": "2d27b3acf0b12b1b",
-   "type": "text",
-   "text": "**水妖掌握行蹤且不在公主忙碌時出現**\n\n水妖對人魚公主的行蹤有一定掌握，且從來不會在人魚公主忙碌時出現",
-   "x": 6340,
-   "y": 195,
-   "width": 260,
-   "height": 172,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "344392e3466c06f1",
-   "type": "text",
-   "text": "有人密切監視人魚公主動向",
-   "x": 6340,
-   "y": 542,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "ac24682bfdd0a2b9",
-   "type": "text",
-   "text": "多人監視人魚公主",
-   "x": 996,
-   "y": 255,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "00350ca7861456cc",
-   "type": "text",
-   "text": "保守派監視者",
-   "x": 996,
-   "y": 542,
-   "width": 260,
-   "height": 52,
-   "color": "#16A34A"
-  },
-  {
-   "id": "74f8cf022f82482d",
-   "type": "text",
-   "text": "改革派與保守派矛盾",
-   "x": 996,
-   "y": 769,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "0b7495ea598e752a",
-   "type": "text",
-   "text": "**彭達拉薩人存在敏感會激化矛盾**\n\n彭達拉薩人的存在十分敏感，會激化人魚內部矛盾",
-   "x": 996,
-   "y": 936,
-   "width": 260,
-   "height": 124,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "4ffe86ff21227538",
-   "type": "text",
-   "text": "就算不至內戰也會瓦解同盟",
-   "x": 664,
-   "y": 1223,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "7e620ed765426ebf",
-   "type": "text",
-   "text": "**塞雷亞明知而同意合作並淡化問題**\n\n塞雷亞明知而同意合作，且刻意淡化問題",
-   "x": 996,
-   "y": 1175,
-   "width": 260,
-   "height": 148,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "3dffff398c39b824",
-   "type": "text",
-   "text": "塞雷亞向VPTS洩密",
-   "x": 498,
-   "y": 1772,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "61ca95860e34ef71",
-   "type": "text",
-   "text": "與北太平洋立場矛盾",
-   "x": 996,
-   "y": 1438,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "f0f3db644ebfa861",
-   "type": "text",
-   "text": "塞雷亞與長老目標不同",
-   "x": 664,
-   "y": 1605,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "26a4bb2e830d24f6",
-   "type": "text",
-   "text": "北太平洋有意挑起爭端",
-   "x": 996,
-   "y": 1605,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "1c187786bbb46b68",
-   "type": "text",
-   "text": "不利米迦勒復興海之住民",
-   "x": 332,
-   "y": 1438,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "4dfec7118bf3606a",
-   "type": "text",
-   "text": "復興不是米迦勒的真正目的",
-   "x": 332,
-   "y": 1605,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "2d247acea143c5ef",
-   "type": "text",
-   "text": "長老向VPTS洩密",
-   "x": 996,
-   "y": 1772,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "cbde140d3079a65c",
-   "type": "text",
-   "text": "有利米迦勒綁架人魚公主",
-   "x": 664,
-   "y": 1438,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "0413deaf6fbf9f68",
-   "type": "text",
-   "text": "挑起內部爭端",
-   "x": 498,
+   "text": "**瓦解同盟**\n\n就算不至內戰也會瓦解同盟",
+   "x": 2386,
    "y": 1939,
    "width": 260,
-   "height": 52,
+   "height": 100,
    "color": "#7C3AED"
   },
   {
-   "id": "73d129c535141005",
+   "id": "2290b1074b1e8ea8",
    "type": "text",
-   "text": "**選擇孤兒院暗指公主形同孤兒**\n\n選擇孤兒院的理由：暗指人魚公主沒有父母，形同孤兒",
-   "x": 4680,
+   "text": "**印度洋王國廢墟**\n\n見 [[線索-DSL-沙羅與海都事件]]",
+   "x": 9524,
+   "y": 667,
+   "width": 260,
+   "height": 124,
+   "color": "#64748B"
+  },
+  {
+   "id": "6030e4d84a6ee3d9",
+   "type": "text",
+   "text": "**印度洋公主誕生**\n\n見 [[線索-DSL-沙羅與海都事件]]",
+   "x": 9914,
+   "y": 667,
+   "width": 260,
+   "height": 124,
+   "color": "#64748B"
+  },
+  {
+   "id": "fc839a52f24a7eb5",
+   "type": "text",
+   "text": "**堂本薰是倖存者之一**\n\n見 [[線索-DSL-米迦勒與V]]",
+   "x": 10304,
+   "y": 667,
+   "width": 260,
+   "height": 124,
+   "color": "#64748B"
+  },
+  {
+   "id": "f86152a0b9309685",
+   "type": "text",
+   "text": "**V是彭達拉薩人**\n\n見 [[線索-DSL-米迦勒與V]]",
+   "x": 8744,
+   "y": 1103,
+   "width": 260,
+   "height": 124,
+   "color": "#64748B"
+  },
+  {
+   "id": "aa1b44988baf1811",
+   "type": "text",
+   "text": "**第二張門票**\n\n見 [[線索-DSL-綁架行動與VPTS]]",
+   "x": 8744,
+   "y": 667,
+   "width": 260,
+   "height": 124,
+   "color": "#64748B"
+  },
+  {
+   "id": "9dd031ac33c1ced9",
+   "type": "text",
+   "text": "**經印度開櫃**\n\n必須經印度才能在時限內打開保險櫃，見 [[線索-DSL-綁架行動與VPTS]]",
+   "x": 9134,
+   "y": 655,
+   "width": 260,
+   "height": 148,
+   "color": "#64748B"
+  },
+  {
+   "id": "22df593be1c7be21",
+   "type": "text",
+   "text": "**孤兒院暗指**\n\n選擇孤兒院的理由：暗指人魚公主沒有父母，形同孤兒",
+   "x": 8038,
    "y": 219,
    "width": 260,
    "height": 124,
    "color": "#7C3AED"
   },
   {
-   "id": "13ef9e5252749c4f",
+   "id": "d4d60716ab9e9307",
    "type": "text",
-   "text": "**二十九年前火災三人倖存**\n\n29年前發生火災，案件紀錄3人倖存",
-   "x": 5012,
+   "text": "**火災三人倖存**\n\n29年前發生火災，案件紀錄3人倖存",
+   "x": 8428,
    "y": 219,
    "width": 260,
    "height": 124,
@@ -316,48 +260,48 @@
    "id": "e650b9db679a14d1",
    "type": "text",
    "text": "場景含意",
-   "x": 1336,
+   "x": 4528,
    "y": 255,
    "width": 260,
    "height": 52,
-   "color": "#7C3AED"
+   "color": "#64748B"
   },
   {
-   "id": "c6d3c5b3197cd22d",
+   "id": "d0ee4e69d96af8ea",
    "type": "text",
-   "text": "**地下室有APCS未能提前發現沙羅**\n\n地下室有APCS，導致未能提前發現沙羅",
-   "x": 4016,
-   "y": 207,
+   "text": "**地下室APCS**\n\n地下室有APCS，導致未能提前發現沙羅",
+   "x": 5308,
+   "y": 219,
    "width": 260,
-   "height": 148,
+   "height": 124,
    "color": "#2563EB"
   },
   {
    "id": "3ac26482a529bb25",
    "type": "text",
    "text": "手套",
-   "x": 4016,
-   "y": 542,
+   "x": 5308,
+   "y": 703,
    "width": 260,
    "height": 52,
    "color": "#16A34A"
   },
   {
-   "id": "cb82b33feec3a657",
+   "id": "8c9f6bfa7aeb0d06",
    "type": "text",
-   "text": "V前往海都城帶走沙羅",
-   "x": 1692,
-   "y": 255,
+   "text": "**V帶走沙羅**\n\nV前往海都城帶走沙羅",
+   "x": 4918,
+   "y": 231,
    "width": 260,
-   "height": 52,
+   "height": 100,
    "color": "#EA580C"
   },
   {
    "id": "3bff1fbdd6b2e883",
    "type": "text",
    "text": "V知道海都城位置",
-   "x": 1692,
-   "y": 542,
+   "x": 4918,
+   "y": 703,
    "width": 260,
    "height": 52,
    "color": "#7C3AED"
@@ -366,7 +310,7 @@
    "id": "2522a8ef4d3e9eb5",
    "type": "text",
    "text": "**座標海拔**\n\n座標、海拔",
-   "x": 2024,
+   "x": 7258,
    "y": 231,
    "width": 260,
    "height": 100,
@@ -376,7 +320,7 @@
    "id": "3e48fbf60bd225cf",
    "type": "text",
    "text": "時間",
-   "x": 2356,
+   "x": 7648,
    "y": 255,
    "width": 260,
    "height": 52,
@@ -386,7 +330,7 @@
    "id": "3d6b964239b127bc",
    "type": "text",
    "text": "以阿奎斯托語寫成",
-   "x": 2688,
+   "x": 5698,
    "y": 255,
    "width": 260,
    "height": 52,
@@ -396,18 +340,8 @@
    "id": "8e07270ef4b19a02",
    "type": "text",
    "text": "V懂得阿奎斯托語",
-   "x": 2688,
-   "y": 542,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "d2fcd87e61d787f9",
-   "type": "text",
-   "text": "V知道沙羅是前公主",
-   "x": 3020,
-   "y": 542,
+   "x": 5698,
+   "y": 703,
    "width": 260,
    "height": 52,
    "color": "#7C3AED"
@@ -416,253 +350,584 @@
    "id": "a6a24df9c26e75af",
    "type": "text",
    "text": "對象為前公主",
-   "x": 3020,
+   "x": 6088,
    "y": 255,
    "width": 260,
    "height": 52,
    "color": "#7C3AED"
   },
   {
-   "id": "24702162b0a436d4",
+   "id": "d2fcd87e61d787f9",
    "type": "text",
-   "text": "**地址行李保險箱編號密碼**\n\n地址、行李保險箱編號、密碼",
-   "x": 3352,
+   "text": "V知道沙羅是前公主",
+   "x": 6088,
+   "y": 703,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "d25a1979cd36c2f3",
+   "type": "text",
+   "text": "**地址保險箱**\n\n地址、行李保險箱編號、密碼",
+   "x": 6478,
    "y": 231,
    "width": 260,
    "height": 100,
    "color": "#2563EB"
   },
   {
-   "id": "0bfa515370eff1ab",
+   "id": "f1a17e7d67d2be5a",
    "type": "text",
-   "text": "**四月六日至七日領取時限**\n\n4月6日0時0分後至4月7日0時0分前領取",
-   "x": 3684,
+   "text": "**領取時限**\n\n4月6日0時0分後至4月7日0時0分前領取",
+   "x": 6868,
    "y": 219,
    "width": 260,
    "height": 124,
    "color": "#2563EB"
   },
   {
-   "id": "10fed45a21ac0061",
+   "id": "0c4a8fe054f7b7b6",
    "type": "text",
-   "text": "**基層卻知道監視者存在**\n\n明明只是基層，卻知道監視者的存在",
-   "x": 4348,
+   "text": "**兩人理解他國**\n\n達姬與尼歌娜都大致理解其他王國的狀況",
+   "x": 836,
    "y": 219,
    "width": 260,
    "height": 124,
    "color": "#7C3AED"
   },
   {
-   "id": "45a6866e952852a7",
+   "id": "e0c132479e0bf104",
    "type": "text",
-   "text": "**暗中保護公主防保守派抓把柄**\n\n暗中保護公主，並防止保守派抓到把柄",
-   "x": 4348,
-   "y": 506,
+   "text": "**尼歌娜管束達姬鼓勵**\n\n尼歌娜會管束公主，達姬則鼓勵公主享受",
+   "x": 1226,
+   "y": 219,
    "width": 260,
    "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "422984b83a8f131f",
+   "type": "text",
+   "text": "**他國重視規矩**\n\n其他王國十分重視規矩，犯規會被嚴懲",
+   "x": 446,
+   "y": 219,
+   "width": 260,
+   "height": 124,
+   "color": "#2563EB"
+  },
+  {
+   "id": "42e8a6b866925d59",
+   "type": "text",
+   "text": "**角色與閱歷不符**\n\n尼歌娜和達姬的角色與各自的身份閱歷不符，達姬理應比尼歌娜更清楚犯錯的後果以及帶來的外交問題",
+   "x": 836,
+   "y": 643,
+   "width": 260,
+   "height": 172,
+   "color": "#DC2626"
+  },
+  {
+   "id": "10fed45a21ac0061",
+   "type": "text",
+   "text": "**基層卻知道監視者存在**\n\n明明只是基層，卻知道監視者的存在",
+   "x": 56,
+   "y": 219,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "0feacb046863d5db",
+   "type": "text",
+   "text": "**暗中保護公主**\n\n暗中保護公主，並防止保守派抓到把柄",
+   "x": 56,
+   "y": 667,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "adc615550ee29e9c",
+   "type": "text",
+   "text": "**不利復興**\n\n不利米迦勒復興海之住民",
+   "x": 3092,
+   "y": 2339,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "2e88307b4440c7d0",
+   "type": "text",
+   "text": "**有利綁架公主**\n\n有利米迦勒綁架人魚公主",
+   "x": 2702,
+   "y": 2339,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "43e0efd9c8ba07de",
+   "type": "text",
+   "text": "**復興非真目的**\n\n復興不是米迦勒的真正目的",
+   "x": 2860,
+   "y": 2727,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "ae7d7afc6b4570d2",
+   "type": "text",
+   "text": "**塞雷亞知行蹤**\n\n塞雷亞清楚人魚公主行蹤",
+   "x": 4188,
+   "y": 2727,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "c0cdc071a1ebc568",
+   "type": "text",
+   "text": "**塞雷亞明知合作**\n\n塞雷亞明知而同意合作，且刻意淡化問題",
+   "x": 3445,
+   "y": 1927,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "61ca95860e34ef71",
+   "type": "text",
+   "text": "與北太平洋立場矛盾",
+   "x": 3482,
+   "y": 2363,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "f0f3db644ebfa861",
+   "type": "text",
+   "text": "塞雷亞與長老目標不同",
+   "x": 3798,
+   "y": 2751,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "26a4bb2e830d24f6",
+   "type": "text",
+   "text": "北太平洋有意挑起爭端",
+   "x": 3408,
+   "y": 2751,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "3dffff398c39b824",
+   "type": "text",
+   "text": "塞雷亞向VPTS洩密",
+   "x": 3993,
+   "y": 3115,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "2d247acea143c5ef",
+   "type": "text",
+   "text": "長老向VPTS洩密",
+   "x": 3408,
+   "y": 3115,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "0413deaf6fbf9f68",
+   "type": "text",
+   "text": "挑起內部爭端",
+   "x": 3993,
+   "y": 3455,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "56f1eb82f0f8e856",
+   "type": "text",
+   "text": "**水妖掌握行蹤**\n\n水妖對人魚公主的行蹤有一定掌握，且從來不會在人魚公主忙碌時出現",
+   "x": 1616,
+   "y": 207,
+   "width": 260,
+   "height": 148,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "c541ec08d3c73c72",
+   "type": "text",
+   "text": "**有人監視**\n\n有人密切監視人魚公主動向",
+   "x": 1542,
+   "y": 679,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "00350ca7861456cc",
+   "type": "text",
+   "text": "保守派監視者",
+   "x": 1932,
+   "y": 703,
+   "width": 260,
+   "height": 52,
+   "color": "#16A34A"
+  },
+  {
+   "id": "99d82033c766089a",
+   "type": "text",
+   "text": "**多人監視**\n\n多人監視人魚公主",
+   "x": 1737,
+   "y": 1115,
+   "width": 260,
+   "height": 100,
    "color": "#7C3AED"
   }
  ],
  "edges": [
   {
-   "id": "302a246a7c7a1e96",
-   "fromNode": "c6d3c5b3197cd22d",
-   "fromSide": "bottom",
-   "toNode": "3ac26482a529bb25",
-   "toSide": "top",
-   "color": "#94A3B8"
+   "id": "9f0b989e38dc5c60",
+   "fromNode": "defd2731e6fc8580",
+   "fromSide": "left",
+   "toNode": "6fb622ce7dd3e898",
+   "toSide": "right",
+   "color": "#EA580C",
+   "label": "導致"
   },
   {
-   "id": "8177cf38b950892d",
-   "fromNode": "ac24682bfdd0a2b9",
+   "id": "c892b78e35f1ce8b",
+   "fromNode": "defd2731e6fc8580",
    "fromSide": "bottom",
-   "toNode": "00350ca7861456cc",
+   "toNode": "891803f5f7adc05c",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#EA580C",
+   "label": "導致"
   },
   {
-   "id": "708d53f70d844a82",
+   "id": "e6be547bb093d2a9",
+   "fromNode": "defd2731e6fc8580",
+   "fromSide": "bottom",
+   "toNode": "ca08367c299ad4af",
+   "toSide": "top",
+   "color": "#EA580C"
+  },
+  {
+   "id": "1d6f9e1e10e6be74",
+   "fromNode": "defd2731e6fc8580",
+   "fromSide": "bottom",
+   "toNode": "51bf28efe2999b05",
+   "toSide": "top",
+   "color": "#EA580C"
+  },
+  {
+   "id": "1b144dff2e2af62e",
+   "fromNode": "4c1d5a421b71251d",
+   "fromSide": "right",
+   "toNode": "9590a700eb3a40e9",
+   "toSide": "left",
+   "color": "#EA580C",
+   "label": "導致"
+  },
+  {
+   "id": "ab6dc1beea8e1e05",
+   "fromNode": "56f1eb82f0f8e856",
+   "fromSide": "bottom",
+   "toNode": "c541ec08d3c73c72",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "5c23ce1571825a62",
    "fromNode": "00350ca7861456cc",
    "fromSide": "bottom",
-   "toNode": "74f8cf022f82482d",
+   "toNode": "99d82033c766089a",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "80d09853cc53dc15",
-   "fromNode": "45a6866e952852a7",
+   "id": "9567a46406c4e702",
+   "fromNode": "99d82033c766089a",
+   "fromSide": "left",
+   "toNode": "d77fd7bd519e2317",
+   "toSide": "right",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "5f8f0f6b9dd55c1e",
+   "fromNode": "0c4a8fe054f7b7b6",
    "fromSide": "bottom",
-   "toNode": "74f8cf022f82482d",
+   "toNode": "42e8a6b866925d59",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "d0ac972115776fe6",
-   "fromNode": "74f8cf022f82482d",
+   "id": "bb24833ad85af06a",
+   "fromNode": "e0c132479e0bf104",
    "fromSide": "bottom",
-   "toNode": "0b7495ea598e752a",
+   "toNode": "42e8a6b866925d59",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937"
   },
   {
-   "id": "e20aec6635e985e4",
-   "fromNode": "0b7495ea598e752a",
+   "id": "f5fd963fb2e9d069",
+   "fromNode": "422984b83a8f131f",
    "fromSide": "bottom",
-   "toNode": "4ffe86ff21227538",
+   "toNode": "42e8a6b866925d59",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937"
   },
   {
-   "id": "f4335b74d6025c09",
-   "fromNode": "7e620ed765426ebf",
+   "id": "cba6267ea3eccfdc",
+   "fromNode": "10fed45a21ac0061",
+   "fromSide": "bottom",
+   "toNode": "0feacb046863d5db",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "df98324ff7cefb11",
+   "fromNode": "00350ca7861456cc",
+   "fromSide": "bottom",
+   "toNode": "6402d76eceda0fe7",
+   "toSide": "top",
+   "color": "#1F2937"
+  },
+  {
+   "id": "3a831d5670d38f46",
+   "fromNode": "0feacb046863d5db",
+   "fromSide": "bottom",
+   "toNode": "6402d76eceda0fe7",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "6a5deef6aa76ed85",
+   "fromNode": "6402d76eceda0fe7",
+   "fromSide": "bottom",
+   "toNode": "e0c20cb6c4527aca",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "cccfcd221fccc49e",
+   "fromNode": "e0c20cb6c4527aca",
+   "fromSide": "bottom",
+   "toNode": "7c3529ffe65fdb6c",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "0a5a1c55f4ce11cb",
+   "fromNode": "e0c20cb6c4527aca",
+   "fromSide": "bottom",
+   "toNode": "c0cdc071a1ebc568",
+   "toSide": "top",
+   "color": "#64748B"
+  },
+  {
+   "id": "b16fee739f4e385a",
+   "fromNode": "c0cdc071a1ebc568",
    "fromSide": "bottom",
    "toNode": "61ca95860e34ef71",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B",
+   "label": "推導"
   },
   {
-   "id": "2e8adf0d63a3cf8e",
+   "id": "d48cfe359ba04c1b",
    "fromNode": "61ca95860e34ef71",
    "fromSide": "bottom",
    "toNode": "f0f3db644ebfa861",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B",
+   "label": "推導"
   },
   {
-   "id": "3eb3e1ff1cd4fdae",
+   "id": "c2156dd3f7ea0f3d",
    "fromNode": "61ca95860e34ef71",
    "fromSide": "bottom",
    "toNode": "26a4bb2e830d24f6",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B"
   },
   {
-   "id": "3359f3e0abec36a8",
+   "id": "4f23f926ec6909b0",
    "fromNode": "f0f3db644ebfa861",
    "fromSide": "bottom",
    "toNode": "3dffff398c39b824",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B",
+   "label": "推導"
   },
   {
-   "id": "91b332bb4b278289",
-   "fromNode": "26a4bb2e830d24f6",
+   "id": "02057317b9de1176",
+   "fromNode": "ae7d7afc6b4570d2",
    "fromSide": "bottom",
-   "toNode": "2d247acea143c5ef",
+   "toNode": "3dffff398c39b824",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B"
   },
   {
-   "id": "d92cbcd2506b0788",
-   "fromNode": "1c187786bbb46b68",
-   "fromSide": "bottom",
-   "toNode": "4dfec7118bf3606a",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "527fde818cfbabee",
-   "fromNode": "cbde140d3079a65c",
-   "fromSide": "bottom",
-   "toNode": "4dfec7118bf3606a",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "a3d3639a30ad7a75",
-   "fromNode": "0b7495ea598e752a",
-   "fromSide": "bottom",
-   "toNode": "7e620ed765426ebf",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "37486a3733090893",
-   "fromNode": "4ffe86ff21227538",
-   "fromSide": "bottom",
-   "toNode": "1c187786bbb46b68",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "6147f4e9f80b46eb",
-   "fromNode": "4ffe86ff21227538",
-   "fromSide": "bottom",
-   "toNode": "cbde140d3079a65c",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "df379295cb11ca76",
+   "id": "abff1795e54c3484",
    "fromNode": "3dffff398c39b824",
    "fromSide": "bottom",
    "toNode": "0413deaf6fbf9f68",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B",
+   "label": "推導"
   },
   {
-   "id": "0b17733290dec7c8",
-   "fromNode": "cb82b33feec3a657",
+   "id": "913e6f18a28a1e37",
+   "fromNode": "26a4bb2e830d24f6",
+   "fromSide": "bottom",
+   "toNode": "2d247acea143c5ef",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "81235504ac8145e1",
+   "fromNode": "7c3529ffe65fdb6c",
+   "fromSide": "bottom",
+   "toNode": "adc615550ee29e9c",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "c63cf3bb6fca9838",
+   "fromNode": "7c3529ffe65fdb6c",
+   "fromSide": "bottom",
+   "toNode": "2e88307b4440c7d0",
+   "toSide": "top",
+   "color": "#64748B"
+  },
+  {
+   "id": "1ce88957ce2f25d5",
+   "fromNode": "adc615550ee29e9c",
+   "fromSide": "bottom",
+   "toNode": "43e0efd9c8ba07de",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "341ac1ec8c9cea68",
+   "fromNode": "2e88307b4440c7d0",
+   "fromSide": "bottom",
+   "toNode": "43e0efd9c8ba07de",
+   "toSide": "top",
+   "color": "#64748B"
+  },
+  {
+   "id": "c15ae53fb71b5997",
+   "fromNode": "d0ee4e69d96af8ea",
+   "fromSide": "bottom",
+   "toNode": "3ac26482a529bb25",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "c3d7315b3df46f50",
+   "fromNode": "8c9f6bfa7aeb0d06",
    "fromSide": "bottom",
    "toNode": "3bff1fbdd6b2e883",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "fbf8b3a08766dbdf",
+   "id": "6ed5bdd44b6f4406",
    "fromNode": "3d6b964239b127bc",
    "fromSide": "bottom",
    "toNode": "8e07270ef4b19a02",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   },
   {
-   "id": "2b6283a7ec0be2bf",
+   "id": "119ba7fddb09918e",
    "fromNode": "a6a24df9c26e75af",
    "fromSide": "bottom",
    "toNode": "d2fcd87e61d787f9",
    "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#64748B",
+   "label": "推導"
   },
   {
-   "id": "816ac55e7bab885c",
-   "fromNode": "d9162b012ce923e5",
+   "id": "163130f7e30ecd3f",
+   "fromNode": "2522a8ef4d3e9eb5",
    "fromSide": "bottom",
-   "toNode": "3dffff398c39b824",
+   "toNode": "2290b1074b1e8ea8",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "9034306d142cee49",
+   "fromNode": "3e48fbf60bd225cf",
+   "fromSide": "bottom",
+   "toNode": "6030e4d84a6ee3d9",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "de9ea9f709065cc0",
+   "fromNode": "d4d60716ab9e9307",
+   "fromSide": "bottom",
+   "toNode": "fc839a52f24a7eb5",
+   "toSide": "top",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "d44647d253d04804",
+   "fromNode": "3bff1fbdd6b2e883",
+   "fromSide": "bottom",
+   "toNode": "f86152a0b9309685",
+   "toSide": "top",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "7c161e6f2314011f",
+   "fromNode": "d25a1979cd36c2f3",
+   "fromSide": "bottom",
+   "toNode": "aa1b44988baf1811",
    "toSide": "top",
    "color": "#94A3B8"
   },
   {
-   "id": "e1868b8d62cf16ce",
-   "fromNode": "fe6cadab6973e968",
+   "id": "a2a8205b533a634f",
+   "fromNode": "f1a17e7d67d2be5a",
    "fromSide": "bottom",
-   "toNode": "35b723befabebd4d",
+   "toNode": "9dd031ac33c1ced9",
    "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "64911f3daca6c7ce",
-   "fromNode": "07347c080b654fd3",
-   "fromSide": "bottom",
-   "toNode": "35b723befabebd4d",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "08bdf1980c27d0a4",
-   "fromNode": "8d6f560b41cd2b70",
-   "fromSide": "bottom",
-   "toNode": "35b723befabebd4d",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "5acf2c92adc40821",
-   "fromNode": "2d27b3acf0b12b1b",
-   "fromSide": "bottom",
-   "toNode": "344392e3466c06f1",
-   "toSide": "top",
-   "color": "#94A3B8"
+   "color": "#1F2937",
+   "label": "支持"
   }
  ]
 }

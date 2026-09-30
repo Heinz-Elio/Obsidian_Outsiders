@@ -1,324 +1,59 @@
 {
- "nodes": [
-  {
-   "id": "891803f5f7adc05c",
-   "type": "group",
-   "label": "堂本海斗",
-   "x": 3296,
-   "y": 68,
-   "width": 640,
-   "height": 371
-  },
-  {
-   "id": "15b656be28fbb5d6",
-   "type": "group",
-   "label": "第一封信件",
-   "x": 3960,
-   "y": 116,
-   "width": 308,
-   "height": 108
-  },
-  {
-   "id": "9590a700eb3a40e9",
-   "type": "group",
-   "label": "米迦勒",
-   "x": 948,
-   "y": 46,
-   "width": 1660,
-   "height": 417
-  },
-  {
-   "id": "b503d9bb1f55ecce",
-   "type": "group",
-   "label": "封蠟",
-   "x": 972,
-   "y": 116,
-   "width": 640,
-   "height": 323
-  },
-  {
-   "id": "fd053ae914d9d3a1",
-   "type": "text",
-   "text": "**信使受V修正力操控**\n\n信使有V的修正力殘留，由V操控",
-   "x": 0,
-   "y": 112,
-   "width": 260,
-   "height": 124,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "fa181d038705bddb",
-   "type": "text",
-   "text": "V有途徑獲得人魚機密",
-   "x": 332,
-   "y": 148,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "43ce113a999ecc9c",
-   "type": "text",
-   "text": "米迦勒被V操控",
-   "x": 664,
-   "y": 364,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "1843024885a34c25",
-   "type": "text",
-   "text": "V是阿奎斯托",
-   "x": 996,
-   "y": 530,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "fc839a52f24a7eb5",
-   "type": "text",
-   "text": "堂本薰是倖存者之一",
-   "x": 2656,
-   "y": 148,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "8a3bbd0a65671b40",
-   "type": "text",
-   "text": "**信使目標非復興海之住民**\n\n信使的行動目標不是復興海之住民，也不需要人魚公主的力量",
-   "x": 664,
-   "y": 112,
-   "width": 260,
-   "height": 124,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "9aea3b821b1ce370",
-   "type": "text",
-   "text": "V與烏蘇拉是合作伙伴",
-   "x": 2988,
-   "y": 148,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "f86152a0b9309685",
-   "type": "text",
-   "text": "V是彭達拉薩人",
-   "x": 996,
-   "y": 697,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "b06ab060c0d0b1fe",
-   "type": "text",
-   "text": "人魚方高層洩漏情報",
-   "x": 332,
-   "y": 364,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "ff80205b08f1d3fa",
-   "type": "text",
-   "text": "**海上意外失憶被美嘉留所救**\n\n在海上遇到意外並失憶，被天城美嘉留所救，失去關於人魚的記憶",
-   "x": 3320,
-   "y": 100,
-   "width": 260,
-   "height": 148,
-   "color": "#EA580C"
-  },
-  {
-   "id": "eff8698369c9a2c4",
-   "type": "text",
-   "text": "遭到米迦勒襲擊",
-   "x": 3320,
-   "y": 364,
-   "width": 260,
-   "height": 52,
-   "color": "#EA580C"
-  },
-  {
-   "id": "744e5912824cfd10",
-   "type": "text",
-   "text": "**力量與水妖米迦勒同源**\n\n力量與水妖、米迦勒同源",
-   "x": 3652,
-   "y": 124,
-   "width": 260,
-   "height": 100,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "07f1f55c6e51bae3",
-   "type": "text",
-   "text": "合照",
-   "x": 3984,
-   "y": 148,
-   "width": 260,
-   "height": 52,
-   "color": "#2563EB"
-  },
-  {
-   "id": "8ceee7f56b26bcbb",
-   "type": "text",
-   "text": "企圖綁架人魚公主吸收力量",
-   "x": 1660,
-   "y": 148,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "03e97dfc8dbd88a0",
-   "type": "text",
-   "text": "米迦勒太快擺出對立態度",
-   "x": 1826,
-   "y": 364,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "affae4f70c0f236d",
-   "type": "text",
-   "text": "**積極合作對米迦勒應是最優解**\n\n積極尋求合作對米迦勒理應是最優解",
-   "x": 1992,
-   "y": 112,
-   "width": 260,
-   "height": 124,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "db9e53fce8c05ff1",
-   "type": "text",
-   "text": "**長老才是權力核心不應找公主談**\n\n長老才是權力核心，米迦勒不應找人魚公主談合作",
-   "x": 2324,
-   "y": 112,
-   "width": 260,
-   "height": 124,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "1a3a14b3bb32809b",
-   "type": "text",
-   "text": "米迦勒對人魚內部並不了解",
-   "x": 2324,
-   "y": 364,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  },
-  {
-   "id": "35f6847f6fe421cf",
-   "type": "text",
-   "text": "與彭達拉薩族徽相似",
-   "x": 996,
-   "y": 148,
-   "width": 260,
-   "height": 52,
-   "color": "#2563EB"
-  },
-  {
-   "id": "efaec783290e4f65",
-   "type": "text",
-   "text": "美國大眾牌子",
-   "x": 1328,
-   "y": 148,
-   "width": 260,
-   "height": 52,
-   "color": "#2563EB"
-  },
-  {
-   "id": "9091e5ffa7d0c02d",
-   "type": "text",
-   "text": "V與彭達拉薩族有關",
-   "x": 996,
-   "y": 364,
-   "width": 260,
-   "height": 52,
-   "color": "#7C3AED"
-  }
- ],
- "edges": [
-  {
-   "id": "2f439f4bdc6dd906",
-   "fromNode": "1843024885a34c25",
-   "fromSide": "bottom",
-   "toNode": "f86152a0b9309685",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "becc49db315e195a",
-   "fromNode": "8a3bbd0a65671b40",
-   "fromSide": "bottom",
-   "toNode": "43ce113a999ecc9c",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "9546ec7c63cd0fbf",
-   "fromNode": "35f6847f6fe421cf",
-   "fromSide": "bottom",
-   "toNode": "9091e5ffa7d0c02d",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "95d45ecaf5584b57",
-   "fromNode": "9091e5ffa7d0c02d",
-   "fromSide": "bottom",
-   "toNode": "1843024885a34c25",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "16ddd14418af64f5",
-   "fromNode": "ff80205b08f1d3fa",
-   "fromSide": "bottom",
-   "toNode": "eff8698369c9a2c4",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "3ae5fab1e164bc11",
-   "fromNode": "fa181d038705bddb",
-   "fromSide": "bottom",
-   "toNode": "b06ab060c0d0b1fe",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "62371f7688ca8752",
-   "fromNode": "8ceee7f56b26bcbb",
-   "fromSide": "bottom",
-   "toNode": "03e97dfc8dbd88a0",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "ea91f061641f737c",
-   "fromNode": "affae4f70c0f236d",
-   "fromSide": "bottom",
-   "toNode": "03e97dfc8dbd88a0",
-   "toSide": "top",
-   "color": "#94A3B8"
-  },
-  {
-   "id": "faad04f2755c3c79",
-   "fromNode": "db9e53fce8c05ff1",
-   "fromSide": "bottom",
-   "toNode": "1a3a14b3bb32809b",
-   "toSide": "top",
-   "color": "#94A3B8"
-  }
- ]
+	"nodes":[
+		{"id":"d75ae21741a94d91","type":"group","label":"V是誰？","x":8,"y":46,"width":996,"height":907},
+		{"id":"891803f5f7adc05c","type":"group","label":"封蠟","x":32,"y":116,"width":640,"height":108},
+		{"id":"15b656be28fbb5d6","type":"group","label":"V的情報從何而來？","x":1028,"y":56,"width":640,"height":682},
+		{"id":"9590a700eb3a40e9","type":"group","label":"事件","x":1692,"y":68,"width":308,"height":419},
+		{"id":"b503d9bb1f55ecce","type":"group","label":"海斗的力量從何而來？","x":1692,"y":606,"width":308,"height":156},
+		{"id":"83a056d93f512c5f","type":"group","label":"第一封信與孤兒院","x":3020,"y":56,"width":640,"height":467},
+		{"id":"6eca50fefd90742f","type":"group","label":"米迦勒的目的？","x":2024,"y":80,"width":972,"height":706},
+		{"id":"a19268416bb74cc2","type":"group","label":"誰在操控米迦勒？","x":3684,"y":80,"width":308,"height":658},
+		{"id":"9091e5ffa7d0c02d","type":"text","text":"V與彭達拉薩族有關","x":56,"y":411,"width":260,"height":52,"color":"#7C3AED"},
+		{"id":"1843024885a34c25","type":"text","text":"V是阿奎斯托","x":56,"y":662,"width":260,"height":52,"color":"#7C3AED"},
+		{"id":"f86152a0b9309685","type":"text","text":"V是彭達拉薩人","x":222,"y":878,"width":260,"height":52,"color":"#7C3AED"},
+		{"id":"9aea3b821b1ce370","type":"text","text":"V與烏蘇拉是合作伙伴","x":720,"y":148,"width":260,"height":52,"color":"#7C3AED"},
+		{"id":"3bff1fbdd6b2e883","type":"text","text":"**V知道海都城位置**\n\n見 [[線索-DSL-陸地現場-音樂會與孤兒院]]","x":388,"y":626,"width":260,"height":124,"color":"#64748B"},
+		{"id":"35f6847f6fe421cf","type":"text","text":"與彭達拉薩族徽相似","x":56,"y":148,"width":260,"height":52,"color":"#2563EB"},
+		{"id":"efaec783290e4f65","type":"text","text":"美國大眾牌子","x":388,"y":148,"width":260,"height":52,"color":"#2563EB"},
+		{"id":"fa181d038705bddb","type":"text","text":"V有途徑獲得人魚機密","x":1218,"y":411,"width":260,"height":52,"color":"#7C3AED"},
+		{"id":"b06ab060c0d0b1fe","type":"text","text":"人魚方高層洩漏情報","x":1218,"y":662,"width":260,"height":52,"color":"#7C3AED"},
+		{"id":"6f52f422d6c9b90d","type":"text","text":"**公主誕生時點**\n\n米迦勒與V都知道印度洋公主將於何時誕生，見 [[線索-DSL-沙羅與海都事件]]","x":1052,"y":100,"width":260,"height":148,"color":"#64748B"},
+		{"id":"decd129d045d377d","type":"text","text":"**VPTS掌握行蹤**\n\nVPTS掌握所有人魚公主的行蹤，並據此策劃連串行動，見 [[線索-DSL-綁架行動與VPTS]]","x":1384,"y":88,"width":260,"height":172,"color":"#64748B"},
+		{"id":"ff5db3b54dfa2775","type":"text","text":"**海上失憶獲救**\n\n在海上遇到意外並失憶，被天城美嘉留所救，失去關於人魚的記憶","x":1716,"y":100,"width":260,"height":148,"color":"#EA580C"},
+		{"id":"eff8698369c9a2c4","type":"text","text":"遭到米迦勒襲擊","x":1716,"y":411,"width":260,"height":52,"color":"#EA580C"},
+		{"id":"744e5912824cfd10","type":"text","text":"**力量與水妖米迦勒同源**\n\n力量與水妖、米迦勒同源","x":1716,"y":638,"width":260,"height":100,"color":"#7C3AED"},
+		{"id":"07f1f55c6e51bae3","type":"text","text":"合照","x":3044,"y":148,"width":260,"height":52,"color":"#2563EB"},
+		{"id":"5d328dc06f736c36","type":"text","text":"**廢棄孤兒院**\n\n見 [[線索-DSL-陸地現場-音樂會與孤兒院]]","x":3044,"y":375,"width":260,"height":124,"color":"#64748B"},
+		{"id":"4e5560516e3a2fba","type":"text","text":"**孤兒院火災**\n\n29年前發生火災，案件紀錄3人倖存，見 [[線索-DSL-陸地現場-音樂會與孤兒院]]","x":3376,"y":88,"width":260,"height":172,"color":"#64748B"},
+		{"id":"fc839a52f24a7eb5","type":"text","text":"堂本薰是倖存者之一","x":3376,"y":411,"width":260,"height":52,"color":"#7C3AED"},
+		{"id":"26843047d629eb3b","type":"text","text":"**綁架公主吸力量**\n\n企圖綁架人魚公主吸收力量","x":2048,"y":124,"width":260,"height":100,"color":"#7C3AED"},
+		{"id":"1e9aad6da0db1292","type":"text","text":"**米迦勒太快對立**\n\n米迦勒太快擺出對立態度","x":2254,"y":387,"width":260,"height":100,"color":"#7C3AED"},
+		{"id":"ba13bf28406b09c2","type":"text","text":"**合作應是最優解**\n\n積極尋求合作對米迦勒理應是最優解","x":2380,"y":112,"width":260,"height":124,"color":"#7C3AED"},
+		{"id":"3fc13c73a338c50f","type":"text","text":"**長老才是權力核心**\n\n長老才是權力核心，米迦勒不應找人魚公主談合作","x":2712,"y":112,"width":260,"height":124,"color":"#7C3AED"},
+		{"id":"018082be0bd6d114","type":"text","text":"**不了解人魚內部**\n\n米迦勒對人魚內部並不了解","x":2712,"y":387,"width":260,"height":100,"color":"#7C3AED"},
+		{"id":"cb347e0ad980aca8","type":"text","text":"**復興非真正目的**\n\n復興不是米迦勒的真正目的，見 [[線索-DSL-陸地現場-音樂會與孤兒院]]","x":2254,"y":614,"width":260,"height":148,"color":"#64748B"},
+		{"id":"fd053ae914d9d3a1","type":"text","text":"**信使受V修正力操控**\n\n信使有V的修正力殘留，由V操控","x":3708,"y":112,"width":260,"height":124,"color":"#7C3AED"},
+		{"id":"46692b44621d4c04","type":"text","text":"**信使目標非復興**\n\n信使的行動目標不是復興海之住民，也不需要人魚公主的力量","x":3708,"y":375,"width":260,"height":124,"color":"#7C3AED"},
+		{"id":"43ce113a999ecc9c","type":"text","text":"米迦勒被V操控","x":3708,"y":662,"width":260,"height":52,"color":"#7C3AED"}
+	],
+	"edges":[
+		{"id":"edaf333e8c3b55da","fromNode":"ff5db3b54dfa2775","fromSide":"bottom","toNode":"eff8698369c9a2c4","toSide":"top","color":"#94A3B8","label":"時序"},
+		{"id":"6903cf72d32d66d5","fromNode":"eff8698369c9a2c4","fromSide":"right","toNode":"6eca50fefd90742f","toSide":"left","color":"#EA580C","label":"導致"},
+		{"id":"b641e0978e92395d","fromNode":"eff8698369c9a2c4","fromSide":"bottom","toNode":"744e5912824cfd10","toSide":"top","color":"#1F2937","label":"支持"},
+		{"id":"cb691adf7acab65e","fromNode":"07f1f55c6e51bae3","fromSide":"bottom","toNode":"5d328dc06f736c36","toSide":"top","color":"#94A3B8"},
+		{"id":"55414887447608df","fromNode":"4e5560516e3a2fba","fromSide":"bottom","toNode":"fc839a52f24a7eb5","toSide":"top","color":"#1F2937","label":"支持"},
+		{"id":"879c37518772f3d4","fromNode":"35f6847f6fe421cf","fromSide":"bottom","toNode":"9091e5ffa7d0c02d","toSide":"top","color":"#1F2937","label":"支持"},
+		{"id":"f9b0b41dd9a43ae9","fromNode":"9091e5ffa7d0c02d","fromSide":"bottom","toNode":"1843024885a34c25","toSide":"top","color":"#64748B","label":"推導"},
+		{"id":"628756dd918e6142","fromNode":"1843024885a34c25","fromSide":"bottom","toNode":"f86152a0b9309685","toSide":"top","color":"#64748B","label":"推導"},
+		{"id":"155ccfa920da6fb6","fromNode":"3bff1fbdd6b2e883","fromSide":"bottom","toNode":"f86152a0b9309685","toSide":"top","color":"#64748B"},
+		{"id":"6ec773fea2e6f154","fromNode":"6f52f422d6c9b90d","fromSide":"bottom","toNode":"fa181d038705bddb","toSide":"top","color":"#64748B","label":"推導"},
+		{"id":"d7fb824c4f349b3e","fromNode":"decd129d045d377d","fromSide":"bottom","toNode":"fa181d038705bddb","toSide":"top","color":"#64748B"},
+		{"id":"d43b1d551d2c71a6","fromNode":"fa181d038705bddb","fromSide":"bottom","toNode":"b06ab060c0d0b1fe","toSide":"top","color":"#64748B","label":"推導"},
+		{"id":"2414218b3280c432","fromNode":"26843047d629eb3b","fromSide":"bottom","toNode":"1e9aad6da0db1292","toSide":"top","color":"#64748B","label":"推導"},
+		{"id":"ac18b3b44b810d07","fromNode":"ba13bf28406b09c2","fromSide":"bottom","toNode":"1e9aad6da0db1292","toSide":"top","color":"#64748B"},
+		{"id":"5c029bfae2af9b71","fromNode":"1e9aad6da0db1292","fromSide":"bottom","toNode":"cb347e0ad980aca8","toSide":"top","color":"#64748B","label":"推導"},
+		{"id":"b7c909a080bf070f","fromNode":"3fc13c73a338c50f","fromSide":"bottom","toNode":"018082be0bd6d114","toSide":"top","color":"#64748B","label":"推導"},
+		{"id":"0192c73a5f760204","fromNode":"fd053ae914d9d3a1","fromSide":"bottom","toNode":"46692b44621d4c04","toSide":"top","color":"#64748B","label":"推導"},
+		{"id":"beded3275183c5d9","fromNode":"46692b44621d4c04","fromSide":"bottom","toNode":"43ce113a999ecc9c","toSide":"top","color":"#64748B","label":"推導"}
+	]
 }

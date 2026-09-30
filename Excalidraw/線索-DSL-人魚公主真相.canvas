@@ -1,76 +1,647 @@
 {
-	"nodes":[
-		{"id":"d75ae21741a94d91","type":"group","label":"推論","x":498,"y":702,"width":798,"height":831},
-		{"id":"891803f5f7adc05c","type":"group","label":"本質","x":2199,"y":504,"width":308,"height":1458},
-		{"id":"15b656be28fbb5d6","type":"group","label":"系統架構","x":2199,"y":77,"width":1288,"height":381},
-		{"id":"9590a700eb3a40e9","type":"group","label":"表徵異常","x":8,"y":63,"width":308,"height":1932},
-		{"id":"b503d9bb1f55ecce","type":"group","label":"表象","x":1478,"y":564,"width":308,"height":1386},
-		{"id":"64da0c7a0931124a","type":"text","text":"**曾為普通人魚**\n\n成為公主前另有一段經歷，曾在別處學習、接觸人類社會","x":522,"y":959,"width":260,"height":124,"color":"#7C3AED"},
-		{"id":"a300726ad53345d9","type":"text","text":"**施法被限制**\n\n公主仍保有法力，「無法施法」是外加的限制而非天性","x":522,"y":734,"width":260,"height":124,"color":"#7C3AED"},
-		{"id":"d76b256f5bcb6e26","type":"text","text":"**珍珠自行判斷**\n\n判斷在珍珠，不在公主","x":522,"y":1409,"width":260,"height":100,"color":"#7C3AED"},
-		{"id":"36af560b3b1fc510","type":"text","text":"**歌曲非女神所賜**\n\n歌曲是人為創作，並非海之女神給予","x":522,"y":1184,"width":260,"height":124,"color":"#7C3AED"},
-		{"id":"e18a0ac68f80c601","type":"text","text":"**人魚公主非自然產物**\n\n人魚公主並非天生神使，身份、能力與限制都是後天賦予","x":1012,"y":973,"width":260,"height":124,"color":"#7C3AED"},
-		{"id":"5f508397b4ced5dd","type":"text","text":"**基質容器**\n\n基質容器＋干擾粒子製造器，經身體改造與家庭抹除後包裝為神使","x":2223,"y":938,"width":260,"height":148,"color":"#16A34A"},
-		{"id":"ddfff15db86ad83b","type":"text","text":"**干擾開關**\n\n變身或使用珍珠時系統暫停干擾","x":2223,"y":1412,"width":260,"height":100,"color":"#16A34A"},
-		{"id":"e76892b5accdd47b","type":"text","text":"**干擾粒子**\n\n平常在散播干擾粒子，變身放大釋放","x":2223,"y":1613,"width":260,"height":124,"color":"#16A34A"},
-		{"id":"da0804e37663ca90","type":"text","text":"**系統維護者**\n\n長老是系統維護者","x":2223,"y":1838,"width":260,"height":100,"color":"#16A34A"},
-		{"id":"224b5a75121eedd1","type":"text","text":"**位置回報**\n\n系統持續回報公主位置","x":2223,"y":536,"width":260,"height":100,"color":"#16A34A"},
-		{"id":"3959c320424b3a8a","type":"text","text":"**容器回收**\n\n容器報廢與回收程序","x":2223,"y":737,"width":260,"height":100,"color":"#16A34A"},
-		{"id":"f98f65156e846e44","type":"text","text":"**人造輸入曲**\n\n阿拉拉創作、長老輸入系統的人造曲目","x":2223,"y":1187,"width":260,"height":124,"color":"#16A34A"},
-		{"id":"cbf0e8d873c80cdb","type":"text","text":"**海之主**\n\n開發星降神臨，用以控制星球防禦系統","x":3203,"y":298,"width":260,"height":124,"color":"#16A34A"},
-		{"id":"dfde8498c544cdb9","type":"text","text":"**星降神臨**\n\n星球級系統；核心功能含基質收集、干擾粒子、位置回報與容器回收","x":2713,"y":286,"width":260,"height":148,"color":"#16A34A"},
-		{"id":"270f876353487406","type":"text","text":"**海之女神**\n\n系統管理終端的中繼載體","x":2223,"y":334,"width":260,"height":100,"color":"#16A34A"},
-		{"id":"066c3977db9fcf4e","type":"text","text":"**珍珠**\n\n系統執行端；離開貝殼時會自動向特定對象釋放能量","x":2223,"y":109,"width":260,"height":124,"color":"#16A34A"},
-		{"id":"5186bc0ea43fc2f8","type":"text","text":"**星羅懂得法術基本原理**\n\n印度洋王國禁止公主學習法術，星羅必然在其他地方學過","x":32,"y":1172,"width":260,"height":124,"color":"#2563EB"},
-		{"id":"0a939aed345c6821","type":"text","text":"**星羅誕生時已是兒童**\n\n一般公主誕生時都是嬰兒","x":32,"y":971,"width":260,"height":100,"color":"#2563EB"},
-		{"id":"e9baaed89451eeb3","type":"text","text":"**星羅認知異於其他公主**\n\n通曉人類語言與社會，對印度洋王國生活印象模糊","x":32,"y":746,"width":260,"height":124,"color":"#2563EB"},
-		{"id":"482c117f795e8faa","type":"text","text":"**星羅與Kafziel的特殊連結**\n\n在Kafziel身上找到「哥哥」的感覺","x":32,"y":497,"width":260,"height":148,"color":"#2563EB"},
-		{"id":"1c7f7584582c8a41","type":"text","text":"**公主無法使用法術**\n\n王國教導如此，具體原因不明","x":32,"y":296,"width":260,"height":100,"color":"#2563EB"},
-		{"id":"08e03da1440c9621","type":"text","text":"**諾愛爾成功強行施放法術**\n\n與「無法施法」的制度說法衝突","x":32,"y":95,"width":260,"height":100,"color":"#2563EB"},
-		{"id":"5924591745027934","type":"text","text":"**珍珠指向不受主觀認知影響**\n\n指向對象不受人魚公主主觀認知影響","x":32,"y":1847,"width":260,"height":124,"color":"#2563EB"},
-		{"id":"f20632a9cf00907e","type":"text","text":"**歌曲中存在流行曲**\n\n海之女神「給予」的歌曲裡有流行曲","x":32,"y":1397,"width":260,"height":124,"color":"#2563EB"},
-		{"id":"6dd844affa5a46d3","type":"text","text":"**歌曲實際由阿拉拉創作**\n\n公主所唱的歌曲實際由阿拉拉創作","x":32,"y":1622,"width":260,"height":124,"color":"#2563EB"},
-		{"id":"3032559c5da3a7f9","type":"text","text":"**天降神使**\n\n人魚公主是天降神使","x":1502,"y":998,"width":260,"height":100,"color":"#7C3AED"},
-		{"id":"fd0a36fb7b5a856c","type":"text","text":"**歌聲珍珠守護**\n\n公主以歌聲與珍珠守護和平","x":1502,"y":1400,"width":260,"height":100,"color":"#7C3AED"},
-		{"id":"ddf27a6e0e6ece7f","type":"text","text":"**感知影響**\n\n公主存在會影響感知、變身能量遠超常人","x":1502,"y":1601,"width":260,"height":124,"color":"#7C3AED"},
-		{"id":"24c1de1f91a6dae2","type":"text","text":"**長老輔佐**\n\n長老輔佐並保護公主","x":1502,"y":1826,"width":260,"height":100,"color":"#7C3AED"},
-		{"id":"e71f3d2de9495d6c","type":"text","text":"**失蹤無力追查**\n\n公主失蹤是無力追查","x":1502,"y":596,"width":260,"height":100,"color":"#7C3AED"},
-		{"id":"e92001a3abe26f4d","type":"text","text":"**星盡神聖處罰**\n\n星盡是違規後的神聖處罰","x":1502,"y":797,"width":260,"height":100,"color":"#7C3AED"},
-		{"id":"e64eec9a89f9b63a","type":"text","text":"**女神給予神曲**\n\n歌曲由海之女神「給予」","x":1502,"y":1199,"width":260,"height":100,"color":"#7C3AED"}
-	],
-	"edges":[
-		{"id":"8d4b79e4871c2a56","fromNode":"5186bc0ea43fc2f8","fromSide":"right","toNode":"64da0c7a0931124a","toSide":"left","color":"#1F2937","label":"支持"},
-		{"id":"70e9338d28633794","fromNode":"0a939aed345c6821","fromSide":"right","toNode":"64da0c7a0931124a","toSide":"left","color":"#1F2937"},
-		{"id":"dd33072bda113740","fromNode":"e9baaed89451eeb3","fromSide":"right","toNode":"64da0c7a0931124a","toSide":"left","color":"#1F2937"},
-		{"id":"e515632b077d6b69","fromNode":"482c117f795e8faa","fromSide":"right","toNode":"64da0c7a0931124a","toSide":"left","color":"#1F2937"},
-		{"id":"1981739a181d129d","fromNode":"1c7f7584582c8a41","fromSide":"right","toNode":"a300726ad53345d9","toSide":"left","color":"#1F2937","label":"支持"},
-		{"id":"0c8b12eaf621627b","fromNode":"08e03da1440c9621","fromSide":"right","toNode":"a300726ad53345d9","toSide":"left","color":"#1F2937"},
-		{"id":"0140869074907ad3","fromNode":"5924591745027934","fromSide":"right","toNode":"d76b256f5bcb6e26","toSide":"left","color":"#1F2937","label":"支持"},
-		{"id":"7b71e336d6867361","fromNode":"f20632a9cf00907e","fromSide":"right","toNode":"36af560b3b1fc510","toSide":"left","color":"#1F2937"},
-		{"id":"111b3b018b7a459f","fromNode":"6dd844affa5a46d3","fromSide":"right","toNode":"36af560b3b1fc510","toSide":"left","color":"#1F2937","label":"支持"},
-		{"id":"11726384c3e4cdd9","fromNode":"64da0c7a0931124a","fromSide":"right","toNode":"e18a0ac68f80c601","toSide":"left","color":"#64748B","label":"推導"},
-		{"id":"eff7787135ec9517","fromNode":"a300726ad53345d9","fromSide":"right","toNode":"e18a0ac68f80c601","toSide":"left","color":"#64748B"},
-		{"id":"af9cfa075be3aae4","fromNode":"d76b256f5bcb6e26","fromSide":"right","toNode":"e18a0ac68f80c601","toSide":"left","color":"#64748B"},
-		{"id":"426b4e873ffdbd5d","fromNode":"36af560b3b1fc510","fromSide":"right","toNode":"e18a0ac68f80c601","toSide":"left","color":"#64748B"},
-		{"id":"d4b79f47f92807b2","fromNode":"e18a0ac68f80c601","fromSide":"right","toNode":"3032559c5da3a7f9","toSide":"left","color":"#DC2626","label":"矛盾"},
-		{"id":"9b6c039f9d99f766","fromNode":"d76b256f5bcb6e26","fromSide":"right","toNode":"fd0a36fb7b5a856c","toSide":"left","color":"#DC2626","label":"矛盾"},
-		{"id":"44a65c1105e361a7","fromNode":"36af560b3b1fc510","fromSide":"right","toNode":"e64eec9a89f9b63a","toSide":"left","color":"#DC2626","label":"矛盾"},
-		{"id":"669e160a3229ee95","fromNode":"3032559c5da3a7f9","fromSide":"right","toNode":"5f508397b4ced5dd","toSide":"left","color":"#94A3B8","label":"實為"},
-		{"id":"316cf5e313d3c4e2","fromNode":"fd0a36fb7b5a856c","fromSide":"right","toNode":"ddfff15db86ad83b","toSide":"left","color":"#94A3B8","label":"實為"},
-		{"id":"a5f3e3f5feb67f8c","fromNode":"ddf27a6e0e6ece7f","fromSide":"right","toNode":"e76892b5accdd47b","toSide":"left","color":"#94A3B8","label":"實為"},
-		{"id":"4c1b334148af2554","fromNode":"24c1de1f91a6dae2","fromSide":"right","toNode":"da0804e37663ca90","toSide":"left","color":"#94A3B8","label":"實為"},
-		{"id":"cf3a70450ce5d3e7","fromNode":"e71f3d2de9495d6c","fromSide":"right","toNode":"224b5a75121eedd1","toSide":"left","color":"#94A3B8","label":"實為"},
-		{"id":"d70b8196b5e02f73","fromNode":"e92001a3abe26f4d","fromSide":"right","toNode":"3959c320424b3a8a","toSide":"left","color":"#94A3B8","label":"實為"},
-		{"id":"fe4a201bbe2a5499","fromNode":"e64eec9a89f9b63a","fromSide":"right","toNode":"f98f65156e846e44","toSide":"left","color":"#94A3B8","label":"實為"},
-		{"id":"74cb3a4fb8a73270","fromNode":"5f508397b4ced5dd","fromSide":"right","toNode":"dfde8498c544cdb9","toSide":"left","color":"#94A3B8","toEnd":"none"},
-		{"id":"32ad5e43fd6326c5","fromNode":"ddfff15db86ad83b","fromSide":"right","toNode":"dfde8498c544cdb9","toSide":"left","color":"#94A3B8","toEnd":"none"},
-		{"id":"5e082ac1e23e4495","fromNode":"e76892b5accdd47b","fromSide":"right","toNode":"dfde8498c544cdb9","toSide":"left","color":"#94A3B8","toEnd":"none"},
-		{"id":"b216da3cfc719e0b","fromNode":"da0804e37663ca90","fromSide":"right","toNode":"dfde8498c544cdb9","toSide":"left","color":"#94A3B8","toEnd":"none"},
-		{"id":"f11e66465bc37fa0","fromNode":"224b5a75121eedd1","fromSide":"right","toNode":"dfde8498c544cdb9","toSide":"left","color":"#94A3B8","toEnd":"none"},
-		{"id":"82f9cff1b6d2b09f","fromNode":"3959c320424b3a8a","fromSide":"right","toNode":"dfde8498c544cdb9","toSide":"left","color":"#94A3B8","toEnd":"none"},
-		{"id":"6d91e06f69b4303f","fromNode":"f98f65156e846e44","fromSide":"right","toNode":"dfde8498c544cdb9","toSide":"left","color":"#94A3B8","toEnd":"none"},
-		{"id":"0f48804362d7f46e","fromNode":"270f876353487406","fromSide":"right","toNode":"dfde8498c544cdb9","toSide":"left","color":"#94A3B8","label":"屬於","toEnd":"none"},
-		{"id":"850618f8d03c9a5f","fromNode":"066c3977db9fcf4e","fromSide":"right","toNode":"dfde8498c544cdb9","toSide":"left","color":"#94A3B8","toEnd":"none"},
-		{"id":"9a83fd2a6bfd1db4","fromNode":"dfde8498c544cdb9","fromSide":"right","toNode":"cbf0e8d873c80cdb","toSide":"left","color":"#94A3B8","label":"屬於","toEnd":"none"}
-	]
+ "nodes": [
+  {
+   "id": "d75ae21741a94d91",
+   "type": "group",
+   "label": "推論",
+   "x": 556,
+   "y": 1034,
+   "width": 1404,
+   "height": 664
+  },
+  {
+   "id": "891803f5f7adc05c",
+   "type": "group",
+   "label": "本質",
+   "x": 3037,
+   "y": 644,
+   "width": 308,
+   "height": 1330
+  },
+  {
+   "id": "15b656be28fbb5d6",
+   "type": "group",
+   "label": "系統架構",
+   "x": 3037,
+   "y": 184,
+   "width": 1404,
+   "height": 386
+  },
+  {
+   "id": "9590a700eb3a40e9",
+   "type": "group",
+   "label": "表徵異常",
+   "x": 8,
+   "y": 46,
+   "width": 1404,
+   "height": 942
+  },
+  {
+   "id": "b503d9bb1f55ecce",
+   "type": "group",
+   "label": "表象",
+   "x": 2200,
+   "y": 742,
+   "width": 308,
+   "height": 1042
+  },
+  {
+   "id": "64da0c7a0931124a",
+   "type": "text",
+   "text": "**曾為普通人魚**\n\n星羅成為公主前曾在印度洋王國外學習、接觸人類社會",
+   "x": 1128,
+   "y": 1080,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "ff4a5cb5da62ad4f",
+   "type": "text",
+   "text": "公主擁有法力系統",
+   "x": 580,
+   "y": 1094,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "4189fa1c7849068c",
+   "type": "text",
+   "text": "**施法限制是後天**\n\n公主仍保有法力，「無法施法」是後天限制而非先天特性",
+   "x": 1128,
+   "y": 1449,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "4a12fdcfad1c1c72",
+   "type": "text",
+   "text": "**能量指向非公主決定**\n\n珍珠的能量指向對象不受人魚公主主觀認知影響，判斷在珍珠",
+   "x": 1676,
+   "y": 1296,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "36af560b3b1fc510",
+   "type": "text",
+   "text": "**歌曲非女神所賜**\n\n歌曲是人為創作",
+   "x": 1676,
+   "y": 1066,
+   "width": 260,
+   "height": 100,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "e18a0ac68f80c601",
+   "type": "text",
+   "text": "**人魚公主非自然產物**\n\n人魚公主並非天生神使，身份、能力與限制都是後天賦予",
+   "x": 1676,
+   "y": 1550,
+   "width": 260,
+   "height": 124,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "3ac9113235a1cafa",
+   "type": "text",
+   "text": "**系統組件**\n\n法力容器+干擾粒子製造器，被改造身體、抹除家庭後包裝為神使",
+   "x": 3061,
+   "y": 1572,
+   "width": 260,
+   "height": 148,
+   "color": "#16A34A"
+  },
+  {
+   "id": "ddfff15db86ad83b",
+   "type": "text",
+   "text": "**干擾開關**\n\n公主變身或使用珍珠會使系統暫停干擾",
+   "x": 3061,
+   "y": 1318,
+   "width": 260,
+   "height": 124,
+   "color": "#16A34A"
+  },
+  {
+   "id": "da0804e37663ca90",
+   "type": "text",
+   "text": "**系統維護者**\n\n長老是系統維護者",
+   "x": 3061,
+   "y": 1850,
+   "width": 260,
+   "height": 100,
+   "color": "#16A34A"
+  },
+  {
+   "id": "224b5a75121eedd1",
+   "type": "text",
+   "text": "**位置回報**\n\n系統持續回報公主位置",
+   "x": 3061,
+   "y": 676,
+   "width": 260,
+   "height": 100,
+   "color": "#16A34A"
+  },
+  {
+   "id": "cccd535b4ccf30c6",
+   "type": "text",
+   "text": "容器報廢與回收程序",
+   "x": 3061,
+   "y": 906,
+   "width": 260,
+   "height": 52,
+   "color": "#16A34A"
+  },
+  {
+   "id": "207d1d8ab7a68376",
+   "type": "text",
+   "text": "**人造歌曲**\n\n由阿拉拉創作、長老輸入系統",
+   "x": 3061,
+   "y": 1088,
+   "width": 260,
+   "height": 100,
+   "color": "#16A34A"
+  },
+  {
+   "id": "cbf0e8d873c80cdb",
+   "type": "text",
+   "text": "**海之主**\n\n開發星降神臨，用以控制星球防禦系統",
+   "x": 4157,
+   "y": 410,
+   "width": 260,
+   "height": 124,
+   "color": "#16A34A"
+  },
+  {
+   "id": "dfde8498c544cdb9",
+   "type": "text",
+   "text": "**星降神臨**\n\n星球級系統；核心功能含基質收集、干擾粒子、執行端位置回報與容器回收",
+   "x": 3609,
+   "y": 398,
+   "width": 260,
+   "height": 148,
+   "color": "#16A34A"
+  },
+  {
+   "id": "270f876353487406",
+   "type": "text",
+   "text": "**海之女神**\n\n系統管理終端的中繼載體",
+   "x": 3061,
+   "y": 216,
+   "width": 260,
+   "height": 100,
+   "color": "#16A34A"
+  },
+  {
+   "id": "066c3977db9fcf4e",
+   "type": "text",
+   "text": "**珍珠**\n\n系統執行端",
+   "x": 3061,
+   "y": 446,
+   "width": 260,
+   "height": 100,
+   "color": "#16A34A"
+  },
+  {
+   "id": "5186bc0ea43fc2f8",
+   "type": "text",
+   "text": "**星羅懂得法術基本原理**\n\n印度洋王國禁止公主學習法術，星羅必然在其他地方學過",
+   "x": 580,
+   "y": 78,
+   "width": 260,
+   "height": 124,
+   "color": "#2563EB"
+  },
+  {
+   "id": "0a939aed345c6821",
+   "type": "text",
+   "text": "**星羅誕生時已是兒童**\n\n一般公主誕生時都是嬰兒",
+   "x": 580,
+   "y": 864,
+   "width": 260,
+   "height": 100,
+   "color": "#2563EB"
+  },
+  {
+   "id": "e9baaed89451eeb3",
+   "type": "text",
+   "text": "**星羅認知異於其他公主**\n\n通曉人類語言與社會常識，對印度洋王國生活印象模糊",
+   "x": 580,
+   "y": 610,
+   "width": 260,
+   "height": 124,
+   "color": "#2563EB"
+  },
+  {
+   "id": "482c117f795e8faa",
+   "type": "text",
+   "text": "**星羅與Kafziel的特殊連結**\n\n在Kafziel身上找到「哥哥」的感覺",
+   "x": 580,
+   "y": 332,
+   "width": 260,
+   "height": 148,
+   "color": "#2563EB"
+  },
+  {
+   "id": "1c1065f373e6dc0b",
+   "type": "text",
+   "text": "公主的存在會干擾感知",
+   "x": 32,
+   "y": 912,
+   "width": 260,
+   "height": 52,
+   "color": "#2563EB"
+  },
+  {
+   "id": "6974e210c5dd8452",
+   "type": "text",
+   "text": "公主變身唱歌時釋放的能量遠超常人",
+   "x": 32,
+   "y": 706,
+   "width": 260,
+   "height": 76,
+   "color": "#2563EB"
+  },
+  {
+   "id": "1c7f7584582c8a41",
+   "type": "text",
+   "text": "**公主無法使用法術**\n\n王國教導如此，具體原因不明",
+   "x": 32,
+   "y": 476,
+   "width": 260,
+   "height": 100,
+   "color": "#2563EB"
+  },
+  {
+   "id": "08e03da1440c9621",
+   "type": "text",
+   "text": "諾愛爾成功強行施放法術",
+   "x": 32,
+   "y": 294,
+   "width": 260,
+   "height": 52,
+   "color": "#2563EB"
+  },
+  {
+   "id": "c10038b9db534344",
+   "type": "text",
+   "text": "珍珠離開貝殼時會自動向特定對象釋放能量",
+   "x": 1128,
+   "y": 874,
+   "width": 260,
+   "height": 76,
+   "color": "#2563EB"
+  },
+  {
+   "id": "f20632a9cf00907e",
+   "type": "text",
+   "text": "**歌曲中存在流行曲**\n\n海之女神「給予」的歌曲裡有流行曲",
+   "x": 1128,
+   "y": 366,
+   "width": 260,
+   "height": 124,
+   "color": "#2563EB"
+  },
+  {
+   "id": "6dd844affa5a46d3",
+   "type": "text",
+   "text": "**歌曲實際由阿拉拉創作**\n\n公主所唱的歌曲實際由阿拉拉創作",
+   "x": 1128,
+   "y": 620,
+   "width": 260,
+   "height": 124,
+   "color": "#2563EB"
+  },
+  {
+   "id": "ccdeeb66ea23e5df",
+   "type": "text",
+   "text": "人魚公主是天降神使",
+   "x": 2224,
+   "y": 1526,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "d2e6bbab055ec2fb",
+   "type": "text",
+   "text": "公主利用珍珠的力量以歌聲守護和平",
+   "x": 2224,
+   "y": 1320,
+   "width": 260,
+   "height": 76,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "f4065c266e855c31",
+   "type": "text",
+   "text": "長老輔佐並保護公主",
+   "x": 2224,
+   "y": 1708,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "f9ef081a96e694f5",
+   "type": "text",
+   "text": "長老沒有能力找到失蹤公主",
+   "x": 2224,
+   "y": 774,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "20b9b74b6ef5d197",
+   "type": "text",
+   "text": "星盡是違規後的神聖處罰",
+   "x": 2224,
+   "y": 956,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  },
+  {
+   "id": "bad4ff2d4f6d6e32",
+   "type": "text",
+   "text": "公主歌曲由海之女神「給予」",
+   "x": 2224,
+   "y": 1138,
+   "width": 260,
+   "height": 52,
+   "color": "#7C3AED"
+  }
+ ],
+ "edges": [
+  {
+   "id": "8d4b79e4871c2a56",
+   "fromNode": "5186bc0ea43fc2f8",
+   "fromSide": "right",
+   "toNode": "64da0c7a0931124a",
+   "toSide": "left",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "70e9338d28633794",
+   "fromNode": "0a939aed345c6821",
+   "fromSide": "right",
+   "toNode": "64da0c7a0931124a",
+   "toSide": "left",
+   "color": "#1F2937"
+  },
+  {
+   "id": "dd33072bda113740",
+   "fromNode": "e9baaed89451eeb3",
+   "fromSide": "right",
+   "toNode": "64da0c7a0931124a",
+   "toSide": "left",
+   "color": "#1F2937"
+  },
+  {
+   "id": "e515632b077d6b69",
+   "fromNode": "482c117f795e8faa",
+   "fromSide": "right",
+   "toNode": "64da0c7a0931124a",
+   "toSide": "left",
+   "color": "#1F2937"
+  },
+  {
+   "id": "73af1141a325c0ea",
+   "fromNode": "1c7f7584582c8a41",
+   "fromSide": "right",
+   "toNode": "ff4a5cb5da62ad4f",
+   "toSide": "left",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "ca07e4ead2fc1f85",
+   "fromNode": "08e03da1440c9621",
+   "fromSide": "right",
+   "toNode": "ff4a5cb5da62ad4f",
+   "toSide": "left",
+   "color": "#1F2937"
+  },
+  {
+   "id": "ca8e700afbff2550",
+   "fromNode": "ff4a5cb5da62ad4f",
+   "fromSide": "right",
+   "toNode": "4189fa1c7849068c",
+   "toSide": "left",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "3691b4c9632cb4da",
+   "fromNode": "c10038b9db534344",
+   "fromSide": "right",
+   "toNode": "4a12fdcfad1c1c72",
+   "toSide": "left",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "38fc22b63384e23f",
+   "fromNode": "f20632a9cf00907e",
+   "fromSide": "right",
+   "toNode": "36af560b3b1fc510",
+   "toSide": "left",
+   "color": "#1F2937",
+   "label": "支持"
+  },
+  {
+   "id": "2c674d8cb23ee3d8",
+   "fromNode": "6dd844affa5a46d3",
+   "fromSide": "right",
+   "toNode": "36af560b3b1fc510",
+   "toSide": "left",
+   "color": "#1F2937"
+  },
+  {
+   "id": "59312984be15200d",
+   "fromNode": "64da0c7a0931124a",
+   "fromSide": "right",
+   "toNode": "e18a0ac68f80c601",
+   "toSide": "left",
+   "color": "#64748B",
+   "label": "推導"
+  },
+  {
+   "id": "4f4af965b33aeef5",
+   "fromNode": "4189fa1c7849068c",
+   "fromSide": "right",
+   "toNode": "e18a0ac68f80c601",
+   "toSide": "left",
+   "color": "#64748B"
+  },
+  {
+   "id": "df35d49b90971594",
+   "fromNode": "e18a0ac68f80c601",
+   "fromSide": "right",
+   "toNode": "ccdeeb66ea23e5df",
+   "toSide": "left",
+   "color": "#DC2626",
+   "label": "矛盾"
+  },
+  {
+   "id": "4ddf15067837396f",
+   "fromNode": "4a12fdcfad1c1c72",
+   "fromSide": "right",
+   "toNode": "d2e6bbab055ec2fb",
+   "toSide": "left",
+   "color": "#DC2626",
+   "label": "矛盾"
+  },
+  {
+   "id": "abaf180bf8863973",
+   "fromNode": "36af560b3b1fc510",
+   "fromSide": "right",
+   "toNode": "bad4ff2d4f6d6e32",
+   "toSide": "left",
+   "color": "#DC2626",
+   "label": "矛盾"
+  },
+  {
+   "id": "7f6e92228b4d97eb",
+   "fromNode": "ccdeeb66ea23e5df",
+   "fromSide": "right",
+   "toNode": "3ac9113235a1cafa",
+   "toSide": "left",
+   "color": "#94A3B8",
+   "label": "實為"
+  },
+  {
+   "id": "28430cfd498c4ea4",
+   "fromNode": "d2e6bbab055ec2fb",
+   "fromSide": "right",
+   "toNode": "ddfff15db86ad83b",
+   "toSide": "left",
+   "color": "#94A3B8",
+   "label": "實為"
+  },
+  {
+   "id": "69c99ac06ec53c7f",
+   "fromNode": "f4065c266e855c31",
+   "fromSide": "right",
+   "toNode": "da0804e37663ca90",
+   "toSide": "left",
+   "color": "#94A3B8",
+   "label": "實為"
+  },
+  {
+   "id": "defb0ec50a9ab0f9",
+   "fromNode": "f9ef081a96e694f5",
+   "fromSide": "right",
+   "toNode": "224b5a75121eedd1",
+   "toSide": "left",
+   "color": "#94A3B8",
+   "label": "實為"
+  },
+  {
+   "id": "f9b6bfef305c6f33",
+   "fromNode": "20b9b74b6ef5d197",
+   "fromSide": "right",
+   "toNode": "cccd535b4ccf30c6",
+   "toSide": "left",
+   "color": "#94A3B8",
+   "label": "實為"
+  },
+  {
+   "id": "c98fa3bfc8ec546f",
+   "fromNode": "bad4ff2d4f6d6e32",
+   "fromSide": "right",
+   "toNode": "207d1d8ab7a68376",
+   "toSide": "left",
+   "color": "#94A3B8",
+   "label": "實為"
+  },
+  {
+   "id": "71ed4f3e4da1f18b",
+   "fromNode": "3ac9113235a1cafa",
+   "fromSide": "right",
+   "toNode": "dfde8498c544cdb9",
+   "toSide": "left",
+   "color": "#94A3B8",
+   "toEnd": "none"
+  },
+  {
+   "id": "dd6064a7cf1a2482",
+   "fromNode": "ddfff15db86ad83b",
+   "fromSide": "right",
+   "toNode": "dfde8498c544cdb9",
+   "toSide": "left",
+   "color": "#94A3B8",
+   "toEnd": "none"
+  },
+  {
+   "id": "2369bd2b97b7e2d5",
+   "fromNode": "da0804e37663ca90",
+   "fromSide": "right",
+   "toNode": "dfde8498c544cdb9",
+   "toSide": "left",
+   "color": "#94A3B8",
+   "toEnd": "none"
+  },
+  {
+   "id": "a0aa817e5e35aa11",
+   "fromNode": "224b5a75121eedd1",
+   "fromSide": "right",
+   "toNode": "dfde8498c544cdb9",
+   "toSide": "left",
+   "color": "#94A3B8",
+   "toEnd": "none"
+  },
+  {
+   "id": "75f123e5e3533e91",
+   "fromNode": "cccd535b4ccf30c6",
+   "fromSide": "right",
+   "toNode": "dfde8498c544cdb9",
+   "toSide": "left",
+   "color": "#94A3B8",
+   "toEnd": "none"
+  },
+  {
+   "id": "780721bf979eddba",
+   "fromNode": "207d1d8ab7a68376",
+   "fromSide": "right",
+   "toNode": "dfde8498c544cdb9",
+   "toSide": "left",
+   "color": "#94A3B8",
+   "toEnd": "none"
+  },
+  {
+   "id": "580f033c202f4c83",
+   "fromNode": "270f876353487406",
+   "fromSide": "right",
+   "toNode": "dfde8498c544cdb9",
+   "toSide": "left",
+   "color": "#94A3B8",
+   "label": "屬於",
+   "toEnd": "none"
+  },
+  {
+   "id": "326598c26397403e",
+   "fromNode": "066c3977db9fcf4e",
+   "fromSide": "right",
+   "toNode": "dfde8498c544cdb9",
+   "toSide": "left",
+   "color": "#94A3B8",
+   "toEnd": "none"
+  },
+  {
+   "id": "3d0035cd64f38452",
+   "fromNode": "dfde8498c544cdb9",
+   "fromSide": "right",
+   "toNode": "cbf0e8d873c80cdb",
+   "toSide": "left",
+   "color": "#94A3B8",
+   "label": "屬於",
+   "toEnd": "none"
+  }
+ ]
 }
