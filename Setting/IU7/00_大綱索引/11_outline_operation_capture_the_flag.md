@@ -1,18 +1,18 @@
 ---
 type: outline
-id: "outline_fuse_into_the_shadow"
+id: "outline_operation_capture_the_flag"
 timeline: iu7
 source_file: "大綱及行動.xlsx"
 source_sheet: "大綱"
-operation: "Fuse into the shadow"
+operation: "Operation Capture the Flag"
 generated: true
 ---
-# 故事大綱｜Fuse into the shadow
+# 故事大綱｜Operation Capture the Flag
 
 <!-- 此檔由 app/outline_converter.py 自動產生，請勿手動編輯。 -->
 
  #背景=背景事件，不細寫。
 
-## 日期未定
+## 2005年2月
 
-- 諾愛爾襲擊隊伍，帶走麗奈施加星歸
+- 諾愛爾、可伶、尼歌娜 vs 靈池

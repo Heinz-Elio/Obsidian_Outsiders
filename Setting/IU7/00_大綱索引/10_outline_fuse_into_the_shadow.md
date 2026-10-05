@@ -1,19 +1,19 @@
 ---
 type: outline
-id: "outline_operation_capture_the_flag"
+id: "outline_fuse_into_the_shadow"
 timeline: iu7
 source_file: "大綱及行動.xlsx"
 source_sheet: "大綱"
-operation: "Operation Capture the Flag"
+operation: "Fuse into the shadow"
 generated: true
 ---
-# 故事大綱｜Operation Capture the Flag
+# 故事大綱｜Fuse into the shadow
 
 <!-- 此檔由 app/outline_converter.py 自動產生，請勿手動編輯。 -->
 
  #背景=背景事件，不細寫。
 
-## 日期未定
+## 2005年2月
 
 - 保守派發現范雅之前只是代理執行星盡，真正權限仍在阿德萊德手上，但在海底遍尋不獲，疑似已逃往陸地，維達因為擔心康士坦絲懷疑屬於北部集團的自己，自薦指揮追殺阿德萊德的任務，但因為不熟識陸地，不得不尋求清道夫協助
 - 諾愛爾在艾芙蓮留下的星鑰技術說明文件找到入侵星降神臨盜取長老權限的方法

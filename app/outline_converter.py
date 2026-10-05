@@ -203,8 +203,30 @@ def _month_label(year: object, month: object) -> str:
     return month_text or year_text or "月份未定"
 
 
+def _row_dates(sheet: SheetView) -> dict[int, tuple[object, object, object]]:
+    """Rows are in chronological order, so blank years and months carry down.
+
+    The day is never inherited; a new year starts without a month until one is written.
+    """
+    dates: dict[int, tuple[object, object, object]] = {}
+    year: object = None
+    month: object = None
+    for row in range(2, sheet.max_row + 1):
+        row_year = sheet.value(row, 3, merged=True)
+        if _text(row_year):
+            if _text(row_year) != _text(year):
+                month = None
+            year = row_year
+        row_month = sheet.value(row, 4, merged=True)
+        if _text(row_month):
+            month = row_month
+        dates[row] = (year, month, sheet.value(row, 5, merged=True))
+    return dates
+
+
 def _render_outline(sheet: SheetView, source: Path) -> dict[str, str]:
     groups: OrderedDict[str, list[dict[str, object]]] = OrderedDict()
+    dates = _row_dates(sheet)
 
     for row in range(2, sheet.max_row + 1):
         event = _text(sheet.value(row, 6))
@@ -215,11 +237,7 @@ def _render_outline(sheet: SheetView, source: Path) -> dict[str, str]:
             {
                 "event": event,
                 "question": _text(sheet.value(row, 2, merged=True)),
-                "date": _date_label(
-                    sheet.value(row, 3, merged=True),
-                    sheet.value(row, 4, merged=True),
-                    sheet.value(row, 5, merged=True),
-                ),
+                "date": _date_label(*dates[row]),
                 "episode": _text(sheet.value(row, 7, merged=True)),
                 "background": _is_background(sheet.cell(row, 6)),
             }
@@ -265,6 +283,7 @@ def _render_outline(sheet: SheetView, source: Path) -> dict[str, str]:
 def _render_transformation_kpi(sheet: SheetView, source: Path) -> dict[str, str]:
     monthly_kpi: list[tuple[str, str]] = []
     covered_rows: set[int] = set()
+    dates = _row_dates(sheet)
 
     ranges = sorted(
         (
@@ -279,12 +298,9 @@ def _render_transformation_kpi(sheet: SheetView, source: Path) -> dict[str, str]
         kpi = _text(sheet.value(merged.min_row, 9))
         months = list(
             OrderedDict.fromkeys(
-                _month_label(
-                    sheet.value(row, 3, merged=True),
-                    sheet.value(row, 4, merged=True),
-                )
+                _month_label(*dates[row][:2])
                 for row in range(merged.min_row, merged.max_row + 1)
-                if _text(sheet.value(row, 4, merged=True))
+                if _text(dates[row][1])
             )
         )
         month = "／".join(months) if months else "月份未定"
@@ -297,15 +313,7 @@ def _render_transformation_kpi(sheet: SheetView, source: Path) -> dict[str, str]
         kpi = _text(sheet.value(row, 9))
         if not kpi:
             continue
-        monthly_kpi.append(
-            (
-                _month_label(
-                    sheet.value(row, 3, merged=True),
-                    sheet.value(row, 4, merged=True),
-                ),
-                kpi,
-            )
-        )
+        monthly_kpi.append((_month_label(*dates[row][:2]), kpi))
 
     transformations: list[tuple[str, str, str, str]] = []
     for row in range(2, sheet.max_row + 1):
@@ -314,15 +322,8 @@ def _render_transformation_kpi(sheet: SheetView, source: Path) -> dict[str, str]
             continue
         transformations.append(
             (
-                _month_label(
-                    sheet.value(row, 3, merged=True),
-                    sheet.value(row, 4, merged=True),
-                ),
-                _date_label(
-                    sheet.value(row, 3, merged=True),
-                    sheet.value(row, 4, merged=True),
-                    sheet.value(row, 5, merged=True),
-                ),
+                _month_label(*dates[row][:2]),
+                _date_label(*dates[row]),
                 _text(sheet.value(row, 1, merged=True)) or "未分篇",
                 count,
             )
