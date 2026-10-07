@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from openpyxl import Workbook
+from openpyxl import Workbook, load_workbook
 from openpyxl.styles import PatternFill
 
 import app.outline_converter as outline_converter
@@ -114,6 +114,32 @@ def test_outline_uses_merged_context_without_filling_normal_blanks(tmp_path):
     assert "來源位置：" not in assigned
     assert "章節（ct）" not in assigned
     assert "累計（Ttl）" not in assigned
+
+
+def test_unmerged_month_carries_down_across_arcs_but_day_does_not(tmp_path):
+    path = _workbook(tmp_path / "outline.xlsx")
+    workbook = load_workbook(path)
+    outline = workbook["大綱"]
+    outline.merge_cells("A5:A7")
+    outline["A5"] = "Operation Sparse"
+    outline["C5"] = 2004
+    outline["D5"] = 9
+    outline["E5"] = 1
+    outline["F5"] = "九月一日"
+    outline["E6"] = 4
+    outline["F6"] = "九月四日"
+    outline["F7"] = "九月無日"
+    outline["A8"] = "Operation Next"
+    outline["F8"] = "新篇無月"
+    workbook.save(path)
+
+    documents = outline_converter.convert_workbook(path)
+
+    sparse = _generated(documents, "outline_operation_sparse.md")
+    assert "## 2004-09-04\n\n- 九月四日" in sparse
+    assert "## 2004年9月\n\n- 九月無日" in sparse
+    following = _generated(documents, "outline_operation_next.md")
+    assert "## 2004年9月\n\n- 新篇無月" in following
 
 
 def test_transformation_counts_and_monthly_kpi_are_separate(tmp_path):
