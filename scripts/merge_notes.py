@@ -14,10 +14,10 @@ import yaml
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 INPUT_DIR = PROJECT_ROOT / "Setting"
-OUTPUT_DIR = PROJECT_ROOT / "merged" / "notebooklm"
+OUTPUT_DIR = PROJECT_ROOT / "merged"
 
 NOTEBOOKLM_SOURCE_LIMIT = 50
-LONG_NOTE_CHARS = 10_000
+LONG_NOTE_CHARS = 12_000
 MAX_CHARS_PER_MERGED_FILE = 300_000
 
 EXCLUDE_FOLDERS = {
@@ -31,7 +31,7 @@ EXCLUDE_FOLDERS = {
     "Templates",
     "trash",
     "archive",
-    "00_總覽",
+    "00_overview",
 }
 EXCLUDE_FILES = {"README.md"}
 

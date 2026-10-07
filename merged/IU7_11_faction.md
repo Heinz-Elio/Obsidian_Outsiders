@@ -102,7 +102,7 @@ Michael' s Faction
 
 ## 舒華澤家
 Source: IU7/11_faction/舒華澤家.md
-Meta: type=faction; id=family_schwartze; name_en=House of Schwartze; subtype=family
+Meta: type=faction; id=family_schwartze; name_en=House of Schwartze; subtype=family; orign=IU7
 
 House of Schwartze
 

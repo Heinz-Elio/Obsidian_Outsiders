@@ -1,47 +1,14 @@
 {
-  "generated": "2026-09-22T22:52:40",
+  "generated": "2026-10-03T20:30:24",
   "source_limit": 50,
-  "long_note_chars": 10000,
-  "output_count": 28,
+  "long_note_chars": 12000,
+  "output_count": 25,
   "outputs": [
-    {
-      "file": "00_大綱索引.md",
-      "kind": "category_bundle",
-      "note_count": 16,
-      "characters": 30338,
-      "sources": [
-        "00_大綱索引/01_outline_unassigned.md",
-        "00_大綱索引/02_outline_operation_siskin.md",
-        "00_大綱索引/03_outline_operation_stargazer.md",
-        "00_大綱索引/04_outline_deep_blue.md",
-        "00_大綱索引/05_outline_night_fall.md",
-        "00_大綱索引/06_outline_operation_trailblazer.md",
-        "00_大綱索引/07_outline_castle_of_glass.md",
-        "00_大綱索引/08_outline_operation_capture_the_flag.md",
-        "00_大綱索引/09_outline_fuse_into_the_shadow.md",
-        "00_大綱索引/10_outline_song_iii.md",
-        "00_大綱索引/11_outline_final_operation_retourner_les_etoiles.md",
-        "00_大綱索引/12_transformation_kpi.md",
-        "00_大綱索引/13_water_demon_actions.md",
-        "00_大綱索引/14_operation_01.md",
-        "00_大綱索引/15_operation_02.md",
-        "00_大綱索引/16_action_expenses.md"
-      ]
-    },
-    {
-      "file": "IU0.md",
-      "kind": "category_bundle",
-      "note_count": 1,
-      "characters": 35,
-      "sources": [
-        "IU0/萊文斯基.md"
-      ]
-    },
     {
       "file": "IU0_01_character.md",
       "kind": "category_bundle",
       "note_count": 11,
-      "characters": 992,
+      "characters": 10602,
       "sources": [
         "IU0/01_character/亞斯蘭．察拉.md",
         "IU0/01_character/基亞蘭．康沃爾.md",
@@ -82,12 +49,12 @@
       "file": "IU0_07_item.md",
       "kind": "category_bundle",
       "note_count": 11,
-      "characters": 5392,
+      "characters": 5389,
       "sources": [
         "IU0/07_item/AUMF-M40X 空軍准將.md",
         "IU0/07_item/CRC B-44 光束迴旋鏢.md",
         "IU0/07_item/CRC S-2 雙向光束軍刀.md",
-        "IU0/07_item/CRC TK-62 「銘刻者」複合對艦刀.md",
+        "IU0/07_item/CRC TK-62「銘刻者」複合對艦刀.md",
         "IU0/07_item/MMI-GAU71 20mm CIWS.md",
         "IU0/07_item/MRA AS-12 自動霰彈槍.md",
         "IU0/07_item/MRA BR-7 「游騎兵」高能光束步槍.md",
@@ -110,6 +77,15 @@
       ]
     },
     {
+      "file": "IU0_11_faction.md",
+      "kind": "category_bundle",
+      "note_count": 1,
+      "characters": 1766,
+      "sources": [
+        "IU0/11_faction/萊文斯基家.md"
+      ]
+    },
+    {
       "file": "IU7.md",
       "kind": "category_bundle",
       "note_count": 2,
@@ -120,19 +96,10 @@
       ]
     },
     {
-      "file": "IU7_00_overview.md",
-      "kind": "category_bundle",
-      "note_count": 1,
-      "characters": 809,
-      "sources": [
-        "IU7/00_overview/overview.md"
-      ]
-    },
-    {
       "file": "IU7_00_大綱索引.md",
       "kind": "category_bundle",
       "note_count": 16,
-      "characters": 30454,
+      "characters": 21038,
       "sources": [
         "IU7/00_大綱索引/01_outline_unassigned.md",
         "IU7/00_大綱索引/02_outline_operation_siskin.md",
@@ -156,7 +123,7 @@
       "file": "IU7_01_character.md",
       "kind": "category_bundle",
       "note_count": 75,
-      "characters": 84846,
+      "characters": 84970,
       "sources": [
         "IU7/01_character/117.md",
         "IU7/01_character/Doktorvater.md",
@@ -239,7 +206,7 @@
       "file": "IU7_01_character_main.md",
       "kind": "category_bundle",
       "note_count": 4,
-      "characters": 29763,
+      "characters": 31696,
       "sources": [
         "IU7/01_character/main/可伶．戈蒂埃.md",
         "IU7/01_character/main/李察．蘇利文.md",
@@ -462,7 +429,7 @@
       "file": "IU7_11_faction.md",
       "kind": "category_bundle",
       "note_count": 7,
-      "characters": 3032,
+      "characters": 3043,
       "sources": [
         "IU7/11_faction/人魚王國.md",
         "IU7/11_faction/保守派.md",
@@ -477,18 +444,9 @@
       "file": "root.md",
       "kind": "category_bundle",
       "note_count": 1,
-      "characters": 5552,
+      "characters": 6584,
       "sources": [
         "世界觀.md"
-      ]
-    },
-    {
-      "file": "standalone_IU7_tech_tree_151d588e.md",
-      "kind": "standalone",
-      "note_count": 1,
-      "characters": 17402,
-      "sources": [
-        "IU7/00_overview/IU7_tech_tree.md"
       ]
     }
   ]

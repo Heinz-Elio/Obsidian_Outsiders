@@ -26,7 +26,7 @@ AUMF-M40X Air Commodore
 
 - EQFU-X9/β 近距離戰鬥背包（Close Combat Backpack）
 	- CRC B-44A 光束迴旋鏢 (CRC B-44 光束迴旋鏢)×2
-	- CRC TK-62 「銘刻者」複合對艦刀×2
+	- CRC TK-62「銘刻者」複合對艦刀×2
 
 ---
 
@@ -54,8 +54,8 @@ CRC S-2 Beam Saber
 
 ---
 
-## CRC PFG/TK-62 「銘刻者」複合對艦刀
-Source: IU0/07_item/CRC TK-62 「銘刻者」複合對艦刀.md
+## CRC PFG/TK-62「銘刻者」複合對艦刀
+Source: IU0/07_item/CRC TK-62「銘刻者」複合對艦刀.md
 Meta: type=item; id=item_crc tk-62 engraver; name_en=CRC TK-62 Engraver; subtype=weapon; new=True
 
 CRC TK-62 Engraver
